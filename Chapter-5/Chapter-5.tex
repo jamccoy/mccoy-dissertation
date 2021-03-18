@@ -1,0 +1,166 @@
+% !TEX root = ../McCoy-Dissertation.tex
+\chapter{Conclusions and Outlook}\label{ch:conclusions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--------------------------------------------------
+This dissertation contributes to the field of high-energy astrophysics through technological development of specialized reflection gratings that push the state of the art for x-ray spectroscopy. 
+A main scientific goal for the currently-planned \emph{Lynx X-ray Observatory} \cite{Gaskin19} is to diagnose highly-ionized portions of extended galactic halos and intergalactic medium by measuring the equivalent widths of weak absorption lines produced from hydrogen-like and helium-like species of oxygen, and other $\mathcal{Z} \geq 6$ elements [\emph{cf.\@} \cref{tab:astro_element_nuclei_mass}], along the line-of-sight of active galactic nuclei [\emph{cf.\@} \cref{sec:astro_plasmas}].  
+The detection of these weak spectral lines, which fall in the soft x-ray bandpass [\emph{cf.\@} \cref{tab:astro_element_lyman_approx,tab:astro_element_he_res}], relies not only on having a large instrument collecting area for spectral sensitivity, $A_{\text{col}}$, but also on achieving high spectral resolving power, $\mathscr{R}$, with a figure of merit depending on $\sqrt{A_{\text{col}} \mathscr{R}}$ [\emph{cf.\@} \cref{eq:FOM_weak}]. 
+As discussed in \cref{sec:grating_tech_dev,sec:ch1_conclusions}, implementing reflection gratings for the \emph{X-ray Grating Spectrometer (XGS)} planned for \emph{Lynx} \cite{McEntaffer19} centers on
+\begin{enumerate}[noitemsep]
+	\item the production of a master grating with a sawtooth surface-relief profile that enables 
+	\begin{enumerate}[noitemsep]
+    	\item total absolute diffraction efficiency in the soft x-ray exceeding \SI{40}{\percent}, and 
+        \item $\mathscr{R} \gtrapprox 5000$ in a Wolter-I telescope
+    \end{enumerate}
+	and additionally,  
+	\item the mass manufacture of grating replicas to populate modular grating arrays, which involves 
+	\begin{enumerate}[noitemsep]
+    	\item imprinting grating surface-relief molds, and 
+        \item coating each replica for soft x-ray reflectivity.  
+    \end{enumerate}
+\end{enumerate}
+With these requirements motivated in \cref{ch:introduction}, \cref{ch:master_fab,ch:grating_replication} focus on applying the processes of \emph{thermally-activated selective topography equilibration (TASTE)} \cite{Schleunitz14} and \emph{substrate-conformal imprint lithography (SCIL)} \cite{Verschuuren17} to x-ray reflection grating technology, with an emphasis on characterizing diffraction efficiency using the beamline methodology described in \cref{ch:diff_eff}. 
+The findings from these studies on TASTE and SCIL are summarized in \cref{sec:TASTE_ch5,sec:SCIL_ch5}, respectively, with future work described therein. 
+Finally, outlook for potential future studies is discussed in \cref{sec:summary_ch5}.
+%outlook for future work provided therein. 
+%Finally, a summary and a discussion on future work is provided in \cref{sec:summary_ch5}.
+
+\section{TASTE for Master Grating Fabrication}\label{sec:TASTE_ch5}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--------------------------------------------------
+Coupling \emph{grayscale electron-beam lithography (GEBL)} with selective \emph{thermal reflow} \cite{Schleunitz10,Schleunitz11a,Schleunitz14,Kirchner19}, TASTE offers an avenue for patterning sawtooth-like topographies in polymeric resist over a custom groove layout. 
+%Utilizing this approach for 
+This approach to grating fabrication eliminates dependence on substrate crystal structure, thereby providing a way for a radially-ruled, blazed grating layout to be generated with the precision of EBL, which, in principle, enables high $\mathscr{R}$ by reducing spectral aberrations from an imperfect radial profile [\emph{cf.\@} \cref{sec:crystal_etching}]. 
+Through carrying out process development for TASTE using the \textsc{EBPG5200} tool at the Penn State Nanofabrication Laboratory \cite[\emph{cf.\@} \cref{fig:ebeam_tool_pic}]{PSU_MRI_EBL,raith_ebpg}, it was found that sub-\si{\um}, sawtooth-like topographies could be generated in \SI{130}{\nm}-thick poly(methyl methacrylate) (PMMA) [\emph{cf.\@} \cref{fig:PMMA}] by patterning repeating staircase patterns by GEBL and then performing an appropriate thermal annealing step. 
+The results presented in \cref{sec:TASTE} show a path forward for fabricating x-ray reflection gratings using TASTE. 
+Patterns with a groove spacing of $d = \SI{840}{\nm}$ yield a blaze angle $\delta \approx 10^{\circ}$ and are more suitable for in-plane geometries while patterns with $d = \SI{400}{\nm}$ provide a base for off-plane gratings with $\delta \approx 25^{\circ}$ \cite{McCoy18}. 
+
+Starting with a $d = \SI{400}{\nm}$ test pattern from \cref{sec:TASTE}, a grating prototype was fabricated by coating TASTE-processed PMMA on a silicon wafer with a thin layer of gold for reflectivity by \emph{electron-beam physical vapor deposition (EBPVD)}, using titanium as an adhesion layer [\emph{cf.\@} \cref{sec:TASTE_prototype}]. 
+This functional reflection grating was then tested for diffraction efficiency in an extreme off-plane mount over the photon energy range \SIrange{80}{800}{\electronvolt} at beamline 6.3.2 of the Advanced Light Source (ALS) at Lawrence-Berkeley National Laboratory \cite{ALS_632,Underwood96,Gullikson01,LBNL_web}. 
+%As described in \cref{sec:taste_eff_results}, 
+The results show absolute, peak-order efficiency ranging from \SIrange{75}{25}{\percent} as photon energy, $\mathcal{E}_{\gamma}$ increases while total diffraction efficiency, $\mathscr{E}_{\text{tot}}$, is maintained at $\lessapprox \SI{60}{\percent}$ across the tested bandpass, which demonstrates that x-ray reflection gratings fabricated by TASTE are capable of meeting \emph{Lynx} requirements in terms of spectral sensitivity \cite[\emph{cf.\@} \cref{sec:taste_eff_results}]{McCoy20}. 
+\begin{table}[]
+\centering
+\caption[Benchmark table of blazed, off-plane x-ray reflection gratings in terms of total diffraction efficiency near the L-shell resonance transition in \ion{O}{vii}]{Benchmark table of blazed, off-plane x-ray reflection gratings in terms of \emph{total absolute diffraction efficiency} ($\mathscr{E}_{\text{tot}} \equiv \sum_n \mathscr{E}_n$ for all propagating orders with $n \neq 0$) near the L-shell resonance transition in \ion{O}{vii} at $\mathcal{E}_{\gamma} \approx \SI{574}{\electronvolt}$ [\emph{cf.\@} \cref{tab:astro_element_he_res}]. Refs~\cite{Werner77,Cash82,McEntaffer04} use data gathered at discrete energies using electron-impact sources; in these cases $\mathscr{E}_{\text{tot}}$ is referenced at the $\mathcal{E}_{\gamma} \approx \SI{525}{\electronvolt}$ K-shell fluorescence line in neutral oxygen. Refs~\cite{Tutt16,DeRoo16thesis,Miles18,Miles19,McCoy20,McCurdy20} use data gathered at synchrotron facilities; in these cases $\mathscr{E}_{\text{tot}}$ is referenced using measurements closest to $\mathcal{E}_{\gamma} \approx \SI{574}{\electronvolt}$ (typically within \SI{25}{\electronvolt}). For comparison, critical transmission gratings yield $\mathscr{E}_{\text{tot}} \approx \SI{30}{\percent}$ near  $\mathcal{E}_{\gamma} \approx \SI{574}{\electronvolt}$ \cite{Heilmann11,Heilmann16}. Items are listed in order of publication year (1977-2020).}\label{tab:eff_benchmark}
+\begin{tabular}{cccc}
+\cline{1-4}
+fabrication           & grating grooves & geometry & $\mathscr{E}_{\text{tot}}$ \\ \hline
+mechanical ruling \cite{Werner77} & $\delta \approx 5^{\circ}$, $d \approx \SI{278}{\nm}$ (\ce{Au}) & $\alpha \approx 0$, $\gamma \lessapprox 2^{\circ}$   & $\sim \SI{20}{\percent}$            \\
+mechanical ruling \cite{Cash82}   & $\delta \approx 21^{\circ}$, $d \approx \SI{167}{\nm}$ (\ce{Au})  & $\alpha \approx \delta$, $\gamma \lessapprox 2^{\circ}$  & $\sim \SI{25}{\percent}$           \\
+holography/ion etch \cite{McEntaffer04} & $\delta \approx 9^{\circ}$, $d \approx \SI{236}{\nm}$ (\ce{Pt})  & $\alpha \approx \delta$, $\gamma \approx 2.7^{\circ}$      & \SI{27}{\percent}            \\
+holography/ion etch \cite{Tutt16} & $\delta \approx 9^{\circ}$, $d \approx \SI{236}{\nm}$ (\ce{Pt})  & $\alpha \approx 0$, $\gamma \approx 2^{\circ}$ & $\sim \SI{25}{\percent}$  \\
+holography/ion etch \cite{Tutt16} & $\delta \approx 16^{\circ}$, $d \approx \SI{170}{\nm}$ (\ce{Pt})  & $\alpha \approx 0$, $\gamma \approx 2^{\circ}$ & $\sim \SI{30}{\percent}$  \\
+\ce{KOH} etch (via EBL) \cite{DeRoo16thesis}  & $\delta \lessapprox 55^{\circ}$, $d = \SI{160}{\nm}$ (\ce{Au})  & $\alpha \approx  \delta$, $\gamma \approx 2.6^{\circ}$  & $\gtrapprox \SI{35}{\percent}$  \\
+\ce{KOH} etch/UV-NIL \cite{Miles18}  & $\delta \lessapprox 30^{\circ}$, $d \lessapprox \SI{160}{\nm}$ (\ce{Au})  & $\alpha \approx 25^{\circ}$, $\gamma \approx 1.7^{\circ}$         & $\lessapprox \SI{60}{\percent}$  \\
+\ce{KOH} etch/SCIL \cite{Miles19}  & $\delta \lessapprox 30^{\circ}$, $d \lessapprox \SI{174}{\nm}$ (\ce{Ni})  & $\alpha \approx 23^{\circ}$, $\gamma \approx 2.5^{\circ}$         & $\sim \SI{55}{\percent}$  \\
+TASTE \cite[\emph{cf.\@} \cref{ch:master_fab}]{McCoy20}  & $\delta \approx 27^{\circ}$, $d = \SI{400}{\nm}$ (\ce{Au})  &  $\alpha \approx 23^{\circ}$, $\gamma \approx 1.7^{\circ}$        & $\lessapprox \SI{60}{\percent}$            \\
+TASTE \cite{McCurdy20}  & $\delta \approx 35^{\circ}$, $d = \SI{160}{\nm}$ (\ce{Au}) & $\alpha \approx \delta$, $\gamma \approx 1.8^{\circ}$         & \SI{43}{\percent}  \\ \hline
+\end{tabular}
+\end{table}
+This measurement for $\mathscr{E}_{\text{tot}}$ is compared to analogous results from other blazed x-ray reflection gratings in \cref{tab:eff_benchmark}, where it can be seen that \ce{KOH}-etched gratings and TASTE-fabricated gratings offer substantial improvement over gratings manufactured by mechanical ruling engine or by holographic recording coupled with directional ion etching [\emph{cf.\@} \cref{sec:grating_tech_dev}]. 
+
+%Because this latter condition relies on the realization of a radial groove profile that matches the focal length of the telescope, beamline testing for $\mathscr{R}$ is required to make this determination. 
+%Achieving a high-fidelity radial profile in part requires careful control of field stitching with the \textsc{EBPG5200} especially along the grating-dispersion direction so that irregularities in $d$, which can lead to a degradation in $\mathscr{R}$ as alluded to in \cref{sec:binary_ebeam}, can be avoided. 
+
+While the prototype diffraction-efficiency results presented in \cref{sec:taste_eff_results} have been shown to be characteristic of a blazed grating with $\delta \approx 27^{\circ}$ through \textsc{PCGrate-SX} modeling \cite[\emph{cf.\@} \cref{sec:integral_method}]{PCGrate_web,Goray10}, there exists room for improvement in this fabrication process. 
+In particular, the fidelity of the sawtooth-like groove facets hinges on the selectivity of the thermal reflow step, which in turn depends on the distribution of average molecular weight in the resist, $M_w$, imparted via high-energy electron exposure in GEBL [\emph{cf.\@} \cref{fig:TASTE_diagram}]. 
+This material contrast in $M_w$ establishes a lateral gradient in the polymer \emph{glass transition temperature}, $T_g$, such that the viscosity of molten resist at a given temperature decreases with $M_w$. 
+Selective thermal reflow is then induced by heating the resist by hotplate to a carefully chosen temperature, $T_{\text{reflow}}$, that is lower than $T_g$ for unexposed portions of the resist (\emph{i.e.}, top steps in a staircase pattern), but higher than the range of $T_g$ associated with electron-exposed resist (\emph{i.e.}, the remaining, lower steps in a staircase pattern) \cite{Schleunitz14,Kirchner19}. 
+Because resist can be dosed inadvertently from electron scattering, especially when the widths of staircase steps are comparable to the size of the focused electron beam (typically $\lessapprox \SI{40}{\nm}$ in the \textsc{EBPG5200}), the size of this process window in practice depends on critical dimensions of the GEBL layout. 
+Thermal reflow selectivity in the $d = \SI{400}{\nm}$ grating prototype described in \cref{sec:TASTE_prototype} appears to be diminished relative to \si{\um}-scale TASTE patterns previously reported in the literature \cite{Schleunitz10,Schleunitz14,Kirchner16,Pfirrmann16}, which is evidenced by the slight bulging effect seen in \cref{fig:B_time_scan,fig:TASTE_AFMs}.  
+Moreover, McCurdy, et~al.~\cite{McCurdy20} show that this effect is exacerbated at $d = \SI{160}{\nm}$, where a decreased selectivity for thermal reflow causes significant rounding in the top staircase step as well as facet-surface irregularities that ultimately cause lower overall diffraction efficiency compared to what is reported in \cref{sec:taste_eff_results} [\emph{cf.\@} \cref{tab:eff_benchmark}]. %arising from the GEBL layout 
+
+Other limitations of TASTE for grating fabrication stem from its dependence on resist thickness for a given GEBL recipe. 
+Beyond the need for a uniformly-thick layer of resist, which can be difficult to achieve consistently through spin-coating, the groove depth (\emph{i.e.}, the height of top steps in a staircase pattern) is determined essentially by the resist thickness. 
+This then places a restriction on $\delta$ for a fixed value of $d$, where $\delta$ decreases with increasing $d$; for example, the results from \cref{sec:TASTE} show that groove spacings of $d = \SI{400}{\nm}$ and $d = \SI{840}{\nm}$ at a resist thickness of \SI{130}{\nm} yield $\delta \approx 25^{\circ}$ and $\delta \approx 10^{\circ}$, respectively. 
+Changing the resist thickness for GEBL requires the establishment of a new resist-contrast curve [\emph{cf.\@} \cref{sec:resist_contrast}]. 
+For any given resist thickness, however, the blaze angle is expected to be limited practically to $\delta \lessapprox 45^{\circ}$ due to the difficulties involved with patterning high-aspect-ratio structures in GEBL. 
+On the other hand, a TASTE pattern can be transferred into silicon through a dry etch, and depending on the etch selectivity of the resist relative to the substrate, $\delta$ can, in principle, be steepened relative to what is patterned directly in resist. 
+A desired etch selectivity may be achieved by using a different resist (\emph{e.g.}, ZEP520A, mr-PosEBR \cite{Kirchner16,Pfirrmann16}) or by modifying PMMA  through a process such as \emph{sequential infiltration synthesis} \cite{Tseng11}. 
+
+Overall, TASTE provides an alternative approach to fabricating blazed gratings that perform with high diffraction efficiency at soft x-ray wavelengths. 
+While \ce{KOH} etching may be capable of producing gratings that perform with higher diffraction efficiency owing to the smooth facets and well-defined structures generated by the process [\emph{cf.\@} \cref{sec:crystal_etching}], TASTE has the key advantage for variable-line-space gratings that the precision of $d$ is not limited by the crystal structure of the substrate [\emph{cf.\@} \cref{fig:crystal_structure}]. 
+This is expected to be beneficial for the radially-ruled gratings that the \emph{XGS} reflection grating design calls for \cite{McEntaffer19}, but due to the relatively low throughput of TASTE, like other EBL-based processes, the implementation of a grating replication process is required [\emph{cf.\@} \cref{sec:SCIL_ch5}]. 
+Moreover, the \emph{Extreme-Ultraviolet Stellar Characterization for Atmospheric Physics and Evolution (ESCAPE)} mission concept, with a goal of characterizing high-energy radiation in habitable zones surrounding M-dwarfs and their impact on the atmospheres of exoplanets, baselines a spectrometer design that incorporates two large-area blazed gratings featuring curved groove layouts that play a similar role for extreme ultraviolet (EUV) radiation in a \emph{Hettrick-Bowyer-I} telescope \cite{France19,France20,Hettrick84}. 
+With \emph{ESCAPE} baselining $\sim \SI{60}{\percent}$ single-order diffraction efficiency in the EUV, the beamline results presented in \cref{sec:taste_eff_results} give an indication that TASTE is capable of meeting this goal for spectral sensitivity. 
+
+Further work involving beamline testing for $\mathscr{R}$ is required to determine whether TASTE is capable of producing gratings that meet performance requirements for instruments such as \emph{ESCAPE} and the \emph{XGS} for \emph{Lynx} \cite{France19,McEntaffer19}. 
+Smaller-scale development for efficient, high-resolution, x-ray reflection gratings is taking place for the \emph{The Off-plane Grating Rocket Experiment (OGRE)} \cite{DeRoo13,McEntaffer14,Donovan18b,Tutt18,Donovan19a,Donovan19b}, which calls for $\delta \lessapprox 30^{\circ}$ blazed gratings with $d \lessapprox \SI{160}{\nm}$ radial-groove layouts that match a \SI{3.5}{\metre} focal length. 
+Along with optical-system testing for $\mathscr{R}$, grating development for \emph{ESCAPE} and \emph{OGRE} warrants further diffraction-efficiency testing to determine which blazed-grating manufacture produces curved or fanned grooves that are efficient while also offering high $\mathscr{R}$. 
+A new ALS general user proposal to carry out diffraction-efficiency experimentation for \emph{ESCAPE} and \emph{OGRE} grating prototypes has recently been submitted for beamline testing in late 2021 and 2022. 
+These prototypes include four grating variants, all with the same groove layout: one fabricated via EBL coupled with \ce{KOH} etching \cite{Miles18}, one via TASTE \cite{McCoy20,McCurdy20}, one via EBL coupled with directional ion milling \cite{Miles2019_ion_mill} and one analogous, laminar grating for comparison. 
+Together with beamline results for $\mathscr{R}$, these results will inform which fabrication technique is best suited for achieving high efficiency and $\mathscr{R}$ simultaneously. 
+
+%which seeks to observe emission lines that emanate from coronal activity in the Capella star system
+
+%Further work involving beamline testing for $\mathscr{R}$, however, is required to determine if TASTE can produce gratings that perform with $\mathscr{R} \gtrapprox 5000$ in the converging beam of a Wolter-I telescope. 
+
+\section{SCIL for Grating Replication}\label{sec:SCIL_ch5}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--------------------------------------------------
+SCIL is a variant of \emph{nanoimprint lithography (NIL)} designed for high-throughput patterning of nanoscale structures over large areas \cite{Verschuuren10,Verschuuren17}. 
+%As described in \cref{sec:grating_fab}, 
+The process utilizes a flexible stamp that is molded from a rigid master template to imprint features in resist with the aid of specialized pneumatic tooling [\emph{cf.\@} \cref{sec:grating_fab}]. 
+In contrast to rigid-stamp UV-NIL, which has been pursued previously for x-ray reflection grating replication \cite[\emph{cf.\@} \cref{sec:nanoimprint}]{Chang03,Chang04,McEntaffer13,DeRoo16,Miles18}, SCIL enables conformal imprinting over wafers up to \SI{200}{\mm} in diameter without the need for high applied pressure. 
+This in turn avoids damage to an expensive master template while reducing pattern defects and trapped air pockets. % and, 
+Moreover, packaged equipment developed by \textsc{Philips SCIL Nanoimprint Solutions} \cite{philis_scil}, known commercially as \textsc{AutoSCIL}, serves to automate the imprinting process for high-volume production, which is most compatible with \textsc{NanoGlass}, an inorganic resist that cures through a thermodynamically-driven, silica sol-gel process \cite{Verschuuren10,Verschuuren17,Verschuuren19}. 
+Using \textsc{AutoSCIL}, a single stamp is capable of producing $\gtrapprox \num{700}$ imprints in \textsc{NanoGlass} without pattern degradation, at a rate of \num{60} wafers per hour \cite{Verschuuren17,Verschuuren18}. 
+
+In collaboration with \textsc{Philips SCIL Nanoimprint Solutions}, the \textsc{AutoSCIL} technique was first applied to x-ray reflection grating technology for the \emph{Water Recovery X-ray Rocket (WRXR)}, which was a Penn State sounding-rocket payload that utilized \num{26} replicas of a \ce{KOH}-etched silicon master for a diffuse-object, soft x-ray spectrometer \cite{Miles17,Miles18b,Miles19,Verschuuren18,Tutt19}. 
+This production run served as a trial, indicating that the process is well suited for producing many replicas of a master grating for the purpose of populating modular arrays in a Wolter-I spectrometer, which is of particular importance for \emph{XGS} as it calls for thousands of identical gratings \cite{McEntaffer19}, in addition to upcoming rocket payloads that each call for hundreds of replicas: \emph{The Rockets for Extended-source X-ray Spectroscopy (tREXS)} \cite{Miles19b,Tutt19b} and \emph{OGRE} \cite{Tutt18,Donovan19a,Donovan19b}. 
+As in virtually any NIL process, however, imprinted surface-relief features are prone to topographic distortion induced by resist shrinkage \cite{Horiba_2012}. 
+This phenomenon occurs in \textsc{NanoGlass} as the silica precursors tetramethylorthosilicate (TMOS) and methyltrimethoxysilane (MTMS) contained in the resist [\emph{cf.\@} \cref{fig:precursors}] react to form a silica-like network with a cross-link density that depends on the post-imprint cure temperature, $T_{\text{cure}}$ \cite{Verschuuren10}. 
+In \cref{ch:grating_replication}, it is demonstrated through diffraction-efficiency testing at beamline 6.3.2 of the ALS \cite{ALS_632,McCoy20b} that $T_{\text{cure}} \approx \SI{90}{\celsius}$ gives rise to a $\sim \SI{10}{\percent}$ volumetric shrinkage in the resist, which causes a $\sim 2^{\circ}$ reduction in $\delta$ relative to a $\sim 30^{\circ}$ facet angle defined by \ce{KOH} etching in $\langle 311 \rangle$-oriented silicon [\emph{cf.\@} \cref{fig:KOH_geo_311}]. 
+With support from AFM measurements, this was carried out by comparing the blaze response of a test imprint provided by \textsc{Philips SCIL Nanoimprint Solutions} [\emph{cf.\@} \cref{fig:SCIL_SEMs}] and the corresponding \ce{KOH}-etched silicon master [\emph{cf.\@} \cref{fig:master_grating_SEM}]. %, which was fabricated by staff at the Penn State Materials Research Institute [\emph{cf.\@} \cref{fig:master_grating_SEM}]. 
+
+The result just described shows that the impact of resist shrinkage on blaze angle is non-negligible and hence should be compensated for in the fabrication of a master grating \cite{McCoy20b}. 
+Further studies to examine how the reduced blaze angle, $\delta'$, evolves with $T_{\text{cure}}$ should aid in this process, where fabricating a master grating with a precise value for $\delta$ may prove to be difficult. 
+This is expected to be useful for achieving a blaze angle that is intermediate between what is is produced from \ce{KOH} etching in silicon with standard wafer orientations [\emph{cf.\@} \cref{tab:off_axis_si}]. 
+Although the \textsc{AutoSCIL} production platform provides an avenue for high-volume production of grating imprints, PVD techniques such as EBPVD and \emph{plasma sputter deposition} are limited in throughput, and moreover, the impact of ion bombardment (from the latter process) on the sol-gel network has not yet been investigated. 
+This motivates the pursuit of deposition strategies that are both capable of high throughput and compatible with \textsc{NanoGlass} resist. 
+
+In addition to studying how $\delta'$ depends on $T_{\text{cure}}$ for a given groove geometry imprinted in resist and the effects of PVD coatings on groove shape, film-stress studies are warranted to determine how depositions of \textsc{NanoGlass} resist and metallic, reflective coatings contribute to substrate deformation \cite{Scheuerman69}. 
+Similar to studies that examine how film stress affects the performance of x-ray telescope optics in terms of angular resolution \cite{Chan13,Probst18,Molnar-Fenton19}, compensating for this effect is motivated by the drive to preserve the flat figure of each grating in a spectrometer so that $\mathscr{R}$ is not degraded by unintentional substrate curvature. 
+With the grooves of grating replicas being carried in \textsc{NanoGlass}, the nanoscale porosity of the resist network caused by the MTMS precursor is prone to the entrapment of water vapor in a manner similar to other sol-gel systems \cite{Hench90,Brinker90,Vishnevskiy19}. 
+While it has been found experimentally that water present in the resist network can lead to minor imprinting issues that can be overcome \cite{Verschuuren10}, the effect of water vapor on aged imprints coated for reflectivity should be further investigated. 
+Alternatively, the sol-gel network can be fully densified with $T_{\text{cure}} \gtrapprox \SI{850}{\celsius}$ to eliminate porosity but this comes with increased film stress as well as a smaller value for $\delta'$. % and potential groove-shape deformation. 
+
+%stress studies and effect of water vapor on sol-gel network
+%[To be expanded]
+
+The nanofabrication processes of TASTE and SCIL, together, offer an avenue for manufacturing next-generation x-ray reflection gratings. 
+With established process development for TASTE and equipment for SCIL stamp construction as well as low-volume, pneumatic imprinting (built by \textsc{S{\"U}SS MicroTec} \cite{suss_microtec}) recently installed at the Penn State Nanofabrication Laboratory \cite{PSU_MRI_nanofab}, future work will include studying the compatibility of SCIL with a master grating fabricated by TASTE.  %(using a mask aligner add-on built by \textsc{S{\"U}SS MicroTec})
+Because polydimethylsiloxane (PDMS) [\emph{cf.\@} \cref{fig:PDMS}] and PMMA do not bond well without the use of an adhesive layer \cite{Tan10}, it is hypothesized that an anti-stiction treatment is not needed to construct an X-PDMS SCIL stamp from TASTE-processed resist; this is supported by a study that shows how PDMS and H-PDMS stamps used in \emph{soft UV-NIL} processes can be molded directly from untreated PMMA patterned by EBL \cite{Huelsen14}. As oxidized silicon is exposed between groove facets in a TASTE grating, however, it is likely that a small level of stiction will occur and hence stamp separation should be performed carefully.
+The processes of TASTE and SCIL are nevertheless expected to be compatible for the production of grating replicas. 
+This will be pursued experimentally using a duplicated, uncoated version of the TASTE prototype described in \cref{sec:TASTE_prototype}. 
+
+\section{Outlook for Future Studies}\label{sec:summary_ch5}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--------------------------------------------------
+With its ability to generate blazed groove facets in resist over a custom layout defined by EBL, TASTE is a promising technique for the manufacture of state-of-the-art x-ray reflection gratings \cite[\emph{cf.\@} \cref{sec:TASTE_ch5}]{McCoy18,McCoy20}. 
+The process does, however, face limitations in its ability to produce sharply-defined groove facets as the groove periodicity, $d$, becomes significantly smaller than \SI{400}{\nm} such that the width of each GEBL staircase step is comparable to the diameter of the focused electron beam \cite{McCurdy20}. 
+While pattern resolution has potential for improvement through the implementation of a cold-development process \cite{Ocola06}, a fundamental size-scale limitation likely exists for GEBL \cite{Fallica17}. 
+This motivates the use of \emph{EUV lithography} \cite{Wu07,Tallents10} or \emph{EUV interference lithography (EUV-IL)} \cite{Auzelyte09} at $\lambda \approx \SI{13.5}{\nm}$, which are processes capable of patterning on the sub-\SI{10}{\nm} level. 
+Of particular interest is grayscale EUV-IL, which has been demonstrated to be capable of generating a $d = \SI{100}{\nm}$ tri-level staircase pattern in PMMA with the use of a transmission-grating EUV exposure mask that provides a two-fold reduction in pattern periodicity and a mask-shifting technique that enables dose-modulated exposure \cite{Fallica17,Buitrago16}. 
+Such a process can, in principle, be coupled with thermal reflow to realize an EUV-IL variant of the TASTE process to produce a surface relief for a blazed x-ray reflection \cite{Fallica17,Schleunitz14}. 
+Further investigation, however, is required to determine if this fabrication approach can produce a large-area groove layout with a high-fidelity radial profile that also enables high diffraction efficiency. 
+This would necessitate the manufacture of a transmission-grating mask that is designed appropriately so as to produce a radial-groove diffraction pattern and additionally, the use of projection lithography equipment with a high-brightness source of EUV radiation (\emph{e.g.}, beamline 12.0.1 of the ALS \cite{ALS_EUVlitho}). 
+
+This dissertation has considered only the fabrication of planar gratings; \emph{concave gratings} \cite{Loewen97}, however, are also of interest for their ability to focus and disperse radiation simultaneously. 
+The fabrication of gratings on curved surfaces has been pursued through a variety of techniques throughout the years, including mechanical ruling \cite{Harada80,Kita83,Kita92}, holographic recording \cite{Sokolova04}, directional ion etching \cite{Liu15,Guo18}, soft lithography \cite{Xia98,Paul03,Choi04}, projection lithography \cite{Klosner02}, as well as hybrid approaches that combine aspects of soft and projection lithography \cite{Kim09,Park12}. 
+Additionally, EBL is capable of patterning on curved substrates \cite{Wilson03,PSU_MRI_EBL,Lee18,Arat19} and this is of special interest in x-ray spectroscopy primarily for the following reason. 
+That is, if a blazed x-ray grating topography can be patterned on the surface of a hyperbolic mirror appropriately, a two-element Wolter-I grating spectrometer could be realized \cite{DeRoo19,DeRoo19b}. 
+Such an optical system would reduce the number of reflections required to produce x-ray spectra while reducing instrument mass and eliminating the need for grating-array alignment. 
+However, strategies for the mass production of hyperbolic gratings should be considered. 
+This may involve using a SCIL stamp to pattern on curved surfaces in a manner similar to soft-lithographic approaches \cite{Paul03,Choi04} but further research and experimentation is needed to make this assessment. 
+
+Beyond telescopic applications of concave gratings, the nanofabrication technology discussed in this thesis is also of interest for laboratory x-ray astrophysics experiments \cite{Beiersdorfer03,Hell20} that utilize an \emph{electron-beam ion trap (EBIT)} \cite{Levine88a,Levine88b} to produce spectra from quasi-stationary, highly-charged ions. 
+Such an x-ray source effectively provides diverging rays from a central electron beam where a particular species of ion is trapped; this radiation must be focused and dispersed to produce spectra with appreciable $\mathscr{R}$ and high diffraction efficiency. % is desirable for spectral sensitivity. 
+While commercially-available, mechanically-ruled concave gratings with in-plane, variable-line-space layouts have been implemented for EUV and soft x-ray spectroscopy on EBIT systems previously \cite{Beiersdorfer99,Utter99,Beiersdorfer04,Ohashi11,Shi14}, these instruments achieve at most $\mathscr{R} \approx 1200$ for long-$\lambda$ soft x-rays. 
+This performance can, in principle, be improved by constructing a new EBIT grating spectrometer that is centered around a custom, blazed grating patterned on an ellipsoidal mirror segment that brings diverging rays to a focus while also producing an off-plane diffraction pattern that enables high-$\mathscr{R}$ spectra to be extracted through the use of high diffracted orders [\emph{cf.\@} \cref{sec:grating_tech_intro}]. 
+Owing to its ability to pattern a blazed grating topography with the precision of EBL, TASTE is hypothesized to be capable of fabricating such a custom, concave grating provided that an appropriate curved substrate that focuses radiation effectively can be obtained. 
+The development of a next-generation grating spectrometer for EBIT spectroscopy and its installment at an EBIT laboratory, such as those at Lawrence-Livermore National Laboratory \cite{llnl_ebit} and the Harvard-Smithsonian Center for Astrophysics \cite{cfa_ebit}, is crucial for furthering the fields of astrophysical x-ray spectroscopy and theoretical atomic physics by enabling wavelength centroids, transition rates and cross-sections of faint, poorly-studied, soft x-ray spectral lines to be measured in the laboratory so that they can complement astrophysical observations \cite{Smith19_labastro}. 
+At the time of this writing, preliminary research is being undertaken to move forward with this project. 
+%rather than relying on photon-starved observations of astrophysical plasmas
+
+
+%EBIT \cite{Levine88a,Levine88b,Beiersdorfer03,Smith19_labastro}
+
+%[To be expanded]
+
