@@ -21,6 +21,7 @@
 \textsc{Hoyle, F.} (1946) \enquote{{ The Synthesis of the Elements from
   Hydrogen},} \emph{Monthly Notices of the Royal Astronomical Society},
   \textbf{106}(5), pp. 343--383.
+\newline\urlprefix\url{https://doi.org/10.1093/mnras/106.5.343}
 
 \bibitem{Rolfs88}
 \textsc{{Rolfs}, C.~E.} and \textsc{W.~S. {Rodney}} (1988) \emph{{Cauldrons in
@@ -40,36 +41,43 @@
   \textsc{D.~W. {Savin}} (2002) \enquote{{X-ray spectroscopy of astrophysical
   plasmas},} \emph{Philosophical Transactions of the Royal Society of London
   Series A}, \textbf{360}, p. 1923.
+\newline\urlprefix\url{https://doi.org/10.1098/rsta.2002.1043}
 
 \bibitem{Pettini01}
 \textsc{{Pettini}, M.}, \textsc{S.~L. {Ellison}}, \textsc{J.~{Schaye}},
   \textsc{A.~{Songaila}}, \textsc{C.~C. {Steidel}}, and \textsc{A.~{Ferrara}}
   (2001) \enquote{{Metals in the Intergalactic Medium},} \emph{Astrophysics and
   Space Science Supplement}, \textbf{277}, pp. 555--560.
+\newline\urlprefix\url{https://doi.org/10.1023/A:1012751906725}
 
 \bibitem{Tumlinson17}
 \textsc{Tumlinson, J.}, \textsc{M.~S. Peeples}, and \textsc{J.~K. Werk} (2017)
   \enquote{The Circumgalactic Medium,} \emph{Annual Review of Astronomy and
   Astrophysics}, \textbf{55}(1), pp. 389--432.
+\newline\urlprefix\url{https://doi.org/10.1146/annurev-astro-091916-055240}
 
 \bibitem{Werner08}
 \textsc{{Werner}, N.}, \textsc{F.~{Durret}}, \textsc{T.~{Ohashi}},
   \textsc{S.~{Schindler}}, and \textsc{R.~P.~C. {Wiersma}} (2008)
   \enquote{{Observations of Metals in the Intra-Cluster Medium},} \emph{\ssr},
   \textbf{134}(1-4), pp. 337--362.
+\newline\urlprefix\url{https://doi.org/10.1007/s11214-008-9320-9}
 
 \bibitem{Shull14}
 \textsc{{Shull}, J.~M.} (2014) \enquote{{Where do Galaxies End?}} \emph{\apj},
   \textbf{784}(2), 142.
+\newline\urlprefix\url{https://doi.org/10.1088/0004-637X/784/2/142}
 
 \bibitem{Cavaliere16}
 \textsc{{Cavaliere}, A.}, \textsc{R.~{Fusco-Femiano}}, and \textsc{A.~{Lapi}}
   (2016) \enquote{{The Intragroup versus the Intracluster Medium},}
   \emph{\apj}, \textbf{824}(2), 145.
+\newline\urlprefix\url{https://doi.org/10.3847/0004-637X/824/2/145}
 
 \bibitem{Zhang2018Galax}
 \textsc{{Zhang}, D.} (2018) \enquote{{A Review of the Theory of Galactic Winds
   Driven by Stellar Feedback},} \emph{Galaxies}, \textbf{6}(4), p. 114.
+\newline\urlprefix\url{https://doi.org/10.3390/galaxies6040114}
 
 \bibitem{Sparke07}
 \textsc{{Sparke}, L.~S.} and \textsc{J.~S. {Gallagher}, III} (2007)
@@ -79,6 +87,7 @@
 \textsc{{Ishibashi}, W.} and \textsc{A.~C. {Fabian}} (2016) \enquote{{The
   connection between AGN-driven dusty outflows and the surrounding
   environment},} \emph{\mnras}, \textbf{457}(3), pp. 2864--2870.
+\newline\urlprefix\url{https://doi.org/10.1093/mnras/stw182}
 
 \bibitem{Moll07}
 \textsc{{Moll}, R.}, \textsc{S.~{Schindler}}, \textsc{W.~{Domainko}},
@@ -87,6 +96,7 @@
   \textsc{M.~{Ruffert}} (2007) \enquote{{Simulations of metal enrichment in
   galaxy clusters by AGN outflows},} \emph{\aap}, \textbf{463}(2), pp.
   513--518.
+\newline\urlprefix\url{https://doi.org/10.1051/0004-6361:20066386}
 
 \bibitem{angles-alcazar17}
 \textsc{Anglés-Alcázar, D.}, \textsc{C.-A. Faucher-Giguère},
@@ -94,19 +104,23 @@
   \textsc{N.~Murray} (2017) \enquote{{The cosmic baryon cycle and galaxy mass
   assembly in the FIRE simulations},} \emph{Monthly Notices of the Royal
   Astronomical Society}, \textbf{470}(4), pp. 4698--4719.
+\newline\urlprefix\url{https://doi.org/10.1093/mnras/stx1517}
 
 \bibitem{Persic92}
 \textsc{{Persic}, M.} and \textsc{P.~{Salucci}} (1992) \enquote{{The baryon
   content of the universe},} \emph{\mnras}, \textbf{258}(1), pp. 14P--18P.
+\newline\urlprefix\url{https://doi.org/10.1093/mnras/258.1.14P}
 
 \bibitem{Bregman07}
 \textsc{{Bregman}, J.~N.} (2007) \enquote{{The Search for the Missing Baryons
   at Low Redshift},} \emph{\araa}, \textbf{45}, pp. 221--259.
+\newline\urlprefix\url{https://doi.org/10.1146/annurev.astro.45.051806.110619}
 
 \bibitem{McGaugh10}
 \textsc{{McGaugh}, S.~S.}, \textsc{J.~M. {Schombert}}, \textsc{W.~J.~G. {de
   Blok}}, and \textsc{M.~J. {Zagursky}} (2010) \enquote{{The Baryon Content of
   Cosmic Structures},} \emph{\apjl}, \textbf{708}(1), pp. L14--L17.
+\newline\urlprefix\url{https://doi.org/10.1088/2041-8205/708/1/L14}
 
 \bibitem{Kirkman03}
 \textsc{{Kirkman}, D.}, \textsc{D.~{Tytler}}, \textsc{N.~{Suzuki}},
@@ -114,6 +128,7 @@
   Cosmological Baryon Density from the Deuterium-to-Hydrogen Ratio in QSO
   Absorption Systems: D/H toward Q1243+3047},} \emph{\apjs}, \textbf{149}(1),
   pp. 1--28.
+\newline\urlprefix\url{https://doi.org/10.1086/378152}
 
 \bibitem{Komatsu09}
 \textsc{{Komatsu}, E.}, \textsc{J.~{Dunkley}}, \textsc{M.~R. {Nolta}},
@@ -125,6 +140,7 @@
   \textsc{E.~L. {Wright}} (2009) \enquote{{Five-Year Wilkinson Microwave
   Anisotropy Probe Observations: Cosmological Interpretation},} \emph{\apjs},
   \textbf{180}(2), pp. 330--376.
+\newline\urlprefix\url{https://doi.org/10.1088/0067-0049/180/2/330}
 
 \bibitem{Planck_collab}
 \textsc{{Planck Collaboration}}, \textsc{{Ade, P. A. R.}}, \textsc{{Aghanim,
@@ -220,23 +236,28 @@
   \textsc{{White, S. D. M.}}, \textsc{{Wilkinson, A.}}, \textsc{{Yvon, D.}},
   \textsc{{Zacchei, A.}}, and \textsc{{Zonca, A.}} (2016) \enquote{Planck 2015
   results - XIII. Cosmological parameters,} \emph{A\&A}, \textbf{594}, p. A13.
+\newline\urlprefix\url{https://doi.org/10.1051/0004-6361/201525830}
 
 \bibitem{Fukugita_2004}
 \textsc{Fukugita, M.} and \textsc{P.~J.~E. Peebles} (2004) \enquote{The Cosmic
   Energy Inventory,} \emph{\apj}, \textbf{616}(2), pp. 643--668.
+\newline\urlprefix\url{https://doi.org/10.1086/425155}
 
 \bibitem{Sarazin86}
 \textsc{{Sarazin}, C.~L.} (1986) \enquote{{X-ray emission from clusters of
   galaxies},} \emph{Reviews of Modern Physics}, \textbf{58}(1), pp. 1--115.
+\newline\urlprefix\url{https://doi.org/10.1103/RevModPhys.58.1}
 
 \bibitem{Shull12}
 \textsc{{Shull}, J.~M.}, \textsc{B.~D. {Smith}}, and \textsc{C.~W. {Danforth}}
   (2012) \enquote{{The Baryon Census in a Multiphase Intergalactic Medium: 30\%
   of the Baryons May Still be Missing},} \emph{\apj}, \textbf{759}(1), 23.
+\newline\urlprefix\url{https://doi.org/10.1088/0004-637X/759/1/23}
 
 \bibitem{Cen99}
 \textsc{{Cen}, R.} and \textsc{J.~P. {Ostriker}} (1999) \enquote{{Where Are the
   Baryons?}} \emph{\apj}, \textbf{514}(1), pp. 1--6.
+\newline\urlprefix\url{https://doi.org/10.1086/306949}
 
 \bibitem{Dave01}
 \textsc{{Dav{\'e}}, R.}, \textsc{R.~{Cen}}, \textsc{J.~P. {Ostriker}},
@@ -244,6 +265,7 @@
   \textsc{D.~H. {Weinberg}}, \textsc{M.~L. {Norman}}, and \textsc{B.~{O'Shea}}
   (2001) \enquote{{Baryons in the Warm-Hot Intergalactic Medium},} \emph{\apj},
   \textbf{552}(2), pp. 473--483.
+\newline\urlprefix\url{https://doi.org/10.1086/320548}
 
 \bibitem{Nicastro05b}
 \textsc{{Nicastro}, F.}, \textsc{S.~{Mathur}}, \textsc{M.~{Elvis}},
@@ -252,23 +274,27 @@
   \textsc{A.~{Zezas}} (2005) \enquote{{The mass of the missing baryons in the
   X-ray forest of the warm-hot intergalactic medium},} \emph{\nat},
   \textbf{433}(7025), pp. 495--498.
+\newline\urlprefix\url{https://doi.org/10.1038/nature03245}
 
 \bibitem{Nicastro08}
 \textsc{{Nicastro}, F.}, \textsc{S.~{Mathur}}, and \textsc{M.~{Elvis}} (2008)
   \enquote{{Missing Baryons and the Warm-Hot Intergalactic Medium},}
   \emph{Science}, \textbf{319}(5859), p.~55.
+\newline\urlprefix\url{https://doi.org/10.1126/science.1151400}
 
 \bibitem{Bykov08}
 \textsc{{Bykov}, A.~M.}, \textsc{F.~B.~S. {Paerels}}, and
   \textsc{V.~{Petrosian}} (2008) \enquote{{Equilibration Processes in the
   Warm-Hot Intergalactic Medium},} \emph{\ssr}, \textbf{134}(1-4), pp.
   141--153.
+\newline\urlprefix\url{https://doi.org/10.1007/s11214-008-9309-4}
 
 \bibitem{deGraaff19}
 \textsc{{de Graaff}, A.}, \textsc{Y.-C. {Cai}}, \textsc{C.~{Heymans}}, and
   \textsc{J.~A. {Peacock}} (2019) \enquote{{Probing the missing baryons with
   the Sunyaev-Zel'dovich effect from filaments},} \emph{\aap}, \textbf{624},
   A48.
+\newline\urlprefix\url{https://doi.org/10.1051/0004-6361/201935159}
 
 \bibitem{Lynx_web}
  \emph{Lynx X-ray Observatory}.
@@ -289,6 +315,7 @@
   {Zuhone}} (2019) \enquote{{Lynx X-Ray Observatory: an overview},}
   \emph{Journal of Astronomical Telescopes, Instruments, and Systems},
   \textbf{5}, 021001.
+\newline\urlprefix\url{https://doi.org/10.1117/1.JATIS.5.2.021001}
 
 \bibitem{Gaskin15}
 \textsc{{Gaskin}, J.~A.}, \textsc{M.~C. {Weisskopf}}, \textsc{A.~{Vikhlinin}},
@@ -305,13 +332,15 @@
   Space Instrumentation for Astronomy XIX} (O.~H. {Siegmund}, ed.), vol. 9601
   of \emph{Society of Photo-Optical Instrumentation Engineers (SPIE) Conference
   Series}, p. 96010J.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2190837}
 
 \bibitem{Weisskopf00}
 \textsc{Weisskopf, M.~C.}, \textsc{H.~D. Tananbaum}, \textsc{L.~P.~V.
   Speybroeck}, and \textsc{S.~L. O'Dell} (2000) \enquote{{Chandra X-ray
   Observatory (CXO): overview},} in \emph{X-Ray Optics, Instruments, and
-  Missions III}, vol. 4012, International Society for Optics and Photonics,
-  SPIE, pp. 2 -- 16.
+  Missions III} (J.~E. Truemper and B.~Aschenbach, eds.), vol. 4012,
+  International Society for Optics and Photonics, SPIE, pp. 2 -- 16.
+\newline\urlprefix\url{https://doi.org/10.1117/12.391545}
 
 \bibitem{Jansen01}
 \textsc{{Jansen}, F.}, \textsc{D.~{Lumb}}, \textsc{B.~{Altieri}},
@@ -321,11 +350,13 @@
   \textsc{N.~{Schartel}}, \textsc{D.~{Texier}}, and \textsc{G.~{Vacanti}}
   (2001) \enquote{{XMM-Newton observatory. I. The spacecraft and operations},}
   \emph{\aap}, \textbf{365}, pp. L1--L6.
+\newline\urlprefix\url{https://doi.org/10.1051/0004-6361:20000036}
 
 \bibitem{Lumb12}
 \textsc{Lumb, D.~H.}, \textsc{F.~A. Jansen}, and \textsc{N.~Schartel} (2012)
   \enquote{{X-ray Multi-mirror Mission (XMM-Newton) observatory},}
   \emph{Optical Engineering}, \textbf{51}(1), pp. 1 -- 11.
+\newline\urlprefix\url{https://doi.org/10.1117/1.OE.51.1.011009}
 
 \bibitem{Canizares05}
 \textsc{{Canizares}, C.~R.}, \textsc{J.~E. {Davis}}, \textsc{D.~{Dewey}},
@@ -336,6 +367,7 @@
   \textsc{M.~{Wise}} (2005) \enquote{{The Chandra High-Energy Transmission
   Grating: Design, Fabrication, Ground Calibration, and 5 Years in Flight},}
   \emph{\pasp}, \textbf{117}(836), pp. 1144--1171.
+\newline\urlprefix\url{https://doi.org/10.1086/432898}
 
 \bibitem{Brinkman00}
 \textsc{Brinkman, A.~C.}, \textsc{T.~Gunsing}, \textsc{J.~S. Kaastra},
@@ -347,8 +379,9 @@
   \textsc{P.~W. Ratzlaff}, and \textsc{B.~J. Wargelin} (2000)
   \enquote{{Description and performance of the low-energy transmission grating
   spectrometer on board Chandra},} in \emph{X-Ray Optics, Instruments, and
-  Missions III}, vol. 4012, International Society for Optics and Photonics,
-  SPIE, pp. 81 -- 90.
+  Missions III} (J.~E. Truemper and B.~Aschenbach, eds.), vol. 4012,
+  International Society for Optics and Photonics, SPIE, pp. 81 -- 90.
+\newline\urlprefix\url{https://doi.org/10.1117/12.391599}
 
 \bibitem{Kahn96}
 \textsc{Kahn, S.~M.}, \textsc{J.~Cottam}, \textsc{T.~A. Decker},
@@ -359,6 +392,7 @@
   \emph{EUV, X-Ray, and Gamma-Ray Instrumentation for Astronomy VII} (O.~H.~W.
   Siegmund and M.~A. Gummin, eds.), vol. 2808, International Society for Optics
   and Photonics, SPIE, pp. 450 -- 462.
+\newline\urlprefix\url{https://doi.org/10.1117/12.256008}
 
 \bibitem{denHerder01}
 \textsc{{den Herder}, J.~W.}, \textsc{A.~C. {Brinkman}}, \textsc{S.~M. {Kahn}},
@@ -376,23 +410,27 @@
   {de Vries}}, \textsc{S.~{Welch}}, and \textsc{A.~{Zehnder}} (2001)
   \enquote{{The Reflection Grating Spectrometer on board XMM-Newton},}
   \emph{\aap}, \textbf{365}, pp. L7--L17.
+\newline\urlprefix\url{https://doi.org/10.1051/0004-6361:20000058}
 
 \bibitem{McEntaffer19}
 \textsc{McEntaffer, R.} (2019) \enquote{Reflection grating concept for the Lynx
   X-ray Grating Spectrograph,} \emph{Journal of Astronomical Telescopes,
   Instruments, and Systems}, \textbf{5}(2), p. 021002.
+\newline\urlprefix\url{https://doi.org/10.1117/1.JATIS.5.2.021002}
 
 \bibitem{Gunther19}
-\textsc{{G{\"u}nther}, H.~M.} and \textsc{R.~K. {Heilmann}} (2019)
-  \enquote{{Lynx soft x-ray critical-angle transmission grating spectrometer},}
-  \emph{Journal of Astronomical Telescopes, Instruments, and Systems},
-  \textbf{5}, 021003.
+\textsc{Günther, H.~M.} and \textsc{R.~K. Heilmann} (2019) \enquote{{Lynx soft
+  x-ray critical-angle transmission grating spectrometer},} \emph{Journal of
+  Astronomical Telescopes, Instruments, and Systems}, \textbf{5}(2), pp. 1 --
+  14.
+\newline\urlprefix\url{https://doi.org/10.1117/1.JATIS.5.2.021003}
 
 \bibitem{McCoy16}
 \textsc{{McCoy}, J.}, \textsc{R.~{McEntaffer}}, and \textsc{C.~{DeRoo}} (2016)
   \enquote{{New lithographic techniques for x-ray spectroscopy},} in
   \emph{Space Telescopes and Instrumentation 2016: Ultraviolet to Gamma Ray},
   vol. 9905 of \emph{\procspie}, p. 990524.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2232072}
 
 \bibitem{McCoy17}
 \textsc{{McCoy}, J.}, \textsc{M.~{Verschuuren}}, \textsc{G.~{Lopez}},
@@ -408,12 +446,14 @@
   thermally activated selective topography equilibration,} \emph{Journal of
   Vacuum Science and Technology B: Nanotechnology and Microelectronics},
   \textbf{36}(6), p. 06JA01.
+\newline\urlprefix\url{https://doi.org/10.1116/1.5048197}
 
 \bibitem{McCoy20}
 \textsc{McCoy, J.~A.}, \textsc{R.~L. McEntaffer}, and \textsc{D.~M. Miles}
   (2020) \enquote{Extreme Ultraviolet and Soft X-Ray Diffraction Efficiency of
   a Blazed Reflection Grating Fabricated by Thermally Activated Selective
   Topography Equilibration,} \emph{\apj}, \textbf{891}(2), p. 114.
+\newline\urlprefix\url{https://doi.org/10.3847%2F1538-4357%2Fab76d3}
 
 \bibitem{McCoy20b}
 \textsc{McCoy, J.~A.}, \textsc{M.~A. Verschuuren}, \textsc{D.~M. Miles}, and
@@ -421,6 +461,7 @@
   resist shrinkage in substrate-conformal imprint lithography for a replicated
   blazed reflection grating,} \emph{OSA Continuum}, \textbf{3}(11), pp.
   3141--3156.
+\newline\urlprefix\url{https://doi.org/10.1364/OSAC.402405}
 
 \bibitem{PSU_MRI}
  \emph{Materials Research Institute | Our integrated research laboratories turn
@@ -444,17 +485,20 @@
   \enquote{He-like Ions as Practical Astrophysical Plasma Diagnostics: From
   Stellar Coronae to Active Galactic Nuclei,} \emph{Space Science Reviews},
   \textbf{157}(1), pp. 103--134.
+\newline\urlprefix\url{https://doi.org/10.1007/s11214-010-9731-2}
 
 \bibitem{Paerels03}
 \textsc{{Paerels}, F.~B.~S.} and \textsc{S.~M. {Kahn}} (2003)
   \enquote{{High-Resolution X-ray Spectroscopy with Chandra and XMM-Newton},}
   \emph{\araa}, \textbf{41}, pp. 291--342.
+\newline\urlprefix\url{https://doi.org/10.1146/annurev.astro.41.071601.165952}
 
 \bibitem{Bohringer10}
 \textsc{{B{\"o}hringer}, H.} and \textsc{N.~{Werner}} (2010) \enquote{{X-ray
   spectroscopy of galaxy clusters: studying astrophysical processes in the
   largest celestial laboratories},} \emph{\aapr}, \textbf{18}(1-2), pp.
   127--196.
+\newline\urlprefix\url{https://doi.org/10.1007/s00159-009-0023-3}
 
 \bibitem{Bandler19}
 \textsc{Bandler, S.~R.}, \textsc{J.~A. Chervenak}, \textsc{A.~M. Datesman},
@@ -466,6 +510,7 @@
   \textsc{J.~R. Olson}, and \textsc{B.~Zeiger} (2019) \enquote{{Lynx x-ray
   microcalorimeter},} \emph{Journal of Astronomical Telescopes, Instruments,
   and Systems}, \textbf{5}(2), pp. 1 -- 29.
+\newline\urlprefix\url{https://doi.org/10.1117/1.JATIS.5.2.021017}
 
 \bibitem{Netzer13}
 \textsc{{Netzer}, H.} (2013) \emph{{The Physics and Evolution of Active
@@ -475,6 +520,7 @@
 \textsc{{Haardt}, F.} and \textsc{L.~{Maraschi}} (1991) \enquote{{A Two-Phase
   Model for the X-Ray Emission from Seyfert Galaxies},} \emph{\apjl},
   \textbf{380}, pp. L51--L54.
+\newline\urlprefix\url{https://doi.org/10.1086/186171}
 
 \bibitem{Walter93}
 \textsc{{Walter}, R.} and \textsc{H.~H. {Fink}} (1993) \enquote{{The
@@ -486,16 +532,19 @@
   \textsc{R.~R. {Ross}} (2006) \enquote{{An explanation for the soft X-ray
   excess in active galactic nuclei},} \emph{\mnras}, \textbf{365}(4), pp.
   1067--1081.
+\newline\urlprefix\url{https://doi.org/10.1111/j.1365-2966.2005.09844.x}
 
 \bibitem{Gliozzi20}
 \textsc{{Gliozzi}, M.} and \textsc{J.~K. {Williams}} (2020) \enquote{{The soft
   X-ray excess: NLS1s versus BLS1s},} \emph{\mnras}, \textbf{491}(1), pp.
   532--543.
+\newline\urlprefix\url{https://doi.org/10.1093/mnras/stz3005}
 
 \bibitem{Pal20}
 \textsc{{Pal}, M.}, \textsc{P.~{Kushwaha}}, \textsc{G.~C. {Dewangan}}, and
   \textsc{P.~K. {Pawar}} (2020) \enquote{{Strong Soft X-Ray Excess in 2015
   XMM-Newton Observations of BL Lac OJ 287},} \emph{\apj}, \textbf{890}(1), 47.
+\newline\urlprefix\url{https://doi.org/10.3847/1538-4357/ab65ee}
 
 \bibitem{McEntaffer09}
 \textsc{{McEntaffer}, R.~L.}, \textsc{N.~J. {Murray}}, \textsc{A.~{Holland}},
@@ -505,6 +554,7 @@
   Observatory},} in \emph{EUV and X-Ray Optics: Synergy between Laboratory and
   Space} (R.~{Hudec} and L.~{Pina}, eds.), vol. 7360 of \emph{Society of
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, p. 73600H.
+\newline\urlprefix\url{https://doi.org/10.1117/12.821050}
 
 \bibitem{McEntaffer10}
 \textsc{{McEntaffer}, R.~L.}, \textsc{N.~J. {Murray}}, \textsc{A.~D.
@@ -519,12 +569,14 @@
   Gamma Ray} (M.~{Arnaud}, S.~S. {Murray}, and T.~{Takahashi}, eds.), vol. 7732
   of \emph{Society of Photo-Optical Instrumentation Engineers (SPIE) Conference
   Series}, p. 77321K.
+\newline\urlprefix\url{https://doi.org/10.1117/12.857460}
 
 \bibitem{siemiginowska_2011}
 \textsc{Siemiginowska, A.} (2011) \enquote{Chapter 7 - Statistics,} in
   \emph{Handbook of X-ray Astronomy} (K.~{Arnaud}, R.~{Smith}, and
   A.~{Siemiginowska}, eds.), Cambridge Observing Handbooks for Research
   Astronomers, Cambridge University Press, New York, NY, p. 131–145.
+\newline\urlprefix\url{https://doi.org/10.1017/CBO9781139034234.008}
 
 \bibitem{Sturge03}
 \textsc{Sturge, M.} (2003) \emph{Statistical and Thermal Physics: Fundamentals
@@ -533,11 +585,13 @@
 \bibitem{Dewey10}
 \textsc{{Dewey}, D.} (2010) \enquote{{Kinematics of Supernova Remnants: Status
   of X-Ray Observations},} \emph{\ssr}, \textbf{157}(1-4), pp. 229--248.
+\newline\urlprefix\url{https://doi.org/10.1007/s11214-010-9718-z}
 
 \bibitem{Ballet02}
 \textsc{Ballet, J.} and \textsc{A.~Decourchelle} (2002) \enquote{X-ray
   spectroscopy of supernova remnants,} \emph{New Astronomy Reviews},
   \textbf{46}(8), pp. 507 -- 511.
+\newline\urlprefix\url{https://doi.org/10.1016/S1387-6473(02)00192-6}
 
 \bibitem{Nicastro18}
 \textsc{{Nicastro}, F.}, \textsc{J.~{Kaastra}}, \textsc{Y.~{Krongold}},
@@ -550,12 +604,14 @@
   \textsc{L.~{Zappacosta}} (2018) \enquote{{Observations of the missing baryons
   in the warm-hot intergalactic medium},} \emph{\nat}, \textbf{558}(7710), pp.
   406--409.
+\newline\urlprefix\url{https://doi.org/10.1038/s41586-018-0204-1}
 
 \bibitem{Kovacs19}
 \textsc{Kov\'{a}cs, O.~E.}, \textsc{\'{A}kos Bogd\'{a}n}, \textsc{R.~K. Smith},
   \textsc{R.~P. Kraft}, and \textsc{W.~R. Forman} (2019) \enquote{Detection of
   the Missing Baryons toward the Sightline of H1821+643,} \emph{The
   Astrophysical Journal}, \textbf{872}(1), p.~83.
+\newline\urlprefix\url{https://doi.org/10.3847/1538-4357/aaef78}
 
 \bibitem{galaxy_zoo}
  \emph{Galaxy Zoo by Zooniverse (Citizen Science Alliance)}.
@@ -569,6 +625,7 @@
   (2008) \enquote{{Galaxy Zoo: morphologies derived from visual inspection of
   galaxies from the Sloan Digital Sky Survey},} \emph{\mnras}, \textbf{389}(3),
   pp. 1179--1189.
+\newline\urlprefix\url{https://doi.org/10.1111/j.1365-2966.2008.13689.x}
 
 \bibitem{Loewen97}
 \textsc{{Loewen}, E.~G.} and \textsc{E.~{Popov}} (1997) \emph{{Diffraction
@@ -583,15 +640,18 @@
   \enquote{{High-Resolution X-Ray Spectra of Capella: Initial Results from the
   Chandra High-Energy Transmission Grating Spectrometer},} \emph{\apjl},
   \textbf{539}, pp. L41--L44.
+\newline\urlprefix\url{https://doi.org/10.1086/312823}
 
 \bibitem{Cash91}
 \textsc{{Cash}, W.~C., Jr.} (1991) \enquote{{X-ray optics. II - A technique for
   high resolution spectroscopy},} \emph{\ao}, \textbf{30}, pp. 1749--1759.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.30.001749}
 
 \bibitem{Allured13}
 \textsc{{Allured}, R.} and \textsc{R.~L. {McEntaffer}} (2013)
   \enquote{{Analytical alignment tolerances for off-plane reflection grating
   spectroscopy},} \emph{Experimental Astronomy}, \textbf{36}, pp. 661--677.
+\newline\urlprefix\url{https://doi.org/10.1007/s10686-013-9349-y}
 
 \bibitem{Allured15}
 \textsc{{Allured}, R.}, \textsc{B.~D. {Donovan}}, \textsc{C.~T. {DeRoo}},
@@ -602,6 +662,7 @@
   gratings},} in \emph{Society of Photo-Optical Instrumentation Engineers
   (SPIE) Conference Series}, vol. 9603 of \emph{Society of Photo-Optical
   Instrumentation Engineers (SPIE) Conference Series}, p. 960315.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2186412}
 
 \bibitem{Donovan18}
 \textsc{{Donovan}, B.~D.}, \textsc{R.~L. {McEntaffer}}, \textsc{J.~H. {Tutt}},
@@ -609,6 +670,7 @@
   \textsc{J.~J. {Kolodziejczak}} (2018) \enquote{{X-ray verification of an
   optically aligned off-plane grating module},} \emph{\ao}, \textbf{57}, pp.
   454--464.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.57.000454}
 
 \bibitem{Shipley08}
 \textsc{{Shipley}, A.} and \textsc{R.~L. {McEntaffer}} (2008) \enquote{{Thin
@@ -616,6 +678,7 @@
   \emph{Space Telescopes and Instrumentation 2008: Ultraviolet to Gamma Ray}
   (M.~J.~L. {Turner} and K.~A. {Flanagan}, eds.), vol. 7011 of \emph{Society of
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, p. 70112I.
+\newline\urlprefix\url{https://doi.org/10.1117/12.789818}
 
 \bibitem{McEntaffer11}
 \textsc{{McEntaffer}, R.~L.}, \textsc{W.~{Cash}}, \textsc{C.~{Lillie}},
@@ -627,34 +690,41 @@
   Series} (S.~L. {O'Dell} and G.~{Pareschi}, eds.), vol. 8147 of \emph{Society
   of Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, p.
   81471K.
+\newline\urlprefix\url{https://doi.org/10.1117/12.895037}
 
 \bibitem{Wolter52}
-\textsc{Wolter, H.} \enquote{Spiegelsysteme streifenden Einfalls als abbildende
-  Optiken für Röntgenstrahlen,} \emph{Annalen der Physik},
+\textsc{Wolter, H.} (1952) \enquote{Spiegelsysteme streifenden Einfalls als
+  abbildende Optiken für Röntgenstrahlen,} \emph{Annalen der Physik},
   \textbf{445}(1‐2), pp. 94--114.
+\newline\urlprefix\url{https://doi.org/10.1002/andp.19524450108}
 
 \bibitem{Aschenbach85}
 \textsc{Aschenbach, B.} (1985) \enquote{X-ray telescopes,} \emph{Reports on
   Progress in Physics}, \textbf{48}(5), pp. 579--629.
+\newline\urlprefix\url{https://doi.org/10.1088/0034-4885/48/5/001}
 
 \bibitem{schwartz_2011}
 \textsc{Schwartz, D.~A.} (2011) \enquote{Chapter 1 - Optics,} in \emph{Handbook
   of X-ray Astronomy} (K.~{Arnaud}, R.~{Smith}, and A.~{Siemiginowska}, eds.),
   Cambridge Observing Handbooks for Research Astronomers, Cambridge University
   Press, New York, NY, p. 6–22.
+\newline\urlprefix\url{https://doi.org/10.1017/CBO9781139034234.002}
 
 \bibitem{Werner77}
 \textsc{{Werner}, W.} (1977) \enquote{{X-ray efficiencies of blazed grating in
   extreme off-plane mountings},} \emph{\ao}, \textbf{16}(8), pp. 2078--2080.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.16.002078}
 
 \bibitem{Cash82}
 \textsc{{Cash}, W.} and \textsc{R.~{Kohnert}} (1982) \enquote{{Very high X-ray
   efficiency from a blazed grating},} \emph{\ao}, \textbf{21}, p.~17.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.21.000017}
 
 \bibitem{Neviere78b}
 \textsc{Neviere, M.}, \textsc{P.~Vincent}, and \textsc{D.~Maystre} (1978)
   \enquote{X-ray efficiencies of gratings,} \emph{\ao}, \textbf{17}(6), pp.
   843--845.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.17.000843}
 
 \bibitem{McEntaffer03}
 \textsc{{McEntaffer}, R.~L.}, \textsc{W.~C. {Cash}}, and \textsc{A.~F.
@@ -663,6 +733,7 @@
   {Truemper} and H.~D. {Tananbaum}, eds.), vol. 4851 of \emph{Society of
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, pp.
   549--556.
+\newline\urlprefix\url{https://doi.org/10.1117/12.461423}
 
 \bibitem{McEntaffer04}
 \textsc{McEntaffer, R.~L.}, \textsc{S.~N. Osterman}, \textsc{W.~C. Cash},
@@ -672,6 +743,7 @@
   EUV, X-Ray, and Gamma-Ray Astronomy} (O.~Citterio and S.~L. O'Dell, eds.),
   vol. 5168, International Society for Optics and Photonics, SPIE, pp. 492 --
   498.
+\newline\urlprefix\url{https://doi.org/10.1117/12.506200}
 
 \bibitem{McEntaffer08b}
 \textsc{{McEntaffer}, R.~L.}, \textsc{W.~{Cash}}, and \textsc{A.~{Shipley}}
@@ -679,6 +751,7 @@
   \emph{Space Telescopes and Instrumentation 2008: Ultraviolet to Gamma Ray}
   (M.~J.~L. {Turner} and K.~A. {Flanagan}, eds.), vol. 7011 of \emph{Society of
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, p. 701107.
+\newline\urlprefix\url{https://doi.org/10.1117/12.789543}
 
 \bibitem{McEntaffer13}
 \textsc{{McEntaffer}, R.}, \textsc{C.~{DeRoo}}, \textsc{T.~{Schultz}},
@@ -689,11 +762,13 @@
   \textsc{L.~{Koecher}} (2013) \enquote{{First results from a next-generation
   off-plane X-ray diffraction grating},} \emph{Experimental Astronomy},
   \textbf{36}, pp. 389--405.
+\newline\urlprefix\url{https://doi.org/10.1007/s10686-013-9338-1}
 
 \bibitem{DeRoo16thesis}
 \textsc{{DeRoo}, C.~T.} (2016) \emph{{Fabrication and testing of off-plane
   gratings for future x-ray spectroscopy missions}}, Ph.D. thesis, The
   University of Iowa.
+\newline\urlprefix\url{https://doi.org/10.17077/etd.qr39wko8}
 
 \bibitem{DeRoo16}
 \textsc{DeRoo, C.~T.}, \textsc{R.~L. McEntaffer}, \textsc{D.~M. Miles},
@@ -704,6 +779,7 @@
   \textsc{M.~Ackermann} (2016) \enquote{Line spread functions of blazed
   off-plane gratings operated in the Littrow mounting,} \emph{Journal of
   Astronomical Telescopes, Instruments, and Systems}, \textbf{2}(2), p. 025001.
+\newline\urlprefix\url{https://doi.org/10.1117/1.JATIS.2.2.025001}
 
 \bibitem{Tutt16}
 \textsc{{Tutt}, J.~H.}, \textsc{R.~L. {McEntaffer}}, \textsc{H.~{Marlowe}},
@@ -711,6 +787,7 @@
   \textsc{F.~{Scholze}}, and \textsc{C.~{Laubis}} (2016) \enquote{{Diffraction
   Efficiency Testing of Sinusoidal and Blazed Off-Plane Reflection Gratings},}
   \emph{Journal of Astronomical Instrumentation}, \textbf{5}, 1650009.
+\newline\urlprefix\url{https://doi.org/10.1142/S2251171716500094}
 
 \bibitem{Miles18}
 \textsc{Miles, D.~M.}, \textsc{J.~A. McCoy}, \textsc{R.~L. McEntaffer},
@@ -719,6 +796,7 @@
   \textsc{T.~Steiner} (2018) \enquote{Fabrication and Diffraction Efficiency of
   a Large-format, Replicated X-Ray Reflection Grating,} \emph{\apj},
   \textbf{869}(2), p.~95.
+\newline\urlprefix\url{https://doi.org/10.3847/1538-4357/aaec73}
 
 \bibitem{Miles19}
 \textsc{Miles, D.~M.}, \textsc{S.~V. Hull}, \textsc{T.~B. Schultz},
@@ -731,6 +809,7 @@
   \textsc{D.~Yastishock}, and \textsc{N.~Zhang} (2019) \enquote{{Water Recovery
   X-Ray Rocket grating spectrometer},} \emph{Journal of Astronomical
   Telescopes, Instruments, and Systems}, \textbf{5}(4), p. 044006.
+\newline\urlprefix\url{https://doi.org/10.1117/1.JATIS.5.4.044006}
 
 \bibitem{DeRoo20a}
 \textsc{{DeRoo}, C.~T.}, \textsc{R.~L. {McEntaffer}}, \textsc{B.~D. {Donovan}},
@@ -738,6 +817,7 @@
   \textsc{G.~{Hartner}}, \textsc{C.~{Pelliciari}}, and \textsc{M.-M. {La
   Caria}} (2020) \enquote{{Large-format X-Ray Reflection Grating Operated in an
   Echelle-like Mounting},} \emph{\apj}, \textbf{897}(1), 92.
+\newline\urlprefix\url{https://doi.org/10.3847/1538-4357/ab9a41}
 
 \bibitem{Donovan20}
 \textsc{{Donovan}, B.~D.}, \textsc{R.~L. {McEntaffer}}, \textsc{C.~T. {DeRoo}},
@@ -747,36 +827,43 @@
   \enquote{{Performance Testing of a Large-Format X-ray Reflection Grating
   Prototype for a Suborbital Rocket Payload},} \emph{Journal of Astronomical
   Instrumentation}, \textbf{9}(4), pp. 2050017--497.
+\newline\urlprefix\url{https://doi.org/10.1142/S2251171720500178}
 
 \bibitem{Hettrick83}
 \textsc{{Hettrick}, M.~C.} and \textsc{S.~{Bowyer}} (1983) \enquote{{Variable
   line-space gratings: new designs for use in grazing incidence
   spectrometers},} \emph{\ao}, \textbf{22}(24), pp. 3921--3924.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.22.003921}
 
 \bibitem{Cash83}
 \textsc{{Cash}, W.~C., Jr.} (1983) \enquote{{X-ray spectrographs using radial
   groove gratings},} \emph{\ao}, \textbf{22}, pp. 3971--3976.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.22.003971}
 
 \bibitem{Fraunhofer1823}
 \textsc{Fraunhofer, J.} (1823) \enquote{Kurzer Bericht von den Resultaten
   neuerer Versuche über die Gesetze des Lichtes, und die Theorie derselben,}
   \emph{Annalen der Physik}, \textbf{74}(8), pp. 337--378.
+\newline\urlprefix\url{https://doi.org/10.1002/andp.18230740802}
 
 \bibitem{Compton25}
 \textsc{{Compton}, A.~H.} and \textsc{R.~L. {Doan}} (1925) \enquote{{X-Ray
   Spectra from a Ruled Reflection Grating},} \emph{Proceedings of the National
   Academy of Science}, \textbf{11}, pp. 598--601.
+\newline\urlprefix\url{https://doi.org/10.1073/pnas.11.10.598}
 
 \bibitem{Harrison49}
 \textsc{{Harrison}, G.~R.} (1949) \enquote{{The production of diffraction
   gratings. I. Development of the ruling art},} \emph{Journal of the Optical
   Society of America (1917-1983)}, \textbf{39}(6), p. 413.
+\newline\urlprefix\url{https://doi.org/10.1364/JOSA.39.000413}
 
 \bibitem{Harrison55}
 \textsc{{Harrison}, G.~R.} and \textsc{G.~W. {Stroke}} (1955)
   \enquote{{Interferometric control of grating ruling with continuous carriage
   advance},} \emph{Journal of the Optical Society of America (1917-1983)},
   \textbf{45}, p. 112.
+\newline\urlprefix\url{https://doi.org/10.1364/JOSA.45.000112}
 
 \bibitem{Osterman04}
 \textsc{{Osterman}, S.~N.}, \textsc{R.~L. {McEntaffer}}, \textsc{W.~C. {Cash}},
@@ -785,6 +872,7 @@
   (G.~{Hasinger} and M.~J.~L. {Turner}, eds.), vol. 5488 of \emph{Society of
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, pp.
   302--312.
+\newline\urlprefix\url{https://doi.org/10.1117/12.551787}
 
 \bibitem{Miles15}
 \textsc{Miles, D.~M.}, \textsc{J.~H. Tutt}, \textsc{C.~T. DeRoo},
@@ -792,8 +880,10 @@
   \textsc{B.~Menz}, \textsc{V.~Burwitz}, \textsc{G.~Hartner},
   \textsc{C.~Laubis}, and \textsc{F.~Scholze} (2015) \enquote{{Diffraction
   efficiency of radially-profiled off-plane reflection gratings},} in
-  \emph{Optics for EUV, X-Ray, and Gamma-Ray Astronomy VII}, vol. 9603,
-  International Society for Optics and Photonics, SPIE, pp. 319 -- 326.
+  \emph{Optics for EUV, X-Ray, and Gamma-Ray Astronomy VII} (S.~L. O'Dell and
+  G.~Pareschi, eds.), vol. 9603, International Society for Optics and
+  Photonics, SPIE, pp. 319 -- 326.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2186842}
 
 \bibitem{Hennessy11}
 \textsc{Hennessy, T.} (2011) \emph{Lithography: Principles, Processes and
@@ -804,30 +894,35 @@
 \textsc{Beesley, M.~J.} and \textsc{J.~G. Castledine} (1970) \enquote{The Use
   of Photoresist as a Holographic Recording Medium,} \emph{Appl. Opt.},
   \textbf{9}(12), pp. 2720--2724.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.9.002720}
 
 \bibitem{Lu10}
 \textsc{{Lu}, C.} and \textsc{R.~{Lipson}} (2010) \enquote{{Interference
   lithography: a powerful tool for fabricating periodic structures},}
   \emph{Laser \& Photonics Reviews}, \textbf{4}(4), pp. 568--580.
+\newline\urlprefix\url{https://doi.org/10.1002/lpor.200810061}
 
 \bibitem{deBoor09}
 \textsc{de~Boor, J.}, \textsc{N.~Geyer}, \textsc{U.~G\"{o}sele}, and
   \textsc{V.~Schmidt} (2009) \enquote{Three-beam interference lithography:
   upgrading a Lloyd's interferometer for single-exposure hexagonal patterning,}
   \emph{Opt. Lett.}, \textbf{34}(12), pp. 1783--1785.
+\newline\urlprefix\url{https://doi.org/10.1364/OL.34.001783}
 
 \bibitem{Burrow11}
 \textsc{Burrow, G.~M.} and \textsc{T.~K. Gaylord} (2011) \enquote{Multi-beam
   interference advances and applications: nano-electronics, photonic crystals,
   metamaterials, subwavelength structures, optical trapping, and biomedical
   structures,} \emph{Micromachines}, \textbf{2}(2), pp. 221--257.
+\newline\urlprefix\url{https://doi.org/10.3390/mi2020221}
 
 \bibitem{Zhurminsky19}
 \textsc{Zhurminsky, I.}, \textsc{M.~Schnieper}, \textsc{R.~Ferrini}, and
   \textsc{S.~Fricke} (2019) \enquote{{Interference lithography for
   nanostructure fabrication},} in \emph{Holography: Advances and Modern Trends
-  VI}, vol. 11030, International Society for Optics and Photonics, SPIE, pp.
-  176 -- 186.
+  VI} (A.~Fimia, M.~Hrabovský, and J.~T. Sheridan, eds.), vol. 11030,
+  International Society for Optics and Photonics, SPIE, pp. 176 -- 186.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2521449}
 
 \bibitem{Horiba_web}
  \emph{Diffraction Gratings On-Line Catalog - HORIBA}.
@@ -840,6 +935,7 @@
   (G.~{Hasinger} and M.~J.~L. {Turner}, eds.), vol. 5488 of \emph{Society of
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, pp.
   136--147.
+\newline\urlprefix\url{https://doi.org/10.1117/12.552847}
 
 \bibitem{McEntaffer05}
 \textsc{{McEntaffer}, R.~L.}, \textsc{W.~{Cash}}, and \textsc{A.~{Shipley}}
@@ -848,6 +944,7 @@
   II} (O.~{Citterio} and S.~L. {O'Dell}, eds.), vol. 5900 of \emph{Society of
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, pp.
   393--404.
+\newline\urlprefix\url{https://doi.org/10.1117/12.615423}
 
 \bibitem{McEntaffer06}
 \textsc{{McEntaffer}, R.~L.}, \textsc{J.~{Cash}, Webster},
@@ -857,6 +954,7 @@
   Series} (M.~J.~L. {Turner} and G.~{Hasinger}, eds.), vol. 6266 of
   \emph{Society of Photo-Optical Instrumentation Engineers (SPIE) Conference
   Series}, p. 626644.
+\newline\urlprefix\url{https://doi.org/10.1117/12.671519}
 
 \bibitem{McEntaffer07}
 \textsc{{McEntaffer}, R.~L.} (2007) \emph{{Soft X-ray spectroscopy of the
@@ -866,11 +964,13 @@
 \textsc{{McEntaffer}, R.~L.} and \textsc{W.~{Cash}} (2008) \enquote{{Soft X-Ray
   Spectroscopy of the Cygnus Loop Supernova Remnant},} \emph{\apj},
   \textbf{680}, 328-335.
+\newline\urlprefix\url{https://doi.org/10.1086/587936}
 
 \bibitem{Oakley09}
 \textsc{{Oakley}, P.}, \textsc{W.~{Cash}}, \textsc{R.~{McEntaffer}},
   \textsc{A.~{Shipley}}, and \textsc{T.~{Schultz}} (2009) \enquote{{The EXOS
   sounding rocket payload},} vol. 7437 of \emph{\procspie}, p. 74370I.
+\newline\urlprefix\url{https://doi.org/10.1117/12.827494}
 
 \bibitem{Oakley10}
 \textsc{{Oakley}, P.}, \textsc{B.~{Zeiger}}, \textsc{M.~{Kaiser}},
@@ -880,6 +980,7 @@
   Telescopes and Instrumentation 2010: Ultraviolet to Gamma Ray} (M.~{Arnaud},
   S.~S. {Murray}, and T.~{Takahashi}, eds.), vol. 7732 of \emph{Society of
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, p. 77321R.
+\newline\urlprefix\url{https://doi.org/10.1117/12.857540}
 
 \bibitem{Oakley11a}
 \textsc{{Oakley}, P. H.~H.} (2011) \emph{{A Suborbital Payload for Soft X-ray
@@ -891,17 +992,20 @@
   \textsc{W.~{Cash}} (2011) \enquote{{A suborbital payload for soft X-ray
   spectroscopy of extended sources},} \emph{Experimental Astronomy},
   \textbf{31}(1), pp. 23--44.
+\newline\urlprefix\url{https://doi.org/10.1007/s10686-011-9222-9}
 
 \bibitem{Zeiger11}
 \textsc{{Zeiger}, B.}, \textsc{A.~{Shipley}}, \textsc{W.~{Cash}},
   \textsc{T.~{Rogers}}, \textsc{T.~{Schultz}}, \textsc{R.~{McEntaffer}}, and
   \textsc{M.~{Kaiser}} (2011) \enquote{{The CODEX sounding rocket payload},}
   vol. 8076 of \emph{\procspie}, p. 80760S.
+\newline\urlprefix\url{https://doi.org/10.1117/12.887058}
 
 \bibitem{Oakley13}
 \textsc{{Oakley}, P.}, \textsc{R.~{McEntaffer}}, and \textsc{W.~{Cash}} (2013)
   \enquote{{Soft X-Ray Spectroscopy of the Cygnus Loop Supernova Remnant},}
   \emph{\apj}, \textbf{766}(1), 51.
+\newline\urlprefix\url{https://doi.org/10.1088/0004-637X/766/1/51}
 
 \bibitem{Zeiger13}
 \textsc{{Zeiger}, B.~R.} (2013) \emph{{Soft x-ray spectroscopy of the Vela
@@ -919,6 +1023,7 @@
   \textsc{D.~{Miles}}, \textsc{J.~{Tutt}}, and \textsc{R.~{McEntaffer}} (2015)
   \enquote{{First results from the OGRESS sounding rocket payload},} vol. 9601
   of \emph{\procspie}, p. 960104.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2183237}
 
 \bibitem{Rogers16}
 \textsc{{Rogers}, T.~D.} (2016) \emph{{Suborbital Soft X-Ray Spectroscopy with
@@ -945,18 +1050,21 @@
   (2016) \enquote{{A Primer for Telemetry Interfacing in Accordance with NASA
   Standards Using Low Cost FPGAs},} \emph{Journal of Astronomical
   Instrumentation}, \textbf{5}(1), 1640002.
+\newline\urlprefix\url{https://doi.org/10.1142/S225117171640002X}
 
 \bibitem{Rogers17}
 \textsc{Rogers, T.}, \textsc{R.~McEntaffer}, \textsc{T.~Schultz},
   \textsc{J.~McCoy}, \textsc{D.~Miles}, and \textsc{J.~Tutt} (2017)
   \enquote{{Gaseous electron multiplier gain characteristics using low-pressure
   Ar/CO$_2$},} \emph{Experimental Astronomy}, \textbf{43}(2), pp. 201--210.
+\newline\urlprefix\url{https://doi.org/10.1007/s10686-017-9531-8}
 
 \bibitem{Rogers20}
 \textsc{{Rogers}, T.}, \textsc{R.~{McEntaffer}}, \textsc{J.~{McCoy}},
   \textsc{D.~M. {Miles}}, \textsc{T.~{Schultz}}, and \textsc{J.~{Tutt}} (2020)
   \enquote{{Induced X-ray fluorescence background for high-voltage space based
   detectors},} \emph{Experimental Astronomy}, \textbf{49}(2), pp. 1--20.
+\newline\urlprefix\url{https://doi.org/10.1007/s10686-019-09649-5}
 
 \bibitem{PSU_MRI_CL}
  \emph{Penn State Materials Characterization Lab - Materials Research
@@ -969,17 +1077,20 @@
   \enquote{Recent development of PeakForce Tapping mode atomic force microscopy
   and its applications on nanoscience,} \emph{Nanotechnology Reviews},
   \textbf{7}(6), pp. 605--621.
+\newline\urlprefix\url{https://doi.org/10.1515/ntrev-2018-0086}
 
 \bibitem{Aoyagi76}
 \textsc{Aoyagi, Y.} and \textsc{S.~Namba} (1976) \enquote{Blazed Ion-etched
   Holographic Gratings,} \emph{Optica Acta: International Journal of Optics},
   \textbf{23}(9), pp. 701--707.
+\newline\urlprefix\url{https://doi.org/10.1080/713819374}
 
 \bibitem{Palmer95}
 \textsc{{Palmer}, C.~A.}, \textsc{J.~L. {Olson}}, and \textsc{M.~M. {Dunn}}
   (1995) \emph{{Blazed diffraction gratings obtained by ion-milling sinusoidal
   photoresist gratings}}, vol. 2622 of \emph{Society of Photo-Optical
   Instrumentation Engineers (SPIE) Conference Series}, pp. 112--121.
+\newline\urlprefix\url{https://doi.org/10.1117/12.216795}
 
 \bibitem{Franke97}
 \textsc{{Franke}, A.~E.}, \textsc{M.~L. {Schattenburg}}, \textsc{E.~M.
@@ -987,34 +1098,40 @@
   \textsc{A.~{Rasmussen}} (1997) \enquote{{Super-smooth x-ray reflection
   grating fabrication},} \emph{Journal of Vacuum Science Technology B:
   Microelectronics and Nanometer Structures}, \textbf{15}, pp. 2940--2945.
+\newline\urlprefix\url{https://doi.org/10.1116/1.589759}
 
 \bibitem{Chang03}
 \textsc{{Chang}, C.-H.} (2003) \enquote{{Fabrication of sawtooth diffraction
   gratings using nanoimprint lithography},} \emph{Journal of Vacuum Science
   Technology B: Microelectronics and Nanometer Structures}, \textbf{21}, p.
   2755.
+\newline\urlprefix\url{https://doi.org/10.1116/1.1627814}
 
 \bibitem{Chang08}
 \textsc{Chang, C.-H.}, \textsc{Y.~Zhao}, \textsc{R.~K. Heilmann}, and
   \textsc{M.~L. Schattenburg} (2008) \enquote{Fabrication of 50 nm period
   gratings with multilevel interference lithography,} \emph{Opt. Lett.},
   \textbf{33}(14), pp. 1572--1574.
+\newline\urlprefix\url{https://doi.org/10.1364/OL.33.001572}
 
 \bibitem{Chen15}
 \textsc{Chen, Y.} (2015) \enquote{Nanofabrication by electron beam lithography
   and its applications: A review,} \emph{Microelectronic Engineering},
   \textbf{135}, pp. 57--72.
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.mee.2015.02.042}
 
 \bibitem{Mohammad2012}
 \textsc{Mohammad, M.~A.}, \textsc{M.~Muhammad}, \textsc{S.~K. Dew}, and
   \textsc{M.~Stepanova} (2012) \enquote{Chapter 2 - Fundamentals of Electron
   Beam Exposure and Development,} in \emph{Nanofabrication: Techniques and
   Principles} (M.~Stepanova and S.~Dew, eds.), Springer, Vienna, pp. 11--41.
+\newline\urlprefix\url{https://doi.org/10.1007/978-3-7091-0424-8_2}
 
 \bibitem{Wu10}
 \textsc{Wu, C.~S.}, \textsc{Y.~Makiuchi}, and \textsc{C.~Chen} (2010)
   \emph{High-energy Electron Beam Lithography for Nanoscale Fabrication},
   Intech, pp. 241--266.
+\newline\urlprefix\url{https://doi.org/10.5772/8179}
 
 \bibitem{McCurdy20}
 \textsc{McCurdy, R.~C.}, \textsc{D.~M. Miles}, \textsc{J.~A. McCoy},
@@ -1023,6 +1140,7 @@
   reflection grating fabricated using thermally activated selective topography
   equilibration},} \emph{Journal of Astronomical Telescopes, Instruments, and
   Systems}, \textbf{6}(4), pp. 1 -- 19.
+\newline\urlprefix\url{https://doi.org/10.1117/1.JATIS.6.4.045003}
 
 \bibitem{DeRoo20b}
 \textsc{{DeRoo}, C.~T.}, \textsc{J.~{Termini}}, \textsc{F.~{Gris{\'e}}},
@@ -1030,6 +1148,7 @@
   \textsc{C.~{Eichfeld}} (2020) \enquote{{Limiting Spectral Resolution of a
   Reflection Grating Made via Electron-beam Lithography},} \emph{\apj},
   \textbf{904}(2), 142.
+\newline\urlprefix\url{https://doi.org/10.3847/1538-4357/abbe15}
 
 \bibitem{raith_ebpg}
  \emph{High resolution lithography: EBL tool EBPG5200 - Raith GmbH}.
@@ -1049,12 +1168,14 @@
   (1988) \enquote{A thermally assisted field emission electron beam exposure
   system,} \emph{Journal of Vacuum Science \& Technology B: Microelectronics
   Processing and Phenomena}, \textbf{6}(6), pp. 2019--2022.
+\newline\urlprefix\url{https://doi.org/10.1116/1.584121}
 
 \bibitem{Dougherty01}
 \textsc{{Dougherty}, D.~J.}, \textsc{R.~E. {Muller}}, \textsc{P.~D. {Maker}},
   and \textsc{S.~{Forouhar}} (2001) \enquote{Stitching-error reduction in
   gratings by shot-shifted electron-beam lithography,} \emph{Journal of
   Lightwave Technology}, \textbf{19}(10), pp. 1527--1531.
+\newline\urlprefix\url{https://doi.org/10.1109/50.956140}
 
 \bibitem{Vieu00}
 \textsc{Vieu, C.}, \textsc{F.~Carcenac}, \textsc{A.~Pépin}, \textsc{Y.~Chen},
@@ -1062,12 +1183,14 @@
   \textsc{L.~Couraud}, and \textsc{H.~Launois} (2000) \enquote{Electron beam
   lithography: resolution limits and applications,} \emph{Applied Surface
   Science}, \textbf{164}(1), pp. 111 -- 117.
+\newline\urlprefix\url{https://doi.org/10.1016/S0169-4332(00)00352-4}
 
 \bibitem{Broers96}
 \textsc{Broers, A.}, \textsc{A.~Hoole}, and \textsc{J.~Ryan} (1996)
   \enquote{Electron beam lithography—Resolution limits,}
   \emph{Microelectronic Engineering}, \textbf{32}(1), pp. 131 -- 142,
   nanotechnology.
+\newline\urlprefix\url{https://doi.org/10.1016/0167-9317(95)00368-1}
 
 \bibitem{Manfrinato14}
 \textsc{Manfrinato, V.~R.}, \textsc{J.~Wen}, \textsc{L.~Zhang},
@@ -1076,6 +1199,7 @@
   \textsc{E.~A. Stach}, and \textsc{K.~K. Berggren} (2014) \enquote{Determining
   the Resolution Limits of Electron-Beam Lithography: Direct Measurement of the
   Point-Spread Function,} \emph{Nano Letters}, \textbf{14}(8), pp. 4406--4412.
+\newline\urlprefix\url{https://doi.org/10.1021/nl5013773}
 
 \bibitem{Landau75}
 \textsc{Landau, L.} and \textsc{E.~Lifshitz} (1975) \emph{The Classical Theory
@@ -1084,37 +1208,44 @@
 \bibitem{Pala16}
 \textsc{Pala, N.} and \textsc{M.~Karabiyik} (2016) \emph{Electron Beam
   Lithography (EBL)}, Springer Netherlands, Dordrecht, pp. 1033--1057.
+\newline\urlprefix\url{https://doi.org/10.1007/978-94-017-9780-1_344}
 
 \bibitem{Hatzakis69}
 \textsc{Hatzakis, M.} (1969) \enquote{Electron Resists for Microcircuit and
   Mask Production,} \emph{Journal of The Electrochemical Society},
   \textbf{116}(7), p. 1033.
+\newline\urlprefix\url{https://doi.org/10.1149/1.2412145}
 
 \bibitem{Greeneich75}
 \textsc{{Greeneich}, J.~S.} (1975) \enquote{{Developer Characteristics of
   Poly-(Methyl Methacrylate) Electron Resist},} \emph{Journal of the
   Electrochemical Society}, \textbf{122}(7), pp. 970--976.
+\newline\urlprefix\url{https://doi.org/10.1149/1.2134380}
 
 \bibitem{Broers78}
 \textsc{Broers, A.~N.}, \textsc{J.~M.~E. Harper}, and \textsc{W.~W. Molzen}
   (1978) \enquote{250‐Å linewidths with PMMA electron resist,} \emph{Applied
   Physics Letters}, \textbf{33}(5), pp. 392--394.
+\newline\urlprefix\url{https://doi.org/10.1063/1.90387}
 
 \bibitem{Ali15}
 \textsc{Ali, U.}, \textsc{K.~J. B.~A. Karim}, and \textsc{N.~A. Buang} (2015)
   \enquote{A Review of the Properties and Applications of Poly (Methyl
-  Methacrylate) (PMMA).} \emph{Polymer Reviews}, \textbf{55}(4), pp. 678 --
+  Methacrylate) (PMMA),} \emph{Polymer Reviews}, \textbf{55}(4), pp. 678 --
   705.
+\newline\urlprefix\url{https://doi.org/10.1080/15583724.2015.1031377}
 
 \bibitem{Stepto09}
 \textsc{Stepto, R. F.~T.} (01 Jan. 2009) \enquote{Dispersity in polymer science
   (IUPAC Recommendations 2009),} \emph{Pure and Applied Chemistry},
   \textbf{81}(2), pp. 351 -- 353.
+\newline\urlprefix\url{https://doi.org/10.1351/PAC-REC-08-05-02}
 
 \bibitem{Kirchner19}
 \textsc{Kirchner, R.} and \textsc{H.~Schift} (2019) \enquote{Thermal reflow of
   polymers for innovative and smart 3D structures: A review,} \emph{Materials
   Science in Semiconductor Processing}, \textbf{92}, pp. 58 -- 72.
+\newline\urlprefix\url{https://doi.org/10.1016/j.mssp.2018.07.032}
 
 \bibitem{Czaplewski11}
 \textsc{Czaplewski, D.~A.} and \textsc{L.~E. Ocola} (2011) \enquote{Increased
@@ -1122,6 +1253,7 @@
   chemical modifications by additional dosing of the electron beam resist,}
   \emph{Journal of Vacuum Science Technology B: Microelectronics and Nanometer
   Structures}, \textbf{29}(2), p. 021601.
+\newline\urlprefix\url{https://doi.org/10.1116/1.3562272}
 
 \bibitem{Dobisz00}
 \textsc{{Dobisz}, E.~A.}, \textsc{S.~L. {Brandow}}, \textsc{R.~{Bass}}, and
@@ -1129,18 +1261,21 @@
   nanolithography in polymethyl methacrylate},} \emph{Journal of Vacuum Science
   Technology B: Microelectronics and Nanometer Structures}, \textbf{18}, pp.
   107--111.
+\newline\urlprefix\url{https://doi.org/10.1116/1.591242}
 
 \bibitem{Schleunitz10}
 \textsc{{Schleunitz}, A.} and \textsc{H.~{Schift}} (2010) \enquote{{Fabrication
   of 3D nanoimprint stamps with continuous reliefs using dose-modulated
   electron beam lithography and thermal reflow},} \emph{Journal of
   Micromechanics and Microengineering}, \textbf{20}(9), 095002.
+\newline\urlprefix\url{https://doi.org/10.1088/0960-1317/20/9/095002}
 
 \bibitem{Pavkovich86}
 \textsc{{Pavkovich}, J.~M.} (1986) \enquote{{Proximity effect correction
   calculations by the integral equation approximate solution method},}
   \emph{Journal of Vacuum Science Technology B: Microelectronics and Nanometer
   Structures}, \textbf{4}, pp. 159--163.
+\newline\urlprefix\url{https://doi.org/10.1116/1.583369}
 
 \bibitem{beamer}
  \emph{BEAMER - GenISys GmbH: Electron- and Laser-Beam Lithography Software}.
@@ -1150,21 +1285,25 @@
 \textsc{Miller-Chou, B.~A.} and \textsc{J.~L. Koenig} (2003) \enquote{A review
   of polymer dissolution,} \emph{Progress in Polymer Science}, \textbf{28}(8),
   pp. 1223 -- 1270.
+\newline\urlprefix\url{https://doi.org/10.1016/S0079-6700(03)00045-5}
 
 \bibitem{Pratt75}
 \textsc{{Pratt}, G.~J.} (1975) \enquote{{Glass transition temperature and
   molecular weight distribution of irradiated polymethylmethacrylates},}
   \emph{Journal of Materials Science}, \textbf{10}(5), pp. 809--813.
+\newline\urlprefix\url{https://doi.org/10.1007/BF01163075}
 
 \bibitem{Vutova01}
 \textsc{Vutova, K.} and \textsc{G.~Mladenov} (2001) \enquote{Sensitivity,
   contrast and development process in electron and ion lithography,}
   \emph{Microelectronic Engineering}, \textbf{57-58}, pp. 349 -- 353.
+\newline\urlprefix\url{https://doi.org/10.1016/S0167-9317(01)00527-5}
 
 \bibitem{Schift10}
 \textsc{Schift, H.} and \textsc{A.~Kristensen} (2010) \emph{Nanoimprint
   Lithography -- Patterning of Resists Using Molding}, Springer Berlin
   Heidelberg, Berlin, Heidelberg, pp. 271--312.
+\newline\urlprefix\url{https://doi.org/10.1007/978-3-642-02525-9_9}
 
 \bibitem{Zeitner12}
 \textsc{{Zeitner}, U.~D.}, \textsc{M.~{Oliva}}, \textsc{F.~{Fuchs}},
@@ -1172,6 +1311,7 @@
   and \textsc{E.-B. {Kley}} (2012) \enquote{{High performance diffraction
   gratings made by e-beam lithography},} \emph{Applied Physics A: Materials
   Science \& Processing}, \textbf{109}(4), pp. 789--796.
+\newline\urlprefix\url{https://doi.org/10.1007/s00339-012-7346-z}
 
 \bibitem{Franssila10}
 \textsc{Franssila, S.} (2010) \emph{Introduction to Microfabrication}, 2 ed.,
@@ -1180,11 +1320,13 @@
 \bibitem{Johnson79}
 \textsc{Johnson, L.~F.} (1979) \enquote{Evolution of grating profiles under
   ion-beam erosion,} \emph{Appl. Opt.}, \textbf{18}(15), pp. 2559--2574.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.18.002559}
 
 \bibitem{Liu13}
 \textsc{Liu, Q.}, \textsc{J.~Wu}, and \textsc{M.~Chen} (2013)
   \enquote{{Fabrication of blazed grating by native substrate grating mask},}
   \emph{Optical Engineering}, \textbf{52}(9), pp. 1 -- 6.
+\newline\urlprefix\url{https://doi.org/10.1117/1.OE.52.9.091706}
 
 \bibitem{Miles2019_ion_mill}
 \textsc{Miles, D.~M.}, \textsc{R.~L. McEntaffer}, \textsc{Grisé},
@@ -1193,12 +1335,14 @@
   (Conference Presentation)},} in \emph{Advanced Etch Technology for
   Nanopatterning VIII} (R.~S. Wise and C.~B. Labelle, eds.), vol. 10963,
   International Society for Optics and Photonics, SPIE.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2514857}
 
 \bibitem{Chang04}
 \textsc{{Chang}, C.-H.} (2004) \enquote{{High fidelity blazed grating
   replication using nanoimprint lithography},} \emph{Journal of Vacuum Science
   Technology B: Microelectronics and Nanometer Structures}, \textbf{22}, p.
   3260.
+\newline\urlprefix\url{https://doi.org/10.1116/1.1809614}
 
 \bibitem{Peterson15}
 \textsc{{Peterson}, T.~J.}, \textsc{C.~T. {DeRoo}}, \textsc{H.~{Marlowe}},
@@ -1207,6 +1351,7 @@
   grating fabrication},} in \emph{Society of Photo-Optical Instrumentation
   Engineers (SPIE) Conference Series}, vol. 9603 of \emph{Society of
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, p. 960317.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2188302}
 
 \bibitem{Voronov10}
 \textsc{Voronov, D.~L.}, \textsc{M.~Ahn}, \textsc{E.~H. Anderson},
@@ -1216,6 +1361,7 @@
   \textsc{H.~A. Padmore} (2010) \enquote{High-efficiency 5000 lines/mm
   multilayer-coated blazed grating for extreme ultraviolet wavelengths,}
   \emph{Opt. Lett.}, \textbf{35}(15), pp. 2615--2617.
+\newline\urlprefix\url{https://doi.org/10.1364/OL.35.002615}
 
 \bibitem{Voronov11}
 \textsc{{Voronov}, D.~L.}, \textsc{E.~H. {Anderson}}, \textsc{R.~{Cambie}},
@@ -1224,6 +1370,7 @@
   \textsc{V.~V. {Yashchuk}}, and \textsc{H.~A. {Padmore}} (2011) \enquote{{A
   10,000 groove/mm multilayer coated grating for EUV spectroscopy},}
   \emph{Optics Express}, \textbf{19}, p. 6320.
+\newline\urlprefix\url{https://doi.org/10.1364/OE.19.006320}
 
 \bibitem{Voronov16}
 \textsc{Voronov, D.~L.}, \textsc{P.~Lum}, \textsc{P.~Naulleau}, \textsc{E.~M.
@@ -1231,23 +1378,27 @@
   \enquote{X-ray diffraction gratings: Precise control of ultra-low blaze angle
   via anisotropic wet etching,} \emph{Applied Physics Letters},
   \textbf{109}(4), p. 043112.
+\newline\urlprefix\url{https://doi.org/10.1063/1.4960203}
 
 \bibitem{Tsang75}
 \textsc{Tsang, W.} and \textsc{S.~Wang} (1975) \enquote{Preferentially etched
   diffraction gratings in silicon,} \emph{Journal of Applied Physics},
   \textbf{46}(5), pp. 2163--2166.
+\newline\urlprefix\url{https://doi.org/10.1063/1.321859}
 
 \bibitem{Sato99}
 \textsc{Sato, K.}, \textsc{M.~Shikida}, \textsc{T.~Yamashiro},
   \textsc{M.~Tsunekawa}, and \textsc{S.~Ito} (1999) \enquote{Roughening of
   single-crystal silicon surface etched by KOH water solution,} \emph{Sensors
   and Actuators A: Physical}, \textbf{73}(1), pp. 122--130.
+\newline\urlprefix\url{https://doi.org/10.1016/S0924-4247(98)00270-2}
 
 \bibitem{Gosalvez15}
 \textsc{Gosálvez, M.~A.}, \textsc{I.~Zubel}, and \textsc{E.~Viinikka} (2015)
   \enquote{Chapter 22 - Wet Etching of Silicon,} in \emph{Handbook of Silicon
   Based MEMS Materials and Technologies}, Micro and Nano Technologies, {2} ed.,
   William Andrew Publishing, Boston, pp. 470 -- 502.
+\newline\urlprefix\url{https://doi.org/10.1016/B978-0-323-29965-7.00022-1}
 
 \bibitem{crystal_maker}
  (2020) \emph{CrystalMaker X}.
@@ -1258,26 +1409,31 @@
   structures using CrystalMaker software,} \emph{Zeitschrift für
   Kristallographie - Crystalline Materials}, \textbf{230}(9-10), pp. 559 --
   572.
+\newline\urlprefix\url{https://doi.org/10.1515/zkri-2015-1869}
 
 \bibitem{Trolier-McKinstry17}
 \textsc{Trolier-McKinstry, S.} and \textsc{R.~E. Newnham} (2017)
   \emph{Materials Engineering: Bonding, Structure, and Structure-Property
   Relationships}, Cambridge University Press.
+\newline\urlprefix\url{ttps://doi.org/10.1017/9781316217818}
 
 \bibitem{Kendall75}
 \textsc{Kendall, D.~L.} (1975) \enquote{On etching very narrow grooves in
   silicon,} \emph{Applied Physics Letters}, \textbf{26}(4), pp. 195--198.
+\newline\urlprefix\url{https://doi.org/10.1063/1.88113}
 
 \bibitem{Rao17}
 \textsc{{Rao}, A.~V.~N.}, \textsc{V.~{Swarnalatha}}, and \textsc{P.~{Pal}}
   (2017) \enquote{{Etching characteristics of Si\{110\} in 20 wt\% KOH with
   addition of hydroxylamine for the fabrication of bulk micromachined MEMS},}
   \emph{Micro and Nano Systems Letters}, \textbf{5}(1), 23.
+\newline\urlprefix\url{https://doi.org/10.1186/s40486-017-0057-7}
 
 \bibitem{Zhou07}
 \textsc{Zhou, W.}, \textsc{R.~Apkarian}, \textsc{Z.~L. Wang}, and
   \textsc{D.~Joy} (2007) \emph{Fundamentals of Scanning Electron Microscopy
   (SEM)}, Springer New York, New York, NY, pp. 1--40.
+\newline\urlprefix\url{https://doi.org/10.1007/978-0-387-39620-0_1}
 
 \bibitem{Virgsemi_web}
  \emph{Virginia Semiconductor: Custom Silicon Wafer Manufacturer}.
@@ -1289,6 +1445,7 @@
   Film and Its Application in Surface Micromachining Device Structures,}
   \emph{Advances in Materials Science and Engineering}, \textbf{2013}, pp.
   1--4.
+\newline\urlprefix\url{https://doi.org/10.1155%2F2013%2F835942}
 
 \bibitem{Smith19_arcus}
 \textsc{Smith, R.~K.}, \textsc{M.~Abraham}, \textsc{G.~Baird},
@@ -1313,6 +1470,7 @@
   in \emph{UV, X-Ray, and Gamma-Ray Space Instrumentation for Astronomy XXI}
   (O.~H. Siegmund, ed.), vol. 11118, International Society for Optics and
   Photonics, SPIE, pp. 262 -- 274.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2529499}
 
 \bibitem{Arcus_web}
  \emph{Arcus X-ray Observatory}.
@@ -1323,6 +1481,7 @@
   (1996) \enquote{{Nanoimprint lithography},} \emph{Journal of Vacuum Science
   Technology B: Microelectronics and Nanometer Structures}, \textbf{14}, pp.
   4129--4133.
+\newline\urlprefix\url{ttps://doi.org/10.1116/1.588605}
 
 \bibitem{Haisma96}
 \textsc{{Haisma}, J.}, \textsc{M.~{Verheijen}}, \textsc{K.~{van den Heuvel}},
@@ -1330,12 +1489,14 @@
   nanolithography: A process for reliable pattern replication},} \emph{Journal
   of Vacuum Science Technology B: Microelectronics and Nanometer Structures},
   \textbf{14}, pp. 4124--4128.
+\newline\urlprefix\url{ttps://doi.org/10.1116/1.588604}
 
 \bibitem{Schift08}
 \textsc{Schift, H.} (2008) \enquote{Nanoimprint lithography: An old story in
   modern times? A review,} \emph{Journal of Vacuum Science \& Technology B:
   Microelectronics and Nanometer Structures Processing, Measurement, and
   Phenomena}, \textbf{26}(2), pp. 458--480.
+\newline\urlprefix\url{https://doi.org/10.1116/1.2890972}
 
 \bibitem{Zhuang07}
 \textsc{Zhuang, Y.}, \textsc{O.~Hansen}, \textsc{T.~Knieling},
@@ -1344,6 +1505,7 @@
   Self-assembled Monolayers for Anti-stiction Applications in MEMS,} \emph{I E
   E E Journal of Microelectromechanical Systems}, \textbf{16}(6), pp.
   1451--1460.
+\newline\urlprefix\url{https://doi.org/10.1109/JMEMS.2007.904342}
 
 \bibitem{Kim_2002}
 \textsc{Kim, J.-M.}, \textsc{C.-W. Baek}, \textsc{J.-H. Park}, \textsc{D.-S.
@@ -1351,6 +1513,7 @@
   anti-stiction coatings using self-assembled monolayers for gold
   microstructures,} \emph{Journal of Micromechanics and Microengineering},
   \textbf{12}(5), pp. 688--695.
+\newline\urlprefix\url{https://doi.org/10.1088%2F0960-1317%2F12%2F5%2F327}
 
 \bibitem{Kobrin05}
 \textsc{Kobrin, B.}, \textsc{J.~Chinn}, \textsc{R.~W. Ashurst}, and
@@ -1358,6 +1521,7 @@
   improved SAM coatings},} in \emph{Reliability, Packaging, Testing, and
   Characterization of MEMS/MOEMS IV} (D.~M. Tanner and R.~Ramesham, eds.), vol.
   5716, International Society for Optics and Photonics, SPIE, pp. 151 -- 157.
+\newline\urlprefix\url{https://doi.org/10.1117/12.592627}
 
 \bibitem{Verschuuren10}
 \textsc{{Verschuuren}, M.~A.} (2010) \emph{{Substrate conformal imprint
@@ -1366,23 +1530,27 @@
 \bibitem{Zhuang05}
 \textsc{Zhuang, Y.} and \textsc{A.~Menon} (2005) \enquote{On the stiction of
   MEMS materials,} \emph{Tribol. Lett.}, \textbf{19}, pp. 111--117.
+\newline\urlprefix\url{https://doi.org/10.1007/s11249-005-5088-1}
 
 \bibitem{Fuchs96}
 \textsc{Fuchs, K.}, \textsc{C.~Friedrich}, and \textsc{J.~Weese} (1996)
   \enquote{Viscoelastic Properties of Narrow-Distribution Poly(methyl
   methacrylates),} \emph{Macromolecules}, \textbf{29}(18), pp. 5893--5901.
+\newline\urlprefix\url{https://doi.org/10.1021/ma951385m}
 
 \bibitem{Geng16}
 \textsc{Geng, K.} and \textsc{O.~K.~C. Tsui} (2016) \enquote{Effects of Polymer
   Tacticity and Molecular Weight on the Glass Transition Temperature of
   Poly(methyl methacrylate) Films on Silica,} \emph{Macromolecules},
   \textbf{49}(7), pp. 2671--2678.
+\newline\urlprefix\url{https://doi.org/10.1021/acs.macromol.6b00108}
 
 \bibitem{Horiba_2012}
 \textsc{Horiba, A.}, \textsc{M.~Yasuda}, \textsc{H.~Kawata}, \textsc{M.~Okada},
   \textsc{S.~Matsui}, and \textsc{Y.~Hirai} (2012) \enquote{Impact of Resist
   Shrinkage and Its Correction in Nanoimprint Lithography,} \emph{Japanese
   Journal of Applied Physics}, \textbf{51}, p. 06FJ06.
+\newline\urlprefix\url{https://doi.org/10.1143%2Fjjap.51.06fj06}
 
 \bibitem{nanonex}
  \emph{Nanonex - A Nanoimprint Solution Company}.
@@ -1395,6 +1563,7 @@
   200-nm-period critical-angle transmission gratings in the soft x-ray and
   extreme ultraviolet wavelength bands,} \emph{Appl. Opt.}, \textbf{50}(10),
   pp. 1364--1373.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.50.001364}
 
 \bibitem{Heilmann16}
 \textsc{{Heilmann}, R.~K.}, \textsc{A.~R. {Bruccoleri}},
@@ -1405,6 +1574,7 @@
   and Instrumentation 2016: Ultraviolet to Gamma Ray} (J.-W.~A. {den Herder},
   T.~{Takahashi}, and M.~{Bautz}, eds.), vol. 9905 of \emph{Society of
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, p. 99051X.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2232955}
 
 \bibitem{ALS_632}
  \emph{Beamline 6.3.2 - The Center for X-ray Optics}.
@@ -1417,12 +1587,15 @@
   \enquote{Calibration and standards beamline 6.3.2 at the Advanced Light
   Source,} \emph{Review of Scientific Instruments}, \textbf{67}(9), pp.
   3372--3372.
+\newline\urlprefix\url{https://doi.org/10.1063/1.1147338}
 
 \bibitem{Gullikson01}
 \textsc{Gullikson, E.~M.}, \textsc{S.~Mrowka}, and \textsc{B.~B. Kaufmann}
   (2001) \enquote{{Recent developments in EUV reflectometry at the Advanced
-  Light Source},} in \emph{Emerging Lithographic Technologies V}, vol. 4343,
-  International Society for Optics and Photonics, SPIE, pp. 363 -- 373.
+  Light Source},} in \emph{Emerging Lithographic Technologies V} (E.~A. Dobisz,
+  ed.), vol. 4343, International Society for Optics and Photonics, SPIE, pp.
+  363 -- 373.
+\newline\urlprefix\url{https://doi.org/10.1117/12.436712}
 
 \bibitem{Schleunitz14}
 \textsc{{Schleunitz}, A.}, \textsc{V.~A. {Guzenko}},
@@ -1430,18 +1603,21 @@
   and \textsc{H.~{Schift}} (2014) \enquote{{Novel 3D micro- and nanofabrication
   method using thermally activated selective topography equilibration (TASTE)
   of polymers},} \emph{Nano Convergence}, \textbf{1}(7), pp. 1--8.
+\newline\urlprefix\url{https://doi.org/10.1186/s40580-014-0007-5}
 
 \bibitem{Kirchner16}
 \textsc{Kirchner, R.}, \textsc{V.~Guzenko}, \textsc{I.~Vartiainen},
   \textsc{N.~Chidambaram}, and \textsc{H.~Schift} (2016) \enquote{ZEP520A - A
   resist for electron-beam grayscale lithography and thermal reflow,}
   \emph{Microelectronic Engineering}, \textbf{153}, pp. 71 -- 76.
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.mee.2016.01.017}
 
 \bibitem{Verschuuren17}
 \textsc{{Verschuuren}, M.~A.}, \textsc{M.~{Megens}}, \textsc{Y.~{Ni}},
   \textsc{H.~{van Sprang}}, and \textsc{A.~{Polman}} (2017) \enquote{{Large
   area nanoimprint by substrate conformal imprint lithography (SCIL)},}
   \emph{Advanced Optical Technologies}, \textbf{6}, pp. 243--264.
+\newline\urlprefix\url{https://doi.org/10.1515/aot-2017-0022}
 
 \bibitem{philis_scil}
  \emph{SCIL Nanoimprint Solutions}.
@@ -1457,6 +1633,7 @@
   x-ray rocket},} in \emph{Society of Photo-Optical Instrumentation Engineers
   (SPIE) Conference Series}, vol. 10397 of \emph{Society of Photo-Optical
   Instrumentation Engineers (SPIE) Conference Series}, p. 103970R.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2274249}
 
 \bibitem{Miles18b}
 \textsc{{Miles}, D.~M.}, \textsc{R.~L. {McEntaffer}}, \textsc{B.~D. {Donovan}},
@@ -1466,19 +1643,23 @@
   Instrumentation 2018: Ultraviolet to Gamma Ray}, vol. 10699 of \emph{Society
   of Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, p.
   106996K.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2312648}
 
 \bibitem{Verschuuren18}
 \textsc{Verschuuren, M.~A.}, \textsc{J.~McCoy}, \textsc{R.~P. Huber},
   \textsc{R.~van Brakel}, \textsc{M.~Paans}, and \textsc{R.~Voorkamp} (2018)
   \enquote{{AutoSCIL 200mm tooling in production, x-ray optics, and cell growth
-  templates},} in \emph{Novel Patterning Technologies 2018}, vol. 10584,
-  International Society for Optics and Photonics, SPIE, pp. 185 -- 197.
+  templates},} in \emph{Novel Patterning Technologies 2018} (E.~M. Panning,
+  ed.), vol. 10584, International Society for Optics and Photonics, SPIE, pp.
+  185 -- 197.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2297445}
 
 \bibitem{Tutt19}
 \textsc{{Tutt}, J.~H.}, \textsc{R.~L. {McEntaffer}}, \textsc{D.~M. {Miles}},
   \textsc{B.~D. {Donovan}}, and \textsc{C.~{Hillman}} (2019) \enquote{{Grating
   Alignment for the Water Recovery X-Ray Rocket (WRXR)},} \emph{Journal of
   Astronomical Instrumentation}, \textbf{8}(3), 1950009.
+\newline\urlprefix\url{https://doi.org/10.1142/S2251171719500090}
 
 \bibitem{Miles19b}
 \textsc{{Miles}, D.~M.}, \textsc{R.~M. {McEntaffer}}, \textsc{J.~H. {Tutt}},
@@ -1488,6 +1669,7 @@
   introduction to the Rockets for Extended-source X-ray Spectroscopy},} vol.
   11118 of \emph{Society of Photo-Optical Instrumentation Engineers (SPIE)
   Conference Series}, p. 111180B.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2529567}
 
 \bibitem{Tutt19b}
 \textsc{{Tutt}, J.~H.}, \textsc{D.~M. {Miles}}, \textsc{R.~M. {McEntaffer}},
@@ -1496,6 +1678,7 @@
   Gamma-Ray Space Instrumentation for Astronomy XXI}, vol. 11118 of
   \emph{Society of Photo-Optical Instrumentation Engineers (SPIE) Conference
   Series}, p. 111180C.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2529555}
 
 \bibitem{DeRoo13}
 \textsc{{DeRoo}, C.}, \textsc{R.~L. {McEntaffer}}, \textsc{T.~{Schultz}},
@@ -1503,6 +1686,7 @@
   \textsc{W.~{Cash}} (2013) \enquote{{Pushing the boundaries of x-ray grating
   spectroscopy in a suborbital rocket},} in \emph{Optics for EUV, X-Ray, and
   Gamma-Ray Astronomy VI}, vol. 8861 of \emph{\procspie}, p. 88611B.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2022244}
 
 \bibitem{McEntaffer14}
 \textsc{{McEntaffer}, R.~L.}, \textsc{C.~{DeRoo}}, \textsc{J.~{Tutt}},
@@ -1522,6 +1706,7 @@
   (2018) \enquote{{Optical design of the Off-plane Grating Rocket Experiment},}
   vol. 10699 of \emph{Society of Photo-Optical Instrumentation Engineers (SPIE)
   Conference Series}, p. 106993U.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2312219}
 
 \bibitem{Tutt18}
 \textsc{{Tutt}, J.~H.}, \textsc{R.~L. {McEntaffer}}, \textsc{B.~{Donovan}},
@@ -1534,6 +1719,7 @@
   Experiment (OGRE) system overview},} vol. 10699 of \emph{Society of
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, p.
   106996H.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2311813}
 
 \bibitem{Donovan19a}
 \textsc{{Donovan}, B.~D.}, \textsc{R.~L. {McEntaffer}}, \textsc{J.~H. {Tutt}},
@@ -1547,6 +1733,7 @@
   off-plane grating rocket experiment},} in \emph{Optics for EUV, X-Ray, and
   Gamma-Ray Astronomy IX}, vol. 11119 of \emph{Society of Photo-Optical
   Instrumentation Engineers (SPIE) Conference Series}, p. 1111911.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2528858}
 
 \bibitem{Donovan19b}
 ---{}---{}--- (2019) \enquote{{A comprehensive line spread function error
@@ -1554,6 +1741,7 @@
   EUV, X-Ray, and Gamma-Ray Astronomy IX}, vol. 11119 of \emph{Society of
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, p.
   1111912.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2530121}
 
 \bibitem{PCGrate_web}
  (2019) \emph{The PCGrate-S(X) Series}.
@@ -1567,6 +1755,7 @@
 \textsc{Attwood, D.} and \textsc{A.~Sakdinawat} (2017) \emph{X-Rays and Extreme
   Ultraviolet Radiation: Principles and Applications}, 2 ed., Cambridge
   University Press, Cambridge.
+\newline\urlprefix\url{https://doi.org/10.1017/CBO9781107477629}
 
 \bibitem{Jackson75}
 \textsc{Jackson, J.~D.} (1998) \emph{{Classical electrodynamics; 3nd ed.}},
@@ -1577,6 +1766,7 @@
   \textsc{S.~M. Thomas}, \textsc{A.~Willey}, \textsc{D.~D. Allred}, and
   \textsc{R.~S. Turley} (2019) \enquote{{Y2O$_3$ optical constants between 5 nm
   and 50 nm},} \emph{Opt. Express}, \textbf{27}(3), pp. 3324--3336.
+\newline\urlprefix\url{https://doi.org/10.1364/OE.27.003324}
 
 \bibitem{Petit80}
 \textsc{Petit, R.}, \textsc{L.~Botten}, \textsc{M.~Cadilhac},
@@ -1601,6 +1791,7 @@
   \textsc{C.~{Laubis}} (2016) \enquote{{Modeling and empirical characterization
   of the polarization response of off-plane reflection gratings},} \emph{\ao},
   \textbf{55}, p. 5548.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.55.005548}
 
 \bibitem{Landau60}
 \textsc{Landau, L.~D.}, \textsc{E.~M. Lifshitz}, and \textsc{L.~P. Pitaevskii}
@@ -1615,6 +1806,7 @@
 \textsc{Goray, L.~I.} and \textsc{G.~Schmidt} (2010) \enquote{Solving conical
   diffraction grating problems with integral equations,} \emph{J. Opt. Soc. Am.
   A}, \textbf{27}(3), pp. 585--597.
+\newline\urlprefix\url{https://doi.org/10.1364/JOSAA.27.000585}
 
 \bibitem{CXRO_database}
 \textsc{Gullikson, E.} (2010) \emph{X-Ray Interactions With Matter}.
@@ -1623,11 +1815,13 @@
 \bibitem{deBoer95}
 \textsc{de~Boer, D. K.~G.} (1995) \enquote{X-ray reflection and transmission by
   rough surfaces,} \emph{Phys. Rev. B}, \textbf{51}, pp. 5297--5305.
+\newline\urlprefix\url{https://doi.org/10.1103/PhysRevB.51.5297}
 
 \bibitem{Daillant2009}
 \textsc{Daillant, J.}, \textsc{S.~Mora}, and \textsc{A.~Sentenac} (2009)
   \emph{Diffuse Scattering}, Springer Berlin Heidelberg, Berlin, Heidelberg,
   pp. 133--182.
+\newline\urlprefix\url{https://doi.org/10.1007/978-3-540-88588-7_4}
 
 \bibitem{Fernandez19}
 \textsc{{Fern{\'a}ndez Herrero}, A.}, \textsc{M.~{Pfl{\"u}ger}},
@@ -1635,6 +1829,7 @@
   (2019) \enquote{{Applicability of the Debye-Waller damping factor for the
   determination of the line-edge roughness of lamellar gratings},} \emph{Optics
   Express}, \textbf{27}(22), p. 32490.
+\newline\urlprefix\url{https://doi.org/10.1364/OE.27.032490}
 
 \bibitem{Pfirrmann16}
 \textsc{{Pfirrmann}, S.}, \textsc{R.~{Kirchner}}, \textsc{O.~{Lohse}},
@@ -1644,6 +1839,7 @@
   electron beam lithography and 3D surface patterning},} in \emph{Advances in
   Patterning Materials and Processes XXXIII}, vol. 9779 of \emph{\procspie}, p.
   977925.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2219165}
 
 \bibitem{landau2013statistical}
 \textsc{Landau, L.} and \textsc{E.~Lifshitz} (2013) \emph{Statistical Physics},
@@ -1654,11 +1850,13 @@
   (2014) \enquote{{Energy-based thermal reflow simulation for 3D polymer shape
   prediction using Surface Evolver},} \emph{Journal of Micromechanics and
   Microengineering}, \textbf{24}(5), 055010.
+\newline\urlprefix\url{https://doi.org/10.1088/0960-1317/24/5/055010}
 
 \bibitem{Kirchner14a}
 \textsc{Kirchner, R.} and \textsc{H.~Schift} (2014) \enquote{Mobility based 3D
   simulation of selective, viscoelastic polymer reflow using surface evolver,}
   \emph{Journal of Vacuum Science \& Technology B}, \textbf{32}(6), p. 06F701.
+\newline\urlprefix\url{https://doi.org/10.1116/1.4896480}
 
 \bibitem{Stauffer92}
 \textsc{{Stauffer}, J.~M.}, \textsc{Y.~{Oppliger}}, \textsc{P.~{Regnault}},
@@ -1666,6 +1864,7 @@
   beam writing of continuous resist profiles for optical applications},}
   \emph{Journal of Vacuum Science Technology B: Microelectronics and Nanometer
   Structures}, \textbf{10}, pp. 2526--2529.
+\newline\urlprefix\url{https://doi.org/10.1116/1.586051}
 
 \bibitem{Schleunitz11a}
 \textsc{{Schleunitz}, A.}, \textsc{V.~A. {Guzenko}}, \textsc{A.~{Schander}},
@@ -1674,6 +1873,7 @@
   based on a molecular weight dependent thermal reflow},} \emph{Journal of
   Vacuum Science Technology B: Microelectronics and Nanometer Structures},
   \textbf{29}(6), p. 06F302.
+\newline\urlprefix\url{https://doi.org/10.1116/1.3634013}
 
 \bibitem{Schleunitz11b}
 \textsc{{Schleunitz}, A.}, \textsc{C.~{Spreu}}, \textsc{M.~{Vogler}},
@@ -1682,6 +1882,7 @@
   the generation of mixed 3D structures},} \emph{Journal of Vacuum Science
   Technology B: Microelectronics and Nanometer Structures}, \textbf{29}(6), p.
   06FC01.
+\newline\urlprefix\url{https://doi.org/10.1116/1.3643761}
 
 \bibitem{Losurdo09}
 \textsc{Losurdo, M.}, \textsc{M.~Bergmair}, \textsc{G.~Bruno},
@@ -1693,6 +1894,7 @@
   ellipsometry and polarimetry for materials and systems analysis at the
   nanometer scale: State-of-the-art, potential, and perspectives,}
   \emph{Journal of Nanoparticle Research}, \textbf{11}, pp. 1521--1554.
+\newline\urlprefix\url{https://doi.org/10.1007/s11051-009-9662-6}
 
 \bibitem{Tompkins05}
 \textsc{{Tompkins}, H.~G.} and \textsc{E.~A. {Irene}} (2005) \emph{{Handbook of
@@ -1707,6 +1909,7 @@
 \textsc{Gibaud, A.} and \textsc{G.~Vignaud} (2009) \emph{Specular Reflectivity
   from Smooth and Rough Surfaces}, Springer Berlin Heidelberg, Berlin,
   Heidelberg, pp. 85--131.
+\newline\urlprefix\url{https://doi.org/10.1007/978-3-540-88588-7_3}
 
 \bibitem{complete_ease}
  \emph{CompleteEASE - J.A. Woollam}.
@@ -1718,26 +1921,31 @@
   of proximity effect correction (PEC),} \emph{Microelectronic Engineering},
   \textbf{87}(5), pp. 940 -- 942, the 35th International Conference on Micro-
   and Nano-Engineering (MNE).
+\newline\urlprefix\url{https://doi.org/10.1016/j.mee.2009.12.002}
 
 \bibitem{Czaplewski12}
 \textsc{Czaplewski, D.~A.} and \textsc{L.~E. Ocola} (2012) \enquote{100 keV
   electron backscattered range and coefficient for silicon,} \emph{Journal of
   Vacuum Science \& Technology B}, \textbf{30}(2), p. 021604.
+\newline\urlprefix\url{https://doi.org/10.1116/1.3693985}
 
 \bibitem{Singh05}
 \textsc{Singh, J.} and \textsc{D.~E. Wolfe} (2005) \enquote{Review Nano and
   macro-structured component fabrication by electron beam-physical vapor
   deposition (EB-PVD),} \emph{Journal of Materials Science}, \textbf{40}, pp.
   1--26.
+\newline\urlprefix\url{https://doi.org/10.1007/s10853-005-5682-5}
 
 \bibitem{Wen15}
 \textsc{Wen, M.}, \textsc{I.~V. Kozhevnikov}, and \textsc{Z.~Wang} (2015)
   \enquote{Reflection of X-rays from a rough surface at extremely small grazing
   angles,} \emph{Opt. Express}, \textbf{23}(19), pp. 24220--24235.
+\newline\urlprefix\url{https://doi.org/10.1364/OE.23.024220}
 
 \bibitem{Gay1999}
 \textsc{Gay, J.-M.} and \textsc{L.~Lapena} (1999) \emph{Experiments on Solid
   Surfaces}, Springer Berlin Heidelberg, Berlin, Heidelberg, pp. 217--231.
+\newline\urlprefix\url{https://doi.org/10.1007/3-540-48696-8_7}
 
 \bibitem{Baumbach1999}
 \textsc{Baumbach, T.} and \textsc{P.~Mikulik} (1999) \enquote{X-ray
@@ -1749,6 +1957,7 @@
   \textsc{A.~Polman} (2019) \enquote{Nanoscale spatial limitations of
   large-area substrate conformal imprint lithography,} \emph{Nanotechnology},
   \textbf{30}(34), p. 345301.
+\newline\urlprefix\url{https://doi.org/10.1088%2F1361-6528%2Fab1c86}
 
 \bibitem{Ji10}
 \textsc{Ji, R.}, \textsc{M.~Hornung}, \textsc{M.~A. Verschuuren},
@@ -1758,6 +1967,7 @@
   crystals patterning in LED manufacturing},} \emph{Microelectronic
   Engineering}, \textbf{87}(5), pp. 963 -- 967, the 35th International
   Conference on Micro- and Nano-Engineering (MNE).
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0167931709007990}
 
 \bibitem{Quattrone}
  \emph{Quattrone Nanofabrication Facility - Singh Center for Nanotechnology}.
@@ -1767,11 +1977,13 @@
 \textsc{{Xia}, Y.} and \textsc{G.~M. {Whitesides}} (1998) \enquote{{Soft
   Lithography},} \emph{Annual Review of Materials Science}, \textbf{28}, pp.
   153--184.
+\newline\urlprefix\url{https://doi.org/10.1146/annurev.matsci.28.1.153}
 
 \bibitem{Qin10}
 \textsc{Qin, D.}, \textsc{Y.~Xia}, and \textsc{G.~Whitesides} (2010)
   \enquote{Soft Lithography for Micro- and Nanoscale Patterning,} \emph{Nature
   protocols}, \textbf{5}, pp. 491--502.
+\newline\urlprefix\url{https://doi.org/10.1038/nprot.2009.234}
 
 \bibitem{Zaman19}
 \textsc{Zaman, Q.}, \textsc{M.~Zuber}, \textsc{Y.~Mabkhot},
@@ -1779,6 +1991,7 @@
   comprehensive review on synthesis, characterization, and applications of
   polydimethylsiloxane and copolymers,} \emph{International Journal of Plastics
   Technology}, \textbf{2}, pp. 261--282.
+\newline\urlprefix\url{https://doi.org/10.1007/s12588-019-09259-y}
 
 \bibitem{landau1986theory}
 \textsc{Landau, L.}, \textsc{E.~Lifshitz}, \textsc{A.~Kosevich},
@@ -1790,24 +2003,28 @@
 \textsc{Bietsch, A.} and \textsc{B.~Michel} (2000) \enquote{Conformal contact
   and pattern stability of stamps used for soft lithography,} \emph{Journal of
   Applied Physics}, \textbf{88}(7), pp. 4310--4318.
+\newline\urlprefix\url{https://doi.org/10.1063/1.1289816}
 
 \bibitem{Hui02}
 \textsc{Hui, C.}, \textsc{A.~Jagota}, \textsc{Y.~Lin}, and \textsc{E.~Kramer}
   (2002) \enquote{Constraints on microcontact printing imposed by stamp
   deformation,} \emph{Langmuir}, \textbf{18}(4), pp. 1394--1407.
+\newline\urlprefix\url{https://doi.org/10.1021/la0113567}
 
 \bibitem{Schmid00}
 \textsc{Schmid, H.} and \textsc{B.~Michel} (2000) \enquote{Siloxane Polymers
   for High-Resolution, High-Accuracy Soft Lithography,} \emph{Macromolecules},
   \textbf{33}, pp. 3042--3049.
+\newline\urlprefix\url{https://doi.org/10.1021/ma982034l}
 
 \bibitem{Kim08}
 \textsc{Kim, K.-h.}, \textsc{N.-y. Song}, \textsc{B.-k. Choo},
   \textsc{D.~Pribat}, \textsc{J.~Jang}, and \textsc{K.-c. Park} (2008)
   \enquote{Mechanical Characteristics of the Hard-Polydimethylsiloxane for
   Smart Lithography,} in \emph{EKC2008 Proceedings of the EU-Korea Conference
-  on Science and Technology}, Springer Berlin Heidelberg, Berlin, Heidelberg,
-  pp. 229--237.
+  on Science and Technology} (S.-D. Yoo, ed.), Springer Berlin Heidelberg,
+  Berlin, Heidelberg, pp. 229--237.
+\newline\urlprefix\url{https://doi.org/10.1007/978-3-540-85190-5_24}
 
 \bibitem{Brinker90}
 \textsc{Brinker, C.}, \textsc{C.~Brinker}, and \textsc{G.~Scherer} (1990)
@@ -1817,6 +2034,7 @@
 \bibitem{Hench90}
 \textsc{Hench, L.~L.} and \textsc{J.~K. West} (1990) \enquote{The sol-gel
   process,} \emph{Chemical Reviews}, \textbf{90}(1), pp. 33--72.
+\newline\urlprefix\url{https://doi.org/10.1021/cr00099a003}
 
 \bibitem{Cornell_nano}
  \emph{Cornell NanoScale Facility - CNF}.
@@ -1832,6 +2050,7 @@
   \enquote{{Process-simulation system for UV-nanoimprint lithography},}
   \emph{Journal of Vacuum Science \& Technology B}, \textbf{28}(6), pp.
   C6M108--C6M113.
+\newline\urlprefix\url{https://doi.org/10.1116/1.3511789}
 
 \bibitem{Tseng11}
 \textsc{{Tseng}, Y.-C.}, \textsc{Q.~{Peng}}, \textsc{L.~E. {Ocola}},
@@ -1839,6 +2058,7 @@
   {Darling}} (2011) \enquote{{Etch properties of resists modified by sequential
   infiltration synthesis},} \emph{Journal of Vacuum Science Technology B:
   Microelectronics and Nanometer Structures}, \textbf{29}(6), p. 06FG01.
+\newline\urlprefix\url{https://doi.org/10.1116/1.3640758}
 
 \bibitem{France19}
 \textsc{France, K.}, \textsc{B.~T. Fleming}, \textsc{J.~J. Drake},
@@ -1851,6 +2071,7 @@
   X-Ray, and Gamma-Ray Space Instrumentation for Astronomy XXI} (O.~H.
   Siegmund, ed.), vol. 11118, International Society for Optics and Photonics,
   SPIE, pp. 38 -- 51.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2526859}
 
 \bibitem{France20}
 \textsc{France, K.}, \textsc{B.~Fleming}, \textsc{A.~Youngblood},
@@ -1865,16 +2086,19 @@
   Ultraviolet to Gamma Ray} (J.-W.~A. den Herder, S.~Nikzad, and K.~Nakazawa,
   eds.), vol. 11444, International Society for Optics and Photonics, SPIE, pp.
   18 -- 37.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2560292}
 
 \bibitem{Hettrick84}
 \textsc{{Hettrick}, M.~C.} and \textsc{S.~{Bowyer}} (1984) \enquote{{Grazing
   incidence telescopes: a new class for soft X-ray and EUV spectroscopy.}}
   \emph{\ao}, \textbf{23}, pp. 3732--3735.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.23.003732}
 
 \bibitem{Scheuerman69}
 \textsc{Scheuerman, R.~J.} (1969) \enquote{Deformation of Optical Surfaces by
   Film Stress,} \emph{Journal of Vacuum Science and Technology}, \textbf{6}(1),
   pp. 145--147.
+\newline\urlprefix\url{https://doi.org/10.1116/1.1492647}
 
 \bibitem{Chan13}
 \textsc{{Chan}, K.-W.}, \textsc{M.~{Sharpe}}, \textsc{W.~{Zhang}},
@@ -1884,6 +2108,7 @@
   \emph{Optics for EUV, X-Ray, and Gamma-Ray Astronomy VI} (S.~L. {O'Dell} and
   G.~{Pareschi}, eds.), vol. 8861 of \emph{Society of Photo-Optical
   Instrumentation Engineers (SPIE) Conference Series}, p. 88610X.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2022444}
 
 \bibitem{Probst18}
 \textsc{Probst, A.-C.}, \textsc{T.~Begou}, \textsc{T.~D\"{o}hring},
@@ -1891,6 +2116,7 @@
   \textsc{F.~Emmerich}, and \textsc{J.~Lumeau} (2018) \enquote{Coating stress
   analysis and compensation for iridium-based x-ray mirrors,} \emph{Appl.
   Opt.}, \textbf{57}(29), pp. 8775--8779.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.57.008775}
 
 \bibitem{Molnar-Fenton19}
 \textsc{Molnar-Fenton, A.}, \textsc{A.~R. Bruccoleri}, \textsc{Y.~Yao},
@@ -1899,6 +2125,7 @@
   features},} in \emph{Optics for EUV, X-Ray, and Gamma-Ray Astronomy IX}
   (S.~L. O'Dell and G.~Pareschi, eds.), vol. 11119, International Society for
   Optics and Photonics, SPIE, pp. 540 -- 544.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2530572}
 
 \bibitem{Vishnevskiy19}
 \textsc{Vishnevskiy, A.~S.}, \textsc{D.~Seregin}, \textsc{K.~A. Vrotilov},
@@ -1906,6 +2133,7 @@
   (2019) \enquote{Effect of water content on the structural properties of
   porous methyl-modified silicate films,} \emph{Journal of Sol-Gel Science and
   Technology}, \textbf{92}, pp. 273--281.
+\newline\urlprefix\url{https://doi.org/10.1007/s10971-019-05028-w}
 
 \bibitem{Tan10}
 \textsc{Tan, H.~Y.}, \textsc{W.~K. Loke}, and \textsc{N.-T. Nguyen} (2010)
@@ -1913,11 +2141,13 @@
   Devices,} in \emph{6th World Congress of Biomechanics (WCB 2010). August 1-6,
   2010 Singapore}, Springer Berlin Heidelberg, Berlin, Heidelberg, pp.
   1177--1180.
+\newline\urlprefix\url{https://doi.org/10.1007/978-3-642-14515-5_298}
 
 \bibitem{Huelsen14}
 \textsc{Huelsen, C.}, \textsc{J.~Probst}, and \textsc{B.~Loechel} (2014)
   \enquote{Replication of Sub-100 Nm Structures Using h- and s-PDMS Composite
   Stamps,} \emph{Microsyst. Technol.}, \textbf{20}(10–11), p. 2001–2004.
+\newline\urlprefix\url{https://doi.org/10.1007/s00542-013-2043-1}
 
 \bibitem{Ocola06}
 \textsc{Ocola, L.~E.} and \textsc{A.~Stein} (2006) \enquote{Effect of cold
@@ -1925,23 +2155,27 @@
   line roughness,} \emph{Journal of Vacuum Science \& Technology B:
   Microelectronics and Nanometer Structures Processing, Measurement, and
   Phenomena}, \textbf{24}(6), pp. 3061--3065.
+\newline\urlprefix\url{https://doi.org/10.1116/1.2366698}
 
 \bibitem{Fallica17}
 \textsc{Fallica, R.}, \textsc{R.~Kirchner}, \textsc{H.~Schift}, and
   \textsc{Y.~Ekinci} (2017) \enquote{High-resolution grayscale patterning using
   extreme ultraviolet interference lithography,} \emph{Microelectronic
   Engineering}, \textbf{177}, pp. 1--5.
+\newline\urlprefix\url{https://doi.org/10.1016/j.mee.2017.01.007}
 
 \bibitem{Wu07}
 \textsc{Wu, B.} and \textsc{A.~Kumar} (2007) \enquote{Extreme ultraviolet
   lithography: A review,} \emph{Journal of Vacuum Science \& Technology B:
   Microelectronics and Nanometer Structures Processing, Measurement, and
   Phenomena}, \textbf{25}(6), pp. 1743--1761.
+\newline\urlprefix\url{https://doi.org/10.1116/1.2794048}
 
 \bibitem{Tallents10}
 \textsc{{Tallents}, G.}, \textsc{E.~{Wagenaars}}, and \textsc{G.~{Pert}} (2010)
   \enquote{{Optical lithography: Lithography at EUV wavelengths},} \emph{Nature
   Photonics}, \textbf{4}(12), pp. 809--811.
+\newline\urlprefix\url{https://doi.org/10.1038/nphoton.2010.277}
 
 \bibitem{Auzelyte09}
 \textsc{Auzelyte, V.}, \textsc{C.~Dais}, \textsc{P.~Farquet}, \textsc{D.~A.
@@ -1951,6 +2185,7 @@
   \textsc{H.~H. Solak} (2009) \enquote{{Extreme ultraviolet interference
   lithography at the Paul Scherrer Institut},} \emph{Journal of
   Micro/Nanolithography, MEMS, and MOEMS}, \textbf{8}(2), pp. 1 -- 10.
+\newline\urlprefix\url{https://doi.org/10.1117/1.3116559}
 
 \bibitem{Buitrago16}
 \textsc{Buitrago, E.}, \textsc{R.~Fallica}, \textsc{D.~Fan}, \textsc{T.~S.
@@ -1958,6 +2193,7 @@
   \enquote{SnO$_x$ high-efficiency EUV interference lithography gratings
   towards the ultimate resolution in photolithography,} \emph{Microelectronic
   Engineering}, \textbf{155}, pp. 44--49, micro- and Nanopatterning 2015.
+\newline\urlprefix\url{https://doi.org/10.1016/j.mee.2016.02.023}
 
 \bibitem{ALS_EUVlitho}
  \emph{EUV Lithography - CXRO}.
@@ -1967,23 +2203,27 @@
 \textsc{Harada, T.} and \textsc{T.~Kita} (1980) \enquote{Mechanically ruled
   aberration-corrected concave gratings,} \emph{\ao}, \textbf{19}(23), pp.
   3987--3993.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.19.003987}
 
 \bibitem{Kita83}
 \textsc{Kita, T.}, \textsc{T.~Harada}, \textsc{N.~Nakano}, and
   \textsc{H.~Kuroda} (1983) \enquote{Mechanically ruled aberration-corrected
   concave gratings for a flat-field grazing-incidence spectrograph,}
   \emph{\ao}, \textbf{22}(4), pp. 512--513.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.22.000512}
 
 \bibitem{Kita92}
 \textsc{Kita, T.} and \textsc{T.~Harada} (1992) \enquote{Ruling engine using a
   piezoelectric device for large and high-groove density gratings,} \emph{\ao},
   \textbf{31}(10), pp. 1399--1406.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.31.001399}
 
 \bibitem{Sokolova04}
 \textsc{Sokolova, E.~A.}, \textsc{B.~Kruizinga}, and \textsc{I.~V. Golubenko}
   (2004) \enquote{{Recording of concave diffraction gratings in a two-step
   process using spatially incoherent light},} \emph{Optical Engineering},
   \textbf{43}(11), pp. 2613 -- 2622.
+\newline\urlprefix\url{https://doi.org/10.1117/1.1803556}
 
 \bibitem{Liu15}
 \textsc{Liu, Q.}, \textsc{Y.~Cheng}, \textsc{F.~Gao}, \textsc{Y.~Zhou}, and
@@ -1992,6 +2232,7 @@
   Technology; and Micro/Nano Optical Imaging Technologies and Applications}
   (B.~Lee, Y.~Su, M.~Gu, X.~Yuan, and D.~Jaque, eds.), vol. 9672, International
   Society for Optics and Photonics, SPIE, pp. 153 -- 158.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2199817}
 
 \bibitem{Guo18}
 \textsc{Guo, P.}, \textsc{Q.~Liu}, \textsc{Y.~Su}, \textsc{Y.~Lu}, and
@@ -2000,17 +2241,20 @@
   Optical and Photonic Engineering (icOPEN 2018)} (Y.~Yu, C.~Zuo, and K.~Qian,
   eds.), vol. 10827, International Society for Optics and Photonics, SPIE, pp.
   523 -- 529.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2501036}
 
 \bibitem{Paul03}
 \textsc{Paul, K.}, \textsc{M.~Prentiss}, and \textsc{G.~Whitesides} (2003)
   \enquote{Patterning Spherical Surfaces at the Two-Hundred-Nanometer Scale
   Using Soft Lithography,} \emph{Advanced Functional Materials},
   \textbf{13}(4), pp. 259--263.
+\newline\urlprefix\url{https://doi.org/10.1002/adfm.200304255}
 
 \bibitem{Choi04}
 \textsc{Choi, W.~M.} and \textsc{O.~O. Park} (2004) \enquote{The fabrication of
   submicron patterns on curved substrates using a polydimethylsiloxane film
   mould,} \emph{Nanotechnology}, \textbf{15}(12), pp. 1767--1770.
+\newline\urlprefix\url{https://doi.org/10.1088/0957-4484/15/12/013}
 
 \bibitem{Klosner02}
 \textsc{Klosner, M.~A.}, \textsc{M.~I. Zemel}, \textsc{K.~Jain}, and
@@ -2022,12 +2266,14 @@
   \textsc{H.~Fujita} (2009) \enquote{Optical-softlithographic technology for
   patterning on curved surfaces,} \emph{Journal of Micromechanics and
   Microengineering}, \textbf{19}(5), p. 055017.
+\newline\urlprefix\url{https://doi.org/10.1088/0960-1317/19/5/055017}
 
 \bibitem{Park12}
 \textsc{Park, J.} and \textsc{B.~Kim} (2012) \enquote{3D micro patterning on a
   concave substrate for creating the replica of a cylindrical PDMS stamp,}
   \emph{Microelectronic Engineering}, \textbf{98}, pp. 540--543, special issue
   MNE 2011 - Part II.
+\newline\urlprefix\url{https://doi.org/10.1016/j.mee.2012.07.034}
 
 \bibitem{Wilson03}
 \textsc{Wilson, D.~W.}, \textsc{P.~D. Maker}, \textsc{R.~E. Muller},
@@ -2036,12 +2282,14 @@
   \emph{Current Developments in Lens Design and Optical Engineering IV} (P.~Z.
   Mouroulis, W.~J. Smith, and R.~B. Johnson, eds.), vol. 5173, International
   Society for Optics and Photonics, SPIE, pp. 115 -- 126.
+\newline\urlprefix\url{https://doi.org/10.1117/12.510204}
 
 \bibitem{Lee18}
 \textsc{Lee, C.~R.}, \textsc{J.~G. Ok}, and \textsc{M.~Y. Jeong} (2018)
   \enquote{Nanopatterning on the cylindrical surface using an E-beam
   pre-mapping algorithm,} \emph{Journal of Micromechanics and
   Microengineering}, \textbf{29}(1), p. 015004.
+\newline\urlprefix\url{https://doi.org/10.1088/1361-6439/aaea48}
 
 \bibitem{Arat19}
 \textsc{Arat, K.~T.}, \textsc{A.~C. Zonnevylle}, \textsc{W.~S. M.~M.
@@ -2049,6 +2297,7 @@
   (2019) \enquote{Electron beam lithography on curved or tilted surfaces:
   Simulations and experiments,} \emph{Journal of Vacuum Science \& Technology
   B}, \textbf{37}(5), p. 051604.
+\newline\urlprefix\url{https://doi.org/10.1116/1.5120632}
 
 \bibitem{DeRoo19}
 \textsc{{DeRoo}, C.~T.}, \textsc{R.~L. {McEntaffer}}, \textsc{B.~D. {Donovan}},
@@ -2057,6 +2306,7 @@
   for astronomy},} in \emph{Optics for EUV, X-Ray, and Gamma-Ray Astronomy IX},
   vol. 11119 of \emph{Society of Photo-Optical Instrumentation Engineers (SPIE)
   Conference Series}, p. 1111910.
+\newline\urlprefix\url{https://doi.org/10.1117/12.2528817}
 
 \bibitem{DeRoo19b}
 \textsc{{DeRoo}, C.~T.}, \textsc{R.~{McEntaffer}}, \textsc{B.~{Donovan}},
@@ -2068,6 +2318,7 @@
 \bibitem{Beiersdorfer03}
 \textsc{{Beiersdorfer}, P.} (2003) \enquote{{Laboratory X-Ray Astrophysics},}
   \emph{\araa}, \textbf{41}, pp. 343--390.
+\newline\urlprefix\url{https://doi.org/10.1146/annurev.astro.41.011802.094825}
 
 \bibitem{Hell20}
 \textsc{{Hell}, N.}, \textsc{P.~{Beiersdorfer}}, \textsc{G.~V. {Brown}},
@@ -2076,24 +2327,28 @@
   {Porter}}, and \textsc{J.~{Wilms}} (2020) \enquote{{Highly charged ions in a
   new era of high resolution X-ray astrophysics},} \emph{X-ray Spectrometry},
   \textbf{49}(1), pp. 218--233.
+\newline\urlprefix\url{https://doi.org/10.1002/xrs.3107}
 
 \bibitem{Levine88a}
 \textsc{Levine, M.~A.}, \textsc{R.~E. Marrs}, \textsc{J.~R. Henderson},
   \textsc{D.~A. Knapp}, and \textsc{M.~B. Schneider} (1988) \enquote{The
   Electron Beam Ion Trap: A New Instrument for Atomic Physics Measurements,}
   \emph{Physica Scripta}, \textbf{T22}, pp. 157--163.
+\newline\urlprefix\url{https://doi.org/10.1088%2F0031-8949%2F1988%2Ft22%2F024}
 
 \bibitem{Levine88b}
 \textsc{Levine, M.~A.}, \textsc{R.~E. Marrs}, \textsc{C.~L. Bennett},
   \textsc{J.~R. Henderson}, \textsc{D.~A. Knapp}, and \textsc{M.~B. Schneider}
   (1989) \enquote{EBIT: Electron beam ion trap,} \emph{AIP Conference
   Proceedings}, \textbf{188}(1), pp. 82--101.
+\newline\urlprefix\url{https://doi.org/10.1063/1.38389}
 
 \bibitem{Beiersdorfer99}
 \textsc{Beiersdorfer, P.}, \textsc{J.~R.~C. López-Urrutia},
   \textsc{P.~Springer}, \textsc{S.~B. Utter}, and \textsc{K.~L. Wong} (1999)
   \enquote{Spectroscopy in the extreme ultraviolet on an electron beam ion
   trap,} \emph{Review of Scientific Instruments}, \textbf{70}(1), pp. 276--279.
+\newline\urlprefix\url{https://doi.org/10.1063/1.1149324}
 
 \bibitem{Utter99}
 \textsc{Utter, S.~B.}, \textsc{G.~V. Brown}, \textsc{P.~Beiersdorfer},
@@ -2101,6 +2356,7 @@
   \enquote{Grazing-incidence measurements of L-shell line emission from highly
   charged Fe in the soft x-ray region,} \emph{Review of Scientific
   Instruments}, \textbf{70}(1), pp. 284--287.
+\newline\urlprefix\url{https://doi.org/10.1063/1.1149511}
 
 \bibitem{Beiersdorfer04}
 \textsc{{Beiersdorfer}, P.}, \textsc{E.~W. {Magee}}, \textsc{E.~{Tr{\"a}bert}},
@@ -2109,12 +2365,14 @@
   high-resolution soft x-ray and extreme ultraviolet measurements on an
   electron beam ion trap},} \emph{Review of Scientific Instruments},
   \textbf{75}(10), pp. 3723--3726.
+\newline\urlprefix\url{https://doi.org/10.1063/1.1779609}
 
 \bibitem{Ohashi11}
 \textsc{Ohashi, H.}, \textsc{J.~Yatsurugi}, \textsc{H.~A. Sakaue}, and
   \textsc{N.~Nakamura} (2011) \enquote{High resolution extreme ultraviolet
   spectrometer for an electron beam ion trap,} \emph{Review of Scientific
   Instruments}, \textbf{82}(8), p. 083103.
+\newline\urlprefix\url{https://doi.org/10.1063/1.3618686}
 
 \bibitem{Shi14}
 \textsc{Shi, Z.}, \textsc{R.~Zhao}, \textsc{W.~Li}, \textsc{B.~Tu},
@@ -2123,6 +2381,7 @@
   extreme ultraviolet spectrometer designed for the Shanghai EBIT and the
   Shanghai low energy EBITs,} \emph{Review of Scientific Instruments},
   \textbf{85}(6), p. 063110.
+\newline\urlprefix\url{https://doi.org/10.1063/1.4876597}
 
 \bibitem{llnl_ebit}
  \emph{Electron Beam Ion Trap at LLNL}.
@@ -2157,16 +2416,19 @@
 \textsc{{Planck}, M.} (1901) \enquote{{{\"U}ber das Gesetz der
   Energieverteilung im Normalspectrum},} \emph{Annalen der Physik},
   \textbf{309}, pp. 553--563.
+\newline\urlprefix\url{https://doi.org/10.1002/andp.19013090310}
 
 \bibitem{Einstein1905a}
 \textsc{{Einstein}, A.} (1905) \enquote{{{\"U}ber einen die Erzeugung und
   Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt},}
   \emph{Annalen der Physik}, \textbf{322}, pp. 132--148.
+\newline\urlprefix\url{https://doi.org/10.1002/andp.19053220607}
 
 \bibitem{Compton23a}
 \textsc{{Compton}, A.~H.} (1923) \enquote{{A Quantum Theory of the Scattering
   of X-rays by Light Elements},} \emph{Physical Review}, \textbf{21}, pp.
   483--502.
+\newline\urlprefix\url{https://doi.org/10.1103/PhysRev.21.483}
 
 \bibitem{Als-Nielsen11}
 \textsc{Als-Nielsen, J.} and \textsc{D.~McMorrow} (2011) \emph{Elements of
@@ -2182,14 +2444,17 @@
 \bibitem{Rontgen1898a}
 \textsc{{R{\"o}ntgen}, W.~C.} (1898) \enquote{{{\"U}ber eine neue Art von
   Strahlen},} \emph{Annalen der Physik}, \textbf{300}, pp. 1--11.
+\newline\urlprefix\url{https://doi.org/10.1002/andp.18983000102}
 
 \bibitem{Rontgen1898b}
 ---{}---{}--- (1898) \enquote{{Weitere Beobachtungen {\"u}ber die Eigenschaften
   der X-Strahlen},} \emph{Annalen der Physik}, \textbf{300}, pp. 18--37.
+\newline\urlprefix\url{https://doi.org/10.1002/andp.18983000104}
 
 \bibitem{Rontgen1896}
 ---{}---{}--- (1896) \enquote{{On a New Kind of Rays},} \emph{\nat},
   \textbf{53}, pp. 274--276.
+\newline\urlprefix\url{https://doi.org/10.1038/053274b0}
 
 \bibitem{Compton35}
 \textsc{Compton, A.} and \textsc{S.~Allison} (1935) \emph{X-rays in Theory and
@@ -2199,12 +2464,14 @@
 \textsc{{Coolidge}, W.~D.} (1913) \enquote{{A Powerful R{\"o}ntgen Ray Tube
   with a Pure Electron Discharge},} \emph{Physical Review}, \textbf{2}, pp.
   409--430.
+\newline\urlprefix\url{https://doi.org/10.1103/PhysRev.2.409}
 
 \bibitem{Northrup16}
 \textsc{Northrup, P.}, \textsc{A.~Leri}, and \textsc{R.~Tappero} (2016)
   \enquote{Applications of Tender Energy (1-5 keV) X-ray Absorption
   Spectroscopy in Life Sciences,} \emph{Protein and Peptide Letters},
   \textbf{23}(3), pp. 300--308.
+\newline\urlprefix\url{https://doi.org/10.2174/0929866523666160107114505}
 
 \bibitem{Senf16}
 \textsc{Senf, F.}, \textsc{F.~Bijkerk}, \textsc{F.~Eggenstein},
@@ -2216,14 +2483,17 @@
   (2016) \enquote{Highly efficient blazed grating with multilayer coating for
   tender X-ray energies,} \emph{Opt. Express}, \textbf{24}(12), pp.
   13220--13230.
+\newline\urlprefix\url{https://doi.org/10.1364/OE.24.013220}
 
 \bibitem{Fock1932}
 \textsc{Fock, V.} (1932) \enquote{Konfigurationsraum und zweite Quantelung,}
   \emph{Zeitschrift f{\"u}r Physik}, \textbf{75}(9), pp. 622--647.
+\newline\urlprefix\url{https://doi.org/10.1007/BF01344458}
 
 \bibitem{Fontana_82}
 \textsc{Fontana, P.~R.} (1982) \emph{Atomic Radiative Processes}, Academic
   Press.
+\newline\urlprefix\url{https://doi.org/10.1016/B978-0-12-262020-1.50008-0}
 
 \bibitem{kapitell4}
 \textsc{Leinaas, J.~M.} (2003) \enquote{The Quantum Theory of Light,} .
@@ -2242,11 +2512,13 @@
 \textsc{Hilbert, D.}, \textsc{J.~v. Neumann}, and \textsc{L.~Nordheim} (1928)
   \enquote{{\"U}ber die Grundlagen der Quantenmechanik,} \emph{Mathematische
   Annalen}, \textbf{98}(1), pp. 1--30.
+\newline\urlprefix\url{https://doi.org/10.1007/BF01451579}
 
 \bibitem{Schrodinger1926}
 \textsc{Schr\"odinger, E.} (1926) \enquote{An Undulatory Theory of the
   Mechanics of Atoms and Molecules,} \emph{Phys. Rev.}, \textbf{28}, pp.
   1049--1070.
+\newline\urlprefix\url{https://doi.org/10.1103/PhysRev.28.1049}
 
 \bibitem{Bethe57}
 \textsc{Bethe, H.} and \textsc{E.~Salpeter} (1957) \emph{Quantum mechanics of
@@ -2264,29 +2536,35 @@
 \bibitem{Fontana82}
 \textsc{Fontana, P.~R.} (1982) \enquote{Atomic Radiative Processes,} Academic
   Press.
+\newline\urlprefix\url{https://doi.org/10.1016/B978-0-12-262020-1.50006-7}
 
 \bibitem{Grevesse98}
 \textsc{{Grevesse}, N.} and \textsc{A.~J. {Sauval}} (1998) \enquote{{Standard
   Solar Composition},} \emph{\ssr}, \textbf{85}, pp. 161--174.
+\newline\urlprefix\url{https://doi.org/10.1023/A:1005161325181}
 
 \bibitem{Asplund09}
 \textsc{{Asplund}, M.}, \textsc{N.~{Grevesse}}, \textsc{A.~J. {Sauval}}, and
   \textsc{P.~{Scott}} (2009) \enquote{{The Chemical Composition of the Sun},}
   \emph{\araa}, \textbf{47}(1), pp. 481--522.
+\newline\urlprefix\url{https://doi.org/10.1146/annurev.astro.46.060407.145222}
 
 \bibitem{Woosley86}
 \textsc{{Woosley}, S.~E.} and \textsc{T.~A. {Weaver}} (1986) \enquote{{The
   physics of supernova explosions},} \emph{\araa}, \textbf{24}, pp. 205--253.
+\newline\urlprefix\url{https://doi.org/10.1146/annurev.aa.24.090186.001225}
 
 \bibitem{Kasen17}
 \textsc{{Kasen}, D.}, \textsc{B.~{Metzger}}, \textsc{J.~{Barnes}},
   \textsc{E.~{Quataert}}, and \textsc{E.~{Ramirez-Ruiz}} (2017)
   \enquote{{Origin of the heavy elements in binary neutron-star mergers from a
   gravitational-wave event},} \emph{\nat}, \textbf{551}(7678), pp. 80--84.
+\newline\urlprefix\url{https://doi.org/10.1038/nature24453}
 
 \bibitem{deBergevin09}
 \textsc{de~Bergevin, F.} (2009) \emph{The Interaction of X-Rays (and Neutrons)
   with Matter}, Springer Berlin Heidelberg, Berlin, Heidelberg, pp. 1--57.
+\newline\urlprefix\url{https://doi.org/10.1007/978-3-540-88588-7_1}
 
 \bibitem{Fitzpatrick_QM}
 \textsc{Fitzpatrick, R.} (2016) \emph{Quantum Mechanics}.
@@ -2297,6 +2575,7 @@
   \textsc{A.~J.~J. {Raassen}}, and \textsc{J.~S. {Kaastra}} (2001)
   \enquote{{Line ratios for helium-like ions: Applications to
   collision-dominated plasmas},} \emph{\aap}, \textbf{376}, pp. 1113--1122.
+\newline\urlprefix\url{https://doi.org/10.1051/0004-6361:20010959}
 
 \bibitem{Porquet01b}
 \textsc{{Porquet}, D.}, \textsc{R.~{Mewe}}, \textsc{A.~J.~J. {Raassen}},
@@ -2310,35 +2589,43 @@
 \textsc{{Pradhan}, A.~K.} (1985) \enquote{{Recombination-cascade X-ray spectra
   of highly charged helium-like ions},} \emph{\apj}, \textbf{288}, pp.
   824--830.
+\newline\urlprefix\url{https://doi.org/10.1086/162853}
 
 \bibitem{Gabriel69}
 \textsc{{Gabriel}, A.~H.} and \textsc{C.~{Jordan}} (1969)
   \enquote{{Interpretation of solar helium-like ion line intensities},}
   \emph{\mnras}, \textbf{145}, p. 241.
+\newline\urlprefix\url{https://doi.org/10.1093/mnras/145.2.241}
 
 \bibitem{Vink2011}
 \textsc{Vink, J.} (2011) \enquote{Supernova remnants: the X-ray perspective,}
   \emph{The Astronomy and Astrophysics Review}, \textbf{20}(1), p.~49.
+\newline\urlprefix\url{https://doi.org/10.1007/s00159-011-0049-1}
 
 \bibitem{Sinha88}
 \textsc{{Sinha}, S.~K.}, \textsc{E.~B. {Sirota}}, \textsc{S.~{Garoff}}, and
   \textsc{H.~B. {Stanley}} (1988) \enquote{{X-ray and neutron scattering from
   rough surfaces},} \emph{\prb}, \textbf{38}, pp. 2297--2311.
+\newline\urlprefix\url{https://doi.org/10.1103/PhysRevB.38.2297}
 
 \bibitem{Henke93}
 \textsc{Henke, B.}, \textsc{E.~Gullikson}, and \textsc{J.~Davis} (1993)
   \enquote{X-Ray Interactions: Photoabsorption, Scattering, Transmission, and
   Reflection at E = 50-30,000 eV, Z = 1-92,} \emph{Atomic Data and Nuclear Data
   Tables}, \textbf{54}(2), pp. 181 -- 342.
+\newline\urlprefix\url{https://doi.org/10.1006/adnd.1993.1013}
 
 \bibitem{Gullikson98}
 \textsc{Gullikson, E.} (1998) \enquote{13. Optical Properties of Materials,} in
-  \emph{Vacuum Ultraviolet Spectroscopy I}, vol.~31 of \emph{Experimental
-  Methods in the Physical Sciences}, Academic Press, pp. 257 -- 270.
+  \emph{Vacuum Ultraviolet Spectroscopy I} (J.~Samson and D.~Ederer, eds.),
+  vol.~31 of \emph{Experimental Methods in the Physical Sciences}, Academic
+  Press, pp. 257 -- 270.
+\newline\urlprefix\url{https://doi.org/10.1016/S0076-695X(08)60047-2}
 
 \bibitem{Kronig26}
 \textsc{de~L.~Kronig, R.} (1926) \enquote{On the Theory of Dispersion of
   X-Rays,} \emph{J. Opt. Soc. Am.}, \textbf{12}(6), pp. 547--557.
+\newline\urlprefix\url{https://doi.org/10.1364/JOSA.12.000547}
 
 \bibitem{Fresnel1823}
 \textsc{Fresnel, A.} (1823) \emph{M{\'e}moire sur la loi des modifications que
@@ -2355,10 +2642,12 @@
 \textsc{Vineyard, G.~H.} (1982) \enquote{Grazing-incidence diffraction and the
   distorted-wave approximation for the study of surfaces,} \emph{Phys. Rev. B},
   \textbf{26}, pp. 4146--4159.
+\newline\urlprefix\url{https://doi.org/10.1103/PhysRevB.26.4146}
 
 \bibitem{George10}
 \textsc{George, S.~M.} (2010) \enquote{Atomic Layer Deposition: An Overview,}
   \emph{Chemical Reviews}, \textbf{110}(1), pp. 111--131.
+\newline\urlprefix\url{https://doi.org/10.1021/cr900056b}
 
 \bibitem{Beckmann63}
 \textsc{Beckmann, P.} and \textsc{A.~Spizzichino} (1963) \emph{The scattering
@@ -2368,20 +2657,24 @@
 \bibitem{Ogilvy87}
 \textsc{Ogilvy, J.~A.} (1987) \enquote{Wave scattering from rough surfaces,}
   \emph{Reports on Progress in Physics}, \textbf{50}(12), pp. 1553--1608.
+\newline\urlprefix\url{https://doi.org/10.1088/0034-4885/50/12/001}
 
 \bibitem{Sentenac2009}
 \textsc{Sentenac, A.} and \textsc{J.~Daillant} (2009) \emph{Statistical Aspects
   of Wave Scattering at Rough Surfaces}, Springer Berlin Heidelberg, Berlin,
   Heidelberg, pp. 59--84.
+\newline\urlprefix\url{https://doi.org/10.1007/978-3-540-88588-7_2}
 
 \bibitem{Hogrefe87}
 \textsc{Hogrefe, H.} and \textsc{C.~Kunz} (1987) \enquote{Soft x-ray scattering
   from rough surfaces: experimental and theoretical analysis,} \emph{Appl.
   Opt.}, \textbf{26}(14), pp. 2851--2859.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.26.002851}
 
 \bibitem{Cash87}
 \textsc{Cash, W.} (1987) \enquote{X-ray optics: a technique for high resolution
   imaging,} \emph{\ao}, \textbf{26}(14), pp. 2915--2920.
+\newline\urlprefix\url{https://doi.org/10.1364/AO.26.002915}
 
 \bibitem{Nevot80}
 \textsc{Nevot, L.} and \textsc{P.~Croce} (1980) \enquote{Caract{\'e}risation
@@ -2393,6 +2686,7 @@
 \textsc{{Bragg}, W.~H.} and \textsc{W.~L. {Bragg}} (1913) \enquote{{The
   Reflection of X-rays by Crystals},} \emph{Proceedings of the Royal Society of
   London Series A}, \textbf{88}, pp. 428--438.
+\newline\urlprefix\url{https://doi.org/10.1098/rspa.1913.0040}
 
 \bibitem{Giacconi79}
 \textsc{{Giacconi}, R.}, \textsc{G.~{Branduardi}}, \textsc{U.~{Briel}},
@@ -2407,29 +2701,34 @@
   \textsc{T.~{Markert}}, \textsc{R.~{Novick}}, \textsc{D.~{Helfand}}, and
   \textsc{K.~{Long}} (1979) \enquote{{The Einstein (HEAO 2) X-ray
   Observatory.}} \emph{\apj}, \textbf{230}, pp. 540--550.
+\newline\urlprefix\url{https://doi.org/10.1086/157110}
 
 \bibitem{Neviere78}
 \textsc{{Neviere}, M.}, \textsc{D.~{Maystre}}, and \textsc{W.~R. {Hunter}}
   (1978) \enquote{{On the use of classical and conical diffraction mountings
-  for xuv gratings.}} \emph{Journal of the Optical Society of America
+  for xuv gratings},} \emph{Journal of the Optical Society of America
   (1917-1983)}, \textbf{68}, pp. 1106--1113.
+\newline\urlprefix\url{https://doi.org/10.1364/JOSA.68.001106}
 
 \bibitem{Sanchez-Lopez09}
 \textsc{del Mar S\'{a}nchez-L\'{o}pez, M.}, \textsc{I.~Moreno}, and
   \textsc{A.~Mart\'{i}nez-Garc\'{i}a} (2009) \enquote{Teaching diffraction
   gratings by means of a phasor analysis,} in \emph{Education and Training in
   Optics and Photonics}, Optical Society of America, p. EMA1.
+\newline\urlprefix\url{https://doi.org/10.1364/ETOP.2009.EMA1}
 
 \bibitem{Harvey19}
 \textsc{Harvey, J.~E.} and \textsc{R.~N. Pfisterer} (2019)
   \enquote{{Understanding diffraction grating behavior: including conical
   diffraction and Rayleigh anomalies from transmission gratings},}
   \emph{Optical Engineering}, \textbf{58}(8), pp. 1 -- 21.
+\newline\urlprefix\url{https://doi.org/10.1117/1.OE.58.8.087105}
 
 \bibitem{Casini14}
 \textsc{Casini, R.} and \textsc{P.~G. Nelson} (2014) \enquote{On the intensity
   distribution function of blazed reflective diffraction gratings,}
   \emph{Journal of the Optical Society of America A}, \textbf{31}(10), pp.
   2179--2184.
+\newline\urlprefix\url{https://doi.org/10.1364/JOSAA.31.002179}
 
 \end{thebibliography}
