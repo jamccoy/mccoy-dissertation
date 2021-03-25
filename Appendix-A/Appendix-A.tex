@@ -210,7 +210,7 @@ For simplicity, however, it is useful to imagine a wave that extends infinitely 
  \mathbold{E} \left( \mathbold{r} \right) \\
  \mathbold{H} \left( \mathbold{r} \right)
  \end{array} 
- \right\} \delta_D \left( \omega ' - \omega \right) . 
+ \right\} \delta_D \left( \omega ' - \omega \right) 
  \end{equation*} 
 with $\delta_D (\omega ' - \omega)$ being a \emph{Dirac delta function}, which is defined as \begin{equation*}
 \delta_D \left( x \right) \equiv
@@ -384,7 +384,7 @@ and moreover, the \emph{photon number operator} $\underline{N}_{\mathbold{k},\up
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--------------------------------------------------
 In the framework of non-relativistic quantum mechanics, an operator $\underline{O}$ that represents an observable quantity such as position, momentum or energy must be Hermitian such that $\underline{O}^{\dagger} = \underline{O}$ \cite{Shankar04}. 
 Operators that represent electromagnetic quantities therefore should also be Hermitian as they act on Fock states with the non-Hermitian operators $\underline{a}_{\mathbold{k},\upsilon}$ and $\underline{a}^{\dagger}_{\mathbold{k},\upsilon}$. 
-To formulate this, it is useful to start by defining an electromagnetic vector potential, $\mathbold{A}  ( \mathbold{r} , t)$, in the \emph{Coulomb gauge} where $\div \mathbold{A}  ( \mathbold{r} , t) = 0$ while the scalar potential that normally describes static electric fields is null; the electric and magnetic fields are then determined from \cite{Jackson75,Rybicki86,Griffiths17} 
+To formulate this, it is useful to start by defining an electromagnetic vector potential, $\mathbold{A}  ( \mathbold{r} , t)$, in the \emph{Coulomb gauge}, where $\div \mathbold{A}  ( \mathbold{r} , t) = 0$, while the scalar potential that normally describes static electric fields is null; the electric and magnetic fields are then determined from \cite{Jackson75,Rybicki86,Griffiths17} 
 \begin{subequations}
 \begin{align}
  \mathbold{E} ( \mathbold{r} , t) &= - \pdv{\mathbold{A} ( \mathbold{r} , t)}{t} \label{eq:E-field_from_A} \\ 
@@ -408,7 +408,7 @@ A general, real solution to \cref{eq:potential_wave} can be written as a summati
  \end{equation}
 where it is assumed, as a mathematical trick, that there are boundaries imposed by a large box of volume $\mathcal{V}$ explained in the following paragraph. 
 
-A Hermitian operator for the quantized electromagnetic field can be written in an analogous fashion to \cref{eq:potential_wave_solution} where the coefficients are replaced by terms involving $\underline{a}_{\mathbold{k},\upsilon}$ and $\underline{a}^{\dagger}_{\mathbold{k},\upsilon}$ \cite{Townsend00}. %[chapter 14]
+A Hermitian operator for the quantized electromagnetic field can be written in an analogous fashion to \cref{eq:potential_wave_solution}, where the coefficients are replaced by terms involving $\underline{a}_{\mathbold{k},\upsilon}$ and $\underline{a}^{\dagger}_{\mathbold{k},\upsilon}$ \cite{Townsend00}. %[chapter 14]
 In the \emph{Schr\"ondiger picture} of quantum mechanics, where operators carry no time dependence, this is given as \cite{Shankar04,Townsend00} 
 \begin{equation}
  \underline{\mathbold{A}} ( \mathbold{r} ) = \sum_{\mathbold{k}} \sum_{\upsilon = 1}^2  \sqrt{\frac{\hbar}{2 \mathcal{V} \epsilon_0 \omega_{\mathbold{k}}}} \hat{\mathbold{e}}_{\mathbold{k},\upsilon} \left[ \underline{a}_{\mathbold{k},\upsilon} \mathrm{e}^{i \mathbold{k} \cdot \mathbold{r} } + \underline{a}^{\dagger}_{\mathbold{k},\upsilon} \mathrm{e}^{-i \mathbold{k} \cdot \mathbold{r} } \right] , \label{eq:vector_potential_operator_fixedtime} % \tag{\ref{eq:vector_potential_operator_fixed}} ,
@@ -488,7 +488,7 @@ As the number of photons becomes very large, the fractional uncertainty $\sigma_
 
 The utility of treating soft x-rays like classical waves or photons depends on the context of the physical scenario. 
 Due to their relatively high photon energy, $\mathcal{E}_{\gamma} \equiv \hbar \omega$, soft x-rays tend to be emitted from relatively dim sources on a photon-by-photon basis in a non-classical fashion. 
-As alluded to in \cref{sec:astro_plasmas}, this is especially relevant in x-ray astronomy where the number of photons collected during a typical observation tends to be low. 
+As alluded to in \cref{sec:astro_plasmas}, this is especially relevant in x-ray astronomy, where the number of photons collected during a typical observation tends to be low. 
 The interaction between soft x-rays and atomic electrons is also best described in terms of photons, which is introduced in \cref{sec:atomic_interaction} for the purpose of treating spectral line phenomena in \cref{ap:quantum_spectral}. 
 On the other hand, beamline 6.3.2 of the Advanced Light Source \cite[\emph{cf.\@} \cref{sec:als_beam}]{ALS_632} provides a bright, nearly-monochromatic beam of soft x-rays for the diffraction-efficiency experiments described in \cref{ch:master_fab,ch:grating_replication}. 
 Such a beam can be regarded as a highly-coherent state with a large number of photons that can be treated as a classical wave for most intents and purposes. 
@@ -509,7 +509,7 @@ The way that soft x-ray photons interact with atomic electrons is of interest in
   \item Spectral lines produced from bound-bound transitions in highly-charged ions present in cosmic plasmas (discussed  in \cref{ch:introduction,ap:quantum_spectral})
   \item Scattering from electrons bound in neutral atoms as soft x-rays interact with optical materials (discussed in \cref{app:x-ray_materials} and referenced in \cref{ch:diff_eff})
  \end{enumerate}
-Here, non-relativistic quantum mechanics is used to treat electron-photon interactions so that, strictly speaking, results are only valid in atoms of relatively low $\mathcal{Z}$ where electrons have classical velocities much smaller than the speed of light, $c_0$.\footnote{Stated differently, it is considered that electronic binding energies are negligible compared to the electron rest energy, $m_e c_0^2 \approx \SI{511}{\kilo\electronvolt}$.} 
+Here, non-relativistic quantum mechanics is used to treat electron-photon interactions so that, strictly speaking, results are only valid in atoms of relatively low $\mathcal{Z}$, where electrons have classical velocities much smaller than the speed of light, $c_0$.\footnote{Stated differently, it is considered that electronic binding energies are negligible compared to the electron rest energy, $m_e c_0^2 \approx \SI{511}{\kilo\electronvolt}$.} 
 \begin{table}[]
  \centering
  \caption[Summary of notation used for atomic electron states]{Summary of notation used for atomic electron states. Shells K, L, M, etc.\ are tied to the \emph{principal quantum number}, $n$. The inner-most shell of any atom features only the s orbital, which can house just two electrons. As $n$ increases, the p, d, f and g orbitals are introduced, which correspond to quantized angular momentum states with a \emph{azimuthal quantum number}, $\ell = 0, 1 , 2 \dotsc n-1$, and a \emph{magnetic quantum number}, $m_{\ell} = -\ell, -\ell + 1, \dotsc 0, \dotsc \ell -1, \ell$. Owing to their intrinsic spin states given by the \emph{spin quantum number} taking on $m_s = \pm 1/2$, two electrons can exist in an orbital with specified $n$, $\ell$ and $m_{\ell}$.}\label{tab:shell_orbitals} 
@@ -589,7 +589,7 @@ Noting that the operators $\underline{\mathbold{p}}$ and $\underline{\mathbold{A
  &= \underbrace{\frac{\underline{\mathbold{p}}^2}{2 m_e} + \underline{V}(\underline{\mathbold{r}})}_{\underline{\mathcal{H}}_{\text{atom}}} + \underline{\mathcal{H}}_{EM} + \frac{q_e \underline{\mathbold{p}} \cdot \underline{\mathbold{A}} ( \mathbold{r} )}{2 m_e} + \frac{q_e \underline{\mathbold{A}} ( \mathbold{r} ) \cdot \underline{\mathbold{p}}}{2 m_e} + \frac{q_e^2 \underline{\mathbold{A}}^2 ( \mathbold{r} )}{2 m_e} . 
  \end{split}
  \end{align}
-However, this can be simplified by examining how the $\underline{\mathbold{p}} \cdot \underline{\mathbold{A}} ( \mathbold{r} )$ term operates in the position basis and then exploiting the condition on $\underline{\mathbold{A}} ( \mathbold{r} )$ put in place by the Coulomb gauge where $\div \underline{\mathbold{A}} ( \mathbold{r} ) = 0$ \cite{Shankar04,Townsend00,Fontana_82,Rybicki86}. 
+However, this can be simplified by examining how the $\underline{\mathbold{p}} \cdot \underline{\mathbold{A}} ( \mathbold{r} )$ term operates in the position basis and then exploiting the condition on $\underline{\mathbold{A}} ( \mathbold{r} )$ put in place by the Coulomb gauge, where $\div \underline{\mathbold{A}} ( \mathbold{r} ) = 0$ \cite{Shankar04,Townsend00,Fontana_82,Rybicki86}. 
 With the momentum operator taking on the form $\underline{\mathbold{p}} \to - i \hbar \grad$ in the position basis, the $\div \underline{\mathbold{A}}(\mathbold{r})$ piece of $\underline{\mathbold{p}} \cdot \underline{\mathbold{A}}(\mathbold{r})$ acts on a wave function $\Psi(\mathbold{r})$ in the following way:  
 \begin{align}
  \begin{split}
@@ -613,7 +613,7 @@ A bound electron that stays stationary in a particular state for a sufficient am
  \underline{\mathcal{H}}_{\text{atom}} \ket{\Psi_e} = \mathcal{E}_e \ket{\Psi_e} ,
  \end{equation}
 where $\ket{\Psi_e}$ is the wave vector of the stationary bound state and $\mathcal{E}_e$ is the electron binding energy.\footnote{Essentially, this is an \emph{eigenvalue problem}, which is often formulated in terms of traditional vectors as $\underline{\mathbold{M}} \mathbold{v} = \lambda \mathbold{v}$, where $\underline{\mathbold{M}}$ is a square matrix (in place of an abstract operator), $\mathbold{v}$ is a column vector and $\lambda$ is the scalar eigenvalue \cite{Shankar04}.}  
-Such an electron is associated with a time-dependent wave vector given by $\ket{\Psi_e (t)} = \ket{\Psi_e} \mathrm{e}^{-i \mathcal{E} t / \hbar}$ where its probability density is independent of time:
+Such an electron is associated with a time-dependent wave vector given by $\ket{\Psi_e (t)} = \ket{\Psi_e} \mathrm{e}^{-i \mathcal{E} t / \hbar}$, where its probability density is independent of time:
 \begin{equation}
  \norm{\braket{\mathbold{r}}{\Psi_e (t)}}^2 = \norm{\braket{\mathbold{r}}{\Psi_e}}^2 \equiv \norm{\Psi (\mathbold{r})}^2 .
  \end{equation}
@@ -696,14 +696,14 @@ with $\Delta \mathcal{E}_e \equiv \mathcal{E}_B - \mathcal{E}_A$ and $\Delta \ga
 
 Evaluating the integral in \cref{eq:general_evolution2a} gives 
 \begin{equation}\label{eq:general_evolution2b}
- \bra{\Psi_B} \otimes \bra{N_{\mathbold{k}',\upsilon'}'} \underline{U}_I (t) \ket{\Psi_A} \otimes \ket{N_{\mathbold{k},\upsilon}} = \mathcal{M} \, \left( \frac{\mathrm{e}^{\frac{i}{\hbar} \left( \Delta \mathcal{E}_e - \Delta \gamma \right) t} - 1}{\Delta \mathcal{E}_e - \Delta \gamma} \right)
+ \bra{\Psi_B} \otimes \bra{N_{\mathbold{k}',\upsilon'}'} \underline{U}_I (t) \ket{\Psi_A} \otimes \ket{N_{\mathbold{k},\upsilon}} = \mathcal{M} \, \left( \frac{\mathrm{e}^{\frac{i}{\hbar} \left( \Delta \mathcal{E}_e - \Delta \gamma \right) t} - 1}{\Delta \mathcal{E}_e - \Delta \gamma} \right) ,
  \end{equation}
 where $\mathcal{M} \equiv \bra{\Psi_B} \otimes \bra{N_{\mathbold{k},\upsilon}'} \underline{\mathcal{H}}^{(\text{pert})} \ket{\Psi_A} \otimes \ket{N_{\mathbold{k},\upsilon}}$ is the matrix element for a time-independent perturbation arising from $\underline{\mathcal{H}}^{(\text{pert})}$ \cite{Shankar04,Townsend00}. 
 \end{subequations}
 Using $\varpi \equiv \left( \Delta \mathcal{E}_e - \Delta \gamma \right) / \hbar$, the time-dependent piece of \cref{eq:general_evolution2b} 
 can be rewritten as 
 \begin{equation}\label{eq:complex_exponential_sinc}
- \frac{\mathrm{e}^{i \varpi t} - 1}{i \varpi} = \frac{\mathrm{e}^{i \varpi t / 2}}{i \varpi} \underbrace{\left( \mathrm{e}^{i \varpi t / 2} - \mathrm{e}^{-i \varpi t / 2}  \right)}_{2 i \sin \left( \frac{\varpi t}{2} \right)} = t \, \mathrm{e}^{i \varpi t / 2} \sinc \left( \frac{\varpi t}{2} \right)
+ \frac{\mathrm{e}^{i \varpi t} - 1}{i \varpi} = \frac{\mathrm{e}^{i \varpi t / 2}}{i \varpi} \underbrace{\left( \mathrm{e}^{i \varpi t / 2} - \mathrm{e}^{-i \varpi t / 2}  \right)}_{2 i \sin \left( \frac{\varpi t}{2} \right)} = t \, \mathrm{e}^{i \varpi t / 2} \sinc \left( \frac{\varpi t}{2} \right) ,
  \end{equation}
 where $\sinc (x) \equiv \sin (x) / x$ is the \emph{sinc function}, and the probability of absorption occurring as a function of time according to \cref{eq:prob_matrix_element} is \cite{Shankar04,Townsend00} 
 \begin{equation}\label{eq:general_prob_trans}
@@ -755,7 +755,7 @@ On the other hand, $\underline{\mathcal{H}}^{(2)} = \left( q_e^2 / 2 m_e \right)
  &= \sum_{\mathbold{k},\mathbold{k}'} \sum_{\upsilon,\upsilon' = 1}^2 \left( \frac{\hbar q_e^2 \hat{\mathbold{e}}_{\mathbold{k},\upsilon} \cdot \hat{\mathbold{e}}_{\mathbold{k}',\upsilon'} }{4 \mathcal{V} \epsilon_0 m_e \omega_{\mathbold{k}} \, \omega_{\mathbold{k}'}} \right) \left[ \underline{a}_{\mathbold{k},\upsilon} \mathrm{e}^{i \mathbold{k} \cdot \mathbold{r} } + \underline{a}^{\dagger}_{\mathbold{k},\upsilon} \mathrm{e}^{-i \mathbold{k} \cdot \mathbold{r} } \right] \left[ \underline{a}_{\mathbold{k}',\upsilon'} \mathrm{e}^{i \mathbold{k}' \cdot \mathbold{r} } + \underline{a}^{\dagger}_{\mathbold{k}',\upsilon'} \mathrm{e}^{-i \mathbold{k}' \cdot \mathbold{r} } \right] 
  \end{split}
  \end{align} 
-and so describes, among other two-photon processes, scattering phenomena where $\underline{a}_{\mathbold{k},\upsilon}$ annihilates the initial photon and $\underline{a}^{\dagger}_{\mathbold{k}',\upsilon'}$ creates the scattered photon. 
+and so describes, among other two-photon processes, scattering phenomena, where $\underline{a}_{\mathbold{k},\upsilon}$ annihilates the initial photon and $\underline{a}^{\dagger}_{\mathbold{k}',\upsilon'}$ creates the scattered photon. 
 In such a \emph{coherent scattering} process [\emph{cf.\@} \cref{sec:SXR_med}], the initial and final electron states are the same ($\mathcal{E}_B = \mathcal{E}_A$) while there is no change in the number of photons $\left( N_{\mathbold{k}',\upsilon'}' = N_{\mathbold{k},\upsilon} \right)$. 
 As a result, the distribution in \cref{fig:sinc_squared} is in this case a function of scattered photon energy with a peak corresponding to the energy of the incident photon and $\varpi \to \omega_{\mathbold{k}'} - \omega_{\mathbold{k}}$.  
 
@@ -840,12 +840,12 @@ In either case, after all Fock-state operations have been carried out, the norm 
  \end{equation}
 where in the complex exponential, the $+$ and $-$ signs correspond to emission and absorption, respectively. 
 This demonstrates that, in addition to the effect that $\underline{\mathbold{p}} \mathrm{e}^{\pm i \mathbold{k} \cdot \mathbold{r}}$ has as a perturbing operator, the probability of a photon with energy $\mathcal{E}_{\gamma} = \hbar \omega_{\mathbold{k}}$ being absorbed depends on $N_{\mathbold{k},\upsilon}$, the number of photons present in a particular mode defined by $\mathbold{k}$ and $\upsilon$. 
-Moreover, \emph{radiative recombination} can occur as a free-bound process where a free electron (\emph{e.g.}, one in a cosmic plasma) with speed $v_e$ and kinetic energy $\frac{1}{2} m_e v_e^2$ fills a vacancy in an ion with a binding energy $\mathcal{E}_e$ and a photon of energy $\frac{1}{2} m_e v_e^2 - \mathcal{E}_e$ is emitted in the process. 
-This process can be thought of as the opposite of photo-ionization where an electron is absorbed by an ion as a photon is emitted. 
+Moreover, \emph{radiative recombination} can occur as a free-bound process, where a free electron (\emph{e.g.}, one in a cosmic plasma) with speed $v_e$ and kinetic energy $\frac{1}{2} m_e v_e^2$ fills a vacancy in an ion with a binding energy $\mathcal{E}_e$ and a photon of energy $\frac{1}{2} m_e v_e^2 - \mathcal{E}_e$ is emitted in the process. 
+This process can be thought of as the opposite of photo-ionization, where an electron is absorbed by an ion as a photon is emitted. 
 Taking the vacancy to be filled as the ground state, this can be described as a change in state from $\ket{A} = \ket{\Psi_C} \otimes \ket{N_{\mathbold{k},\upsilon}}$ (where $\ket{\Psi_C}$ is a continuum state) to $\ket{B} = \ket{\Psi_G} \otimes \ket{\left( N_{\mathbold{k},\upsilon} + 1 \right)}$. 
 
-Both photo-absorption and stimulated emission can also be understood as arising from the presence of a classical electromagnetic wave where the classical vector potential $\mathbold{A} ( \mathbold{r} , t)$ [\emph{cf.\@} \cref{eq:potential_wave_solution}] is used in place of the vector potential operator $\underline{\mathbold{A}} ( \mathbold{r} )$ \cite[\emph{cf.\@} \cref{eq:vector_potential_operator_fixedtime}]{Rybicki86,Shankar04}. 
-Although this is justified for large photon numbers where the radiation can be treated as a coherent state [\emph{cf.\@} \cref{sec:coherent_states}], the classical-wave approximation does not necessarily hold in x-ray astrophysics, where photon counts typically are low. 
+Both photo-absorption and stimulated emission can also be understood as arising from the presence of a classical electromagnetic wave, where the classical vector potential $\mathbold{A} ( \mathbold{r} , t)$ [\emph{cf.\@} \cref{eq:potential_wave_solution}] is used in place of the vector potential operator $\underline{\mathbold{A}} ( \mathbold{r} )$ \cite[\emph{cf.\@} \cref{eq:vector_potential_operator_fixedtime}]{Rybicki86,Shankar04}. 
+Although this is justified for large photon numbers, where the radiation can be treated as a coherent state [\emph{cf.\@} \cref{sec:coherent_states}], the classical-wave approximation does not necessarily hold in x-ray astrophysics, where photon counts typically are low. 
 %As discussed in \cref{sec:coherent_states}, this is justified for large photon numbers where the radiation can be treated as a coherent state. 
 %However, in x-ray astrophysics where photon counts are low, the classical-wave approximation does not necessarily hold 
 Moreover, a photon description of radiation is needed to explain the phenomenon of \emph{spontaneous emission}, where there is no stimulating radiation field. 
@@ -891,7 +891,7 @@ Following Townsend~\cite{Townsend00}, the number of modes with wave number in be
 where infinitesimal intervals are used in the limit that $\mathcal{V} \to \infty$ to describe a physical system. 
 In terms of photon energy, this is written as
 \begin{equation}\label{eq:photon_states2}
- \frac{\mathcal{V}}{\left( 2 \pi \right)^3} k_0^2 \dd{k_0} \dd{\Omega} = \frac{\mathcal{V}}{\left( h c_0 \right)^3} \mathcal{E}^2_{\gamma} \dd{\mathcal{E}_{\gamma}} \dd{\Omega} \equiv \rho_{\text{state}} \left( \mathcal{E}_{\gamma} \right) \dd{\mathcal{E}_{\gamma}} \dd{\Omega}, 
+ \frac{\mathcal{V}}{\left( 2 \pi \right)^3} k_0^2 \dd{k_0} \dd{\Omega} = \frac{\mathcal{V}}{\left( h c_0 \right)^3} \mathcal{E}^2_{\gamma} \dd{\mathcal{E}_{\gamma}} \dd{\Omega} \equiv \rho_{\text{state}} \left( \mathcal{E}_{\gamma} \right) \dd{\mathcal{E}_{\gamma}} \dd{\Omega} , 
  \end{equation}
 where
 \begin{equation}\label{eq:photon_state_density}

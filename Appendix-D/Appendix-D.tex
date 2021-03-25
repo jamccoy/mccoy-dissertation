@@ -7,7 +7,7 @@ Fundamentally, this behavior arises because according to the \emph{Huygens-Fresn
 This implies that when a wave encounters an aperture, the scenario is equivalent to there being a new distribution of point sources that interfere with one another as they propagate, producing diffraction patterns. 
 As these secondary waves move forward, they interfere with one another to form the diffracted wavefront. 
 In the case of multiple obstacles or openings, an additional diffraction pattern is produced as the wavefronts from each aperture overlap and produce interference fringes. 
-For a large number of evenly-spaced apertures, the system behaves like a diffraction grating where an ordered interference pattern is produced in the far field that depends on the spatial periodicity, the wavelength and the angle of incidence \cite{Loewen97}. 
+For a large number of evenly-spaced apertures, the system behaves like a diffraction grating, where an ordered interference pattern is produced in the far field that depends on the spatial periodicity, the wavelength and the angle of incidence \cite{Loewen97}. 
 
 Considering wave mechanics alone, a diffraction grating for soft x-rays can be realized as a periodic structure with a very fine pitch to accommodate the wavelength of radiation $\SI{5}{\nm} \gtrapprox \lambda = h c_0 / \mathcal{E}_{\gamma} \gtrapprox \SI{1.25}{\nm}$. 
 However, when the interaction of radiation with matter is taken into account [\emph{cf.\@} \cref{app:x-ray_materials}], soft x-rays and other short-$\lambda$ radiation are found to reflect appreciably only at grazing incidence angles in the regime of \emph{total external reflection}. 
@@ -19,7 +19,7 @@ While the electromagnetic vector treatment of gratings outlined in \cref{sec:int
 \section{Wave Interference From an Array of Slits}\label{sec:slit_array}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--------------------------------------------------
 As a first step toward describing diffraction gratings, a generic, scalar plane wave of wavelength $\lambda$ is imagined to be incident on a barrier with two narrow slits\footnote{The lengths of these slits are taken to be formally infinite so that this scenario can be treated two-dimensionally. In other words, each aperture is considered to be sufficiently long such that diffraction from edge effects along this direction can be neglected.} separated by a distance $d$, each with a width $W \ll \lambda$ so that both can be thought of as the source of a true circular wave according to the Huygens-Fresnel principle.
-This is illustrated in \cref{fig:double_slit_experiment} where the barrier lays in the plane defined by the $x$-axis and the direction pointing out of the page.
+This is illustrated in \cref{fig:double_slit_experiment}, where the barrier lays in the plane defined by the $x$-axis and the direction pointing out of the page.
 \begin{figure}
  \centering
  \includegraphics[scale=1.07]{Appendix-D/Figures/path_length5.mps}
@@ -39,7 +39,7 @@ As indicated in \cref{fig:double_slit_experiment}, the incident planar wave give
 These two sources separately define scalar waves $u_1 (s_1,t)$ and $u_2 (s_2,t)$ of the form given in \cref{eq:circular_wave}, where $s_1$ and $s_2$ are the radial distances from each slit. 
 
 The interference pattern caused by the placement of these sources is determined by probing the intensity of the combined scalar wave $u ( \mathbold{s} , t ) = u_1 ( \mathbold{s} , t ) + u_2 ( \mathbold{s} , t )$ at some fixed point, $P_0$, away from the barrier. 
-With the magnitude of \emph{Poynting's vector}, $\mathbold{S}$, being proportional to $\norm{u}^2$, the double-slit \emph{interference function} is taken to be $I_2 \propto \norm{u}^2$ where the maximum of the function is normalized to unity. 
+With the magnitude of \emph{Poynting's vector}, $\mathbold{S}$, being proportional to $\norm{u}^2$, the double-slit \emph{interference function} is taken to be $I_2 \propto \norm{u}^2$, where the maximum of the function is normalized to unity. 
 Shown in \cref{fig:double_slit_experiment}, this arbitrary point where wave intensity\footnote{As described in \cref{sec:amplitude_phase}, the wave intensity, $\mathcal{I}$, that passes through a plane parallel to the barrier depends on $\vartheta$ such that $\mathcal{I} \equiv \mathbold{S} \cdot \mathbold{\hat{y}} \propto \norm{u}^2 \cos \left( \vartheta \right)$.} is imagined to measured is located a distance $L$ from the barrier so that radial distance from $O$ to $P_0$ is $r_0 = L \sec (\vartheta)$. 
 Because the incident wavefronts are assumed to be oriented parallel to the barrier, sources $S_1$ and $S_2$ generate waves with identical amplitude and phase. 
 However, by the time their wavefronts reach $P_0$, there will generally be differences in amplitude and phase due to the fact that there is a \emph{path-length difference}, $\Delta s \equiv s_2 - s_1 \equiv \overline{S_2 Q}$, where $s_1 \equiv \overline{S_1 P_0}$ and $s_2 \equiv \overline{S_2 P_0}$ in \cref{fig:double_slit_experiment}. 
@@ -58,7 +58,7 @@ Using this notation, the $S_1$ scalar field at $P_0$ is $u_1 (t) \equiv \mathcal
  u (t) = u_1 (t) + u_2 (t) = \mathrm{e}^{- i \omega t} \left( \mathcal{A}_1 + \mathcal{A}_2 \mathrm{e}^{i \Phi} \right) \quad \text{for 2 slits} .
  \end{equation}
 
-As a next step toward describing a diffraction grating, the \emph{far-field approximation} is invoked, where the distance to $P_0$ is taken to be very large compared to the spacing between the slits so that $L \gg d$ and rays $\overrightarrow{S_1 P_0}$ and $\overrightarrow{S_2 P_0}$ are approximately parallel to each other. 
+As a next step toward describing a diffraction grating, the \emph{far-field approximation} is invoked such that the distance to $P_0$ is taken to be very large compared to the spacing between the slits so that $L \gg d$ and rays $\overrightarrow{S_1 P_0}$ and $\overrightarrow{S_2 P_0}$ are approximately parallel to each other. 
 \begin{figure}
 \centering
 \includegraphics[scale=1.07]{Appendix-D/Figures/path_length4.mps}
@@ -132,7 +132,7 @@ This interference pattern is plotted in \cref{fig:multi_slit_plot} for various v
 \caption[Normalized, far-field interference functions for $N$ sources]{Normalized, far-field interference functions for $N$ sources as a function of $\sin (\vartheta)$ with $\lambda / d = 0.4$.}\label{fig:multi_slit_plot}
 \end{figure}
 In these plots, it is seen that the number of primary fringes is the same as the double-slit experiment in \cref{fig:double_slit_plot}. 
-Given by \cref{eq:fringes}, there are five of these fringes corresponding to a value of $\vartheta_{\text{max}}$ where $n = 0, \pm 1, \pm 2$. 
+Given by \cref{eq:fringes}, there are five of these fringes corresponding to a value of $\vartheta_{\text{max}}$ with $n = 0, \pm 1, \pm 2$. 
 For $N > 2$, there also exist secondary fringes with maxima separated by points of zero intensity. 
 From \cref{eq:N-slit_intensity}, this condition is for normal incidence is 
 \begin{equation}\label{eq:fringe_min}
@@ -150,7 +150,7 @@ In the limit that $N \to \infty$, the structure can be treated as periodic with 
  K \equiv \frac{2 \pi}{d} .
  \end{equation}
 This causes each fringe to be concentrated into an angular direction $\vartheta_{\text{max}}$ given by \cref{eq:fringes} for $n = 0, \pm 1, \pm 2$ and the secondary fringes vanish. 
-The $N$ sources in this scenario start to behave like a diffraction grating where far-field fringes (now referred to as \emph{diffracted orders}) propagate as planar waves. 
+The $N$ sources in this scenario start to behave like a diffraction grating, where far-field fringes (now referred to as \emph{diffracted orders}) propagate as planar waves. 
 For an arbitrary $\lambda / d$ ratio, the \emph{diffracted angle}, $\vartheta_{\text{max}} \to - \beta_n$ from \cref{eq:fringes} is given by 
 \begin{subequations}
 \begin{equation}\label{eq:normal_incidence_orders}
@@ -169,7 +169,7 @@ In other words, dispersion takes place in the direction orthogonal to the groove
 \end{subequations}
 It can be gleaned from \cref{eq:normal_incidence_orders,eq:normal_incidence_orders_wave_number}  that for $\lambda$ characteristic of hard x-rays, diffraction is produced from $d$ on the order of atomic scales \cite{Bragg1913a,Compton35,Als-Nielsen11}. 
 In this way, crystalline materials featuring regularly-spaced atoms (\emph{e.g.}, silicon shown in \cref{fig:crystal_structure}) produce x-ray diffraction patterns that can be used for a variety of applications including x-ray spectroscopy \cite{Giacconi79}. 
-However, there is little versatility for crystal spectrometers in the soft x-ray band where $\lambda$ is comparatively long and instead, custom diffraction gratings are better suited for the task.
+However, there is little versatility for crystal spectrometers in the soft x-ray band, where $\lambda$ is comparatively long and instead, custom diffraction gratings are better suited for the task.
 
 \section{Off-Plane Geometry}\label{sec:off-plane_geo}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--------------------------------------------------
@@ -193,7 +193,7 @@ where $\Phi^{\text{normal}} \equiv - k d \sin (\vartheta) \to k d \sin (\beta_n)
  \centering 
  \rule{\textwidth}{.4pt}
  \includegraphics[scale=0.85]{Appendix-D/Figures/diffraction_arc13.mps}
- \caption[Orientation of a representative wave vector for a generic oblique angle of incidence]{Orientation of a representative wave vector for a generic oblique angle of incidence. The top panel shows the vector confined to the $x-y$ plane where in-plane diffraction occurs. The bottom panel shows the vector with a $z$-component, in which case off-plane diffraction occurs. The bottom panel appears the same as the top panel in projection when viewed directly down the $z$-axis.}\label{fig:oblique_off-plane}
+ \caption[Orientation of a representative wave vector for a generic oblique angle of incidence]{Orientation of a representative wave vector for a generic oblique angle of incidence. The top panel shows the vector confined to the $x-y$ plane, where in-plane diffraction occurs. The bottom panel shows the vector with a $z$-component, in which case off-plane diffraction occurs. The bottom panel appears the same as the top panel in projection when viewed directly down the $z$-axis.}\label{fig:oblique_off-plane}
  \end{figure}
 
 This relation given by \cref{eq:in-plane_phase_shift} implies that with choice of large $\sin(\alpha)$, the phase shift is increased substantially. 
@@ -220,7 +220,7 @@ The multi-slit phase shift between the sources as observed in the far field is
 as a generalization of \cref{eq:in-plane_phase_shift}, which indicates a reduction relative to the in-plane case by a factor of $\sin (\gamma)$. 
 This has the consequence that for extreme off-plane geometries with $\gamma$ of a few degrees, $d$ must be smaller than what it would be for a typical in-plane grazing incidence geometry [\emph{cf.\@} \cref{eq:inplane_limit,eq:offplane_limit}]. 
 For example, off-plane gratings for soft x-rays currently under study commonly range from $\SI{400}{\nm}$ down to $\SI{160}{\nm}$ depending on the design of the spectrometer \cite{McEntaffer13,Miles18,McCurdy20,McCoy20}. 
-This scenario of off-plane diffraction can also be described using framework for in-plane diffraction where $\mathbold{k}$ is projected onto the the $x-y$ plane so that its magnitude, $\bar{k} \equiv k \sin (\gamma)$, can be thought of as an effective wave number with an increased wavelength, $\bar{\lambda} = \lambda \csc (\gamma)$. 
+This scenario of off-plane diffraction can also be described using framework for in-plane diffraction, where $\mathbold{k}$ is projected onto the the $x-y$ plane so that its magnitude, $\bar{k} \equiv k \sin (\gamma)$, can be thought of as an effective wave number with an increased wavelength, $\bar{\lambda} = \lambda \csc (\gamma)$. 
 \end{subequations}
 
 As the number of slits become very large and the fringes behave as collimated diffracted orders, equating $\Phi^{\text{off-plane}} = 2 n \pi$ with $n = 0, \pm 1, \pm 2, \pm 3 \dotsc$ gives the \emph{generalized grating equation}:
@@ -275,7 +275,7 @@ Based on these considerations alone, the spectral resolving power, $\mathscr{R}$
 \begin{equation}\label{eq:diffraction_limit_res}
  \frac{\lambda}{\Delta \lambda} = \abs{\frac{x_n}{\Delta x}} = \abs{n} N ,
  \end{equation}
-which applies only to a \emph{diffraction-limited} scenario where all other aberrations arising from optical imperfections can be neglected. 
+which applies only to a \emph{diffraction-limited} scenario, where all other aberrations arising from optical imperfections can be neglected. 
 Essentially, this states that the maximum $\mathscr{R}$ that can possibly be attained is dependent on the number of slit sources and that spectra become increasingly easier to resolve as the magnitude of the order number increases. 
 However, \cref{eq:diffraction_limit_res} is also dependent on the angles of incidence, which can be seen using \cref{eq:off-plane_incidence_orders} to write 
 \begin{equation}
@@ -310,7 +310,7 @@ For this reason, diffracted orders generally need to be separated for useful spe
 \includegraphics[scale=0.99]{Appendix-D/Figures/multi_slit_plots_color_confusion.pdf}
 \caption[Far-field interference of polychromatic light for $N$ sources with order confusion]{Far-field interference for $N$ sources as a function of $\sin (\vartheta)$ for wavelengths corresponding to red ($\lambda = \SI{650}{\nm}$), green ($\lambda = \SI{550}{\nm}$) and blue ($\lambda = \SI{475}{\nm}$) with $d = \SI{2.3}{\micro\metre}$, demonstrating the concept of order confusion.}\label{fig:multi_slit_plot_color_confusion}
 \end{figure}
-This is demonstrated in \cref{fig:multi_slit_plot_color_confusion} where the red, green and blue wavelengths from \cref{fig:multi_slit_plot_color} are dispersed by $N$ slits with a different value for $d$.
+This is demonstrated in \cref{fig:multi_slit_plot_color_confusion}, where the red, green and blue wavelengths from \cref{fig:multi_slit_plot_color} are dispersed by $N$ slits with a different value for $d$.
 
 Spectral resolving power can also be treated using the framework of \emph{Fraunhofer diffraction} such that an array of $N$ in-phase, infinitesimal slits, each spaced by the same distance $d$, can be described as a sum of \emph{Dirac delta functions}:\footnote{A Dirac delta function is defined as 
 \begin{equation*}
@@ -341,7 +341,7 @@ This indicates that a grating with a perfect but finite slit periodicity is asso
 
 In the limit that $N \to \infty$, \cref{eq:amplitude_dirac_finite} becomes 
 \begin{equation}\label{eq:amplitude_dirac}
- \mathcal{A} (x) = \mathcal{A}_0 \sum_{n=-\infty}^{\infty} \delta_D \left( \frac{x}{d} - n \right) \equiv \mathcal{A}_0 \, \Sha \left( \frac{x}{d} \right) = \mathcal{A}_0 \, d \, \Sha \left( x \right) 
+ \mathcal{A} (x) = \mathcal{A}_0 \sum_{n=-\infty}^{\infty} \delta_D \left( \frac{x}{d} - n \right) \equiv \mathcal{A}_0 \, \Sha \left( \frac{x}{d} \right) = \mathcal{A}_0 \, d \, \Sha \left( x \right) ,
  \end{equation}
 where $\Sha \left( x \right)$ is known as the \emph{Dirac comb}. 
 The Fourier transform of \cref{eq:amplitude_dirac} is
@@ -361,7 +361,7 @@ so that
  \int_{-\infty}^{\infty} \Sha \! \left( \frac{x}{d} \right) \mathrm{e}^{-i k'_x x} \dd{x} = \Sha \! \left( \frac{k'_x}{K} \right) .
  \end{equation}
 \end{subequations}
-Here, $\mathcal{A} \left( k'_x \right)$ is the far-field amplitude of a grating with $\mathscr{R} \to \infty$ where each diffracted order is associated with a singular value of $k'_x$ as described by the sum of Dirac delta functions. 
+Here, $\mathcal{A} \left( k'_x \right)$ is the far-field amplitude of a grating with $\mathscr{R} \to \infty$, where each diffracted order is associated with a singular value of $k'_x$ as described by the sum of Dirac delta functions. 
 
 In practice, $N$ can be considered to approach infinity for an x-ray reflection of substantial size.  
 The silicon grating with $d \lessapprox \SI{160}{\nm}$ described in \cref{sec:crystal_etching}, for example, has $N \gtrapprox \num{468750}$ so that diffraction-limited $\mathscr{R}$ is on the order of \num{100000} or more by \cref{eq:diffraction_limit_res}. 
@@ -373,7 +373,7 @@ Because of this, $\mathscr{R} \to \infty$ with $N \to \infty$ is assumed for the
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--------------------------------------------------
 A diffraction grating broadly can be considered to be any sort of structure that causes an incident wave to undergo periodic shifts in amplitude, phase, or possibly both, across its surface. 
 The example of water waves passing through a set of evenly-spaced obstacles is analogous to a transmission grating for electromagnetic radiation that features a finely-pitched periodic array of absorbing slabs. %mentioned previously
-In the simplest of scenarios, such an optical device functions as an \emph{amplitude grating} where, by the Huygens-Fresnel principle, the point sources of wavelength $\lambda$ that constitute its surface can be regarded to vary in amplitude alone. 
+In the simplest of scenarios, such an optical device functions as an \emph{amplitude grating}, where, by the Huygens-Fresnel principle, the point sources of wavelength $\lambda$ that constitute its surface can be regarded to vary in amplitude alone. 
 According to the framework of Fraunhofer diffraction [\emph{cf.\@} \cref{sec:resolving_power}], the far-field interference pattern then is the Fourier transform of this periodic amplitude function \cite{Born80}. 
 That is, if an array of slits can be described with an amplitude function $\mathcal{A} (x)$, then the Fourier transform is a function of the $x$-component of the diffracted wave vector in the far field with $k'_x \equiv k \sin \left( \gamma \right) \sin \left( \beta_n \right)$: 
 \begin{subequations}
@@ -417,7 +417,7 @@ Although the interaction of the incident wave with the grating structure is not 
 \begin{equation}\label{eq:scalar_efficiency}
  \mathscr{E}_n \equiv \frac{\mathcal{I}_n}{\mathcal{I}_{\text{inc}}} \propto \frac{\cos \left( \beta_n \right)}{\cos \left( \alpha \right)} \norm{G_n}^2 .
  \end{equation}
-Approximate behavior for \emph{relative diffraction efficiency} can be gleaned using \cref{eq:scalar_efficiency} where the constant of proportionality is determined from requiring that $\sum_n \mathscr{E}_n = 1$ for all $n$ corresponding to propagating orders [\emph{cf.\@} \cref{sec:rel_eff_perf}]. 
+Approximate behavior for \emph{relative diffraction efficiency} can be gleaned using \cref{eq:scalar_efficiency}, where the constant of proportionality is determined from requiring that $\sum_n \mathscr{E}_n = 1$ for all $n$ corresponding to propagating orders [\emph{cf.\@} \cref{sec:rel_eff_perf}]. 
 In the discussion that follows, the efficiency behavior of common groove shapes are considered below with emphasis on phase gratings, where a function $\Phi (x+d) = \Phi (x)$ is used to describe surface-relief reflection gratings with various groove profiles. 
 
 To formulate descriptions for amplitude and phase gratings, an array of $N \to \infty$ infinitesimal slits given by \cref{eq:amplitude_dirac} with $\mathcal{A} (x+d) = \mathcal{A} (x)$ is again considered. 
@@ -454,7 +454,7 @@ This parameter $\mathscr{W}$ sets the duty cycle, $\mathscr{W}/d$, of the piece-
     G (x) = 
                 \begin{cases}
                   \mathcal{A}_0 , &\quad \text{for } 0 < x \leq \mathscr{W} \\
-                  0 , &\quad \text{for } \mathscr{W} < x \leq d .
+                  0 , &\quad \text{for } \mathscr{W} < x \leq d ,
                 \end{cases}
  \end{equation}
 where \cref{eq:transmit_fourier_coeff} gives the following Fourier coefficients: 
@@ -472,7 +472,6 @@ Physically, this describes the behavior of a transmission grating featuring an a
 where $\sinc (x) \equiv \sin(x) / x$ is the \emph{sinc function} [\emph{cf.\@} \cref{fig:sinc_squared}]. 
 This shows that the intensity of propagating orders is dependent on the the ratio $n \mathscr{W} / d$ such that when it is an integer, intensity reaches zero. 
 
-
 For example, a grating with a \SI{50}{\percent} duty cycle with $\mathscr{W} = d/2$ has all even orders other than $n=0$ vanish since $\norm{G_n}^2 \propto \sinc^2 \left( n \pi / 2 \right)$ for a fixed geometry; a \SI{25}{\percent} duty cycle with $\mathscr{W} = d/4$ yields $\norm{G_n}^2 \propto \sinc^2 \left( n \pi / 4 \right)$ and therefore every $4^{\text{th}}$ order is suppressed. 
 \begin{figure}
  \centering
@@ -483,7 +482,7 @@ Relative efficiency for a grating at normal incidence with $\mathscr{W} = d/2$ i
 In the figure, it is also seen that $\mathscr{E}_n$ for $n= \pm 1$ comprise a small percentage of the total efficiency. 
 While this can be improved with smaller $\mathscr{W}/d$, efficiency is ultimately spread relatively evenly amongst unsuppressed propagating orders. 
 
-A binary phase grating can be taken to represent a reflection grating used near normal incidence where radiation picks up a phase shift $\Phi_g$ as radiation reflects from the the top and bottom of rectangular grooves\footnote{$\Phi_g$ is not to be confused with the multi-slit phase shift, $\Phi^{\text{off-plane}}$, given by \cref{eq:off-plane_phase}.} of width $\mathcal{W}$ and depth $h_0$. 
+A binary phase grating can be taken to represent a reflection grating used near normal incidence, where radiation picks up a phase shift $\Phi_g$ as radiation reflects from the the top and bottom of rectangular grooves\footnote{$\Phi_g$ is not to be confused with the multi-slit phase shift, $\Phi^{\text{off-plane}}$, given by \cref{eq:off-plane_phase}.} of width $\mathcal{W}$ and depth $h_0$. 
 For an in-plane geometry, this phase shift from the groove facet can be written explicitly as\footnote{However, it should be noted that if radiation illuminates significant portions of the groove sidewalls, then this analysis does not hold.}
 \begin{equation}\label{eq:laminar_phase}
  \Phi_g = \frac{2 \pi}{\lambda} h_0 \left[ \cos \left( \alpha \right) + \cos \left( \beta_n \right) \right] . 
@@ -557,7 +556,7 @@ This implies that the intensity of $0^{\text{th}}$ order should be four times th
                 \end{cases}
  \end{equation}
 \end{subequations}
-Although \cref{eq:sin_amplitude_grating} does not describe a physical grating in a general sense, this framework is useful to describe gratings where only one propagating order exists. 
+Although \cref{eq:sin_amplitude_grating} does not describe a physical grating in a general sense, this framework is useful to describe gratings with only one propagating order.  
 
 A sinusoidal surface-relief grating with a groove-depth profile described by 
 \begin{equation}
@@ -581,7 +580,7 @@ and then the following integral must be evaluated to determine the Fourier coeff
 \end{subequations}
 The exponential sine term can be handled using a property of \emph{Bessel functions of the first kind}:
 \begin{equation}\label{eq:Bessel_property}
- \mathrm{e}^{i \frac{\Phi_g}{2} \sin \left( K x \right)} = \sum_{m=-\infty}^{\infty} J_m \left( \frac{\Phi_g}{2} \right) \mathrm{e}^{i m K x}
+ \mathrm{e}^{i \frac{\Phi_g}{2} \sin \left( K x \right)} = \sum_{m=-\infty}^{\infty} J_m \left( \frac{\Phi_g}{2} \right) \mathrm{e}^{i m K x} ,
  \end{equation}
 where $J_m (\Phi_g / 2)$ is the $m^{\text{th}}$-order Bessel function. 
 \begin{figure}
@@ -607,7 +606,7 @@ For a grating used at normal incidence, the diffraction efficiency becomes, usin
 \begin{equation}
  \mathscr{E}_n \propto \frac{\cos \left( \beta_n \right)}{\cos \left( \alpha \right)} \norm{J_n \left( \pi \frac{h_0}{\lambda} \sqrt{1 - \left( \frac{n \lambda}{d} \right)^2 } \right)}^2  .
  \end{equation}
-This is illustrated in \cref{fig:sine_phase} for $h_0 / \lambda = 0.3$ where it is seen that most diffracted efficiency is contained within orders $n = \pm 1$. 
+This is illustrated in \cref{fig:sine_phase} for $h_0 / \lambda = 0.3$, where it is seen that most diffracted efficiency is contained within orders $n = \pm 1$. 
 
 \subsection{The Sawtooth}\label{sec:sawtooth_principle}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--------------------------------------------------
@@ -626,7 +625,7 @@ so that $\mathscr{E}_n$ drops off as $n^{-2}$.
 \end{subequations}
 Although this does not describe a physical diffraction grating, an ideal, blazed reflection grating can be treated as a surface where phase varies as a sawtooth: 
 \begin{equation}
- \Phi (x) = \Phi_g \frac{x}{d} \quad \text{for } 0 < x \leq d  %\quad \text{and } \\
+ \Phi (x) = \Phi_g \frac{x}{d} \quad \text{for } 0 < x \leq d , %\quad \text{and } \\
  %G \left( x \right) &= \mathcal{A}_0 \mathrm{e}^{i \Phi_g \frac{x}{d}} \quad \text{for } 0 < x \leq d ,
  \end{equation} 
 where $\Phi_g$ is the phase shift difference between the top and bottom of a groove with depth $h_0$ [\emph{cf.\@} \cref{eq:laminar_phase}]. 
@@ -645,7 +644,7 @@ the scalar diffraction efficiency of the $n^{\text{th}}$ order is
  \end{split}
  \end{align}
 
-The sinc-squared function in \cref{eq:sawtooth_phase} indicates that the intensity of orders varies in a similar way to single-slit interference where the maximum intensity corresponds to $\Phi_g = 2 \pi n$. 
+The sinc-squared function in \cref{eq:sawtooth_phase} indicates that the intensity of orders varies in a similar way to single-slit interference, where the maximum intensity corresponds to $\Phi_g = 2 \pi n$. 
 However, in this case there exists a maximum for each diffracted order and $\Phi_g$ depends on the slope of the sawtooth with the groove depth given by $h_0 = d \tan \left( \delta \right)$:
 %\begin{subequations}
 \begin{equation}\label{eq:sawtooth_path}
@@ -660,7 +659,7 @@ Equating this with the generalized grating equation given by \cref{eq:off-plane_
  \tan \left( \delta \right) = \frac{\sin (\alpha) + \sin (\beta_n)}{\cos (\alpha) + \cos (\beta_n)} \equiv \tan \left( \frac{\alpha + \beta_n}{2} \right),
  \end{equation}
 %\end{subequations}
-which shows that diffracted angles corresponding to maximum intensity are all given by $\beta_n = 2 \delta - \alpha$ and suggests that the slope of the sawtooth can be thought of as being similar to a mirror flat where the reflected angle corresponds to the grating's blaze response. 
+which shows that diffracted angles corresponding to maximum intensity are all given by $\beta_n = 2 \delta - \alpha$ and suggests that the slope of the sawtooth can be thought of as being similar to a mirror flat, where the reflected angle corresponds to the grating's blaze response. 
 Inserting $\beta_n = 2 \delta - \alpha$ into \cref{eq:off-plane_incidence_orders} and then recovering the off-plane case using $\lambda \to \bar{\lambda} = \lambda \csc (\gamma)$ gives the equation for the \emph{blaze wavelength}: 
 \begin{equation}\label{eq:blaze_wavelength_general}
  %\begin{split}
@@ -719,7 +718,7 @@ Due to these properties, blazed gratings used in a Littrow configuration are opt
 
 \section{Summary}\label{sec:appD_summary}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-------------------------------------------------- 
-Basic physics of diffraction gratings can be gleaned by considering Huygens-Fresnel principle applied to an array of periodically spaced slit sources where grating behavior arises as the number of slits, $N$, becomes very large. 
+Basic physics of diffraction gratings can be gleaned by considering Huygens-Fresnel principle applied to an array of periodically spaced slit sources, where grating behavior arises as the number of slits, $N$, becomes very large. 
 According to the framework of Fraunhofer diffraction, the far-field diffraction pattern produced by a grating can be determined from the Fourier transform of its transmittance function, $G(x)$, which describes periodic variations in amplitude and phase caused by the grating. 
 Reflection gratings can often be modeled as phase gratings determined by the path-length differences picked up as light reflects from a groove facet. 
 While scalar this approach to modeling diffraction efficiency is limited due to its neglect of electromagnetic polarization and radiation interaction with materials, it is found that gratings with sawtooth-shaped groove facets have the ability to concentrate diffraction efficiency in the $n^{\text{th}}$ order over a particular spectral range. 

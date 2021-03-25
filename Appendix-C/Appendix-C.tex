@@ -31,12 +31,12 @@ Then, the overall electromagnetic wave that is \emph{refracted} and \emph{attenu
 
 The above scenario describes the classical, macroscopic effect that scattering from atomic electrons has on wave propagation inside a  material. 
 However, it was implicitly assumed that the material could be treated as a continuous medium, or equivalently, that the wavelength of the radiation, $\lambda$, is much larger than the atomic scale, which can be taken as the Bohr radius $a_0 \approx \SI{0.05}{\nm}$ [\emph{cf.\@} \cref{sec:allowed_transitions}]. 
-Although this approximation is often valid, for example, in the visible light spectrum where $\SI{700}{\nm}\gtrapprox \lambda \gtrapprox \SI{400}{\nm}$, it breaks down for soft x-rays and other radiation with $\lambda \lessapprox a_0$  \cite{Landau60,Attwood17,Als-Nielsen11}. 
+Although this approximation is often valid, for example, in the visible light spectrum, where $\SI{700}{\nm}\gtrapprox \lambda \gtrapprox \SI{400}{\nm}$, it breaks down for soft x-rays and other radiation with $\lambda \lessapprox a_0$  \cite{Landau60,Attwood17,Als-Nielsen11}. 
 While this condition comes with its own set of consequences, which are described throughout this appendix, another aspect to consider is the highly frequency-dependent nature of scattering in materials. 
 For reference, the frequency, $\omega = 2 \pi c_0 / \lambda$, of visible light is large enough to neglect the magnetic-dipole processes that may come into play for radio waves and other relatively low-frequency radiation but still much smaller than virtually all atomic resonances, which are given by $\omega_e \equiv \mathcal{E}_e / \hbar$, where $\mathcal{E}_e$ is an electronic binding energy \cite{Landau60,Jackson75}. 
 That is, with timescales for magnetic-dipole processes being much longer than the timescale $\omega^{-1}$, electric-dipole interactions are the dominant contribution to the scattered radiation from bound electrons with $\omega \ll \omega_e$. 
-As frequency increases into the hard x-ray spectrum however, $\omega^{-1}$ is so short that even electric-dipole processes do not have time to respond to the oscillation of the wave and as a result, scattering is characteristic of a free electron where $\omega \gg \omega_e$ \cite{Attwood17,Als-Nielsen11}. 
-Importantly, soft x-rays exist in between these two limiting cases where $\omega$ is in the neighborhood of $\omega_e$ for atomic electrons and hence a more detailed description of scattering should be considered. 
+As frequency increases into the hard x-ray spectrum however, $\omega^{-1}$ is so short that even electric-dipole processes do not have time to respond to the oscillation of the wave and as a result, scattering is characteristic of a free electron with $\omega \gg \omega_e$ \cite{Attwood17,Als-Nielsen11}. 
+Importantly, soft x-rays exist in between these two limiting cases, where $\omega$ is in the neighborhood of $\omega_e$ for atomic electrons and hence a more detailed description of scattering should be considered. 
 
 For scattered radiation to interfere constructively and contribute to the overall electromagnetic wave that propagates in a material, the scattering processes must be \emph{coherent} in the sense that $\omega$ for the driving and radiating waves are nominally identical. 
 This therefore excludes inelastic processes such as \emph{Compton scattering}, where the incoming photon\footnote{Typically, this is a hard x-ray photon with substantial quantized momentum [\emph{cf.\@} \cref{ap:x-ray_intro}].} transfers momentum to an atomic electron as it ejects it and scatters as a new photon with reduced $\omega$ and increased $\lambda$ \cite{Als-Nielsen11}. 
@@ -47,7 +47,7 @@ There then are two main types of coherent scattering alluded to above that are r
  \end{enumerate} 
 These coherent-scattering processes can be treated quantum-mechanically as the absorption of a photon with $\abs{\mathbold{k}} = k_0 \equiv 2 \pi / \lambda$ coupled with the emission of a new photon with $\abs{\mathbold{k}'} = k_0$ that propagates in a different, probabilistic direction. 
 
-Rayleigh scattering can be described as a second-order perturbation of $\underline{\mathcal{H}}^{(1)} \equiv  \left( q_e / m_e \right) \underline{\mathbold{A}} ( \mathbold{r} ) \cdot \underline{\mathbold{p}}$ [\emph{cf.\@} \cref{sec:ions_EM}] where the relevant time evolution operator for an atomic electron under the \emph{self-consistent field approximation} can be written as\footnote{Here, operators are expressed in the interaction picture using \cref{eq:interaction_operator}.}
+Rayleigh scattering can be described as a second-order perturbation of $\underline{\mathcal{H}}^{(1)} \equiv  \left( q_e / m_e \right) \underline{\mathbold{A}} ( \mathbold{r} ) \cdot \underline{\mathbold{p}}$ [\emph{cf.\@} \cref{sec:ions_EM}], where the relevant time evolution operator for an atomic electron under the \emph{self-consistent field approximation} can be written as\footnote{Here, operators are expressed in the interaction picture using \cref{eq:interaction_operator}.}
 \begin{subequations}
 \begin{equation}
  \underline{U}_I (t) \approx 1 - \frac{i}{\hbar} \int_0^t \underline{\mathcal{H}}^{(1)}_I (t') \dd{t'} + \left(- \frac{i}{\hbar} \right)^2 \int_0^t \underline{\mathcal{H}}^{(1)}_I (t') \dd{t'} \int_0^{t'} \underline{\mathcal{H}}^{(1)}_I (t'') \dd{t''} ,
@@ -167,7 +167,7 @@ Factors of $\mathrm{e}^{-i \omega t}$ drop out when this is inserted into \cref{
  \end{equation}
 \end{subequations}
 
-For a point of observation $\mathbold{r}$,\footnote{To clarify, this is an arbitrary position in the line of sight for a scattered wave (given by $\mathbold{k}'$) where the electric field radiated by the atomic electrons is supposed to be measured.} the distance from the $j^{\text{th}}$ electron is $R_j \equiv | \mathbold{r} -\Delta \mathbold{r}_j |$ and the magnitude of the radiated electric field in the far-field (\emph{i.e.}, $R_j \gg c_0 / \omega$) is
+For a point of observation $\mathbold{r}$,\footnote{To clarify, this is an arbitrary position in the line of sight for a scattered wave (given by $\mathbold{k}'$), where the electric field radiated by the atomic electrons is supposed to be measured.} the distance from the $j^{\text{th}}$ electron is $R_j \equiv | \mathbold{r} -\Delta \mathbold{r}_j |$ and the magnitude of the radiated electric field in the far-field (\emph{i.e.}, $R_j \gg c_0 / \omega$) is
 %\begin{subequations}
 \begin{equation}\label{eq:single_electron_radiate}
  E_{\text{rad},j} \left( R_j, t \right) = \frac{q_e \sin \left( \vartheta \right)}{4 \pi \epsilon_0 c_0^2 R_j} \dv[2]{X_j (t - R_j/c_0)}{t} = - \frac{q_e \omega^2 \sin \left( \vartheta \right)}{4 \pi \epsilon_0 c_0^2} \frac{\abs{\Delta \mathbold{X}_j} \mathrm{e}^{i \omega \left( \frac{R_j}{c_0} - t \right)}}{R_j} ,
@@ -205,7 +205,7 @@ Finally, \cref{eq:charge_radiation1} becomes
 for a point of observation in the far-field, where $r \gg \abs{\Delta \mathbold{r}_j}$. 
 %\end{subequations}
 
-At this point, \cref{eq:charge_radiation2} describes the radiation produced from scattering in a single atom where the spacing in between electrons cannot be neglected due to the condition $\lambda \gg a_0$ not being fulfilled. 
+At this point, \cref{eq:charge_radiation2} describes the radiation produced from scattering in a single atom, where the spacing in between electrons cannot be neglected due to the condition $\lambda \gg a_0$ not being fulfilled. 
 Dividing this expression by the magnitude of the incident electric field highlights the fact that the scattered field emerges as a spherical wavefront that is modulated by $\sin \left( \vartheta \right)$ and a complex function $f^a(\mathbold{Q},\omega)$ known as the \emph{atomic scattering factor} \cite{deBergevin09,Als-Nielsen11,Attwood17}: 
 \begin{subequations}
 \begin{equation}\label{eq:spherical_scatter}
@@ -297,7 +297,7 @@ Due to this broadband response free of sharp absorption edges below \SI{2}{\kilo
 \subsection{Soft X-ray Index of Refraction}\label{sec:x-ray_index}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--------------------------------------------------
 Typically, the \emph{index of refraction} of a material is defined macroscopically for radiation of a given frequency $\omega$ assuming $\lambda \gg a_0$. 
-For visible light where $\omega$ is large enough to neglect contributions from magnetic-dipole interactions as discussed at the start of \cref{sec:SXR_med}, the index of refraction depends only on the electric polarization field, $\mathbold{P}(\mathbold{r},t)$ [\emph{cf.\@} \cref{eq:electric_polarization_field}], as it enters through the \emph{electric displacement field}, $\mathbold{D}(\mathbold{r},t)$, which is defined as \cite{Landau60,Jackson75,Griffiths17,Born80}: 
+For visible light, where $\omega$ is large enough to neglect contributions from magnetic-dipole interactions as discussed at the start of \cref{sec:SXR_med}, the index of refraction depends only on the electric polarization field, $\mathbold{P}(\mathbold{r},t)$ [\emph{cf.\@} \cref{eq:electric_polarization_field}], as it enters through the \emph{electric displacement field}, $\mathbold{D}(\mathbold{r},t)$, which is defined as \cite{Landau60,Jackson75,Griffiths17,Born80}: 
 \begin{subequations}
 \begin{equation}\label{eq:displacement_field_def}
  \mathbold{D}(\mathbold{r},t) \equiv \epsilon_0 \mathbold{E}(\mathbold{r},t) + \mathbold{P}(\mathbold{r},t) .
@@ -305,7 +305,7 @@ For visible light where $\omega$ is large enough to neglect contributions from m
 Because it takes a finite amount of time for atomic electric-dipole moments to respond to $\mathbold{E}(\mathbold{r},t)$, $\mathbold{D}(\mathbold{r},t)$ depends on $\mathbold{E}(\mathbold{r},t)$ not only at a time $t$ like it does in quasi-static situations,\footnote{For example, in electrostatics and in situations where $\mathbold{E}(\mathbold{r},t)$ varies slowly in time, the relation $\mathbold{D}(\mathbold{r},t) = \epsilon \mathbold{E}(\mathbold{r},t)$ (with $\epsilon$ as a constant) can often be used.} but also generally on all previous times leading up to $t$. 
 This can be written as:%define linear material
 \begin{equation}
- \mathbold{D}(\mathbold{r},t) = \epsilon_0 \mathbold{E}(\mathbold{r},t) + \int_0^{\infty} f_{\epsilon} (t') \, \mathbold{E}(\mathbold{r},t-t') \dd{t'} 
+ \mathbold{D}(\mathbold{r},t) = \epsilon_0 \mathbold{E}(\mathbold{r},t) + \int_0^{\infty} f_{\epsilon} (t') \, \mathbold{E}(\mathbold{r},t-t') \dd{t'} ,
  \end{equation}
 where $f_{\epsilon} (t')$ is, for now, an unknown function of time that depends on the properties of a given material \cite{Landau60,Jackson75}. 
 Expressing the fields as inverse Fourier transforms shows that $\mathbold{D}(\mathbold{r},t)$ and $\mathbold{E}(\mathbold{r},t)$ are related to each other through a complex, material-dependent function of frequency:
@@ -372,7 +372,7 @@ where $\mathbold{\tilde{k}}$ is a wave vector that characterizes the direction o
 Because $\epsilon(\omega)$ is generally complex, $\mathbold{\tilde{k}}$ is considered to be a complex wave vector:
 %\begin{subequations}
 \begin{equation}
- \mathbold{\tilde{k}} = \mathbold{k} + i \mathbold{\kappa} \label{eq:k_tilde_def}
+ \mathbold{\tilde{k}} = \mathbold{k} + i \mathbold{\kappa} , \label{eq:k_tilde_def}
  \end{equation}
 where $\mathbold{k}$ and $\mathbold{\kappa}$ are real vectors denoting the direction and magnitude of wave propagation and wave attenuation, respectively. 
 Inserting \cref{eq:fourier_fields_complex} into \cref{eq:Helmholtz_med} gives 
@@ -420,10 +420,10 @@ As this electrons oscillates along the direction of $\mathbold{E}_0$ with the fu
  \mathbold{X}_j (t) = \frac{q_e}{m_e} \frac{\mathbold{E}_0 \mathrm{e}^{i \left( \mathbold{k} \cdot \Delta \mathbold{r}_j - \omega t \right)}}{\left( \omega^2 - \omega_j^2 + i \omega \Gamma_j \right)} ,
  \end{equation}
 it radiates a wave of frequency $\omega$ according to \cref{eq:single_electron_radiate}. 
-The most significant contributors to the modification of the incident wave, however, are forward-scattering events where the phase term can be neglected [\emph{cf.\@} \cref{sec:scattering_atoms}]. 
+The most significant contributors to the modification of the incident wave, however, are forward-scattering events, where the phase term can be neglected [\emph{cf.\@} \cref{sec:scattering_atoms}]. 
 In this case, each of the $\mathcal{Z}$ electrons in an atom oscillates in phase: 
 \begin{equation}\label{eq:atomic_osc}
- \mathbold{X}_a (t) \equiv \sum_{j=1}^{\mathcal{Z}} \mathbold{X}_j (t) \approx \frac{q_e}{m_e} \mathbold{E}_0 \mathrm{e}^{-i \omega t} \underbrace{\sum_{s} \frac{g_s}{\left( \omega^2 - \omega_j^2 + i \omega \Gamma_j \right)}}_{f^0 (\omega) / \omega^2}
+ \mathbold{X}_a (t) \equiv \sum_{j=1}^{\mathcal{Z}} \mathbold{X}_j (t) \approx \frac{q_e}{m_e} \mathbold{E}_0 \mathrm{e}^{-i \omega t} \underbrace{\sum_{s} \frac{g_s}{\left( \omega^2 - \omega_j^2 + i \omega \Gamma_j \right)}}_{f^0 (\omega) / \omega^2} ,
  \end{equation}
 where $f^0 (\omega)$ is the atomic scattering factor in the forward-scattering approximation [\emph{cf.\@} \cref{eq:atomic_scattering_factor_reduced2}]. 
 Therefore, the scattered intensity is at its maximum in this direction for a given $\omega$ as the atom behaves as a single, oscillating electric dipole:
@@ -501,7 +501,7 @@ with
  \end{align}
 where $f^0 \left( \omega \right) \equiv f^0_1 \left( \omega \right) - i f^0_2 \left( \omega \right)$ [\emph{cf.\@} \cref{eq:atomic_scattering_factor_reduced3}]. 
 \end{subequations}
-These expressions indicate that $\nu(\omega) < 1$ over the soft x-ray spectrum, with possible exceptions near resonances where $\omega \approx \omega_s$. 
+These expressions indicate that $\nu(\omega) < 1$ over the soft x-ray spectrum, with possible exceptions near resonances, where $\omega \approx \omega_s$. 
 This implies that in an opposite fashion to visible light and other relatively long-$\lambda$ radiation, the phase velocity, $c_p \equiv c_0 / \nu (\omega)$, can be greater than $c_0$ for soft x-rays with the wavelength in the medium, $\lambda' \equiv \lambda / \nu(\omega)$, increasing relative to $\lambda$ rather than decreasing. 
 Moreover, with $\nu(\omega) \lessapprox 1$, the effect refraction in the soft x-ray bandpass is expected to be small [\emph{cf.\@} \cref{sec:planar_interface}]. 
 
@@ -552,7 +552,7 @@ with $\abs{\mathbold{k}} = k_0 \equiv 2 \pi / \lambda = \sqrt{k_x^2 + k_y^2}$ an
 \begin{figure}
  \centering
  \includegraphics[scale=1.25]{Appendix-C/Figures/diffraction_arc22.mps}
- \caption[Geometry for in-plane reflection and refraction]{Geometry for in-plane reflection and refraction where $\mathbold{k}$ is the incident wave vector, $\mathbold{k}''$ is the reflected wave vector and $\mathbold{\tilde{k}}'$ is the refracted wave vector.}\label{fig:2Dmirror_angles}
+ \caption[Geometry for in-plane reflection and refraction]{Geometry for in-plane reflection and refraction, where $\mathbold{k}$ is the incident wave vector, $\mathbold{k}''$ is the reflected wave vector and $\mathbold{\tilde{k}}'$ is the refracted wave vector.}\label{fig:2Dmirror_angles}
  \end{figure}
 The corresponding electromagnetic wavefront is represented by 
 \begin{equation} \label{eq:incident_fields}
@@ -567,7 +567,7 @@ Kept in arbitrary form, the reflected ray is also associated with a real wave ve
  \end{equation}
 with $\abs{\mathbold{k''}} = k_0 = \sqrt{k_x^2 + k_y^2 + k_z^2}$ while the reflected wavefront can be written using 
 \begin{equation}\label{eq:reflected_fields}
-\mathbold{E''} \left( x, y, z \right) = \mathbold{E}_0'' \mathrm{e}^{i \left( k_x'' x + k_y'' y + k_z'' z \right)} \text{ and } \mathbold{H''} \left( x, y, z \right) = \frac{1}{Z_0 k_0} \mathbold{k''} \times \mathbold{E''} \left( x, y, z \right) 
+\mathbold{E''} \left( x, y, z \right) = \mathbold{E}_0'' \mathrm{e}^{i \left( k_x'' x + k_y'' y + k_z'' z \right)} \text{ and } \mathbold{H''} \left( x, y, z \right) = \frac{1}{Z_0 k_0} \mathbold{k''} \times \mathbold{E''} \left( x, y, z \right) ,
  \end{equation} 
 where $\mathbold{E}_0''$ describes the polarization and amplitude of the reflected electric field.  
 \end{subequations}
@@ -576,7 +576,7 @@ On the other hand, the refracted ray is described with a complex wave vector [\e
 \begin{equation}\label{eq:3D_refracted_wave_vector}
  \mathbold{\tilde{k}'} = \mathbold{k'} + i \mathbold{\kappa'} = \tilde{k}_x' \mathbold{\hat{x}} + \tilde{k}_y' \mathbold{\hat{y}} + \tilde{k}_z' \mathbold{\hat{z}}
  \end{equation}
-with $\abs{\mathbold{\tilde{k}'}} = \tilde{k}' \equiv \tilde{\nu} (\omega) \, k_0 = \sqrt{\tilde{k}_x'^2 + \tilde{k}_y'^2 + \tilde{k}_z'^2}$ and the refracted wavefront is associated with complex electromagnetic fields where $\mathbold{E}_0'$ describes the polarization and initial amplitude of the refracted electric field: 
+with $\abs{\mathbold{\tilde{k}'}} = \tilde{k}' \equiv \tilde{\nu} (\omega) \, k_0 = \sqrt{\tilde{k}_x'^2 + \tilde{k}_y'^2 + \tilde{k}_z'^2}$ and the refracted wavefront is associated with complex electromagnetic fields, where $\mathbold{E}_0'$ describes the polarization and initial amplitude of the refracted electric field: 
 \begin{equation}\label{eq:refracted_fields}
  \mathbold{E'} \left( x, y, z \right) = \mathbold{E}_0' \mathrm{e}^{i \left( \tilde{k_x}' x + \tilde{k_y}' y + \tilde{k_z}' z \right)} \text{ and } \mathbold{H'} \left( x, y, z \right) = \frac{1}{Z_0 k_0} \mathbold{\tilde{k}'} \times \mathbold{E'} \left( x, y, z \right) .
  \end{equation} 
@@ -705,7 +705,7 @@ in vacuum with $k_y^2 = k_0^2 - k_x^2 = k_0^2 \sin^2 \left( \zeta \right)$ and
 inside the material of the mirror with $\tilde{k_y}'^2 = \tilde{k}'^2 - k_x^2 = k_0^2 \left[ \tilde{\nu}^2(\omega) - \cos^2 \left( \zeta \right) \right]$. 
 \end{subequations}
 
-The incident wave is assumed to be traveling toward the mirror surface with a $\mathrm{e}^{i k_y y}$ dependence where $k_y \equiv -k_0 \sin \left( \zeta \right)$ [\emph{cf.\@} \cref{eq:2D_incident_wave,fig:2Dmirror_angles}]. 
+The incident wave is assumed to be traveling toward the mirror surface with a $\mathrm{e}^{i k_y y}$ dependence, where $k_y \equiv -k_0 \sin \left( \zeta \right)$ [\emph{cf.\@} \cref{eq:2D_incident_wave,fig:2Dmirror_angles}]. 
 Meanwhile, the reflected wave travels away with a $\mathrm{e}^{-i k_y y}$ dependence so that the total electric field in vacuum can be written as 
 \begin{subequations}
 \begin{equation}
@@ -728,8 +728,8 @@ so that using \cref{eq:incident_fields,eq:reflected_fields,eq:refracted_fields} 
 \end{subequations}
 To evaluate how polarization, given by the orientation of the electric field vector, affects the reflectivity of a mirror, the Helmholtz equations given by \cref{eq:Helmholtz_above_mirror_simplified,eq:Helmholtz_below_mirror_simplified} are solved with the boundary conditions defined in \cref{eq:mirror_boundary_1,eq:mirror_boundary_2,eq:mirror_boundary_3,eq:mirror_boundary_4}, in two orthogonal, linear polarization states:
 \begin{itemize}[noitemsep]
-  \item \emph{s-polarization}: where the electric field is perpendicular to the plane of incidence and parallel to the surface, and 
-  \item \emph{p-polarization}: where the electric field is parallel to the plane of incidence and perpendicular to the the surface, 
+  \item \emph{s-polarization}: the electric field is perpendicular to the plane of incidence and parallel to the surface, and 
+  \item \emph{p-polarization}: the electric field is parallel to the plane of incidence and perpendicular to the the surface, 
 \end{itemize}
 with $u(y)$ as a scalar function representing the magnitude of the field in each case. 
 Similarly, from \cref{eq:mirror_boundary_1,eq:mirror_boundary_2,eq:mirror_boundary_3,eq:mirror_boundary_4}, the reflected and refracted fields can also be represented with scalar functions $u''(y)$ and $u'(y)$, respectively, and \cref{eq:Helmholtz_above_mirror_simplified,eq:Helmholtz_below_mirror_simplified} are reduced to their scalar form:
@@ -804,12 +804,12 @@ The expressions for $\mathcal{R}_s$ and $\mathcal{R}_p$ in \cref{eq:s_reflectivi
 However, these expressions can be simplified in the soft x-ray regime with $\nu (\omega) \lessapprox 1$ and $\xi(\omega) \ll 1$ using 
 \begin{subequations}
 \begin{equation}\label{eq:index_approx}
- \tilde{\nu}^2 (\omega) = \nu^2 (\omega) + 2 i \nu(\omega) \xi(\omega) - \xi^2(\omega) \approx \nu^2 (\omega) + 2 i \xi(\omega)
+ \tilde{\nu}^2 (\omega) = \nu^2 (\omega) + 2 i \nu(\omega) \xi(\omega) - \xi^2(\omega) \approx \nu^2 (\omega) + 2 i \xi(\omega) ,
  \end{equation}
 where $\nu^2 (\omega) = \left[ 1 - \zeta^2_c (\omega) / 2 \right]^2 \approx 1 - \zeta^2_c (\omega)$ from the approximate definition of $\zeta_c (\omega)$ given by \cref{eq:critical_angle} \cite{Attwood17}. 
 Then, \cref{eq:index_approx} becomes
 \begin{equation}
- \tilde{\nu}^2 (\omega) \approx 1 - \zeta^2_c (\omega) + 2 i \xi(\omega)
+ \tilde{\nu}^2 (\omega) \approx 1 - \zeta^2_c (\omega) + 2 i \xi(\omega) ,
  \end{equation}
 \end{subequations}
 and additionally, at grazing-incidence angles with $\zeta \ll 1$ it is justified to use the approximations $\sin \left( \zeta \right) \approx \zeta$ and $\cos^2 \left( \zeta \right) \approx 1 - \zeta^2$ so that the reflection coefficients can be written as  
@@ -879,7 +879,7 @@ The corresponding intensity then drops to $1/\mathrm{e} \approx \SI{37}{\percent
  \end{equation}
 This \emph{penetration depth} can be written generally as \cite{Attwood17,Vineyard82,Als-Nielsen11}
 \begin{equation}\label{eq:penetration_depth}
- \mathcal{D}_{\perp} \equiv \abs{y_{1/\mathrm{e}}} = \frac{1}{2} \abs{\Im \left[ \tilde{k_{\perp}}' \right]}^{-1} = \frac{\lambda}{4 \pi \sqrt{\tilde{\nu}^2 (\omega) - \cos^2 \left( \zeta \right)}}
+ \mathcal{D}_{\perp} \equiv \abs{y_{1/\mathrm{e}}} = \frac{1}{2} \abs{\Im \left[ \tilde{k_{\perp}}' \right]}^{-1} = \frac{\lambda}{4 \pi \sqrt{\tilde{\nu}^2 (\omega) - \cos^2 \left( \zeta \right)}} ,
  \end{equation}
 \end{subequations}
 where $\tilde{k_{\perp}}' \equiv \tilde{k_y}'$ is component of the complex wave vector perpendicular to the surface of the mirror with $\Im \left[ \tilde{k_{\perp}}' \right] \equiv \kappa_y'$ in this coordinate system. 
@@ -969,7 +969,7 @@ which can be used to arrive at an approximate expression for $\kappa_y'$.
 From \cref{eq:imag_refract_y}, 
 \begin{subequations}
 \begin{equation}
- \kappa_y' \approx - k_0  \nu(\omega) \left( 1 - \frac{\zeta'^2_{\Re}}{2} \right) \zeta'_{\Im} = - k_0 \nu(\omega) \left(1 - \frac{\xi^2(\omega)}{\zeta^2_c (\omega) - \zeta^2} \right) \sqrt{\zeta^2_c (\omega) - \zeta^2}
+ \kappa_y' \approx - k_0  \nu(\omega) \left( 1 - \frac{\zeta'^2_{\Re}}{2} \right) \zeta'_{\Im} = - k_0 \nu(\omega) \left(1 - \frac{\xi^2(\omega)}{\zeta^2_c (\omega) - \zeta^2} \right) \sqrt{\zeta^2_c (\omega) - \zeta^2} ,
  \end{equation} 
 where the term multiplied by $\xi(\omega)$ has been neglected since $\xi(\omega) \ll \nu(\omega)$ while moreover, taking $\nu (\omega) \approx 1$ and neglecting the small $\xi^2(\omega)$ term gives 
 \begin{equation}
@@ -987,12 +987,12 @@ However, as $\zeta$ approaches $\zeta_c (\omega)$, \cref{eq:penetration_depth_ap
  \includegraphics[scale=0.95]{Appendix-C/Figures/X-ray_atten.pdf}
  \caption[TER penetration depth for PMMA, silica, nickel and gold]{TER penetration depth, $\mathcal{D}_{\perp}$, at $\zeta = 1^{\circ}$ for PMMA (\ce{C5H8O2})$_n$, silica (\ce{SiO2}), nickel (\ce{Ni}) and gold (\ce{Au}) \cite{CXRO_database}}\label{fig:X-ray_atten}
  \end{figure} 
-This is demonstrated in \cref{fig:X-ray_atten} where the exact expression for $\mathcal{D}_{\perp}$ using \cref{eq:penetration_depth} with $\zeta = 1^{\circ}$ is plotted across the soft x-ray spectrum for the materials from \cref{fig:X-ray_index,fig:X-ray_lengths,fig:critical_angle,fig:X-ray_refl}. 
+This is demonstrated in \cref{fig:X-ray_atten}, where the exact expression for $\mathcal{D}_{\perp}$ using \cref{eq:penetration_depth} with $\zeta = 1^{\circ}$ is plotted across the soft x-ray spectrum for the materials from \cref{fig:X-ray_index,fig:X-ray_lengths,fig:critical_angle,fig:X-ray_refl}. 
 It is seen in these plots that $\mathcal{D}_{\perp}$ sharply increases at absorption edges and over other spectral regions where $\zeta \gtrapprox \zeta_c (\omega)$, which is the case for PMMA and silica toward the blue end of the soft x-ray spectrum. 
 
 A mirror flat designed for soft x-rays under TER in practice can be a layer of an appropriate material \numrange{4}{5} $\mathcal{D}_{\perp}$ thick coated on a substrate such as silicon or fused silica. 
 Over such a depth, \SIrange{98}{99}{\percent}  of the incident wave intensity is attenuated and as a result, reflections that occur at the interface of the coating and the substrate can be neglected. 
-This principle also holds for x-ray reflection gratings where, as alluded to in \cref{sec:grating_tech_dev}, only a relatively thin layer of a reflective material need be coated on a grating surface relief. 
+This principle also holds for x-ray reflection gratings, where, as alluded to in \cref{sec:grating_tech_dev}, only a relatively thin layer of a reflective material need be coated on a grating surface relief. 
 The penetration depth data from \cref{fig:X-ray_atten} combined with the reflectivity data from \cref{fig:X-ray_refl} indicate that a gold coating provides an efficient, broadband response for grazing-incidence soft x-rays with a relatively thin deposited layer (typically \SIrange{10}{15}{\nm}). 
 This is beneficial for x-ray reflection gratings with groove spacings of a few hundred \si{\nm} in terms of diffraction efficiency, both for the overall reflectivity and for maintaining the sawtooth groove shape that affects how efficiency is distributed among propagating orders [\emph{cf.\@} \cref{ch:diff_eff,ap:grating_basics}]. 
 Additionally, nickel has similar properties for $\hbar \omega \lessapprox \SI{800}{\electronvolt}$ and may be appropriate in situations where the prominent L-shell absorption edge can be avoided. 
@@ -1012,19 +1012,19 @@ In principle, a rough surface can be described with a pseudo-random surface prof
 While the exact analytical form of the function $Y(x,z)$ is unknown in practice, its statistical properties can be used to describe approximately the effect that a rough surface has on incident radiation. 
 First, this function fluctuates in value to a level characterized by the variance of $Y(x,z)$:
 \begin{equation}\label{eq:surface_variance}
- \sigma^2 \equiv \langle Y^2(x,z) \rangle - \underbrace{\langle Y(x,z) \rangle^2}_0 
+ \sigma^2 \equiv \langle Y^2(x,z) \rangle - \underbrace{\langle Y(x,z) \rangle^2}_0 ,
  \end{equation} 
 where $\sigma$ is the \emph{root mean square (RMS) roughness} that describes the typical spread in surface feature heights \cite{Beckmann63,Ogilvy87,Als-Nielsen11,Sentenac2009}.   
 Additionally, information on the spread of lateral sizes on the surface is contained within the \emph{autocorrelation function} associated with $Y(x,z)$ \cite{Beckmann63,Hogrefe87,Ogilvy87,Sentenac2009}: 
 \begin{equation}\label{eq:auto_correlation}
- C (\mathbold{\tau}) = \frac{\langle Y(\mathbold{\tau}) Y(\mathbf{0}) \rangle}{\sigma^2} .
+ C (\mathbold{\tau}) = \frac{\langle Y(\mathbold{\tau}) Y(\mathbf{0}) \rangle}{\sigma^2} ,
  \end{equation}
 where $\mathbold{\tau} \equiv \tau_x  \mathbold{\hat{x}} + \tau_z  \mathbold{\hat{z}}$ is a position vector confined to the $y = 0$ plane that represents the directional distance between an arbitrary $(x,z)$ point and an origin $(0,0) \equiv \mathbf{0}$. 
 
 Taking the Fourier transform of \cref{eq:auto_correlation} gives a \emph{power spectral density (PSD) function}, which describes the distribution of spatial frequency components making up the rough surface \cite{Beckmann63,Wen15,Ogilvy87}:
 \begin{subequations}
 \begin{equation}\label{eq:PSD_general}
- PSD \left( \mathbold{K} \right) = \int_{-\infty}^{\infty} C (\mathbold{\tau}) \, \mathrm{e}^{i \mathbold{K} \cdot \mathbold{\tau}} \dd[2]{\mathbold{\tau}},
+ PSD \left( \mathbold{K} \right) = \int_{-\infty}^{\infty} C (\mathbold{\tau}) \, \mathrm{e}^{i \mathbold{K} \cdot \mathbold{\tau}} \dd[2]{\mathbold{\tau}} ,
  \end{equation}
 where $\mathbold{K} \equiv K_x  \mathbold{\hat{x}} + K_z  \mathbold{\hat{z}}$ is a spatial analog to $\mathbold{\tau}$. 
 The exponential term in the case of an isotropic surface becomes $\mathbold{K} \cdot \mathbold{\tau} = K \tau \cos (\phi)$ with $\tau \equiv |\mathbold{\tau}|$, $K \equiv |\mathbold{K}|$ and $\tan (\phi) \equiv \tau_z / \tau_x$ so that \cref{eq:PSD_general} becomes 
@@ -1103,7 +1103,7 @@ These two equations can be solved for the reflected amplitude:
 and using this relation, a reduced reflectivity can be defined as 
 \begin{subequations}
 \begin{equation}\label{eq:DW_refl_s}
- \mathcal{R}_{DW} \equiv \norm{\frac{\langle \mathcal{A}_s'' \rangle}{\mathcal{A}_s}}^2 = \norm{\langle \mathrm{e}^{2 i k_y Y(x,z)} \rangle}^2 \underbrace{\norm{\left( \frac{k_y - \tilde{k_y}'}{\tilde{k_y}' + k_y} \right) }^2 }_{\mathcal{R}_s} %= \mathrm{e}^{-2 k_y^2 \sigma^2} ,
+ \mathcal{R}_{DW} \equiv \norm{\frac{\langle \mathcal{A}_s'' \rangle}{\mathcal{A}_s}}^2 = \norm{\langle \mathrm{e}^{2 i k_y Y(x,z)} \rangle}^2 \underbrace{\norm{\left( \frac{k_y - \tilde{k_y}'}{\tilde{k_y}' + k_y} \right) }^2 }_{\mathcal{R}_s} , %= \mathrm{e}^{-2 k_y^2 \sigma^2} ,
  \end{equation}
 where, assuming that the randomness of the surface profile, $Y(x,z)$, is described by a normal distribution\footnote{For a random variable $X$ that is described by a Gaussian distribution, the \emph{Baker-Hausdorff theorem} states that $\langle \mathrm{e}^{i X} \rangle = \mathrm{e}^{-\frac{1}{2} \langle X^2 \rangle}$ \cite{Als-Nielsen11}. Moreover, $\sigma^2 \equiv \langle Y^2 (x,z) \rangle$ from \cref{eq:surface_variance}.} and using the definition of $\sigma^2$ in \cref{eq:surface_variance},
 \begin{equation}\label{eq:DW_factor}
@@ -1121,7 +1121,7 @@ Defining $\abs{\mathbold{K}} \equiv K \equiv 2 \pi / \Lambda$, a single mode of 
 Approximate scattering behavior then can be gleaned by considering how an electromagnetic wave interacts with such a structure for 
 \begin{enumerate}[noitemsep]
   \item the exact \emph{in-plane} case, where the plane defined by the incident wave vector, $\mathbold{k}$, and $\mathbold{K}$ is perpendicular to the surface defined by $y=0$, and 
-  \item the totally \emph{off-plane} case where $\mathbold{k}$ is perpendicular to $\mathbold{K}$.
+  \item the totally \emph{off-plane} case, where $\mathbold{k}$ is perpendicular to $\mathbold{K}$.
  \end{enumerate}
 
 The locations of diffracted orders for a grating for an oblique incidence angle are described by the \emph{generalized grating equation} [\emph{cf.\@} \cref{eq:off-plane_incidence_orders,eq:off-plane_orders}]: 
@@ -1143,7 +1143,7 @@ The diffracted angle moreover is taken to be $\beta = \Delta \beta - \alpha$, wh
  \end{equation}
 Using a trigonometric identity\footnote{$\cos \left( \Delta \beta + \zeta \right) = \cos \left( \Delta \beta \right) \cos \left( \zeta \right) - \sin \left( \Delta \beta \right) \sin \left( \zeta \right)$} and taking $n=1$ for first-order diffraction\footnote{According to the scalar treatment of diffraction described in \cref{sec:sinusoid_principle}, diffracted orders with $n = \pm 1$ are expected to dominate over those with larger $\abs{n}$.} gives:
 \begin{equation}
- \frac{\lambda}{\Lambda} = \underbrace{\cos \left( \zeta \right)}_{\approx 1} \left[ 1 - \underbrace{\cos \left( \Delta \beta \right)}_{\approx 1} \right] + \underbrace{\sin \left( \zeta \right)}_{\approx \zeta} \underbrace{\sin \left( \Delta \beta \right)}_{\approx \Delta \beta} %\approx \zeta \Delta \beta ,  
+ \frac{\lambda}{\Lambda} = \underbrace{\cos \left( \zeta \right)}_{\approx 1} \left[ 1 - \underbrace{\cos \left( \Delta \beta \right)}_{\approx 1} \right] + \underbrace{\sin \left( \zeta \right)}_{\approx \zeta} \underbrace{\sin \left( \Delta \beta \right)}_{\approx \Delta \beta} , %\approx \zeta \Delta \beta ,  
  \end{equation}
 where, using the under-braced small-angle approximations for a grazing-incidence angle $\zeta \ll 1$, the scattered angle is 
 \begin{equation}\label{eq:in-plane_scatter_angle}
@@ -1217,7 +1217,7 @@ With $\mathcal{R}_s$ for Fresnel reflectivity recognized in \cref{eq:NC_refl_s},
 \begin{equation}\label{eq:NC_refl_ratio}
  \frac{\mathcal{R}_{NC}}{\mathcal{R}_F} = \norm{\mathrm{e}^{- 2 k_y \tilde{k_y}' \sigma^2}}^2 = \mathrm{e}^{-2 k_y \left( \tilde{k_y}' + \tilde{k_y}'^* \right) \sigma^2} = \mathrm{e}^{-4 k_0^2 \sin \left( \zeta \right) \Re \left[ \sqrt{\tilde{\nu}^2 (\omega) - \cos^2 \left( \zeta \right) } \right] \sigma^2}
  \end{equation}
-for a thick slab where again, $\mathcal{R}_F \approx \mathcal{R}_s \approx \mathcal{R}_p$ for grazing-incidence soft x-rays of any polarization [\emph{cf.\@} \cref{sec:reflectivity_polarization}]. 
+for a thick slab, where again, $\mathcal{R}_F \approx \mathcal{R}_s \approx \mathcal{R}_p$ for grazing-incidence soft x-rays of any polarization [\emph{cf.\@} \cref{sec:reflectivity_polarization}]. 
 \end{subequations}
 Treating reduced specular reflectivity using Nevot-Croce factors is considered a decent approximation if surface features with relatively large lateral sizes can be ignored while atomic-scale features with small $\sigma$ dominate surface roughness. 
 In any case, the effect that a rough surface has on the specular reflectivity of a mirror flat is analogous to the losses in diffracted orders that result from surface roughness on the blazed groove facets of an x-ray reflection grating. % and therefore, this phenomenon must be kept under control to achieve high diffraction efficiency. 

@@ -22,7 +22,7 @@ Conclusions and a summary of this chapter are provided in \cref{sec:ch3summary}.
 The TASTE process can be understood as a variant of polymer thermal reflow, where a thermoplastic resist heated above its \emph{glass transition temperature}, $T_g$ [\emph{cf.\@} \cref{sec:nanoimprint}], flows with a viscosity that decreases with increasing temperature, $T$, as polymer chains gain mobility to move past one another \cite{Schift10,Kirchner19}. %expected T_g for PMMA? %Petersen02, %, for a given molecular weight, $M_w$
 %For PMMA with unaltered molecular weight, $M_{w,0}$, on the order of hundreds of \si{\kilogram\per\mole}, 
 This quantity $T_g$ depends on the commercial composition of the resist and typically falls in the range $\SI{100}{\celsius} \lessapprox T_g \lessapprox \SI{130}{\celsius}$ for PMMA with unaltered molecular weight, $M_{w,0}$, on the order of hundreds of \si{\kilogram\per\mole} \cite{Schleunitz10,Ali15}. 
-Traditional thermal reflow is often carried out at a temperature $T \gtrapprox T_g + \SI{50}{\celsius}$ where, for example, a laminar structure fabricated by EBL evolves into an energetically-favorable, convex topography [\emph{cf.\@} \cref{fig:reflow_diagram}] as the molten resist slowly equilibrates as surface tension drives the liquid to minimize its \emph{surface free energy}\footnote{This quantity is defined as $\mathscr{F} \equiv \alpha_{\text{i}} \mathscr{A}$ where $\alpha_{\text{i}}>0$ is the surface-tension coefficient for an interface with surface area $\mathscr{A}$ such that the infinitesimal work required to increase $\mathscr{A}$ by $\dd{\mathscr{A}}$ is $\alpha_{\text{i}} \dd{\mathscr{A}}$. For a given $\alpha_{\text{i}}$, a minimization of $\mathscr{F}$ manifests as minimization of $\mathscr{A}$ \cite{landau2013statistical}.} for the both the resist-substrate interface and the resist-air interface while the resist volume remains constant \cite{Kirchner14,Kirchner14a,Kirchner19}. 
+Traditional thermal reflow is often carried out at a temperature $T \gtrapprox T_g + \SI{50}{\celsius}$, where, for example, a laminar structure fabricated by EBL evolves into an energetically-favorable, convex topography [\emph{cf.\@} \cref{fig:reflow_diagram}] as the molten resist slowly equilibrates as surface tension drives the liquid to minimize its \emph{surface free energy}\footnote{This quantity is defined as $\mathscr{F} \equiv \alpha_{\text{i}} \mathscr{A}$, where $\alpha_{\text{i}}>0$ is the surface-tension coefficient for an interface with surface area $\mathscr{A}$ such that the infinitesimal work required to increase $\mathscr{A}$ by $\dd{\mathscr{A}}$ is $\alpha_{\text{i}} \dd{\mathscr{A}}$. For a given $\alpha_{\text{i}}$, a minimization of $\mathscr{F}$ manifests as minimization of $\mathscr{A}$ \cite{landau2013statistical}.} for the both the resist-substrate interface and the resist-air interface while the resist volume remains constant \cite{Kirchner14,Kirchner14a,Kirchner19}. 
 \begin{figure}
  \centering
  \includegraphics[scale=0.95]{Chapter-3/Figures/reflow_fab1.mps}
@@ -49,7 +49,7 @@ For electron-exposed resist with $M_w$ reduced to $\lessapprox \SI{10}{\kilogram
  \includegraphics[scale=0.95]{Chapter-3/Figures/taste_fab3.mps}
  \includegraphics[scale=0.95]{Chapter-3/Figures/taste_fab4.mps}
  \includegraphics[scale=0.95]{Chapter-3/Figures/taste_fab5.mps}
- \caption[Physical properties of PMMA resist processed by grayscale EBL (GEBL) that enable thermally-activated selective topography equilibration (TASTE)]{Physical properties of PMMA resist processed by grayscale electron-beam lithography (GEBL) that enable TASTE. Dose-modulated electron exposure gives rise to a lateral gradient in $M_w$ so that varying resist thicknesses result from $M_w$-dependent etch rates that occur during wet development. The GEBL-fabricated structure also exhibits a lateral gradient in $T_g$, thereby enabling selective thermal reflow at a temperature $T_{g,0} > T > T_{g,1}$ that smooths the exposed staircase steps into a quasi-linear slope. The end result emulates a blazed grating with a groove spacing $d$ and a blaze angle $\delta$.}\label{fig:TASTE_diagram}
+ \caption[Physical properties of PMMA resist processed by grayscale EBL (GEBL) that enable thermally-activated selective topography equilibration (TASTE)]{Physical properties of PMMA resist processed by grayscale electron-beam lithography (GEBL) that enable TASTE. Dose-modulated electron exposure gives rise to a lateral gradient in $M_w$ so that varying resist thicknesses result from $M_w$-dependent etch rates that occur during wet development. The GEBL-fabricated structure also exhibits a lateral gradient in $T_g$, thereby enabling selective thermal reflow at a temperature $T_{g,0} > T > T_{g,1}$ that smooths the exposed staircase steps into a quasi-linear slope. The end result emulates a blazed grating with a groove spacing $d$ and a blaze angle $\delta$ \cite{McCoy20}.}\label{fig:TASTE_diagram}
  \end{figure}
 Neglecting the effect of lateral development, which is expected to cause tilted surfaces and rounded corners in a GEBL structure \cite{Kirchner16}, this is illustrated in \cref{fig:TASTE_diagram} (steps \numrange{1}{3}), where electron doses $D_1 < D_2 < D_3$ give rise to local molecular weights $M_{w,1} > M_{w,2} > M_{w,3}$, and, if $D_3$ is large enough to clear the resist, local resist thicknesses $h_1 > h_2 > h_3 = 0$ following wet development. 
 The local molecular weights $M_{w,0} > M_{w,1} > M_{w,2}$ left in the patterned resist correspond to glass transition temperatures $T_{g,0} > T_{g,1} > T_{g,2}$, with $T_{g,0}$ as $T_g$ of unexposed resist. 
@@ -87,7 +87,7 @@ where $\tilde{r}_s$ and $\tilde{r}_p$ are the complex reflection coefficients in
  \end{figure}
 For example, the reflection coefficient for a thin film of thickness $\tau_2$ on a substrate with an incidence angle $\theta$ [\emph{cf.\@} \cref{fig:2DSE}] is given by \emph{Airy's formula}:
 \begin{equation}\label{eq:refl_coeff_example}
- \tilde{r} = \frac{\tilde{r}_{1,2} + \tilde{r}_{2,3} \mathrm{e}^{-2 i \tilde{k}_{y,2} \tau_2}}{1 + \tilde{r}_{1,2} \tilde{r}_{2,3} \mathrm{e}^{-2 i \tilde{k}_{y,2} \tau_2}} 
+ \tilde{r} = \frac{\tilde{r}_{1,2} + \tilde{r}_{2,3} \mathrm{e}^{-2 i \tilde{k}_{y,2} \tau_2}}{1 + \tilde{r}_{1,2} \tilde{r}_{2,3} \mathrm{e}^{-2 i \tilde{k}_{y,2} \tau_2}} ,
  \end{equation} 
 where $\tilde{k}_{y,2}$ is the component of the wave vector perpendicular to surface, in the film, with complex index of refraction $\tilde{\nu}_2$, while $\tilde{r}_{1,2}$ and $\tilde{r}_{2,3}$ are the reflection coefficients for the two interfaces, in either s- or p-polarization \cite{Tompkins05,Born80,Gibaud2009}. 
 When $\Psi$ and $\Delta$ are measured at $\theta$ near the \emph{Brewster's angle} for the interface between air and the top layer of the sample,\footnote{\emph{i.e.}, $\theta_B \equiv \arctan \left( \nu_2 / \nu_1 \right)$ with $\nu_2 \equiv \Re \left[ \tilde{\nu}_2 \right]$ \cite{Born80}} 
@@ -97,7 +97,7 @@ Shown as computer-aided design (CAD) in \cref{fig:dose_layout}, the layout of th
 \begin{figure}
  \centering
  \includegraphics[scale=0.9]{Chapter-3/Figures/contrast_pattern.png}
- \caption[Computer-aided design for resist-contrast data collection]{CAD layout for resist-contrast data collection prepared using the \textsc{Tanner L-Edit} software package where an array of \num{25} squares, each \SI{250}{\um} in width, is assigned to a range of values using \textsc{Layout BEAMER}.}\label{fig:dose_layout}
+ \caption[Computer-aided design for resist-contrast data collection]{CAD layout for resist-contrast data collection prepared using the \textsc{Tanner L-Edit} software package, where an array of \num{25} squares, each \SI{250}{\um} in width, is assigned to a range of values using \textsc{Layout BEAMER} \cite{McCoy18}.}\label{fig:dose_layout}
  \end{figure}
 This pattern was exposed using a \SI{30}{\nano\ampere} beam current with a \SI{200}{\um} aperture in the \textsc{EBPG5200} to dose each square in \SI{7}{\percent} increments starting with $D = \SI{50}{\micro\coulomb\per\cm\squared}$ to impart a range of $M_w$ in the resist that correlates inversely with $D$. 
 During wet development in MIBK/IPA, the resist in each square is etched at a rate that increases with decreasing $M_w$ to produce a different thickness of remaining resist \cite{miller-chou03}. 
@@ -107,7 +107,7 @@ To model the gathered data using \textsc{Woollam}'s \textsc{CompleteEASE} softwa
  \centering
  \includegraphics[scale=0.12]{Chapter-3/Figures/SE_data_example_fix.png}
  \includegraphics[scale=1.2]{Chapter-3/Figures/diffraction_arc28.mps}
- \caption[Example of a resist thickness measurement using SE]{Example of a resist thickness measurement using SE with \textsc{Woollam}'s \textsc{CompleteEASE} software package, where $\Psi$ and $\Delta$ are shown as red and green curves with units given in degrees (\emph{top}). The sample is treated as a bilayer on a substrate where a film of native oxide is included between the resist and the silicon substrate, where both films are assumed to be transparent (\emph{bottom}; layers re not drawn to scale.). Using \cref{eq:Cauchy_index} for $\nu_2$ and tabulated data in \textsc{CompleteEASE} for $\nu_3$ and $\tilde{\nu}_4$, the thickness of resist in each dose square ($\tau_2$) could be measured with a fixed value of $\tau_3 = \SI{1.5}{\nm}$ for the native-oxide layer.}\label{fig:SE_example}
+ \caption[Example of a resist thickness measurement using SE]{Example of a resist thickness measurement using SE with \textsc{Woollam}'s \textsc{CompleteEASE} software package, where $\Psi$ and $\Delta$ are shown as red and green curves with units given in degrees (\emph{top}). The sample is treated as a bilayer on a substrate, where a film of native oxide is included between the resist and the silicon substrate, where both films are assumed to be transparent (\emph{bottom}; layers re not drawn to scale.). Using \cref{eq:Cauchy_index} for $\nu_2$ and tabulated data in \textsc{CompleteEASE} for $\nu_3$ and $\tilde{\nu}_4$, the thickness of resist in each dose square ($\tau_2$) could be measured with a fixed value of $\tau_3 = \SI{1.5}{\nm}$ for the native-oxide layer.}\label{fig:SE_example}
  \end{figure}
 The sample was treated as a bilayer on a substrate, to account for the native \ce{SiO2} on the silicon wafer, with a reflectivity coefficient being a generalization of \cref{eq:refl_coeff_example} \cite{Gibaud2009}: 
 \begin{equation}\label{eq:refl_coeff_bilayer}
@@ -135,7 +135,7 @@ where $A$, $B$ and $C$ are coefficients that are to be determined.
 \begin{figure}
  \centering
  \includegraphics[scale=0.82]{Chapter-3/Figures/resist_contrast.png}
- \caption[Resist contrast for \SI{130}{\nm}-thick PMMA with $M_w = \SI{950}{\kilogram\per\mole}$]{Resist contrast for \SI{130}{\nm}-thick PMMA with $M_w = \SI{950}{\kilogram\per\mole}$ developed at room temperature using 1:1 MIBK/IPA for \SI{2}{\minute} and IPA for \SI{30}{\second}: the center of each square of the pattern shown in \cref{fig:dose_layout} is measured using spectroscopic ellipsometry and a film thickness is extracted. Resist contrast is plotted as remaining resist thickness as a function of electron dose, $D$.}\label{fig:resist_contrast}
+ \caption[Resist contrast for \SI{130}{\nm}-thick PMMA with $M_w = \SI{950}{\kilogram\per\mole}$]{Resist contrast for \SI{130}{\nm}-thick PMMA with $M_w = \SI{950}{\kilogram\per\mole}$ developed at room temperature using 1:1 MIBK/IPA for \SI{2}{\minute} and IPA for \SI{30}{\second}: the center of each square of the pattern shown in \cref{fig:dose_layout} is measured using spectroscopic ellipsometry and a film thickness is extracted. Resist contrast is plotted as remaining resist thickness as a function of electron dose, $D$ \cite{McCoy18}.}\label{fig:resist_contrast}
  \end{figure}
 As $\nu$ is expected to change in each square of \cref{fig:dose_layout} due to electron exposure, $A$ and $B$ were fit using \textsc{Woollam}'s \textsc{CompleteEASE} software package \cite{complete_ease} for each measurement while keeping $C$ and all higher-order coefficients equal to zero. 
 The native-oxide layer was accounted for as a \SI{1.5}{\nm}-thick film using tabulated data for $\nu$ provided in \textsc{CompleteEASE}; an example of such a measurement with both films is shown in \cref{fig:SE_example}. 
@@ -164,7 +164,7 @@ This shape can be patterned over an arbitrary area using an array of subfield-si
 \begin{figure}
  \centering
  \includegraphics[scale=0.7]{Chapter-3/Figures/GEBL_approaches.png}
- \caption[\textsc{Layout BEAMER 3DPEC} and \textsc{EBPG5200} sequencing approaches to GEBL]{Two approaches to pattern generation for GEBL: a) Experimentally-determined data for resist contrast [\emph{cf.\@} \cref{fig:resist_contrast}] are input into \textsc{Layout BEAMER}, where the 3DPEC algorithm is used to generate a dose-corrected layout. Each dose is a different pattern generator (PG) shape, represented here with colorscale. b) Code for \textsc{EBPG5200} sequencing defines a custom subfield-sized pattern generator shape consisting of a series of lines and beam jumps using a fixed dose, where black circles represent \SI{40}{\nm}-diameter beam shots. Lines are programmed to overlap to varying degrees to emulate dose modulation achieved using the 3DPEC approach.}\label{fig:GEBL_approaches} 
+ \caption[\textsc{Layout BEAMER 3DPEC} and \textsc{EBPG5200} sequencing approaches to GEBL]{Two approaches to pattern generation for GEBL: a) Experimentally-determined data for resist contrast [\emph{cf.\@} \cref{fig:resist_contrast}] are input into \textsc{Layout BEAMER}, where the 3DPEC algorithm is used to generate a dose-corrected layout. Each dose is a different pattern generator (PG) shape, represented here with colorscale. b) Code for \textsc{EBPG5200} sequencing defines a custom subfield-sized pattern generator shape consisting of a series of lines and beam jumps using a fixed dose, where black circles represent \SI{40}{\nm}-diameter beam shots. Lines are programmed to overlap to varying degrees to emulate dose modulation achieved using the 3DPEC approach \cite{McCoy18}.}\label{fig:GEBL_approaches} 
  \end{figure}
 Although sequencing is limited to lines and jumps at a single user-input value for $D$, dose modulation can be emulated using overlapping beams [\emph{cf.\@} \cref{fig:GEBL_approaches}]. 
 In this way, GEBL patterns were produced by generating sequencing code for a \SI{4}{\um}-large custom PG shape to approximate the dose-corrected layout from 3DPEC. 
@@ -188,7 +188,7 @@ Untreated GEBL structures in PMMA for patterns A-D are shown under AFM in \cref{
 \begin{figure}
  \centering
  \includegraphics[scale=1.2]{Chapter-3/Figures/GEBL.png}
- \caption[GEBL test patterns in \SI{130}{\nm}-thick PMMA examined under AFM]{GEBL in \SI{130}{\nm}-thick PMMA examined under AFM. Patterns A-C were attained through the standard 3DPEC approach while pattern D is a result from the \textsc{EBPG5200} sequencing approach: a) Pattern A: GEBL with 6 levels where each are \SI{140}{\nm} wide to give a \SI{840}{\nm} periodicity. b) Pattern B: GEBL with 4 levels where each are \SI{100}{\nm} wide to give a \SI{400}{\nm} periodicity. c) Pattern C: GEBL with 4 levels where the width of the top level is reduced to \SI{40}{\nm}; remaining levels are \SI{120}{\nm} wide to give a periodicity of \SI{400}{\nm}. d) Pattern D: same as pattern C but attained using EBPG sequencing.}\label{fig:GEBL_ABCD}
+ \caption[GEBL test patterns in \SI{130}{\nm}-thick PMMA examined under AFM]{GEBL in \SI{130}{\nm}-thick PMMA examined under AFM. Patterns A-C were attained through the standard 3DPEC approach while pattern D is a result from the \textsc{EBPG5200} sequencing approach: a) Pattern A: GEBL with 6 levels where each are \SI{140}{\nm} wide to give a \SI{840}{\nm} periodicity, b) Pattern B: GEBL with 4 levels where each are \SI{100}{\nm} wide to give a \SI{400}{\nm} periodicity, c) Pattern C: GEBL with 4 levels where the width of the top level is reduced to \SI{40}{\nm}; remaining levels are \SI{120}{\nm} wide to give a periodicity of \SI{400}{\nm}, d) Pattern D: same as pattern C but attained using EBPG sequencing \cite{McCoy18}.}\label{fig:GEBL_ABCD}
  \end{figure}
 Using \textsc{Bruker}'s \textsc{PeakForce Tapping}$^{\text{TM}}$ mode \cite{Xu18}, patterns were scanned over \SI{2}{\um} at \num{512} samples per line to give a \SI{3.9}{\nm} AFM pixel size. 
 In patterns A and B, staircase steps are equal in width and the overall structure height is comparable to the initial spin-coat thickness as measured by AFM. 
@@ -213,34 +213,34 @@ Thermal-reflow test results for pattern A as a function of $T$ and $t$ are shown
 \begin{figure}
  \centering
  \includegraphics[scale=0.1505]{Chapter-3/Figures/A_temp_scan.jpg}
- \caption[Thermal reflow results as a function of heating temperature for grayscale pattern A]{Thermal reflow results as a function of heating temperature, $T$, for GEBL in \SI{130}{\nm}-thick PMMA with \num{6} levels: each are \SI{140}{\nm} wide to give $d = \SI{840}{\nm}$.}\label{fig:A_temp_scan}
+ \caption[Thermal reflow results as a function of heating temperature for grayscale pattern A]{Thermal reflow results as a function of heating temperature, $T$, for GEBL in \SI{130}{\nm}-thick PMMA with \num{6} levels: each are \SI{140}{\nm} wide to give $d = \SI{840}{\nm}$ \cite{McCoy18}.}\label{fig:A_temp_scan}
  \end{figure}
 \begin{figure}
  \centering
  \includegraphics[scale=0.1505]{Chapter-3/Figures/A_time_scan.jpg}
- \caption[Thermal reflow results as a function of heating duration for grayscale pattern A]{Thermal reflow results as a function of heating duration, $t$, for GEBL in \SI{130}{\nm}-thick PMMA with \num{6} levels as in \cref{fig:A_temp_scan}.}\label{fig:A_time_scan}
+ \caption[Thermal reflow results as a function of heating duration for grayscale pattern A]{Thermal reflow results as a function of heating duration, $t$, for GEBL in \SI{130}{\nm}-thick PMMA with \num{6} levels as in \cref{fig:A_temp_scan} \cite{McCoy18}.}\label{fig:A_time_scan}
  \end{figure}
 Together, these include six AFM scans: three samples treated at \SIlist{110;120;130}{\celsius} keeping heating time constant at \SI{20}{\second}, and, three samples heated with durations of \SIlist{20;60;120}{\second} holding temperature at \SI{120}{\celsius}. 
 Analogous AFM scans of thermal reflow results are shown in \cref{fig:B_temp_scan,fig:B_time_scan} for pattern B and in \cref{fig:C_temp_scan,fig:C_time_scan} for pattern C \cite{McCoy18}.
 \begin{figure}
  \centering
  \includegraphics[scale=0.1505]{Chapter-3/Figures/B_temp_scan.jpg}
- \caption[Thermal reflow results as a function of heating temperature for grayscale pattern B]{Thermal reflow results as a function of $T$ for GEBL in \SI{130}{\nm}-thick PMMA with \num{4} levels: each are \SI{100}{\nm} wide to give $d = \SI{400}{\nm}$.}\label{fig:B_temp_scan}
+ \caption[Thermal reflow results as a function of heating temperature for grayscale pattern B]{Thermal reflow results as a function of $T$ for GEBL in \SI{130}{\nm}-thick PMMA with \num{4} levels: each are \SI{100}{\nm} wide to give $d = \SI{400}{\nm}$ \cite{McCoy18}.}\label{fig:B_temp_scan}
  \end{figure}
 \begin{figure}
  \centering
  \includegraphics[scale=0.1505]{Chapter-3/Figures/B_time_scan.jpg}
- \caption[Thermal reflow results as a function of heating duration for grayscale pattern B]{Thermal reflow results as a function of $t$ for GEBL in \SI{130}{\nm}-thick PMMA with \num{4} levels as in \cref{fig:B_temp_scan}.}\label{fig:B_time_scan}
+ \caption[Thermal reflow results as a function of heating duration for grayscale pattern B]{Thermal reflow results as a function of $t$ for GEBL in \SI{130}{\nm}-thick PMMA with \num{4} levels as in \cref{fig:B_temp_scan} \cite{McCoy18}.}\label{fig:B_time_scan}
  \end{figure}
 \begin{figure}
  \centering
  \includegraphics[scale=0.1505]{Chapter-3/Figures/C_temp_scan.jpg}
- \caption[Thermal reflow results as a function of heating temperature for grayscale pattern C]{Thermal reflow results as a function of $T$ for GEBL in \SI{130}{\nm}-thick PMMA with \num{4} levels: the width of the top level is reduced to \SI{40}{\nm} while remaining levels are \SI{120}{\nm} wide to give $d = \SI{400}{\nm}$.}\label{fig:C_temp_scan}
+ \caption[Thermal reflow results as a function of heating temperature for grayscale pattern C]{Thermal reflow results as a function of $T$ for GEBL in \SI{130}{\nm}-thick PMMA with \num{4} levels: the width of the top level is reduced to \SI{40}{\nm} while remaining levels are \SI{120}{\nm} wide to give $d = \SI{400}{\nm}$ \cite{McCoy18}.}\label{fig:C_temp_scan}
  \end{figure}
 \begin{figure}
  \centering
  \includegraphics[scale=0.1505]{Chapter-3/Figures/C_time_scan.jpg}
- \caption[Thermal reflow results as a function of heating duration for grayscale pattern C]{Thermal reflow results as a function of $t$ for GEBL in \SI{130}{\nm}-thick PMMA with \num{4} levels as in \cref{fig:C_temp_scan}.}\label{fig:C_time_scan}
+ \caption[Thermal reflow results as a function of heating duration for grayscale pattern C]{Thermal reflow results as a function of $t$ for GEBL in \SI{130}{\nm}-thick PMMA with \num{4} levels as in \cref{fig:C_temp_scan} \cite{McCoy18}.}\label{fig:C_time_scan}
  \end{figure}
 These initial results demonstrate the principle of TASTE: stepped surfaces of resist begin to smooth into inclines with an appropriate thermal treatment. 
 However, only a small sample of the $T$-$t$ parameter space for TASTE has been explored. 
@@ -291,7 +291,7 @@ Using the GEBL process outlined above, test patterns were exposed, wet-developed
  \centering
  \includegraphics[scale=0.7]{Chapter-3/Figures/grayscale_AFM.pdf}
  \includegraphics[scale=0.7]{Chapter-3/Figures/reflow_AFM.pdf}
- \caption[AFMs of the GEBL-processed resist and the resist following thermal reflow.]{AFMs of the GEBL-processed resist (\emph{top}) and the resist following thermal reflow (\emph{bottom}).}\label{fig:TASTE_AFMs}
+ \caption[AFMs of the GEBL-processed resist and the resist following thermal reflow.]{AFMs of the GEBL-processed resist (\emph{top}) and the resist following thermal reflow (\emph{bottom}) \cite{McCoy20}.}\label{fig:TASTE_AFMs}
  \end{figure}
 As in \cref{sec:TASTE}, AFM was carried out over \SI{2}{\um} in the grating-dispersion direction at \num{512} samples per line to yield a \SI{3.9}{\nm} pixel size.  
 A scan of the GEBL pattern exposed using an \SI{8}{\nano\ampere} beam current and a \SI{400}{\um} aperture is shown in the top panel of \cref{fig:TASTE_AFMs}, where it is verified that the topography appears virtually indistinguishable from the previous result from \cref{sec:TASTE} obtained using a \SI{1}{\nano\ampere} beam current and a \SI{200}{\um} aperture. 
@@ -302,7 +302,7 @@ Nonetheless, the overall structure resembles a sawtooth and based on these resul
 \begin{figure}
  \centering
  \includegraphics[scale=0.15]{Chapter-3/Figures/uncoated_grating_photo.pdf}
- \caption[Photograph of the (uncoated) grating prototype patterned in \SI{130}{\nm}-thick PMMA on a \SI{100}{\mm}-diameter silicon wafer using TASTE.]{Surface-relief mold for the grating prototype patterned in \SI{130}{\nm}-thick PMMA on a \SI{100}{\mm}-diameter silicon wafer using TASTE. The grating measures \SI{50}{\mm} in the groove direction and \SI{7.5}{\mm} in the grating-dispersion direction.}\label{fig:uncoated_grating_pic}
+ \caption[Photograph of the (uncoated) grating prototype patterned in \SI{130}{\nm}-thick PMMA on a \SI{100}{\mm}-diameter silicon wafer using TASTE.]{Surface-relief mold for the grating prototype patterned in \SI{130}{\nm}-thick PMMA on a \SI{100}{\mm}-diameter silicon wafer using TASTE. The grating measures \SI{50}{\mm} in the groove direction and \SI{7.5}{\mm} in the grating-dispersion direction \cite{McCoy20}.}\label{fig:uncoated_grating_pic}
  \end{figure}
 Under these conditions, the \textsc{EBPG5200} exposure duration (including tool overhead) was $\lessapprox \SI{20}{\hour}$. 
 The grating mold resulting from the entire TASTE process patterned on a \SI{100}{\mm}-diameter wafer is pictured in \cref{fig:uncoated_grating_pic}. 
@@ -325,7 +325,7 @@ where $\tilde{\nu} (\omega) = 1 - \delta_{\nu} (\omega) + i \xi (\omega)$ is the
  \centering
  \includegraphics[scale=0.75]{Chapter-3/Figures/reflectivity.png}
  \includegraphics[scale=0.75]{Chapter-3/Figures/attn_depth.png}
- \caption[Fresnel reflectivity and penetration depth in a thick slab of gold for nominal test geometry]{Fresnel reflectivity, $\mathcal{R}_F$, and penetration depth, $\mathcal{D}_{\perp}$, in a thick slab of gold at $\zeta = 1.7^{\circ}$ over $\SI{80}{\electronvolt} \leq  \mathcal{E}_{\gamma} \leq \SI{800}{\electronvolt}$ (data obtained from CXRO \cite{CXRO_database}).}\label{fig:Au_refl_attn} %($\mathcal{R}_F$ given by \cref{eq:ch3_fres_refl}) %($\mathcal{D}_{\perp}$ given by \cref{eq:ch3_pene_dep}) 
+ \caption[Fresnel reflectivity and penetration depth in a thick slab of gold for nominal test geometry]{Fresnel reflectivity, $\mathcal{R}_F$, and penetration depth, $\mathcal{D}_{\perp}$, in a thick slab of gold at $\zeta = 1.7^{\circ}$ over $\SI{80}{\electronvolt} \leq  \mathcal{E}_{\gamma} \leq \SI{800}{\electronvolt}$ (data obtained from CXRO \cite{CXRO_database}) \cite{McCoy20}.}\label{fig:Au_refl_attn} %($\mathcal{R}_F$ given by \cref{eq:ch3_fres_refl}) %($\mathcal{D}_{\perp}$ given by \cref{eq:ch3_pene_dep}) 
  \end{figure}
 Based on the x-ray properties of various materials examined in \cref{app:x-ray_materials}, gold is a suitable choice for this overcoat due to its high $\mathcal{R}_F$ and nanoscale $\mathcal{D}_{\perp}$ across the spectral bandpass considered [\emph{cf.\@} \cref{fig:Au_refl_attn}]. 
 In principle, a $\sim \SI{15}{\nm}$-thick layer is sufficient to treat the material as a thick slab so that further reflections at underlaying material interfaces can be neglected. 
@@ -347,7 +347,7 @@ Without breaking vacuum, the gold was then deposited at a rate of \SI{1.0}{\angs
 \begin{figure}
  \centering
  \includegraphics[scale=0.7]{Chapter-3/Figures/coating_AFM.pdf}
- \caption[AFM of the grating prototype grooves following electron-beam physical vapor deposition of gold, using titanium as an adhesion layer on PMMA]{AFM of the grating prototype grooves following EBPVD of gold, using titanium as an adhesion layer on PMMA.}\label{fig:coating_AFM}
+ \caption[AFM of the grating prototype grooves following electron-beam physical vapor deposition of gold, using titanium as an adhesion layer on PMMA]{AFM of the grating prototype grooves following EBPVD of gold, using titanium as an adhesion layer on PMMA \cite{McCoy20}.}\label{fig:coating_AFM}
  \end{figure}
 The final, coated grating prototype appears under AFM as a sawtooth-like topography very similar to the uncoated, TASTE-processed resist from \cref{fig:TASTE_AFMs}; this image of the coated grating grooves, taken using the AFM methodology described in \cref{sec:prototype_TASTE_process}, is shown in \cref{fig:coating_AFM}. 
 
@@ -355,13 +355,11 @@ The coated grooves were imaged over a larger area by \emph{field-emission scanni
 \begin{figure}
  \centering
  \includegraphics[scale=0.5]{Chapter-3/Figures/coated_SEM.pdf}
- \caption[FESEM of the gold-coated grating prototype grooves viewed top-down]{Field-emission scanning electron micrograph (FESEM) of the gold-coated grating prototype grooves viewed top-down, taken with a \textsc{Zeiss Leo 1530} instrument at the Penn State Nanofabrication Laboratory.}\label{fig:coating_SEM}
+ \caption[FESEM of the gold-coated grating prototype grooves viewed top-down]{Field-emission scanning electron micrograph (FESEM) of the gold-coated grating prototype grooves viewed top-down, taken with a \textsc{Zeiss Leo 1530} instrument at the Penn State Nanofabrication Laboratory \cite{McCoy20}.}\label{fig:coating_SEM}
  \end{figure}
 From the gathered AFM data, $\sigma$ on the groove facets measures about \SI{1.5}{\nm} RMS using the \textsc{Bruker NanoScope Analysis} software package, whereas prior to the coating [\emph{cf.\@} \cref{fig:TASTE_AFMs}, bottom panel], $\sigma \approx \SI{1.25}{\nm}$ RMS on PMMA. 
 While the blaze angle measures $\delta \approx 27^{\circ}$ as expected, the groove depth measures $\sim \SI{10}{\nm}$ less than the uncoated grooves shown in \cref{fig:TASTE_AFMs}. 
-Moreover, the bottom plateau of the coated grooves appears slightly widened relative to the bottom plateau of the uncoated grooves, %bare, TASTE-processed resist,
-where the surface of the silicon substrate is exposed; this suggests that the EBPVD process utilized produces a non-uniform coating, which is likely due to the geometry of the EBPVD chamber coupled with the topography of the grating grooves. 
-%a thicker metal coating on a silicon surface with native \ce{SiO2} than it does on PMMA resist. 
+Moreover, the bottom plateau of the coated grooves appears slightly widened relative to the bottom plateau of the uncoated grooves, where the surface of the silicon substrate is exposed; this suggests that the EBPVD process utilized produces a non-uniform coating, which is likely due to the geometry of the EBPVD chamber coupled with the topography of the grating grooves. 
 Because these regions are to a high degree shadowed to the incoming radiation in a near-Littrow configuration, however, this is not expected to have a large impact on diffraction efficiency. 
 
 \section{Beamline Experiments}\label{sec:taste_eff_results} 
@@ -371,7 +369,7 @@ The gold-coated grating prototype installed inside the beamline test chamber in 
 \begin{figure}
  \centering
  \includegraphics[scale=0.31]{Chapter-3/Figures/test_chamber_edit.jpg}
- \caption[Photograph of the TASTE grating prototype installed inside the test chamber of ALS beamline 6.3.2.]{The TASTE grating prototype [\emph{cf.\@} \cref{sec:prototype_TASTE_process,sec:prototype_coating}] installed inside the test chamber of ALS beamline 6.3.2.}\label{fig:test_chamber} 
+ \caption[Photograph of the TASTE grating prototype installed inside the test chamber of ALS beamline 6.3.2.]{The TASTE grating prototype [\emph{cf.\@} \cref{sec:prototype_TASTE_process,sec:prototype_coating}] installed inside the test chamber of ALS beamline 6.3.2 \cite{McCoy20}.}\label{fig:test_chamber} 
  \end{figure}
 The grating was first oriented at a yaw angle of $\varphi \approx 0^{\circ}$ with graze and roll angles, $\eta$ and $\phi$ respectively, being approximately zero as measured by the tilt of the optic mount using a spirit level. 
 The angle $\eta$ was then adjusted to the nominal test value of $1.5^{\circ}$ by using the goniometric stage motion of the photodiode to ensure that the angle between the direct beam and the reflected beam is roughly $2 \eta \approx 3^{\circ}$. 
@@ -386,7 +384,7 @@ In the final test geometry, the diffracted arc was mapped using data gathered at
 \begin{figure}
  \centering
  \includegraphics[scale=0.4]{Chapter-3/Figures/arc_fit.pdf}
- \caption[Test-configuration diffracted arc for the TASTE prototype mapped using data gathered at \SI{450}{\electronvolt} and \SI{500}{\electronvolt} fit to a circle]{Test-configuration diffracted arc mapped using data gathered at \SI{450}{\electronvolt} and \SI{500}{\electronvolt} and fit to a circle. Grayed regions represent one standard deviation uncertainty.}\label{fig:arc_fit_taste}
+ \caption[Test-configuration diffracted arc for the TASTE prototype mapped using data gathered at \SI{450}{\electronvolt} and \SI{500}{\electronvolt} fit to a circle]{Test-configuration diffracted arc mapped using data gathered at \SI{450}{\electronvolt} and \SI{500}{\electronvolt} and fit to a circle. Grayed regions represent one standard deviation uncertainty \cite{McCoy20}.}\label{fig:arc_fit_taste}
  \end{figure}
 By fitting these data to a half-circle as shown in \cref{fig:arc_fit_taste}, the arc radius was measured as $r = 7.03 \pm \SI{0.12}{\mm}$, and from $r = L \sin \left( \gamma \right)$ [\emph{cf.\@} \cref{eq:arc_radius}], the cone opening half-angle for the diffraction pattern was determined to be $\gamma = 1.73 \pm 0.03^{\circ}$. 
 
@@ -395,7 +393,7 @@ With a measured value of $\alpha = 23.4 \pm 0.6^{\circ}$, the roll angle was con
 Using this result and $\Delta y_0$, the $y$-distance between $0^{\text{th}}$ order and the center of the diffracted arc, a graze angle of $\eta \approx 1.5^{\circ}$ was verified through \cref{eq:measure_graze} to give $\eta = 1.56 \pm 0.04^{\circ}$. 
 \begin{table}[]
 \centering
-\caption{Measured parameters for the test-configuration diffracted arc of the TASTE grating prototype at the ALS.}\label{tab:arc_params_taste}
+\caption[Measured parameters for the test-configuration diffracted arc of the TASTE grating prototype at the ALS]{Measured parameters for the test-configuration diffracted arc of the TASTE grating prototype at the ALS \cite{McCoy20}.}\label{tab:arc_params_taste}
 \begin{tabular}{@{}ll@{}}
 \toprule
 parameter                                                                 & measured value             \\ \midrule
@@ -418,14 +416,14 @@ Summarized in \cref{tab:arc_params_taste}, these measurements indicate a near-Li
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--------------------------------------------------
 In the test geometry established in \cref{sec:grat_geo_taste}, diffraction-efficiency data were gathered as a function of photon energy, $\mathcal{E}_{\gamma}$, where for each measurement, both the diffracted arc and the direct beam were scanned along the $x$-direction in \SI{50}{\um} increments. 
 From these measurements, $\mathscr{E}_n$, defined as $\mathcal{I}_n / \mathcal{I}_{\text{inc}}$ [\emph{cf.\@} \cref{eq:diffraction_efficiency}], was calculated according to the methodology described in \cref{sec:measure_efficiency}, with dark current from the photodiode detector taken into account. 
-Diffuse scatter arising from surface roughness on the groove facets, which in principle only affects $\mathcal{I}_n$, was estimated using the continuum level in between order maxima and was found to be significant only for $\mathcal{E}_{\gamma} \gtrapprox \SI{600}{\electronvolt}$ where it contributed to $\mathscr{E}_n$ on the level of \SI{1}{\percent} or less for each propagating order. 
+Diffuse scatter arising from surface roughness on the groove facets, which in principle only affects $\mathcal{I}_n$, was estimated using the continuum level in between order maxima and was found to be significant only for $\mathcal{E}_{\gamma} \gtrapprox \SI{600}{\electronvolt}$, where it contributed to $\mathscr{E}_n$ on the level of \SI{1}{\percent} or less for each propagating order. 
 These measurements were taken in \SI{20}{\electronvolt} steps, first from \SIrange{440}{800}{\electronvolt} and then from \SIrange{80}{420}{\electronvolt} with the triple-mirror order sorter described in \cref{sec:als_beam}.   
 
 Although the implementation of the order sorter is expected to shift slightly the position of the beam on the grating, and hence the measured parameters listed in \cref{tab:arc_params_taste}, the effect is small and not apparent in the measured absolute efficiency data, which are shown in \cref{fig:abs_eff_taste} compared to $\mathcal{R}_{F}$ for gold at $\zeta = 1.73^{\circ} \approx \gamma$ using \cref{eq:ch3_fres_refl}. 
 \begin{figure}
  \centering
  \includegraphics[scale=0.395]{Chapter-3/Figures/absolute_efficiency_data.pdf}
- \caption[Measured absolute diffraction efficiency for the TASTE grating prototype compared to the Fresnel reflectivity of gold]{Data for absolute diffraction efficiency gathered at the ALS compared to the Fresnel reflectivity of gold, $\mathcal{R}_{F}$. Total diffraction efficiency below \SI{240}{\electronvolt} misses contributions from orders $n = \num{2}$ and $n = \num{3}$ on the order of a few percent.}\label{fig:abs_eff_taste}
+ \caption[Measured absolute diffraction efficiency for the TASTE grating prototype compared to the Fresnel reflectivity of gold]{Data for absolute diffraction efficiency gathered at the ALS compared to the Fresnel reflectivity of gold, $\mathcal{R}_{F}$. Total diffraction efficiency below \SI{240}{\electronvolt} misses contributions from orders $n = \num{2}$ and $n = \num{3}$ on the order of a few percent \cite{McCoy20}.}\label{fig:abs_eff_taste}
  \end{figure} 
 However, as indicated most clearly by the sharp cut-off in the measured $n=2$ curve at $\mathcal{E}_{\gamma} \approx \SI{160}{\electronvolt}$, the beam shift evidently caused measurements of propagating orders of $n=\num{2}$ and $n=\num{3}$ with large diffracted angle, $\beta$, to be missed by the photodiode during data collection. 
 These data nonetheless show that peak-order efficiency ranges from about \SI{75}{\percent} down to \SI{25}{\percent} as $\mathcal{E}_{\gamma}$, and $n$, increase. 
@@ -434,16 +432,16 @@ Moreover, relative diffraction efficiency was calculated by dividing each $\math
 \begin{figure}
  \centering
  \includegraphics[scale=0.39]{Chapter-3/Figures/relative_efficiency_fix.pdf}
- \caption[Relative diffraction efficiency calculated by dividing absolute diffraction efficiency by the Fresnel reflectivity of gold]{Relative diffraction efficiency calculated by dividing the absolute diffraction efficiency from \cref{fig:abs_eff_taste} by the Fresnel reflectivity of gold, $\mathcal{R}_{F}$. Total relative diffraction efficiency below \SI{240}{\electronvolt} misses contributions from orders $n = \num{2}$ and $n = \num{3}$ on the order of a few percent.}\label{fig:rel_eff_taste}
+ \caption[Relative diffraction efficiency calculated by dividing absolute diffraction efficiency by the Fresnel reflectivity of gold]{Relative diffraction efficiency calculated by dividing the absolute diffraction efficiency from \cref{fig:abs_eff_taste} by the Fresnel reflectivity of gold, $\mathcal{R}_{F}$. Total relative diffraction efficiency below \SI{240}{\electronvolt} misses contributions from orders $n = \num{2}$ and $n = \num{3}$ on the order of a few percent \cite{McCoy20}.}\label{fig:rel_eff_taste}
  \end{figure}
-This result is plotted in \cref{fig:rel_eff_taste} where total relative diffraction efficiency, $\mathscr{E}_{\text{tot}} / \mathcal{R}_{F}$, ranges from about \SIrange{95}{88}{\percent} as $\mathcal{E}_{\gamma}$ increases from \SIrange{240}{800}{\electronvolt}, where all propagating orders are accounted for [\emph{cf.\@} \cref{tab:eff_benchmark}]. 
+This result is plotted in \cref{fig:rel_eff_taste}, where total relative diffraction efficiency, $\mathscr{E}_{\text{tot}} / \mathcal{R}_{F}$, ranges from about \SIrange{95}{88}{\percent} as $\mathcal{E}_{\gamma}$ increases from \SIrange{240}{800}{\electronvolt}, where all propagating orders are accounted for [\emph{cf.\@} \cref{tab:eff_benchmark}]. 
 
 \section{Analysis and Discussion}\label{sec:discussion_taste}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--------------------------------------------------
 The beamline measurements presented in \cref{sec:test_results_taste} indicate that the grating prototype yields an approximate blaze response at EUV and soft x-ray wavelengths in a near-Littrow configuration.  
 This is evidenced by the total diffraction efficiency, $\mathscr{E}_{\text{tot}}$, being dominated by single orders with $n > 0$ and peak positions close to those predicted by \cref{eq:blaze_wavelength_TASTE} for the blaze wavelength [\emph{cf.\@} \cref{fig:abs_eff_taste}]. 
 However, along with the peak orders that resemble a blaze response, propagating orders of lower $n$ each contribute to $\mathscr{E}_{\text{tot}}$ at a level of $\sim \SI{10}{\percent}$. 
-Thus, toward the blue end of the measured bandpass where a relatively large number of propagating orders exist, peak-order diffraction efficiency is comparatively low and comprises a smaller fraction of $\mathscr{E}_{\text{tot}}$. %exist by \cref{eq:off-plane_orders}
+Thus, toward the blue end of the measured bandpass, where a relatively large number of propagating orders exist, peak-order diffraction efficiency is comparatively low and comprises a smaller fraction of $\mathscr{E}_{\text{tot}}$. %exist by \cref{eq:off-plane_orders}
 This suggests that diffracted orders gradually become suppressed with increasing $n$ due to an imperfect sawtooth topography generated by the TASTE process outlined in \cref{sec:prototype_TASTE_process}. 
 That is, while an ideal blazed grating exhibits a sharp sawtooth topography, the grating prototype features a quasi-flat apex produced by the \SI{100}{\nm}-wide, top staircase step in the GEBL pattern that is nominally unexposed to high-energy electrons and hence largely unaffected by the thermal reflow process. %\footnote{As noted in \cref{sec:reflow_results,sec:prototype_TASTE_process}, however, slight rounding in this top step is thought to have occurred from a degraded reflow selectivity.} 
 
@@ -454,13 +452,13 @@ The grating's total relative response is plotted in \cref{fig:rough_eff_taste} o
 \begin{figure}
  \centering
  \includegraphics[scale=0.39]{Chapter-3/Figures/total_eff_rough_factor.pdf}
- \caption[Total relative response of the grating prototype, compared to the Nevot-Croce factor]{Total relative response of the grating prototype, defined as the sum of total diffraction efficiency and zero order, relative to the reflectivity of gold. Overlaid is the Nevot-Croce factor [\emph{cf.\@} \cref{eq:nc_factor_taste}] for $\zeta = 1.73^{\circ}$ and $\sigma = \SI{1.5}{\nm}$ RMS, which indicates the theoretical specular reflectivity of a rough surface relative to Fresnel reflectivity, $\mathcal{R}_{F}$.}\label{fig:rough_eff_taste}
+ \caption[Total relative response of the grating prototype, compared to the Nevot-Croce factor]{Total relative response of the grating prototype, defined as the sum of total diffraction efficiency and zero order, relative to the reflectivity of gold. Overlaid is the Nevot-Croce factor [\emph{cf.\@} \cref{eq:nc_factor_taste}] for $\zeta = 1.73^{\circ}$ and $\sigma = \SI{1.5}{\nm}$ RMS, which indicates the theoretical specular reflectivity of a rough surface relative to Fresnel reflectivity, $\mathcal{R}_{F}$ \cite{McCoy20}.}\label{fig:rough_eff_taste}
  \end{figure}
 This is to be compared with the specular reflectivity of a hypothetical mirror flat relative to $\mathcal{R}_{F}$ such that its total relative response is \SI{100}{\percent} in the absence of surface roughness. 
 In the regime of TER, the reduced specular reflectivity from a rough surface, $\mathcal{R}_{\text{rough}}$, is described approximately by the \emph{Nevot-Croce factor} [\emph{cf.\@} \cref{sec:refl_account}]. 
 For a thick slab of gold with a complex index of refraction $\tilde{\nu} (\omega)$, a grazing-incidence angle $\zeta$ and RMS surface roughness $\sigma$, the norm-squared of this factor is given by \cref{eq:NC_refl_ratio} with $\mathcal{R}_{NC} = \mathcal{R}_{\text{rough}}$:
 \begin{equation}\label{eq:nc_factor_taste}
-  \frac{\mathcal{R}_{NC}}{\mathcal{R}_F} = \norm{\mathrm{e}^{- 2 k_{\perp} \tilde{k}_{\perp} \sigma^2}}^2 = \mathrm{e}^{-4 k_0^2 \sin \left( \zeta \right) \Re \left[ \sqrt{\tilde{\nu}^2 (\omega) - \cos^2 \left( \zeta \right) } \right] \sigma^2}
+  \frac{\mathcal{R}_{NC}}{\mathcal{R}_F} = \norm{\mathrm{e}^{- 2 k_{\perp} \tilde{k}_{\perp} \sigma^2}}^2 = \mathrm{e}^{-4 k_0^2 \sin \left( \zeta \right) \Re \left[ \sqrt{\tilde{\nu}^2 (\omega) - \cos^2 \left( \zeta \right) } \right] \sigma^2} ,
  \end{equation}
 where $k_{\perp} = - k_0 \sin \left( \zeta \right)$ and $\tilde{k}_{\perp} = -k_0 \sqrt{\tilde{\nu}^2 (\omega) - \cos^2 \left( \zeta \right)}$ are the components of the wave vector normal to the surface in vacuum and gold, respectively, with $k_0 \equiv 2 \pi / \lambda$. 
 Moreover, $\Re \left[ \sqrt{\tilde{\nu}^2 (\omega) - \cos^2 \left( \zeta \right) } \right]$ represents the real part of $-\tilde{k}_{\perp} / k_0$. 
@@ -493,7 +491,7 @@ Additionally, a flat bottom portion was included to represent the cleared portio
 \begin{figure}
  \centering
  \includegraphics[scale=0.65]{Chapter-3/Figures/absolute_efficiency_model_wav.pdf} %85 nm land, 120 nm depth, 77 nm ridge, 27 blaze angle, 89 steep angle
- \caption[Measured absolute diffraction efficiency compared to theoretical diffraction efficiency modeled using \textsc{PCGrate-SX}]{Absolute diffraction efficiency from \cref{fig:abs_eff_taste} compared to theoretical diffraction efficiency modeled using \textsc{PCGrate-SX}. Modeled data are multiplied by the Nevot-Croce factor [\emph{cf.\@} \cref{eq:nc_factor_taste}] for $\zeta = 1.73^{\circ}$ and $\sigma = \SI{1.5}{\nm}$ RMS.}\label{fig:model_eff_taste}
+ \caption[Measured absolute diffraction efficiency compared to theoretical diffraction efficiency modeled using \textsc{PCGrate-SX}]{Absolute diffraction efficiency from \cref{fig:abs_eff_taste} compared to theoretical diffraction efficiency modeled using \textsc{PCGrate-SX}. Modeled data are multiplied by the Nevot-Croce factor [\emph{cf.\@} \cref{eq:nc_factor_taste}] for $\zeta = 1.73^{\circ}$ and $\sigma = \SI{1.5}{\nm}$ RMS \cite{McCoy20}.}\label{fig:model_eff_taste}
  \end{figure}
 Using the nominal values of $\alpha$ and $\gamma$ listed in \cref{tab:arc_params_taste} for grating incidence angles and $d = \SI{400}{\nm}$ for the groove spacing, a series of \textsc{PCGrate-SX} calculations were performed for a range of trapezoids with slightly-varying dimensions close to those measured by AFM in \cref{fig:coating_AFM}. 
 The model matching the measured data most closely was one with a blaze angle of $\delta = 27^{\circ}$, a groove depth of \SI{120}{\nm}, a flat-top width of \SI{77}{\nm} and bottom-width of \SI{85}{\nm}. 

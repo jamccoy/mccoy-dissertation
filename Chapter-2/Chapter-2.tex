@@ -3,7 +3,7 @@
 %\chapter[Characterization of Diffraction Efficiency for X-ray Reflection Gratings]{Characterization of Diffraction \\Efficiency for X-ray Reflection \\Gratings}\label{ch:diff_eff} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--------------------------------------------------
 Blazed reflection gratings are motivated in \cref{ch:introduction} as a technology suitable for the \emph{XGS} of the \emph{Lynx X-ray Observatory} \cite{Lynx_web,Gaskin19}, which has a main scientific objective of measuring the diffuse, highly-ionized baryonic content in extended galactic halos and the intergalactic medium through absorption spectroscopy of active galactic nuclei [\emph{cf.\@} \cref{sec:astro_plasmas}]. 
-Described in \cref{sec:grating_tech_intro}, such a spectrometer uses many identical gratings aligned into modular arrays that each intercept radiation in an \emph{extreme off-plane mount}, where the cone half-opening angle, $\gamma$, is on the order of a degree while the azimuthal incidence angle, $\alpha$, is free to match the blaze angle, $\delta$, in a \emph{Littrow configuration} where the azimuthal diffracted angle associated with the grating blaze is $\beta = \alpha = \delta$ [\emph{cf.\@} \cref{fig:conical_reflection_edit}]. 
+Described in \cref{sec:grating_tech_intro}, such a spectrometer uses many identical gratings aligned into modular arrays that each intercept radiation in an \emph{extreme off-plane mount}, where the cone half-opening angle, $\gamma$, is on the order of a degree while the azimuthal incidence angle, $\alpha$, is free to match the blaze angle, $\delta$, in a \emph{Littrow configuration}, where the azimuthal diffracted angle associated with the grating blaze is $\beta = \alpha = \delta$ [\emph{cf.\@} \cref{fig:conical_reflection_edit}]. 
 With the research presented in \cref{ch:master_fab,ch:grating_replication} utilizing diffraction-efficiency testing as a means for characterizing the performance of fabricated x-ray reflection gratings [\emph{cf.\@} \cref{sec:ch1_conclusions}], this chapter outlines the relevant beamline methodology in \cref{sec:als_testing} following an established test procedure intended for the extreme off-plane geometry \cite{Miles18}. 
 Additionally, \cref{sec:integral_method} describes how, with the aid of the \textsc{PCGrate-SX} software package (\textsc{I.\ I.\ G., Inc.\@}) \cite{PCGrate_web}, measured diffraction-efficiency data can be modeled using the \emph{integral method} to solve the Helmholtz equation for a periodic surface-relief boundary that represents the interface between vacuum and a reflection grating. 
 A summary of these methods for characterizing soft x-ray diffraction efficiency is then provided in \cref{sec:ch2_summary}.\footnote{The beamline experimentation described in \cref{sec:als_testing} and utilized in \cref{ch:master_fab,ch:grating_replication} was carried out under an ALS general user proposal agreement lasting through 2017 and 2018.} 
@@ -19,7 +19,7 @@ Using this facility, the specular reflectivity of a mirror [\emph{cf.\@} \cref{e
 can be experimentally determined for a given incidence angle by measuring the intensity of the reflected beam, $\mathcal{I}''\left( \lambda \right)$, relative to that of the incident beam, $\mathcal{I}_{\text{inc}} \!\left( \lambda \right)$. 
 Similarly, the \emph{absolute diffraction efficiency} of a reflection grating, defined as the intensity ratio between the $n^{\text{th}}$ diffracted order and the unobstructed beam \cite{Loewen97}: %\cref{eq:scalar_efficiency}:
 \begin{equation}\label{eq:diffraction_efficiency}
- \mathscr{E}_n \! \left( \lambda \right)  \equiv \frac{\mathcal{I}_n \! \left( \lambda \right)}{\mathcal{I}_{\text{inc}} \! \left( \lambda \right)} \quad \text{for } n = 0, \pm 1, \pm 2, \pm 3 ..., 
+ \mathscr{E}_n \! \left( \lambda \right)  \equiv \frac{\mathcal{I}_n \! \left( \lambda \right)}{\mathcal{I}_{\text{inc}} \! \left( \lambda \right)} \quad \text{for } n = 0, \pm 1, \pm 2, \pm 3 \dotsc , 
  \end{equation} 
 can also be measured using this beamline facility by comparing the intensity of each propagating order, $\mathcal{I}_n \! \left( \lambda \right)$, to $\mathcal{I}_{\text{inc}} \!\left( \lambda \right)$ for a particular grating geometry established using stage rotations inside the test chamber. 
 
@@ -32,7 +32,7 @@ A photograph of the chamber interior, which features an aperture for the monochr
 The detector staging can move linearly along the $x'$-direction and goniometrically about the $x'$-axis such that an angular position $\Theta$ maps to a vertical distance $y' \approx L \sin \left( \Theta \right)$, where any reference point can be used for $\Theta = 0$. 
 As described in \cref{sec:grating_tech_intro} and illustrated in \cref{fig:conical_reflection_edit}, an extreme off-plane geometry causes a far-field diffraction pattern where propagating orders are confined to the surface of a cone with a half-opening angle, $\gamma$, of a few degrees; the locations of these orders are described by the \emph{generalized grating equation} \cite[\emph{cf.\@} \cref{eq:off-plane_orders,eq:off-plane_incidence_orders}]{Loewen97}: 
 \begin{equation}\label{eq:off-plane_orders_ch2}
- \sin \left( \alpha \right) + \sin \left( \beta \right) = \frac{n \lambda}{d \sin \left( \gamma \right)} \quad \text{for } n = 0, \pm 1, \pm 2, \pm 3 ...
+ \sin \left( \alpha \right) + \sin \left( \beta \right) = \frac{n \lambda}{d \sin \left( \gamma \right)} \quad \text{for } n = 0, \pm 1, \pm 2, \pm 3 \dotsc ,
  \end{equation}
 with $d$ as the groove spacing, $\alpha$ as the azimuthal incidence angle and $\beta$ as the azimuthal diffracted angle of the $n^{\text{th}}$ order. 
 Therefore, $\mathscr{E}_n \! \left( \lambda \right)$ can be determined according to \cref{eq:diffraction_efficiency} by sampling the diffracted arc as a function of $x'$ and $y'$ to measure $\mathcal{I}_n \! \left( \lambda \right)$ for each propagating order. 
@@ -40,7 +40,7 @@ Therefore, $\mathscr{E}_n \! \left( \lambda \right)$ can be determined according
 Before $\mathscr{E}_n \! \left( \lambda \right)$ can be measured across a range wavelengths, a series of steps must be carried out to establish a desired grating geometry with specified values for $\alpha$ and $\gamma$. 
 The condition for \emph{total external reflection (TER)} [\emph{cf.\@} \cref{sec:planar_interface}] requires that the groove-facet incidence angle for a grating with a blaze angle $\delta$, given by \cref{eq:angle_on_groove}, be smaller than the \emph{critical angle}, $\zeta_c (\omega)$ [\emph{cf.\@} \cref{eq:critical_angle}]: 
 \begin{equation}\label{eq:TER_condition_grat}
- \zeta \equiv \arcsin \left[ \sin \left( \gamma \right) \cos \left( \delta - \alpha \right) \right] < \zeta_c (\omega) \approx \sqrt{2 \delta_{\nu} (\omega)} ,
+ \zeta \equiv \arcsin \left[ \sin \left( \gamma \right) \cos \left( \delta - \alpha \right) \right] < \zeta_c (\omega) \approx \sqrt{2 \delta_{\nu} (\omega)} 
  \end{equation} 
 with $\tilde{\nu}(\omega) \equiv 1 - \delta_{\nu} (\omega) + i \xi(\omega)$ as the complex index of refraction for given material [\emph{cf.\@} \cref{sec:x-ray_index}]. 
 Moreover, \cref{sec:grating_tech_intro} motivates the use of the Littrow configuration with $\alpha = \beta = \delta$ and $\zeta = \gamma$. 
@@ -54,7 +54,7 @@ The central component of the ALS is a particle accelerator that functions as an 
 This machine maintains highly-relativistic electrons that circulate a large vacuum system consisting of \num{12} straight sections that connect with one another so as to approximate a circle with a \SI{197}{\metre} circumference \cite{Attwood17}. 
 Constituting an electrical current of about \SI{400}{\milli\ampere}, these electrons travel in pulsed bunches spaced by \si{\nano\second}-timescales such that the typical electron energy is
 \begin{equation}\label{eq:ALS_energy}
- \mathcal{E}_e^{\text{ALS}} = \frac{m_e c_0^2}{\sqrt{1-\frac{v^2}{c_0^2}}} \approx \num{3720} m_e c_0^2 \approx \SI{1.9}{\giga\electronvolt}
+ \mathcal{E}_e^{\text{ALS}} = \frac{m_e c_0^2}{\sqrt{1-\frac{v^2}{c_0^2}}} \approx \num{3720} m_e c_0^2 \approx \SI{1.9}{\giga\electronvolt} ,
  \end{equation}
 where $v$ is an electron speed approaching the speed of light, $c_0$ \cite{Attwood17,Underwood96}.
 At each intersection between straight sections in the storage ring, a \emph{bending magnet} provides a uniform magnetic field, $\mathbold{B}_0$, that deflects electrons in a curved path with a \emph{Lorentz force} given by \cref{eq:Lorentz_force} in the absence of an electric field:
@@ -72,7 +72,7 @@ As illustrated in \cref{fig:bending_magnet}, the vector $\mathbold{v}$ for elect
  \caption[Orientation of velocity, acceleration and applied magnetic field vectors for bending-magnet synchrotron radiation.]{Orientation of velocity, acceleration and applied magnetic field vectors ($\mathbold{v}$, $\mathbold{a}$ and $\mathbold{B}_0$, respectively) for bending-magnet synchrotron radiation. These vectors are each orthogonal to one another, with $\mathbold{B}_0$, which is produced by the bending magnet, pointing into the page. The gray curve represents an approximately-circular electron trajectory with a radius of curvature, $R$, such that $\mathbold{v}$ points tangentially and $\mathbold{a}$ points radially inward.}\label{fig:bending_magnet}. 
  \end{figure}
 In principle, an electron in its rest frame radiates as a result of this centripetal acceleration according to the $\sin^2 \left( \vartheta \right)$ torus shape for \emph{Larmor radiation} shown in \cref{fig:torus_radition}. 
-In the laboratory frame on the other hand, this radiation pattern is highly beamed along the direction of $\mathbold{v}$ (\emph{i.e.}, $\vartheta \approx 0$) where the opening angle scales with $\sqrt{1- \left( v / c_0 \right)^2}$, the inverse of the \emph{Lorentz factor} \cite{Attwood17}. 
+In the laboratory frame on the other hand, this radiation pattern is highly beamed along the direction of $\mathbold{v}$ (\emph{i.e.}, $\vartheta \approx 0$), where the opening angle scales with $\sqrt{1- \left( v / c_0 \right)^2}$, the inverse of the \emph{Lorentz factor} \cite{Attwood17}. 
 Because $v \equiv \abs{\mathbold{v}}$ is constant in time for purely centripetal motion, the relativistic acceleration vector in \cref{eq:Lorentz_force_3} can be approximated as
 \begin{subequations}
 \begin{equation}\label{eq:Lorentz_accel_approx}
@@ -108,7 +108,7 @@ While the beam is mildly diverging with a cross-sectional diameter of $\lessappr
 \begin{figure}
  \centering
  \includegraphics[scale=0.5]{Chapter-2/Figures/grating_angles.pdf}
- \caption[Angles relevant for beamline diffraction-efficiency testing]{Angles relevant for beamline diffraction-efficiency testing. The grating incidence angles $\alpha \equiv \angle ACB$ and $\gamma \equiv \angle AIC$ introduced in \cref{fig:conical_reflection_edit} are controlled through rotations about principal axes, which are parametrized by the angles $\eta \equiv \angle CIB$ and $\varphi \equiv \angle AIB$ given by \cref{eq:graze_angle,eq:yaw_angle}.}\label{fig:grating_angles} 
+ \caption[Angles relevant for beamline diffraction-efficiency testing]{Angles relevant for beamline diffraction-efficiency testing. The grating incidence angles $\alpha \equiv \angle ACB$ and $\gamma \equiv \angle AIC$ introduced in \cref{fig:conical_reflection_edit} are controlled through rotations about principal axes, which are parametrized by the angles $\eta \equiv \angle CIB$ and $\varphi \equiv \angle AIB$ given by \cref{eq:graze_angle,eq:yaw_angle} \cite{McCoy20}.}\label{fig:grating_angles} 
  \end{figure} 
 Using the grating coordinate system defined in \cref{fig:grating_angles}, the central wave mode of the monochromatic beam with wave number $k_0 \equiv 2 \pi / \lambda$ has a wave vector written as 
 \begin{subequations}
@@ -183,10 +183,10 @@ to the angular size of the detector as measured by a goniometric scan of the $0^
  \end{equation}
 An example of this is shown in \cref{fig:ALS_cent_throw}, which depicts measured intensity data as a function of $\Theta$, in steps of $\sim$0.06$^{\circ}$. 
 Using these data, a measurement for $\Delta \Theta_d$ can be extracted by identifying start and end points for $\Theta$ that correspond to one beam translation across the detector. 
-This $\Theta$ range includes the quasi-flat region of the curve where the full length of the beam falls on the detector as well as one of its wings, which represents the beam either entering or exiting the active detector area. % [\emph{cf.\@} \cref{fig:ALS_cent_throw}]. 
+This $\Theta$ range includes the quasi-flat region of the curve, where the full length of the beam falls on the detector, as well as one of its wings, which represents the beam either entering or exiting the active detector area. % [\emph{cf.\@} \cref{fig:ALS_cent_throw}]. 
 
 With a measured value for $L$, a $y$-coordinate for any given diffracted beam can be determined by performing a goniometric scan at an appropriate $x'$-position and then extracting a centroid angle, $\Theta_n$, so that $y_n = L \sin \left( \Theta_n \right)$. 
-This is shown for the case of $n=0$ in \cref{fig:ALS_cent_throw} where a weighted-mean treatment of data is used to extract $\Theta_0$. 
+This is shown for the case of $n=0$ in \cref{fig:ALS_cent_throw}, where a weighted-mean treatment of data is used to extract $\Theta_0$. 
 The $x$-positions of propagating orders, on the other hand, require horizontal scans of the diffracted arc at a fixed goniometric angle so that centroids can be extracted. 
  %with an example shown in \cref{fig:ALS_xdata}. 
 \begin{figure}
@@ -221,7 +221,7 @@ Alternatively, this angle can be measured independently of $\gamma$ and $\eta$ u
 where $\Delta x_{\text{dir}} \equiv x_{\text{cen}} - x_{\text{dir}}$. 
 While the angles $\alpha$ and $\gamma$ fully describe a conical grating geometry for the purposes of modeling diffraction efficiency in \cref{sec:integral_method}, the principle-axis angles defined in \cref{fig:grating_angles} should also be constrained to ensure consistency with \cref{eq:graze_angle,eq:yaw_angle}. 
 
-By definition, a grating with zero roll is perfectly leveled with the $x'$-axis of the laboratory coordinate system so that $x_0 = x_{\text{dir}}$ and as a result, $\eta$ can be determined from $\sin \left( \eta \right) = \Delta y_0 / L$ where $\Delta y_0 \equiv y_0 - y_{\text{cen}}$ is the $y$-distance between $0^{\text{th}}$ order and the arc center. 
+By definition, a grating with zero roll is perfectly leveled with the $x'$-axis of the laboratory coordinate system so that $x_0 = x_{\text{dir}}$ and as a result, $\eta$ can be determined from $\sin \left( \eta \right) = \Delta y_0 / L$, where $\Delta y_0 \equiv y_0 - y_{\text{cen}}$ is the $y$-distance between $0^{\text{th}}$ order and the arc center. 
 With a roll angle $\phi \lessapprox 1^{\circ}$, however, the diffracted arc is rotated slightly with $\Delta x_0 \equiv x_{\text{cen}} - x_0 > \Delta x_{\text{dir}}$. 
 This angle can be determined using [\emph{cf.\@} \cref{fig:ALS_arc}] %As shown geometrically in \cref{fig:ALS_arc}, 
 \begin{equation}\label{eq:measure_roll}
@@ -233,7 +233,7 @@ a relation for $\eta$ is given by
 \begin{equation}\label{eq:measure_graze}
  \sin \left( \eta \right) = \frac{\Delta y_0 \sec \left( \phi \right)}{L} \implies \eta \approx \frac{\Delta y_0}{L} \left(1 + \frac{\phi^2}{2} \right)  .
  \end{equation}
-Finally, $\varphi$ can be determined geometrically using the right triangle defined by $\Delta x_{\text{dir}}$ and the projection of the $0^{\text{th}}$-order ray into the plane of the grating, $L \cos \left( \eta \right)$, with $L$ as a hypotenuse:\footnote{This can be gleaned from \cref{fig:grating_angles} where the line segment $\overline{IG}$ represents $L$ so that the line segment $\overline{IB}$ shown in solid blue is equivalent to $L \cos \left( \eta \right)$.}
+Finally, $\varphi$ can be determined geometrically using the right triangle defined by $\Delta x_{\text{dir}}$ and the projection of the $0^{\text{th}}$-order ray into the plane of the grating, $L \cos \left( \eta \right)$, with $L$ as a hypotenuse:\footnote{This can be gleaned from \cref{fig:grating_angles}, where the line segment $\overline{IG}$ represents $L$ so that the line segment $\overline{IB}$ shown in solid blue is equivalent to $L \cos \left( \eta \right)$.}
 \begin{equation}\label{eq:measure_yaw}
  \sin \left( \varphi \right) = \frac{\Delta x_{\text{dir}}}{L \cos \left( \eta \right)} \implies \varphi \approx \frac{\Delta x_{\text{dir}}}{L} \left(1 + \frac{\eta^2}{2} \right) ,
  \end{equation}
@@ -266,7 +266,7 @@ Finally, \cref{sec:refl_account} describes how the reflectivity phenomena outlin
 \subsection{The Grating Boundary Value Problem}\label{sec:grating_boundary}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-------------------------------------------------
 A time-harmonic boundary value problem that describes electromagnetic waves in the presence of a reflection grating can be formulated using framework similar to what is utilized in \cref{sec:planar_interface} for the ideal mirror flat and the pseudo-random rough surface. 
-Using the Cartesian coordinate system from \cref{sec:geo_constrain} with $\mathbold{\hat{x}}$, $\mathbold{\hat{y}}$ and $\mathbold{\hat{z}}$ as unit vectors for the dispersion, cross-dispersion and groove directions, respectively,\footnote{Note that as in the case of the mirror flat described in \cref{sec:planar_interface}, the $y$-axis here is normal to the grating substrate. In this case, however, the $(x,z)$ coordinates are rotated relative to what is defined in \cref{fig:2Dmirror_angles,fig:in_plane_scatter,fig:off_plane_scatter} for the mirror flat where $k_z = 0$ by convention.} the surface-relief profile of a grating can be understood as a special case of the framework for a rough surface presented in \cref{sec:rough_surface}, where the surface-profile function, $Y(x,z)$, is replaced by a specified \emph{groove function}, $g(x)$, which defines the cross-sectional shape of the grating groove profile. 
+Using the Cartesian coordinate system from \cref{sec:geo_constrain} with $\mathbold{\hat{x}}$, $\mathbold{\hat{y}}$ and $\mathbold{\hat{z}}$ as unit vectors for the dispersion, cross-dispersion and groove directions, respectively,\footnote{Note that as in the case of the mirror flat described in \cref{sec:planar_interface}, the $y$-axis here is normal to the grating substrate. In this case, however, the $(x,z)$ coordinates are rotated relative to what is defined in \cref{fig:2Dmirror_angles,fig:in_plane_scatter,fig:off_plane_scatter} for the mirror flat, where $k_z = 0$ by convention.} the surface-relief profile of a grating can be understood as a special case of the framework for a rough surface presented in \cref{sec:rough_surface}, where the surface-profile function, $Y(x,z)$, is replaced by a specified \emph{groove function}, $g(x)$, which defines the cross-sectional shape of the grating groove profile. 
 This function is assumed to be periodic over the groove spacing, $d$, so that $g(x) = g(x+d)$ and the function can be be expressed as a Fourier series with $K \equiv 2 \pi / d$ as the \emph{grating wave number} [\emph{cf.\@} \cref{eq:grating_number}]:
 \begin{subequations}%http://mathworld.wolfram.com/FourierSeries.html
 \begin{equation} \label{eq:groove_fourier_series}
@@ -374,7 +374,7 @@ with $\tilde{k}' \equiv \tilde{\nu} (\omega) k_0$ and $\mathbf{0}$ as the null v
  \includegraphics[scale=1.25]{Chapter-2/Figures/diffraction_arc23.mps} 
  \caption[Surface-relief boundary between vacuum and a dispersive medium representing the functional material of a reflection grating]{Surface-relief boundary between vacuum and a dispersive medium representing the functional material of a reflection grating. With grooves aligned with the $z$-direction as in \cref{fig:grating_angles}, the cross-sectional profile, $\mathcal{P}$ (shown as a dashed line), of a grating with a groove spacing $d$ is described by the periodic function $g(x)$ confined to $0 \leq y \leq h$, where $h$ is the groove depth. The unit vector $\mathbold{\hat{n}}_{\mathcal{P}}(x)$ describes the direction normal to grating surface at a position $x$.}\label{fig:grating_boundary_def} 
  \end{figure}
-They must also satisfy the appropriate boundary conditions at the surface of the grating profile, $\mathcal{P}$, described by $y = g(x)$, which can be written as special cases of \cref{eq:rough_boundary_1,eq:rough_boundary_2,eq:rough_boundary_3,eq:rough_boundary_4} for a rough surface with the pseudo-random function $Y(x,z)$ replaced by the periodic function $g(x)$:\footnote{These boundary conditions are valid in the absence of surface charge and surface current. This treatment is justified in the soft x-ray regime where materials exhibit low electrical conductivity due to $\omega$ approaching their plasma frequency [\emph{cf.\@} \cref{sec:x-ray_index}]. For the scenario of a perfectly conducting grating described in \cref{sec:grat_bound_consider}, however, the refracted-diffracted fields are null and a term for surface current must be included.} 
+They must also satisfy the appropriate boundary conditions at the surface of the grating profile, $\mathcal{P}$, described by $y = g(x)$, which can be written as special cases of \cref{eq:rough_boundary_1,eq:rough_boundary_2,eq:rough_boundary_3,eq:rough_boundary_4} for a rough surface with the pseudo-random function $Y(x,z)$ replaced by the periodic function $g(x)$:\footnote{These boundary conditions are valid in the absence of surface charge and surface current. This treatment is justified in the soft x-ray regime, where materials exhibit low electrical conductivity due to $\omega$ approaching their plasma frequency [\emph{cf.\@} \cref{sec:x-ray_index}]. For the scenario of a perfectly conducting grating described in \cref{sec:grat_bound_consider}, however, the refracted-diffracted fields are null and a term for surface current must be included.} 
 \begin{subequations}
 \begin{align}
  \mathbold{\hat{n}}_{\mathcal{P}}(x) \times \left[ \mathbold{E} \left( x, g(x), z \right) + \mathbold{E''} \left( x, g(x), z \right) \right] &= \mathbold{\hat{n}}_{\mathcal{P}}(x) \times \mathbold{E'} \left( x, g(x), z \right) \label{eq:grating_boundary_1} \\
@@ -614,7 +614,7 @@ these quantities can be expressed as
 where $\mathcal{A}_0$ is the amplitude of the incident electric field [\emph{cf.\@} \cref{eq:inc_E_comp,fig:polarization_angle}] while $\tilde{r}_{\text{TE}}^{(n)} \equiv \mathcal{A}_{\text{TE},n}'' / \mathcal{A}_0$ and $\tilde{r}_{\text{TM}}^{(n)} \equiv \mathcal{A}_{\text{TE},n}'' / \mathcal{A}_0$ are unitless amplitude coefficients that are generally complex. 
 Diffraction efficiency for an arbitrary polarization state can then be written as 
 \begin{equation}\label{eq:diffraction_efficiency_theo}
- \mathscr{E}_n = \mathscr{E}_{\text{TE},n} \cos^2 \left( \theta_p \right) + \mathscr{E}_{\text{TM},n} \sin^2 \left( \theta_p \right)
+ \mathscr{E}_n = \mathscr{E}_{\text{TE},n} \cos^2 \left( \theta_p \right) + \mathscr{E}_{\text{TM},n} \sin^2 \left( \theta_p \right) ,
  \end{equation}
 \end{subequations}
 where $\theta_p$ is the polarization angle \cite[\emph{cf.\@} \cref{eq:inc_E_comp,fig:polarization_angle}]{Petit80}. 
@@ -686,7 +686,7 @@ The grating boundary value problem presented in \cref{sec:grating_boundary} can 
 	\item The grating medium is considered to be \emph{perfectly conducting} such that the refracted fields are null with $\mathbold{E'} \left( x, y \right) = \mathbold{H'} \left( x, y \right) = \mathbf{0}$
 	\item Diffraction efficiency is polarization insensitive for x-ray reflection gratings but with the assumption of perfect conductivity, gratings are modeled most accurately using TE polarization \cite{Marlowe16}
  \end{enumerate}
-Although real materials are poorly conducting at soft x-ray frequencies for the reasons outlined in \cref{sec:SXR_med}, the electromagnetic fields involved in lossless TER behave similarly to those striking a medium with perfect conductivity where the \emph{skin depth}\footnote{In a conducting medium with permittivity, permeability and conductivity given by $\epsilon$, $\mu$ and $\sigma$, respectively, solving Maxwell's equations using Ohm's Law given by $\mathbfcal{J} = \sigma \mathbold{E}$, with $\mathbfcal{J}$ as current density, yields $\tilde{k}^2 = k^2 + i \mu \sigma \omega$ as dispersion relation with $k \equiv \omega \sqrt{\epsilon \mu}$ and $\tilde{k}$ as a complex wave number. For very high conductivity or very low frequencies, the skin depth, which describes the distance over which the fields to $1/\mathrm{e}$ their initial amplitude, is given by 
+Although real materials are poorly conducting at soft x-ray frequencies for the reasons outlined in \cref{sec:SXR_med}, the electromagnetic fields involved in lossless TER behave similarly to those striking a medium with perfect conductivity, where the \emph{skin depth}\footnote{In a conducting medium with permittivity, permeability and conductivity given by $\epsilon$, $\mu$ and $\sigma$, respectively, solving Maxwell's equations using Ohm's Law given by $\mathbfcal{J} = \sigma \mathbold{E}$, with $\mathbfcal{J}$ as current density, yields $\tilde{k}^2 = k^2 + i \mu \sigma \omega$ as dispersion relation with $k \equiv \omega \sqrt{\epsilon \mu}$ and $\tilde{k}$ as a complex wave number. For very high conductivity or very low frequencies, the skin depth, which describes the distance over which the fields to $1/\mathrm{e}$ their initial amplitude, is given by 
 \begin{equation*}
  \mathcal{D}_{\sigma} \approx \sqrt{\frac{2}{\omega \mu \sigma}} ,
  \end{equation*}
@@ -694,7 +694,7 @@ which approaches zero as $\sigma \to \infty$ \cite{Landau60}.\label{footnote:ski
 approaches zero \cite{Griffiths17,Jackson75}. 
 This can be understood by considering that the refracted angle at an interface between vacuum and a dispersive medium with index of refraction $\tilde{\nu}(\omega) = \nu (\omega) + i \xi (\omega)$ is null for TER in the limit that $\xi (\omega) \to 0$ [\emph{cf.\@} \cref{sec:total_refl}]. 
 Under such conditions, the fields do not penetrate into the dispersive medium so that the penetration depth, $\mathcal{D}_{\perp}$, approaches zero while Fresnel reflectivity, $\mathcal{R}_F$, is unity. 
-While this assumption is not strictly justified for TER in the soft x-ray where $\mathcal{D}_{\perp}$ is on the order of a few \si{\nm} and $\mathcal{R}_F<1$ [\emph{cf.\@} \cref{sec:planar_interface}], it has been demonstrated experimentally that x-ray reflection gratings used in the extreme off-plane mount exhibit polarization-insensitive diffraction efficiency that can be modeled with a fair degree of accuracy using the assumption of perfect conductivity \cite{Marlowe16}. 
+While this assumption is not strictly justified for TER in the soft x-ray, where $\mathcal{D}_{\perp}$ is on the order of a few \si{\nm} and $\mathcal{R}_F<1$ [\emph{cf.\@} \cref{sec:planar_interface}], it has been demonstrated experimentally that x-ray reflection gratings used in the extreme off-plane mount exhibit polarization-insensitive diffraction efficiency that can be modeled with a fair degree of accuracy using the assumption of perfect conductivity \cite{Marlowe16}. 
 However, this approach requires the use of TE polarization to achieve physical results and additionally, the reflectivity of the grating material must be taken into account separately to predict absolute diffraction efficiency. 
 
 With the assumption of a perfectly conducting grating, the physical picture of soft x-rays interacting with atomic electrons [\emph{cf.\@} \cref{sec:SXR_med}] is abandoned and instead, electric current confined to an infinitesimal skip depth [\emph{cf.\@} footnote~\ref{footnote:skin_depth}] at the surface of the grating is considered as the source for the reflected-diffracted fields \cite{Loewen97,Petit80}. 
@@ -704,7 +704,7 @@ This mathematical problem then can be posed using an inhomogeneous version of th
  \left( \nabla^2 + k_0^2 \right) \left[ \mathbold{E} \left( \mathbold{r} \right) + \mathbold{E}'' \left( \mathbold{r} \right) \right] = - i \mu_0 \omega \mathbfcal{J}(\mathbold{r})
  \end{equation}
 with $\mathbfcal{J}(\mathbold{r})$ as electric current density, which appears in the time-harmonic version of Amp\`ere's law given by $\curl \mathbold{H} \left( \mathbold{r} \right) = \mathbfcal{J}(\mathbold{r}) - i \omega \epsilon_0 \mathbold{E} \left( \mathbold{r} \right)$ [\emph{cf.\@} \cref{eq:Maxwell_vac_TH_4}]. 
-By the same argument for symmetry along the groove direction described in \cref{sec:reflected_diffracted}, \cref{eq:Helmholtz_inhomog} reduces to a scalar equation where, as a generalization of \cref{eq:Helmholtz_above_grat_scal} for the case of TE polarization, the relevant component of the field, $u'' (x,y) = E_z'' (x,y)$, must satisfy 
+By the same argument for symmetry along the groove direction described in \cref{sec:reflected_diffracted}, \cref{eq:Helmholtz_inhomog} reduces to a scalar equation, where, as a generalization of \cref{eq:Helmholtz_above_grat_scal} for the case of TE polarization, the relevant component of the field, $u'' (x,y) = E_z'' (x,y)$, must satisfy 
 \begin{align}\label{eq:Helmholtz_inhomog_scalar}
  \begin{split}
  \left( \nabla_{xy}^2 + k_{xy}^2 \right) E_z'' (x,y) = - i \mu_0 \omega \mathcal{J}_z (x,y) \\
@@ -716,12 +716,12 @@ where $\mathcal{J}_z \equiv \mathbfcal{J} \cdot \mathbold{\hat{z}}$ is the $z$-c
 A current density confined to the grating surface, $\mathcal{P}$, with infinitesimal thickness can be written in terms of a surface-current density vector, $\pmb{\mathscr{J}}$:
 \begin{subequations}
 \begin{equation}\label{eq:surf_curr_term}
- \mathcal{J}_z (x,y) = \mathscr{J}_z (x) \delta_D \left[y - g(x) \right]
+ \mathcal{J}_z (x,y) = \mathscr{J}_z (x) \delta_D \left[y - g(x) \right] ,
  \end{equation}
 where $\mathscr{J}_z \equiv \pmb{\mathscr{J}} \cdot \mathbold{\hat{z}}$ and $\delta_D \left[y - g(x) \right]$ is a \emph{Dirac delta function} that ensures $\mathscr{J}_z = 0$ unless $y=g(x)$. 
 This surface-current density is assumed to be confined to $\mathcal{P}$ such that 
 \begin{equation}\label{eq:surf_curr_expan}
- \mathscr{J}_z (x) \mathrm{e}^{-i k_x x} = \sum_{n=-\infty}^{\infty} \mathscr{J}_{z,n} \mathrm{e}^{i n K x} 
+ \mathscr{J}_z (x) \mathrm{e}^{-i k_x x} = \sum_{n=-\infty}^{\infty} \mathscr{J}_{z,n} \mathrm{e}^{i n K x} ,
  \end{equation} 
 where $\mathrm{e}^{-i k_x x}$ accounts for the phase shift from the incident wave and the Fourier coefficients are defined by 
 \begin{equation}
@@ -745,7 +745,7 @@ Following textbooks on electromagnetic grating theory \cite{Petit80,antonakakis1
 Following the method of \emph{Green's functions} for differential equations \cite{Jackson75,Petit80}, the inhomogeneous Helmholtz equation [\emph{cf.\@} \cref{eq:Helmholtz_inhomog_scalar}] with \cref{eq:surf_curr_term} can be solved by first considering a solution for diffracted fields in the presence of a periodic array of point sources for surface current. 
 Using notation similar to \cref{eq:Helmholtz_inhomog_scalar,eq:surf_curr_term}, this can be written as 
 \begin{equation}\label{eq:Green_Helmholtz}
- \left( \nabla^2_{xy} + k^2_{xy} \right) \mathcal{G} (x,y) = \mathrm{e}^{i k_x x} \delta_D \left( y \right) \Sha_d \left( x \right) = \mathrm{e}^{i k_x x} \delta_D \left( y \right) \sum_{n=-\infty}^{\infty} \delta_D \left( x - n d \right) 
+ \left( \nabla^2_{xy} + k^2_{xy} \right) \mathcal{G} (x,y) = \mathrm{e}^{i k_x x} \delta_D \left( y \right) \Sha_d \left( x \right) = \mathrm{e}^{i k_x x} \delta_D \left( y \right) \sum_{n=-\infty}^{\infty} \delta_D \left( x - n d \right) ,
  \end{equation}
 where $\mathrm{e}^{i k_x x}$ accounts for the phase shift of the incident wave, $\Sha_d \left( x \right)$ is a \emph{Dirac comb} of period $d$ [\emph{cf.\@} \cref{sec:resolving_power}] and $\mathcal{G} (x,y)$ is a unitless Green's function of the form 
 \begin{subequations}
@@ -792,7 +792,7 @@ Because both $\mathcal{G} (x-x',y-y')$ and $\mathscr{J}_z (x')$ have periodicity
 \begin{align}
  \begin{split}\label{eq:E_z_integral2}
  E_z'' (x,y) &= - \frac{\omega \mu_0}{2 d} \sum_{n=-\infty}^{\infty} \frac{1}{k_{y,n}''} \int_{\mathcal{P}} \mathrm{e}^{i \left( k_{x,n}'' \left( x - x' \right) + k_{y,n}'' \abs{\left( y - g(x') \right)} \right)} \mathscr{J}_z (x') \dd{\ell'} \\
- &= - \frac{\omega \mu_0}{2 d} \sum_{n=-\infty}^{\infty} \frac{1}{k_{y,n}''} \int_0^d \mathrm{e}^{i \left( k_{x,n}'' \left( x - x' \right) + k_{y,n}'' \abs{\left( y - g(x') \right)} \right)} \mathscr{J}_z (x') \ell (x') \dd{x'} \\ &\quad \text{with } \ell (x') \equiv \sqrt{1 + \left( \dv{g(x')}{x'} \right)^2} 
+ &= - \frac{\omega \mu_0}{2 d} \sum_{n=-\infty}^{\infty} \frac{1}{k_{y,n}''} \int_0^d \mathrm{e}^{i \left( k_{x,n}'' \left( x - x' \right) + k_{y,n}'' \abs{\left( y - g(x') \right)} \right)} \mathscr{J}_z (x') \ell (x') \dd{x'} \\ &\quad \text{with } \ell (x') \equiv \sqrt{1 + \left( \dv{g(x')}{x'} \right)^2} ,
  \end{split}
  \end{align}
 \end{subequations}
@@ -813,7 +813,7 @@ where $\mathbold{\hat{n}}_{\mathcal{P}}(x) \equiv n_x \mathbold{\hat{x}} + n_y \
 By decomposing the field vectors into Cartesian components, it is found that the only condition relevant for $E_z'' (x,y)$ is a \emph{Dirichlet boundary condition} for the $z$-component of the electric field \cite{Petit80,Jackson75}:
 \begin{subequations} 
 \begin{equation}\label{eq:Dirch_a}
- E_z'' \left[ x, g(x) \right] = - E_z \left[ x, g(x) \right] = - \mathcal{A}_0 \sin \left( \gamma \right) \mathrm{e}^{i \left( k_x x + k_y g(x) \right)} ,
+ E_z'' \left[ x, g(x) \right] = - E_z \left[ x, g(x) \right] = - \mathcal{A}_0 \sin \left( \gamma \right) \mathrm{e}^{i \left( k_x x + k_y g(x) \right)} 
  \end{equation}
 with $k_x = - k_0 \sin \left( \alpha \right) \sin \left( \gamma \right)$ and $k_y = - k_0 \cos \left( \alpha \right) \sin \left( \gamma \right)$ as components of the incident wave vector [\emph{cf.\@} \cref{eq:beam_vec_grat_2}]. 
 Using \cref{eq:E_z_integral2,eq:surf_curr_expan}, \cref{eq:Dirch_a} becomes
@@ -878,7 +878,7 @@ The relevant component of diffracted field, $E_z'' (x,y)$, can then be calculate
 \begin{align}
  \begin{split}
  E_z'' (x,y) = i \omega \mu_0 \int_0^d \mathcal{G} (x-x',y-g(x')) \mathscr{J}_z (x') \mathrm{e}^{i k_{x,n}'' x} \ell (x') \dd{x'} \\
- \text{with} \quad \mathscr{J}_z (x') =  \sum_{n=-\mathcal{N}}^{\mathcal{N}} \mathscr{J}_{z,n} \mathrm{e}^{i k_{x,n}'' x} \quad \text{and} \quad \ell (x') \equiv \sqrt{1 + \left( \dv{g(x')}{x'} \right)^2}
+ \text{with} \quad \mathscr{J}_z (x') =  \sum_{n=-\mathcal{N}}^{\mathcal{N}} \mathscr{J}_{z,n} \mathrm{e}^{i k_{x,n}'' x} \quad \text{and} \quad \ell (x') \equiv \sqrt{1 + \left( \dv{g(x')}{x'} \right)^2} ,
  \end{split}
  \end{align}
 where $\mathcal{G} (x-x',y-y')$ is the Green's function given by \cref{eq:full_green}. 
@@ -902,10 +902,10 @@ as a result of $k_{y,n}''$ being purely real.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-------------------------------------------------
 With $\norm{\mathcal{A}_n''}^2$ determined from \cref{eq:known_field_coef_norm} for propagating orders, diffraction efficiency can be calculated using \cref{eq:TE_efficiency}: 
 \begin{equation}\label{eq:rel_efficiency}
- \mathscr{E}_n = \frac{k_{y,n}''}{k_y} \norm{\frac{\mathcal{A}_n''}{\mathcal{A}_0}}^2 \equiv \frac{\cos \left( \beta \right)}{\cos \left( \alpha \right)} \norm{\tilde{r}^{(n)}}^2 
+ \mathscr{E}_n = \frac{k_{y,n}''}{k_y} \norm{\frac{\mathcal{A}_n''}{\mathcal{A}_0}}^2 \equiv \frac{\cos \left( \beta \right)}{\cos \left( \alpha \right)} \norm{\tilde{r}^{(n)}}^2 ,
 \end{equation}
 where $\mathcal{A}_0$ is the amplitude of the incident wave and $\tilde{r}^{(n)} \equiv \mathcal{A}_n'' / \mathcal{A}_0$ is a unitless amplitude coefficient. 
-In analogy to a perfectly conducting mirror flat where $\mathcal{R}_F = 1$, however, the sum of $\mathscr{E}_n$ over all propagating orders is equal to unity. 
+In analogy to a perfectly conducting mirror flat with $\mathcal{R}_F = 1$, however, the sum of $\mathscr{E}_n$ over all propagating orders is equal to unity. 
 To show that $\mathscr{E}_n$ does in fact represent relative efficiency, \emph{Green's theorem} is invoked for two arbitrary scalar fields, $U(\mathbold{r})$ and $V(\mathbold{r})$, that are considered to be enclosed within a volume $\mathcal{V}$ such that \cite{Petit80}
 \begin{align}\label{eq:green_theorem}
  \begin{split}
@@ -949,7 +949,7 @@ where $\dd{\ell}$ is an infinitesimal line element and $\mathbold{\hat{n}}$ is a
  \includegraphics[scale=1.25]{Chapter-2/Figures/diffraction_arc25.mps} 
  \caption[Surface-relief boundary between vacuum and a perfectly conducting medium]{Surface-relief boundary between vacuum and a perfectly conducting medium. As in \cref{fig:grating_boundary_def}, the grating grooves are aligned with the $z$-direction so that the cross-sectional profile, $\mathcal{P}$ (shown as a dashed line), is described by the periodic function $g(x)$ confined to $0 \leq y \leq h$ while the unit vector $\mathbold{\hat{n}}_{\mathcal{P}} (x)$ describes the direction normal to grating surface at a position $x$. The blue line, $\mathcal{L}$, represents the cross-section of an areal surface $\mathcal{S}$ that encloses a volume $\mathcal{V}$ where two scalar fields, $U(\mathbold{r})$ and $V(\mathbold{r})$, satisfy Green's theorem given by \cref{eq:green_theorem} using the outward-normal unit vector $\mathbold{\hat{n}}$.}\label{fig:grating_boundary_perf} 
  \end{figure}
-This is illustrated in \cref{fig:grating_boundary_perf} where $\mathcal{L}$ (shown in blue) is taken to be a path that outlines one groove period and extends upward to an unspecified $y$ value. 
+This is illustrated in \cref{fig:grating_boundary_perf}, where $\mathcal{L}$ (shown in blue) is taken to be a path that outlines one groove period and extends upward to an unspecified $y$ value. 
 Assuming the fields obey a Dirichlet boundary condition on $\mathcal{P}$ with 
 \begin{equation}
 \left\{
@@ -959,7 +959,7 @@ Assuming the fields obey a Dirichlet boundary condition on $\mathcal{P}$ with
  \end{array}
  \right\} = 0 ,
 \end{equation}
-the portion of the line integral along $\mathcal{P}$ vanishes and \cref{eq:green_theorem_mod2} reduces to\footnote{By symmetry, the vertical portions of the path $\mathcal{L}$ cancel each other out in \cref{eq:green_theorem_mod2}. The piece of $\mathcal{L}$ that survives the line integral is the top portion where $\mathbold{\hat{n}} = \mathbold{\hat{y}}$.} 
+the portion of the line integral along $\mathcal{P}$ vanishes and \cref{eq:green_theorem_mod2} reduces to\footnote{By symmetry, the vertical portions of the path $\mathcal{L}$ cancel each other out in \cref{eq:green_theorem_mod2}. The piece of $\mathcal{L}$ that survives the line integral is the top portion, where $\mathbold{\hat{n}} = \mathbold{\hat{y}}$.} 
 \begin{equation}\label{eq:grat_lemma1}
  \int_0^d \left( U (x,y) \pdv{V (x,y)}{y} - V (x,y) \pdv{U (x,y)}{y} \right) \dd{x} = 0 ,
  \end{equation}
@@ -1000,7 +1000,7 @@ and
  \end{split}
  \end{align}
 \end{subequations}
-When these expressions are inserted into \cref{eq:grat_lemma1}, the only terms that survive the integral are those that are not periodic over the groove spacing\footnote{This includes cross-terms from the summations where $\mathrm{e}^{i n K}$ phase factors vanish and additionally, the incident fields by definition.} such that the two pieces of the integral become
+When these expressions are inserted into \cref{eq:grat_lemma1}, the only terms that survive the integral are those that are not periodic over the groove spacing\footnote{This includes cross-terms from the summations, where $\mathrm{e}^{i n K}$ phase factors vanish, and additionally, the incident fields by definition.} such that the two pieces of the integral become
 \begin{subequations}
 \begin{align}
  \int_0^d U (x,y) \pdv{V (x,y)}{y} \dd{x} &= - i d \left[ k_y \abs{\mathcal{A}_0}^2 + \sum_{n}^{\text{prop.}} k_{y,n}'' \norm{\mathcal{A}_n'}^2 + \sum_{n}^{\text{evan.}} k_{y,n}'' \norm{\mathcal{A}_n''}^2 \mathrm{e}^{2 i k_{y,n}''} \right] \\
@@ -1017,11 +1017,11 @@ The relation just derived can be verified using \textsc{PCGrate-SX} under \emph{
 \begin{figure}
  \centering
  \includegraphics[scale=0.23]{Chapter-2/Figures/perf_ex.png}
- \caption[Example of predicted diffraction efficiency from a perfectly conducting grating using \textsc{PCGrate-SX}]{Example of predicted diffraction efficiency from a perfectly conducting grating emulated using $\tilde{\nu} (\omega) = \num{10000} (1+ i)$ for a border index of refraction in \textsc{PCGrate-SX} (v.\ 6.1) under \emph{perfect conductivity mode}. With the total response of the grating, $\mathscr{E}_{\text{tot}} + \mathscr{E}_0$, approaching unity, $\mathscr{E}_n$ is here interpreted as relative efficiency where reflectivity must be taken into account separately [\emph{cf.\@} \cref{fig:pcgrate_example_au}].}\label{fig:pcgrate_example_perf}
+ \caption[Example of predicted diffraction efficiency from a perfectly conducting grating using \textsc{PCGrate-SX}]{Example of predicted diffraction efficiency from a perfectly conducting grating emulated using $\tilde{\nu} (\omega) = \num{10000} (1+ i)$ for a border index of refraction in \textsc{PCGrate-SX} (v.\ 6.1) under \emph{perfect conductivity mode}. With the total response of the grating, $\mathscr{E}_{\text{tot}} + \mathscr{E}_0$, approaching unity, $\mathscr{E}_n$ is here interpreted as relative efficiency such that reflectivity must be taken into account separately [\emph{cf.\@} \cref{fig:pcgrate_example_au}].}\label{fig:pcgrate_example_perf}
  \end{figure}
 An example of this is shown in \cref{fig:pcgrate_example_perf}, where, as indicated in the figure inset, the grating profile is assumed to be triangular with a $\delta = 30^{\circ}$ active blaze angle and an $80^{\circ}$ opposite angle to yield a groove depth of $h \lessapprox \SI{85}{\nm}$ at $d = \SI{160}{\nm}$. 
 Meanwhile, a plane wave of radiation with $\SI{1}{\nm} \leq \lambda \leq \SI{5}{\nm}$ is taken to be incident with a polar angle of $\alpha = 25^{\circ}$ and a half-cone opening angle of $\gamma = 1.5^{\circ}$ to yield propagating orders with $n$ ranging from \numrange{-1}{5}. 
-The diffraction efficiency, $\mathscr{E}_n$, for each order is shown as a colored curve where each maximum corresponds to the blaze wavelength in each propagating order.\footnote{Note that the locations of these maxima may differ from what is predicted by \cref{eq:blaze_wavelength,eq:blaze_wavelength_general} for the blaze wavelength. This is a symptom of the scalar treatment of gratings [\emph{cf.\@} \cref{ap:grating_basics}] being insufficient for modeling the efficiency of x-ray reflection gratings accurately.} 
+The diffraction efficiency, $\mathscr{E}_n$, for each order is shown as a colored curve, where each maximum corresponds to the blaze wavelength in each propagating order.\footnote{Note that the locations of these maxima may differ from what is predicted by \cref{eq:blaze_wavelength,eq:blaze_wavelength_general} for the blaze wavelength. This is a symptom of the scalar treatment of gratings [\emph{cf.\@} \cref{ap:grating_basics}] being insufficient for modeling the efficiency of x-ray reflection gratings accurately.} 
 Moreover, the total diffraction efficiency, $\mathscr{E}_{\text{tot}} \equiv \sum_{n \neq 0} \mathscr{E}_n$, and the total response, $\mathscr{E}_{\text{tot}} + \mathscr{E}_0$, are shown as gray and black dotted lines, respectively. 
 Because $\mathscr{E}_{\text{tot}}$ here approaches unity, $\mathscr{E}_n$ can be taken to represent relative efficiency. 
 
@@ -1031,7 +1031,7 @@ As a result of the integral method for a perfectly-conducting grating interface 
 For an ideal blazed grating, this can be treated by multiplying the predicted relative efficiency by an expression for specular reflectivity, $\mathcal{R}$, from the surface of the groove facets \cite{antonakakis14}. 
 If it can be assumed that only one side of the groove facets is illuminated\footnote{This is often the case for a near-Littrow configuration defined by $\alpha \approx \delta$, where $\alpha$ is the azimuthal incidence angle and $\delta$ is the blaze angle. However, this approximation may break down for values of $\alpha$ considerably smaller than $\delta$ or for topographies with a relatively shallow opposite angle. Nonetheless, \textsc{PCGrate-SX} takes into account reflectivity for any grating profile.} and that surface roughness is negligible [\emph{cf.\@} \cref{sec:rough_surface}], this can be written as 
 \begin{equation}\label{eq:absolute_eff_approx}
- \mathscr{E}_n \to \mathscr{E}_n \mathcal{R}_F (\zeta) = \underbrace{\frac{\cos \left( \beta \right)}{\cos \left( \alpha \right)} \norm{\tilde{r}^{(n)}}^2}_{\cref{eq:rel_efficiency}} \mathcal{R}_F (\zeta) ,
+ \mathscr{E}_n \to \mathscr{E}_n \mathcal{R}_F (\zeta) = \underbrace{\frac{\cos \left( \beta \right)}{\cos \left( \alpha \right)} \norm{\tilde{r}^{(n)}}^2}_{\text{\cref{eq:rel_efficiency}}} \mathcal{R}_F (\zeta) ,
  \end{equation}
 where $\tilde{r}^{(n)} \equiv \mathcal{A}_n'' / \mathcal{A}_0$ and $\mathcal{R}_F (\zeta)$ is Fresnel reflectivity at a grazing-incidence angle $\zeta$ [\emph{cf.\@} \cref{eq:fresnel_refl_def}].\footnote{Relative to the groove-facet plane defined by a blaze angle $\delta$, this incidence angle is given by \cref{eq:angle_on_groove} [\emph{cf.\@} \cref{fig:conical_reflection_edit}].} 
 Because reflectivity is virtually polarization insensitive for grazing-incidence soft x-rays [\emph{cf.\@} \cref{sec:reflectivity_polarization}], $\mathcal{R}_F (\zeta)$ can be taken to represent Fresnel reflectivity in s-polarization, given for a thick slab by \cref{eq:s_reflectivity}. 

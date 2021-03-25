@@ -524,8 +524,9 @@
 
 \bibitem{Walter93}
 \textsc{{Walter}, R.} and \textsc{H.~H. {Fink}} (1993) \enquote{{The
-  ultraviolet to soft X-ray bump of Seyfert 1 type active galactic nuclei.}}
+  ultraviolet to soft X-ray bump of Seyfert 1 type active galactic nuclei},}
   \emph{\aap}, \textbf{274}, p. 105.
+\newline\urlprefix\url{http://articles.adsabs.harvard.edu/pdf/1993A%26A...274..105W}
 
 \bibitem{Crummy06}
 \textsc{{Crummy}, J.}, \textsc{A.~C. {Fabian}}, \textsc{L.~{Gallo}}, and
@@ -1010,6 +1011,7 @@
 \bibitem{Zeiger13}
 \textsc{{Zeiger}, B.~R.} (2013) \emph{{Soft x-ray spectroscopy of the Vela
   supernova remnant}}, Ph.D. thesis, University of Colorado at Boulder.
+\newline\urlprefix\url{https://scholar.colorado.edu/concern/graduate_thesis_or_dissertations/xg94hp58h}
 
 \bibitem{Rogers13}
 \textsc{{Rogers}, T.}, \textsc{B.~{Zeiger}}, \textsc{R.~L. {McEntaffer}},
@@ -1029,6 +1031,7 @@
 \textsc{{Rogers}, T.~D.} (2016) \emph{{Suborbital Soft X-Ray Spectroscopy with
   Gaseous Electron Multipliers}}, Ph.D. thesis, University of Colorado at
   Boulder.
+\newline\urlprefix\url{https://scholar.colorado.edu/concern/graduate_thesis_or_dissertations/6d56zw65d}
 
 \bibitem{colorado_casa}
  \emph{Center for Astrophysics and Space Astronomy - CASA}.
@@ -1526,6 +1529,7 @@
 \bibitem{Verschuuren10}
 \textsc{{Verschuuren}, M.~A.} (2010) \emph{{Substrate conformal imprint
   lithography for nanophotonics}}, Ph.D. thesis, Utrecht University.
+\newline\urlprefix\url{http://dspace.library.uu.nl/handle/1874/41044}
 
 \bibitem{Zhuang05}
 \textsc{Zhuang, Y.} and \textsc{A.~Menon} (2005) \enquote{On the stiction of
@@ -1783,6 +1787,7 @@
   \textsc{E.~Skeleton}, \textsc{S.~Guenneau}, \textsc{A.~Nicolet},
   \textsc{E.~Popov}, and \textsc{B.~Vial} (2014) \emph{{Gratings: Theory and
   Numeric Applications, Second Revisited Edition}}, {AMU, (PUP), CNRS, ECM}.
+\newline\urlprefix\url{https://www.fresnel.fr/files/gratings/Second-Edition/}
 
 \bibitem{Marlowe16}
 \textsc{{Marlowe}, H.}, \textsc{R.~L. {McEntaffer}}, \textsc{J.~H. {Tutt}},
@@ -2258,8 +2263,9 @@
 
 \bibitem{Klosner02}
 \textsc{Klosner, M.~A.}, \textsc{M.~I. Zemel}, \textsc{K.~Jain}, and
-  \textsc{N.~O. Farmiga} (U.S. Patent 6 416 908 B1, Jul. 2002),
-  \enquote{Projection lithography on curved substrates,} .
+  \textsc{N.~O. Farmiga} (2002), \enquote{Projection lithography on curved
+  substrates,} U.S. Patent 6 416 908 B1, Jul. 2002.
+\newline\urlprefix\url{https://patents.google.com/patent/US6416908B1/en}
 
 \bibitem{Kim09}
 \textsc{Kim, J.~G.}, \textsc{N.~Takama}, \textsc{B.~J. Kim}, and
@@ -2584,6 +2590,7 @@
   \emph{X-ray Astronomy 2000} (R.~{Giacconi}, S.~{Serio}, and L.~{Stella},
   eds.), vol. 234 of \emph{Astronomical Society of the Pacific Conference
   Series}, p. 121.
+\newline\urlprefix\url{http://adsabs.harvard.edu/full/2001ASPC..234..121P}
 
 \bibitem{Pradhan85}
 \textsc{{Pradhan}, A.~K.} (1985) \enquote{{Recombination-cascade X-ray spectra
@@ -2631,12 +2638,14 @@
 \textsc{Fresnel, A.} (1823) \emph{M{\'e}moire sur la loi des modifications que
   la r{\'e}flexion imprime {\`a} la lumi{\`e}re polaris{\'e}e}, Acad{\'e}mie
   des Sciences.
+\newline\urlprefix\url{https://www.academie-sciences.fr/pdf/dossiers/Fresnel/Fresnel_pdf/Mem1823_p393.pdf}
 
 \bibitem{Vinogradov85}
 \textsc{{Vinogradov}, A.~V.}, \textsc{N.~N. {Zorev}}, \textsc{I.~V.
-  {Kozhevnikov}}, and \textsc{I.~G. {Iakushkin}} (1985) \enquote{{Total
-  external reflection of X-rays},} \emph{Zhurnal Eksperimentalnoi i
+  {Kozhevnikov}}, and \textsc{I.~G. {Iakushkin}} (1985) \enquote{{Phenomenon of
+  total external reflection of x rays},} \emph{Zhurnal Eksperimentalnoi i
   Teoreticheskoi Fiziki}, \textbf{89}, pp. 2124--2132.
+\newline\urlprefix\url{http://www.jetp.ac.ru/cgi-bin/dn/e_062_06_1225.pdf}
 
 \bibitem{Vineyard82}
 \textsc{Vineyard, G.~H.} (1982) \enquote{Grazing-incidence diffraction and the
@@ -2681,6 +2690,7 @@
   des surfaces par r{\'e}flexion rasante de rayons X. Application {\`a}
   l'{\'e}tude du polissage de quelques verres silicates,} \emph{Revue de
   Physique appliqu{\'e}e}, \textbf{15}(3), pp. 761--779.
+\newline\urlprefix\url{https://doi.org/10.1051/rphysap:01980001503076100}
 
 \bibitem{Bragg1913a}
 \textsc{{Bragg}, W.~H.} and \textsc{W.~L. {Bragg}} (1913) \enquote{{The
