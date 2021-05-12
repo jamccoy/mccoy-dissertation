@@ -167,7 +167,7 @@ Increasing grating yaw by azimuthal stage rotation for $\varphi$ while $\eta$ re
  r = L \sqrt{\sin^2 \left( \eta \right) + \sin^2 \left( \varphi \right) \cos^2 \left( \eta \right)} = L \sqrt{1 - \cos^2 \left( \varphi \right) \cos^2 \left( \eta \right)} .
  \end{equation}
 A grating geometry with $\alpha \approx \delta$ hence can be established by setting $\eta$ and $\varphi$ appropriately according to \cref{eq:graze_angle,eq:yaw_angle} with $\phi \approx 0$. 
-In principle, $L$ changes as the the detector moves along the $x'$-direction with focal corrections on the order of tens of \si{\um} within \si{mm} of detector travel, but for the analysis considered in this dissertation, these corrections are ignored so that $L$ is fixed for all detector positions considered. 
+In principle, $L$ changes as the the detector moves along the $x'$-direction with focal corrections on the order of tens of \si{\um} within \SI{10}{mm} of detector travel, but for the analysis considered in this dissertation, these corrections are ignored so that $L$ is fixed for all detector positions considered. 
 Order locations given by the generalized grating equation [\emph{cf.\@} \cref{eq:off-plane_orders,eq:off-plane_orders_ch2}] then can be mapped using $(x',y')$ positions associated with the detector staging that are taken to coincide directly with the $(x,y)$ coordinates for grating dispersion such that aberrations arising from the misalignment between these two planes are neglected. 
 While the $x$-positions of propagating orders can be determined by sampling the diffracted arc along the $x'$-direction, their $y$-positions require knowledge of system throw, $L \approx \SI{235}{\mm}$ [\emph{cf.\@} \cref{fig:conical_reflection_edit}], to map the goniometric angle associated with the stage motion, $\Theta$, to a $y'$-coordinate using $y' = L \sin \left( \Theta \right)$ [\emph{cf.\@} \cref{fig:beamline_photoA}]. 
 
@@ -937,7 +937,7 @@ With $k_z = 0$ in such a scenario, the fields depend only on $x$ and $y$ so that
  U(x,y) \\
  V(x,y) 
  \end{array}
- \right\} = \mathbf{0} \quad \text{for } y > g(x) 
+ \right\} = 0 \quad \text{for } y > g(x) 
  \end{equation}
 and the surface-area integral given by \cref{eq:green_theorem_mod1} becomes a line integral over a path $\mathcal{L}$ that defines a cross-section in the $(x,y)$ plane:
 \begin{equation}\label{eq:green_theorem_mod2}

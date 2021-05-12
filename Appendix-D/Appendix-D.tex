@@ -212,7 +212,7 @@ In a more general scenario to that just described, the wave vector $\mathbold{k}
 \begin{equation}
  \mathbold{k} =  - k \left[ \sin (\alpha) \sin (\gamma) \mathbold{\hat{x}} + \cos(\alpha) \sin (\gamma) \mathbold{\hat{y}} - \cos (\gamma) \mathbold{\hat{z}} \right] ,
  \end{equation}
-which will be down to cause \emph{off-plane} diffraction [\emph{cf.\@} \cref{sec:grating_boundary}]. 
+which will be shown to cause \emph{off-plane} diffraction [\emph{cf.\@} \cref{sec:grating_boundary}]. 
 The multi-slit phase shift between the sources as observed in the far field is 
 \begin{equation}\label{eq:off-plane_phase}
  \Phi^{\text{off-plane}} = - k \Delta s = k d \sin (\gamma) \left[ \sin (\beta_n) + \sin(\alpha) \right] = \sin (\gamma) \, \Phi^{\text{in-plane}}  
@@ -252,12 +252,12 @@ A reflection grating in this conical geometry is shown in \cref{fig:conical_refl
  \includegraphics[scale=0.85]{Appendix-D/Figures/diffraction_arc16.mps}
  \caption{Geometry for a reflection grating producing conical diffraction}\label{fig:conical_reflection}
  \end{figure}
-At a distance $L \gg (N-1) d$ away from the grating for either case, the radius of this circle is $r = L \sin (\gamma)$ [\emph{cf.\@} \cref{eq:arc_radius}] and the $x$ distance between the $n^{\text{th}}$ and $0^{\text{th}}$ orders is given by: 
+At a distance $L \gg (N-1) d$ away from the grating for either case, the radius of this circle is $r = L \sin (\gamma)$ [\emph{cf.\@} \cref{eq:arc_radius}] and the $x$-distance between the $n^{\text{th}}$ and $0^{\text{th}}$ orders is given by 
 \begin{subequations}
 \begin{equation}
  x_n = r \left[ \sin \left( \alpha \right) + \sin \left( \beta_n \right) \right] .
  \end{equation}
-Using \cref{eq:off-plane_incidence_orders} this becomes [\emph{cf.\@} \cref{eq:linear_dispersion}]:
+Using \cref{eq:off-plane_incidence_orders} this becomes [\emph{cf.\@} \cref{eq:linear_dispersion}] 
 \begin{equation}\label{eq:dispersion}
  x_n = \frac{n \lambda L}{d} ,
  \end{equation}
@@ -271,7 +271,7 @@ In spectroscopy, the purpose of a diffraction grating is to disperse white light
 From \cref{eq:off-plane_incidence_orders}, this is based on the principle that a monochromatic plane wave incident on a barrier with $N$ infinitesimal slits produces a number of primary fringe maxima depending on the ratio $\lambda /d$; in the limit that $N$ is very large, these maxima become diffracted orders that are observed as plane waves in the far field [\emph{cf.\@} \cref{sec:slit_array}]. 
 On a screen a distance $L \gg (N - 1) d$ away from a grating with $N$ slits or grooves, the $n^{\text{th}}$ diffracted order exists at a position relative to $0^{\text{th}}$ order given by \cref{eq:dispersion}. 
 The secondary fringes are separated by a distance $\Delta x = L \lambda / N d$ [\emph{cf.\@} \cref{eq:fringe_min}], which implies that each primary fringe has a width $\Delta x$ on the screen. 
-Based on these considerations alone, the spectral resolving power, $\mathscr{R}$, of such a grating is \cite{Loewen97}: 
+Based on these considerations alone, the spectral resolving power, $\mathscr{R}$, of such a grating is \cite{Loewen97} 
 \begin{equation}\label{eq:diffraction_limit_res}
  \frac{\lambda}{\Delta \lambda} = \abs{\frac{x_n}{\Delta x}} = \abs{n} N ,
  \end{equation}
@@ -684,7 +684,7 @@ For a scenario parameterized by fixed values of $\lambda$, $d$, $\delta$ and $\g
 \begin{figure}
  \centering
  \includegraphics[scale=0.62]{Appendix-D/Figures/sawtooth_phase.pdf}
- \caption[Relative efficiency of a sawtooth phase grating.]{Relative efficiency of a sawtooth phase grating at in a Littrow configuration with $\alpha = \delta = 30^{\circ}$.}\label{fig:sawtooth_phase} 
+ \caption[Relative efficiency of a sawtooth phase grating.]{Relative efficiency of a sawtooth phase grating in a Littrow configuration with $\alpha = \delta = 30^{\circ}$.}\label{fig:sawtooth_phase} 
  \end{figure} 
 which has local extrema characterized by values for $\alpha$ that satisfy the following partial derivative condition:
 \begin{equation}\label{eq:blaze_partial1}
@@ -709,7 +709,7 @@ An example of an efficiency response in a Littrow configuration with $\alpha = \
 \begin{figure}
  \centering
  \includegraphics[scale=0.62]{Appendix-D/Figures/sawtooth_phase_blaze.pdf}
- \caption[Relative efficiency of a sawtooth phase grating at the blaze wavelength in second order.]{Relative efficiency of a sawtooth phase grating at in a Littrow configuration with $\alpha = \delta = 30^{\circ}$, at the blaze wavelength for $n=2$.}\label{fig:sawtooth_phase_blaze} 
+ \caption[Relative efficiency of a sawtooth phase grating at the blaze wavelength in second order.]{Relative efficiency of a sawtooth phase grating in a Littrow configuration with $\alpha = \delta = 30^{\circ}$, at the blaze wavelength for $n=2$.}\label{fig:sawtooth_phase_blaze} 
  \end{figure} 
 Because $\lambda / d$ for red, green and blue do not satisfy exactly \cref{eq:blaze_wavelength_Litt} with $2 \sin \left( \delta \right) = 1$, diffraction efficiency is spread between orders rather than being concentrated at $\sin \left( \beta_n \right) = 0.5$. 
 Red and blue values of $\lambda / d$, however, come close to satisfying the blaze condition for $n = 2$ and $n = 3$ and as a result, their diffraction efficiency is more concentrated near the blaze angle, as opposed to the case for green.  

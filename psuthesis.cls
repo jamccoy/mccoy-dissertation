@@ -343,8 +343,32 @@
 
 % Here is the title page.
 \newcommand{\psutitlepage}{%
-\setcounter{page}{1}
-\thispagestyle{empty}%
+%\clearpage
+%\newpage
+%\mbox{~}
+%\thispagestyle{empty}
+%\clearpage
+%\newpage
+%\clearpage
+%\newpage
+%\mbox{~}
+%\thispagestyle{empty}
+%\clearpage
+%\newpage
+%\clearpage
+%\newpage
+%\mbox{~}
+%\thispagestyle{empty}
+%\clearpage
+%\newpage
+%\clearpage
+%\newpage
+%\mbox{~}
+%\thispagestyle{empty}
+%\clearpage
+%\newpage
+%\setcounter{page}{1}
+%\thispagestyle{empty}%
 %%%
 \ifthenelse{\boolean{psu@bs} \or \boolean{psu@ba}}
 %%%
@@ -907,6 +931,30 @@ Department Head \\
     \textbf{{\large Vita} \\[0.1in] \psu@author}
 \end{center}
 \input{#1}
+%\clearpage
+%\newpage
+%\mbox{~}
+%\thispagestyle{empty}
+%\clearpage
+%\newpage
+%\clearpage
+%\newpage
+%\mbox{~}
+%\thispagestyle{empty}
+%\clearpage
+%\newpage
+%\clearpage
+%\newpage
+%\mbox{~}
+%\thispagestyle{empty}
+%\clearpage
+%\newpage
+%\clearpage
+%\newpage
+%\mbox{~}
+%\thispagestyle{empty}
+%\clearpage
+%\newpage
 \end{singlespace}
 }
 
