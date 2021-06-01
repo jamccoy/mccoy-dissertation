@@ -367,8 +367,8 @@
 %\thispagestyle{empty}
 %\clearpage
 %\newpage
-%\setcounter{page}{1}
-%\thispagestyle{empty}%
+\setcounter{page}{1}
+\thispagestyle{empty}%
 %%%
 \ifthenelse{\boolean{psu@bs} \or \boolean{psu@ba}}
 %%%
