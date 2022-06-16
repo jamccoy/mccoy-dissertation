@@ -239,7 +239,7 @@ For radiation with $\lambda \lessapprox a_0$, \cref{eq:scatter_condition} is onl
 Hard x-rays with large $a_0 / \lambda$, for example, only meet this condition for very small $\theta_{sc}$. 
 However, as $\lambda$ becomes large compared to $a_0$ (\emph{e.g.}, the red end of the soft x-ray spectrum), this condition for $\theta_{sc}$ is loosened and as a result, scattering with all electrons in phase can occur over a slightly wider range of angles \cite{Attwood17}. %double-check this...
 As $\lambda$ increases further to the point of becoming characteristic of visible light, $a_0 / \lambda$ is very small and thus coherent scattering occurs over all angles. 
-For any of these cases, \cref{eq:atomic_scattering_factor} can be simplified to:
+For any of these cases, \cref{eq:atomic_scattering_factor} can be simplified to
 \begin{equation}\label{eq:atomic_scattering_factor_reduced1}
  f^a \left( \mathbf{0}, \omega \right) \equiv f^0 \left( \omega \right) = \sum_{j=1}^{\mathcal{Z}} \frac{\omega^2}{\left( \omega^2 - \omega_j^2 + i \omega \Gamma_j \right)} , 
  \end{equation}
@@ -256,14 +256,14 @@ This quantity is directly related to the effective scattering cross-section for 
  \end{equation}
 where $\sigma_e \equiv 8 \pi r_e^2 / 3$ is the \emph{Thomson cross-section} for a free electron. 
 Note that for a scenario where $\omega$ is much higher than all $\omega_s$ in a particular atom, $f^0(\omega) \to \mathcal{Z}$ and $\sigma_a \left( \omega \right) \to \mathcal{Z}^2 \sigma_e$, which is characteristic of Thomson scattering for $\mathcal{Z}$ electrons. 
-Mentioned previously, hard x-rays scattering from electrons in relatively light atoms can be described in this way while on the other hand, the opposite case with $\omega \ll \omega_s$ has \cref{eq:scattering_cross-section} reducing to the well-known expression for the Rayleigh scattering cross-section
+Mentioned previously, hard x-rays scattering from electrons in relatively light atoms can be described in this way while on the other hand, the opposite case with $\omega \ll \omega_s$ has \cref{eq:scattering_cross-section} reducing to the well-known expression for the Rayleigh scattering cross-section:
 \begin{equation}
  \sigma_a \left( \omega \right) \to \sigma_e \sum_s g_s^2 \left( \frac{\omega}{\omega_s} \right)^{4} ,
  \end{equation}
 \end{subequations}
 which indicates that the amplitude of scattering by a single bound electron has a $\omega^4$ dependence \cite{Jackson75,deBergevin09,Attwood17}. 
 
-Complex atomic scattering factors in the forward-scattering approximation, $f^0(\omega)$, are plotted as a function of photon energy $\mathcal{E}_{\gamma} = \hbar \omega$ across the soft x-ray spectrum in \cref{fig:atomic_scattering_data,fig:atomic_scattering_data2,fig:atomic_scattering_data3} for a few light elements using data tabulated by the Center for X-ray Optics (CXRO) at Lawrence Berkeley National Laboratory \cite{CXRO_database,LBNL_web}. 
+Complex atomic scattering factors in the forward-scattering approximation, $f^0(\omega)$, are plotted as a function of photon energy, $\mathcal{E}_{\gamma} = \hbar \omega$, across the soft x-ray spectrum in \cref{fig:atomic_scattering_data,fig:atomic_scattering_data2,fig:atomic_scattering_data3} for a few light elements using data tabulated by the Center for X-ray Optics (CXRO) at Lawrence Berkeley National Laboratory \cite{CXRO_database,LBNL_web}. 
 \begin{figure}
  \centering
  \includegraphics[scale=0.95]{Appendix-C/Figures/atomic_scattering_factor.pdf}
@@ -277,7 +277,7 @@ Complex atomic scattering factors in the forward-scattering approximation, $f^0(
 \begin{figure}
  \centering
  \includegraphics[scale=0.95]{Appendix-C/Figures/atomic_scattering_factor_3.pdf}
- \caption[Atomic scattering factors for iridium, platinum, gold and silver across the soft x-ray spectrum]{Atomic scattering factors for iridium, platinum, gold and silver in the forward-scattering approximation across the soft x-ray spectrum \cite{CXRO_database}}\label{fig:atomic_scattering_data3}
+ \caption[Atomic scattering factors for iridium, platinum, gold and mercury across the soft x-ray spectrum]{Atomic scattering factors for iridium, platinum, gold and mercury in the forward-scattering approximation across the soft x-ray spectrum \cite{CXRO_database}}\label{fig:atomic_scattering_data3}
  \end{figure}
 In the plots, $f^0(\omega)$ is decomposed into real and imaginary parts: 
 \begin{equation}\label{eq:atomic_scattering_factor_reduced3}
@@ -290,7 +290,7 @@ Meanwhile, $f_2^0(\omega)$ also increases with $\mathcal{Z}$, where the effect i
 K-shell absorption edges are seen clearly in \cref{fig:atomic_scattering_data} for carbon, nitrogen and oxygen ($\mathcal{Z}=$ \numrange{6}{8}) whereas there is a flat response from the lone electron in hydrogen ($\mathcal{Z}=1$) that has $\mathcal{E}_e \approx \SI{13.6}{\electronvolt}$, which is much smaller than $\mathcal{E}_{\gamma} \equiv \hbar \omega$ for soft x-rays.
 As a result, soft x-rays experience a high degree of absorption and attenuation in the elements with $\mathcal{Z} \geq 6$ while on the other hand, hydrogen and other very light elements are virtually transparent to soft x-rays with $f_1^0(\omega) \approx 1$ and $f_2^0(\omega)$ not departing significantly from zero, which is analogous to the behavior exhibited by hard x-rays scattering from low-to-mid $\mathcal{Z}$ atoms. 
 Further, \cref{fig:atomic_scattering_data2} shows higher-energy K-shell absorption edges in aluminum and silicon ($\mathcal{Z}=$ \numlist{13;14}) while L-shell absorption lines at lower $\mathcal{E}_{\gamma}$ are seen in chromium and nickel ($\mathcal{Z}=$ \numlist{24;28}).\footnote{Note, however, that each of these four atoms tend to bond with oxygen so that in practice, these materials oxidize and hence some degree of oxygen absorption should also be expected.}
-Although relativistic corrections are needed to treat scattering from high-$\mathcal{Z}$ atoms such as iridium, platinum, gold and silver ($\mathcal{Z}=$ \numrange{77}{80}), experimentally-determined values\footnote{CXRO tabulates data for chemical elements up to uranium ($\mathcal{Z} = 92$) \cite{Henke93,Gullikson98,CXRO_database,Attwood17}. In practice, $f_2^0(\omega)$ is experimentally determined by measuring absorption while $f_1^0(\omega)$ follows from the \emph{Kramers-Kronig relations} for causal consistency \cite{Kronig26,Als-Nielsen11,Attwood17,Jackson75,Landau60}.} of $f_1^0(\omega)$ and $f_2^0(\omega)$ for these atoms are plotted in \cref{fig:atomic_scattering_data3}. 
+Although relativistic corrections are needed to treat scattering from high-$\mathcal{Z}$ atoms such as iridium, platinum, gold and mercury ($\mathcal{Z}=$ \numrange{77}{80}), experimentally-determined values\footnote{CXRO tabulates data for chemical elements up to uranium ($\mathcal{Z} = 92$) \cite{Henke93,Gullikson98,CXRO_database,Attwood17}. In practice, $f_2^0(\omega)$ is experimentally determined by measuring absorption while $f_1^0(\omega)$ follows from the \emph{Kramers-Kronig relations} for causal consistency \cite{Kronig26,Als-Nielsen11,Attwood17,Jackson75,Landau60}.} of $f_1^0(\omega)$ and $f_2^0(\omega)$ for these atoms are plotted in \cref{fig:atomic_scattering_data3}. 
 Signatures of M-shell absorption in these heavy atoms are seen at $\mathcal{E}_{\gamma} > \SI{2}{\kilo\electronvolt}$ while N-shell absorption contributes to attenuation for $\mathcal{E}_{\gamma} \lessapprox \SI{800}{\electronvolt}$. 
 Due to this broadband response free of sharp absorption edges below \SI{2}{\kilo\electronvolt}, these materials are desirable for soft x-ray reflectivity; this is discussed further in the next section. %\cref{sec:x-ray_index}. 
 
@@ -503,7 +503,7 @@ where $f^0 \left( \omega \right) \equiv f^0_1 \left( \omega \right) - i f^0_2 \l
 \end{subequations}
 These expressions indicate that $\nu(\omega) < 1$ over the soft x-ray spectrum, with possible exceptions near resonances, where $\omega \approx \omega_s$. 
 This implies that in an opposite fashion to visible light and other relatively long-$\lambda$ radiation, the phase velocity, $c_p \equiv c_0 / \nu (\omega)$, can be greater than $c_0$ for soft x-rays with the wavelength in the medium, $\lambda' \equiv \lambda / \nu(\omega)$, increasing relative to $\lambda$ rather than decreasing. 
-Moreover, with $\nu(\omega) \lessapprox 1$, the effect refraction in the soft x-ray bandpass is expected to be small [\emph{cf.\@} \cref{sec:planar_interface}]. 
+Moreover, with $\nu(\omega) \lessapprox 1$, the effect of refraction in the soft x-ray bandpass is expected to be small [\emph{cf.\@} \cref{sec:planar_interface}]. 
 
 The optical constants defined above are plotted in \cref{fig:X-ray_index} for the materials listed in \cref{tab:element_densities} using data obtained from CXRO \cite{CXRO_database}. 
 \begin{figure}
@@ -526,7 +526,7 @@ The scattered wave therefore becomes \SI{1}{\radian} out of phase with the origi
 \begin{equation}\label{eq:extinction_length}
  k_0 r \delta_{\nu} (\omega) = 1 \implies \ell_{\text{ext}} \equiv \frac{\lambda}{2 \pi \delta_{\nu} (\omega)} ,
  \end{equation}
-while on the other hand, the $1/\mathrm{e}$ length scale for absorption is \cite{Attwood17}:
+while on the other hand, the $1/\mathrm{e}$ length scale for absorption is \cite{Attwood17}
 \begin{equation}\label{eq:eabsorption_length}
  2 k_0 r \xi(\omega) = 1 \implies \ell_{\text{abs}} \equiv \frac{\lambda}{4 \pi \xi(\omega)} .
  \end{equation}
@@ -660,12 +660,12 @@ Moreover, the presence of surface roughness leads to losses in specular reflecti
 
 \subsection{Fresnel Reflectivity in Orthogonal Polarizations}\label{sec:reflectivity_polarization}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--------------------------------------------------
-The reflectivity of a mirror flat that can be regarded as being infinitely thick\footnote{In practice, this means that a slab of material is assumed to be thick enough for the refracted ray to be completely absorbed before reaching another interface.} is defined as the ratio of the specularly-reflected and incident waves in terms of flux through a unit area of a surface parallel to the boundary \cite{Born80}. 
+The reflectivity of a mirror flat that can be regarded as being infinitely thick\footnote{In practice, this means that a slab of material is assumed to be thick enough for the refracted ray to be completely attenuated or absorbed before reaching another interface.} is defined as the ratio of the specularly-reflected and incident waves in terms of flux through a unit area of a surface parallel to the boundary \cite{Born80}. 
 Using $\mathbold{S}(\mathbold{r}) = \mathbold{E}(\mathbold{r}) \times \mathbold{H}(\mathbold{r})$ as the time-harmonic form of \emph{Poynting's vector} \cite{Griffiths17,Jackson75}, this can be written as 
 \begin{equation}\label{eq:fresnel_refl_def}
  \mathcal{R}_F \equiv \frac{\mathbold{S}''(\mathbold{r}) \cdot \mathbold{\hat{y}}}{\mathbold{S}(\mathbold{r}) \cdot \mathbold{\hat{y}}} = \frac{k_y''}{k_y} \frac{\abs{\mathbold{E}_0''}^2}{\abs{\mathbold{E}_0}^2} = \frac{\abs{\mathbold{E}_0''}^2}{\abs{\mathbold{E}_0}^2} ,
  \end{equation} 
-which reduces to ratio of field strengths for the incident and reflected waves. 
+which reduces to the ratio of field strengths for the incident and reflected waves. 
 By symmetry, the boundary conditions [\emph{cf.\@} \cref{eq:general_boundary_1,eq:general_boundary_2,eq:general_boundary_3,eq:general_boundary_4}] demand that the time-harmonic electromagnetic fields are constant across the surface of the mirror, except for a phase shift that depends on the parallel component of the wave number, $k_{\parallel}$. 
 Using the coordinate system defined in \cref{fig:2Dmirror_angles}, where $k_z = 0$ by construction, $k_{\parallel} \equiv k_x = k_0 \cos \left( \zeta \right)$ so that translations in $x$ on the boundary come with a $\mathrm{e}^{i k_x x}$ dependence while translations in $z$ introduce no phase shift. 
 This allows the electromagnetic fields at the surface of the mirror to be described as being \emph{space-harmonic} such that the time-harmonic incident fields can be written as
@@ -749,7 +749,7 @@ The incident, reflected and refracted electric fields in s-polarization, which a
  \end{split}
  \end{align}
 where $\mathcal{A}_s$ is the known amplitude of the incident electric field while $\mathcal{A}_s''$ and $\mathcal{A}_s'$ are the unknown amplitudes of the reflected and refracted electric fields. 
-From \cref{eq:mirror_boundary_1,eq:mirror_boundary_2,eq:mirror_boundary_3,eq:mirror_boundary_4}, the boundary conditions for this polarization give\footnote{Here, the following vector triple product rules have been used: $\mathbold{A} \times \left( \mathbold{B} \times \mathbold{C} \right) = \left( \mathbold{A} \cdot \mathbold{C} \right) \mathbold{B} - \left( \mathbold{A} \cdot \mathbold{B} \right) \mathbold{C}$ and $\mathbold{A} \cdot \left( \mathbold{B} \times \mathbold{C} \right) = \mathbold{B} \cdot \left( \mathbold{C} \times \mathbold{A} \right) = \mathbold{C} \cdot \left( \mathbold{A} \times \mathbold{B} \right)$.}  
+From \cref{eq:mirror_boundary_1,eq:mirror_boundary_2,eq:mirror_boundary_3,eq:mirror_boundary_4}, the boundary conditions for this polarization give\footnote{Here, the following vector triple-product rules have been used: $\mathbold{A} \times \left( \mathbold{B} \times \mathbold{C} \right) = \left( \mathbold{A} \cdot \mathbold{C} \right) \mathbold{B} - \left( \mathbold{A} \cdot \mathbold{B} \right) \mathbold{C}$ and $\mathbold{A} \cdot \left( \mathbold{B} \times \mathbold{C} \right) = \mathbold{B} \cdot \left( \mathbold{C} \times \mathbold{A} \right) = \mathbold{C} \cdot \left( \mathbold{A} \times \mathbold{B} \right)$.}  
 \begin{subequations}
 \begin{align}
 %\begin{split}
@@ -997,9 +997,9 @@ The penetration depth data from \cref{fig:X-ray_atten} combined with the reflect
 This is beneficial for x-ray reflection gratings with groove spacings of a few hundred \si{\nm} in terms of diffraction efficiency, both for the overall reflectivity and for maintaining the sawtooth groove shape that affects how efficiency is distributed among propagating orders [\emph{cf.\@} \cref{ch:diff_eff,ap:grating_basics}]. 
 Additionally, nickel has similar properties for $\hbar \omega \lessapprox \SI{800}{\electronvolt}$ and may be appropriate in situations where the prominent L-shell absorption edge can be avoided. 
 
-In principle, a thin, reflective overcoat for an x-ray reflection grating can be produced through a variety of chemical vapor or physical vapor deposition techniques \cite{Franssila10}. 
+In principle, a thin, reflective overcoat for an x-ray reflection grating can be produced through a variety of \emph{chemical vapor} or \emph{physical vapor} deposition techniques \cite{Franssila10}. 
 While chemical vapor deposition (especially \emph{atomic layer deposition} \cite{George10}) is advantageous for producing conformal coatings on corrugated surfaces, these processes are very time consuming and therefore become impractical in terms of throughput for spectrometers that require many grating replicas. 
-Physical vapor deposition techniques such as \emph{plasma sputtering} or \emph{electron-beam vapor deposition} \cite{Singh05} instead are commonly used for this application with the level of coating conformity depending on the geometry inside the processing chamber. 
+Physical-vapor-deposition techniques such as \emph{plasma sputtering} or \emph{electron-beam vapor deposition} \cite{Singh05} instead are commonly used for this application with the level of coating conformity depending on the geometry inside the processing chamber. 
 The nature of the surface to be coated, however, must be taken into account to ensure that a quality film is produced. 
 That is, for a grating mold etched in silicon with native oxide or patterned in resist that contains oxygen, the overcoat material must also be oxidizing to promote wetting and adhesion \cite{Trolier-McKinstry17}. 
 While nickel satisfies this condition, gold does not oxidize and therefore a thin film of an oxidizing metal such as chromium or titanium must be first deposited to provide a wetted, metallic surface for a gold layer to adhere to. 
