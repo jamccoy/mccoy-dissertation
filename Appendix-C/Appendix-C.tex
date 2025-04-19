@@ -473,7 +473,7 @@ The complex index of refraction, which is valid for soft x-rays and other radiat
  \end{equation}
 From \cref{fig:atomic_scattering_data,fig:atomic_scattering_data2,fig:atomic_scattering_data3}, however, $\Re [b^0 (\omega)] \lessapprox 50 r_e \approx \SI{1.4e-13}{\metre}$ while, for soft x-rays, $\lambda^2 \sim \left( \SI{1}{\nm} \right)^2 = \SI{1e-18}{\metre\squared}$; with a typical value of $\mathcal{N}_a \sim \SI{e29}{\per\metre\tothe{3}}$ [\emph{cf.\@} \cref{tab:element_densities}], the quantity $\lambda^2 \mathcal{N}_a \Re \left[ b^0 (\omega) \right] / \pi$ is $\sim \num{e-3}$. 
 Thus, it is justified to approximate \cref{eq:index_model} using the Taylor-series expansion of a square root, to first order:\footnote{\emph{i.e.}, $\sqrt{1 + x} \approx 1 + x/2$ for small $x$} 
-\begin{equation}\label{eq:index_approx_alt}
+\begin{equation}\label{eq:index_approx_alt}%the first part has a typo...
  \tilde{\nu} (\omega) \approx \frac{\lambda^2}{2 \pi} \mathcal{N}_a b^0 (\omega) = 1 - 2 \pi \frac{c_0^2}{\omega^2} \mathcal{N}_a r_e f^0 (\omega) .
  \end{equation}
 \end{subequations}

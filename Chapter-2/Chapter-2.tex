@@ -611,7 +611,7 @@ these quantities can be expressed as
  \mathscr{E}_{\text{TE},n} &= \frac{k_{y,n}''}{k_y} \norm{\frac{\mathcal{A}_{\text{TE},n}''}{\mathcal{A}_0}}^2 = \frac{\cos \left( \beta \right)}{\cos \left( \alpha \right)} \norm{\tilde{r}_{\text{TE}}^{(n)}}^2\label{eq:TE_efficiency} \\ 
  \mathscr{E}_{\text{TM},n} &= \frac{k_{y,n}''}{k_y} \norm{\frac{\mathcal{A}_{\text{TM},n}''}{\mathcal{A}_0}}^2 = \frac{\cos \left( \beta \right)}{\cos \left( \alpha \right)} \norm{\tilde{r}_{\text{TM}}^{(n)}}^2 ,
  \end{align} 
-where $\mathcal{A}_0$ is the amplitude of the incident electric field [\emph{cf.\@} \cref{eq:inc_E_comp,fig:polarization_angle}] while $\tilde{r}_{\text{TE}}^{(n)} \equiv \mathcal{A}_{\text{TE},n}'' / \mathcal{A}_0$ and $\tilde{r}_{\text{TM}}^{(n)} \equiv \mathcal{A}_{\text{TE},n}'' / \mathcal{A}_0$ are unitless amplitude coefficients that are generally complex. 
+where $\mathcal{A}_0$ is the amplitude of the incident electric field [\emph{cf.\@} \cref{eq:inc_E_comp,fig:polarization_angle}] while $\tilde{r}_{\text{TE}}^{(n)} \equiv \mathcal{A}_{\text{TE},n}'' / \mathcal{A}_0$ and $\tilde{r}_{\text{TM}}^{(n)} \equiv \mathcal{A}_{\text{TM},n}'' / \mathcal{A}_0$ are unitless amplitude coefficients that are generally complex. 
 Diffraction efficiency for an arbitrary polarization state can then be written as 
 \begin{equation}\label{eq:diffraction_efficiency_theo}
  \mathscr{E}_n = \mathscr{E}_{\text{TE},n} \cos^2 \left( \theta_p \right) + \mathscr{E}_{\text{TM},n} \sin^2 \left( \theta_p \right) ,
@@ -776,7 +776,7 @@ This differential equation has outgoing-wave solutions given by
  \end{equation}
 where the Fourier coefficients are determined from the condition that the jump in $\dv*{\mathcal{G}_n (y)}{y}$ across $y=0$ is equal to $d^{-1}$ \cite{Petit80,Goray10}. 
 \end{subequations}
-The diffracted field from \cref{eq:Helmholtz_inhomog_scalar}, $E_z'' (x,y)$, then can be expressed a convolution of the full Green's function, determined from \cref{eq:Green_func1} with \cref{eq:Green_y_sol} and $(x,y) \to (x-x',y-y')$:
+The diffracted field from \cref{eq:Helmholtz_inhomog_scalar}, $E_z'' (x,y)$, then can be expressed as a convolution of the full Green's function, determined from \cref{eq:Green_func1} with \cref{eq:Green_y_sol} and $(x,y) \to (x-x',y-y')$:
 \begin{equation}\label{eq:full_green}
  \mathcal{G} (x-x',y-y') = \frac{1}{2id} \sum_{n=-\infty}^{\infty} \frac{1}{k_{y,n}''} \mathrm{e}^{i \left( k_{x,n}'' \left( x - x' \right) + k_{y,n}'' \abs{\left( y - y' \right)} \right)} ,
  \end{equation}
