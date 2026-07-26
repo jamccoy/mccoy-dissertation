@@ -51,6 +51,11 @@ corrections made after the last arXiv revision:
 | arXiv v6 | 2022-06-16 | Revised Chapters 1, 2, 4 and Appendices B–C |
 | Personal corrections | 2025-04-19 | Minor typo/error fixes since arXiv v6; unpublished elsewhere |
 
+## Related
+
+Most of the MetaPost (`.mps`) figures in this dissertation have their original
+source available in [jamccoy/grating-metapost](https://github.com/jamccoy/grating-metapost).
+
 ## Building
 
 Requires a TeX distribution with `pdflatex` and `bibtex`.
