@@ -35,6 +35,18 @@ for Lynx grating production, imprints suffer a small blaze-angle reduction due t
 resist shrinkage. Accompanying this dissertation are appendices that outline physics
 fundamentals for x-ray spectral lines, x-ray optics, and diffraction gratings.
 
+## Defense presentation
+
+`Presentation/` holds the slides from the dissertation defense on 12/18/2020 — a
+51-slide beamer deck covering the thesis in talk form.
+
+- `McCoy-Defense-Slides.pdf` — the deck as presented
+- `McCoy-Presentation.tex` — beamer source, with figures in `Presentation/Figures/`
+
+The deck uses the [Flux](https://github.com/pvanberg/flux-beamer) beamer theme
+(© 2018 P. Vanberg, GPLv3), bundled under `Presentation/styles/`, and the Roboto
+font. Many of its figures also appear in the chapters, reused here at slide scale.
+
 ## Repository history
 
 Each of the six arXiv revisions (v1–v6) is preserved as its own commit, dated to its
@@ -66,3 +78,9 @@ Requires a TeX distribution with `pdflatex` and `bibtex`.
 
 This runs `pdflatex` → `bibtex` → `pdflatex` (×2) and opens the resulting
 `McCoy-Dissertation.pdf`.
+
+The defense presentation builds the same way, from `Presentation/`:
+
+```bash
+cd Presentation && ./presentation.sh
+```

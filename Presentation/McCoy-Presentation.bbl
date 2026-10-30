@@ -1,0 +1,144 @@
+\begin{thebibliography}{10}
+
+\bibitem{Chang03}
+C.-H. {Chang}.
+\newblock {Fabrication of sawtooth diffraction gratings using nanoimprint
+  lithography}.
+\newblock {\em Journal of Vacuum Science Technology B: Microelectronics and
+  Nanometer Structures}, 21:2755, 2003.
+
+\bibitem{Chang04}
+C.-H. {Chang}.
+\newblock {High fidelity blazed grating replication using nanoimprint
+  lithography}.
+\newblock {\em Journal of Vacuum Science Technology B: Microelectronics and
+  Nanometer Structures}, 22:3260, 2004.
+
+\bibitem{Franke97}
+A.~E. {Franke}, M.~L. {Schattenburg}, E.~M. {Gullikson}, J.~{Cottam}, S.~M.
+  {Kahn}, and A.~{Rasmussen}.
+\newblock {Super-smooth x-ray reflection grating fabrication}.
+\newblock {\em Journal of Vacuum Science Technology B: Microelectronics and
+  Nanometer Structures}, 15:2940--2945, 1997.
+
+\bibitem{Gaskin19}
+J.~A. {Gaskin}, D.~A. {Swartz}, A.~{Vikhlinin}, F.~{{\"O}zel}, K.~E. {Gelmis},
+  J.~W. {Arenberg}, S.~R. {Bandler}, M.~W. {Bautz}, M.~M. {Civitani},
+  A.~{Dominguez}, M.~E. {Eckart}, A.~D. {Falcone}, E.~{Figueroa-Feliciano},
+  M.~D. {Freeman}, H.~M. {G{\"u}nther}, K.~A. {Havey}, R.~K. {Heilmann},
+  K.~{Kilaru}, R.~P. {Kraft}, K.~S. {McCarley}, R.~L. {McEntaffer},
+  G.~{Pareschi}, W.~{Purcell}, P.~B. {Reid}, M.~L. {Schattenburg}, D.~A.
+  {Schwartz}, E.~D. {Schwartz}, H.~D. {Tananbaum}, G.~R. {Tremblay}, W.~W.
+  {Zhang}, and J.~A. {Zuhone}.
+\newblock {Lynx X-Ray Observatory: an overview}.
+\newblock {\em Journal of Astronomical Telescopes, Instruments, and Systems},
+  5:021001, Apr 2019.
+
+\bibitem{Henke93}
+B.~Henke, E.~Gullikson, and J.~Davis.
+\newblock X-ray interactions: Photoabsorption, scattering, transmission, and
+  reflection at e = 50-30,000 ev, z = 1-92.
+\newblock {\em Atomic Data and Nuclear Data Tables}, 54(2):181 -- 342, 1993.
+
+\bibitem{Horiba_2012}
+A.~Horiba, M.~Yasuda, H.~Kawata, M.~Okada, S.~Matsui, and Y.~Hirai.
+\newblock Impact of resist shrinkage and its correction in nanoimprint
+  lithography.
+\newblock {\em Japanese Journal of Applied Physics}, 51:06FJ06, jun 2012.
+
+\bibitem{Kirchner14}
+R.~{Kirchner}, A.~{Schleunitz}, and H.~{Schift}.
+\newblock {Energy-based thermal reflow simulation for 3D polymer shape
+  prediction using Surface Evolver}.
+\newblock {\em Journal of Micromechanics and Microengineering}, 24(5):055010,
+  2014.
+
+\bibitem{Marlowe16}
+H.~{Marlowe}, R.~L. {McEntaffer}, J.~H. {Tutt}, C.~T. {DeRoo}, D.~M. {Miles},
+  L.~I. {Goray}, V.~{Soltwisch}, F.~{Scholze}, A.~F. {Herrero}, and
+  C.~{Laubis}.
+\newblock {Modeling and empirical characterization of the polarization response
+  of off-plane reflection gratings}.
+\newblock {\em \ao}, 55:5548, Jul 2016.
+
+\bibitem{McCoy18}
+J.~McCoy, R.~McEntaffer, and C.~Eichfeld.
+\newblock Fabrication of astronomical x-ray reflection gratings using thermally
+  activated selective topography equilibration.
+\newblock {\em Journal of Vacuum Science and Technology B:Nanotechnology and
+  Microelectronics}, 36(6), Oct 2018.
+
+\bibitem{McCoy20}
+J.~A. McCoy, R.~L. McEntaffer, and D.~M. Miles.
+\newblock Extreme ultraviolet and soft x-ray diffraction efficiency of a blazed
+  reflection grating fabricated by thermally activated selective topography
+  equilibration.
+\newblock {\em The Astrophysical Journal}, 891(2):114, mar 2020.
+
+\bibitem{McCoy20b}
+J.~A. McCoy, M.~A. Verschuuren, D.~M. Miles, and R.~L. McEntaffer.
+\newblock X-ray verification of sol-gel resist shrinkage in substrate-conformal
+  imprint lithography for a replicated blazed reflection grating.
+\newblock {\em OSA Continuum}, 3(11):3141--3156, Nov 2020.
+
+\bibitem{McEntaffer19}
+R.~McEntaffer.
+\newblock Reflection grating concept for the lynx x-ray grating spectrograph.
+\newblock {\em Journal of Astronomical Telescopes, Instruments, and Systems},
+  5(2), 4 2019.
+
+\bibitem{McEntaffer13}
+R.~{McEntaffer}, C.~{DeRoo}, T.~{Schultz}, B.~{Gantner}, J.~{Tutt},
+  A.~{Holland}, S.~{O'Dell}, J.~{Gaskin}, J.~{Kolodziejczak}, W.~W. {Zhang},
+  K.-W. {Chan}, M.~{Biskach}, R.~{McClelland}, D.~{Iazikov}, X.~{Wang}, and
+  L.~{Koecher}.
+\newblock {First results from a next-generation off-plane X-ray diffraction
+  grating}.
+\newblock {\em Experimental Astronomy}, 36:389--405, 2013.
+
+\bibitem{Miles18}
+D.~M. Miles, J.~A. McCoy, R.~L. McEntaffer, C.~M. Eichfeld, G.~Lavallee,
+  M.~Labella, W.~Drawl, B.~Liu, C.~T. DeRoo, and T.~Steiner.
+\newblock Fabrication and diffraction efficiency of a large-format, replicated
+  x-ray reflection grating.
+\newblock {\em \apj}, 869(2):95, Dec 2018.
+
+\bibitem{Schleunitz14}
+A.~{Schleunitz}, V.~A. {Guzenko}, M.~{Messerschmidt}, H.~{Atasoy},
+  R.~{Kirchner}, and H.~{Schift}.
+\newblock {Novel 3D micro- and nanofabrication method using thermally activated
+  selective topography equilibration (TASTE) of polymers}.
+\newblock {\em Nano Convergence}, 1:7, 2014.
+
+\bibitem{Tumlinson17}
+J.~Tumlinson, M.~S. Peeples, and J.~K. Werk.
+\newblock The circumgalactic medium.
+\newblock {\em Annual Review of Astronomy and Astrophysics}, 55(1):389--432,
+  2017.
+
+\bibitem{Verschuuren10}
+M.~A. {Verschuuren}.
+\newblock {\em {Substrate conformal imprint lithography for nanophotonics}}.
+\newblock PhD thesis, Utrecht University, 2010.
+
+\bibitem{Verschuuren19}
+M.~A. Verschuuren, M.~W. Knight, M.~Megens, and A.~Polman.
+\newblock Nanoscale spatial limitations of large-area substrate conformal
+  imprint lithography.
+\newblock {\em Nanotechnology}, 30(34):345301, jun 2019.
+
+\bibitem{Verschuuren18}
+M.~A. Verschuuren, J.~McCoy, R.~P. Huber, R.~van Brakel, M.~Paans, and
+  R.~Voorkamp.
+\newblock {AutoSCIL 200mm tooling in production, x-ray optics, and cell growth
+  templates}.
+\newblock In {\em Novel Patterning Technologies 2018}, volume 10584, pages 185
+  -- 197. International Society for Optics and Photonics, SPIE, 2018.
+
+\bibitem{Verschuuren17}
+M.~A. {Verschuuren}, M.~{Megens}, Y.~{Ni}, H.~{van Sprang}, and A.~{Polman}.
+\newblock {Large area nanoimprint by substrate conformal imprint lithography
+  (SCIL)}.
+\newblock {\em Advanced Optical Technologies}, 6:243--264, June 2017.
+
+\end{thebibliography}

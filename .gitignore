@@ -13,5 +13,21 @@
 *.synctex.gz
 McCoy-Dissertation.pdf
 
+# Beamer build artifacts
+*.nav
+*.snm
+*.vrb
+
+# biber build artifacts
+*.bcf
+*.run.xml
+
+# epstopdf conversions of committed .eps figures
+*-eps-converted-to.pdf
+
+# Built presentation (the as-delivered deck is committed as
+# Presentation/McCoy-Defense-Slides.pdf)
+Presentation/McCoy-Presentation.pdf
+
 # macOS
 .DS_Store
